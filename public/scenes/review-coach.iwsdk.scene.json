@@ -1,0 +1,131 @@
+{
+  "version": "iwsdk.scene.v1",
+  "units": "meters",
+  "resources": {
+    "prefabs": []
+  },
+  "components": {
+    "com.iwsdk.components.DomeGradient": {
+      "equator": [
+        0.81,
+        0.81,
+        0.69,
+        1
+      ],
+      "ground": [
+        0.26,
+        0.32,
+        0.2,
+        1
+      ],
+      "intensity": 1,
+      "sky": [
+        0.28,
+        0.49,
+        0.6,
+        1
+      ]
+    },
+    "com.iwsdk.components.IBLGradient": {
+      "equator": [
+        0.73,
+        0.73,
+        0.64,
+        1
+      ],
+      "ground": [
+        0.27,
+        0.32,
+        0.22,
+        1
+      ],
+      "intensity": 0.55,
+      "sky": [
+        0.8,
+        0.85,
+        0.89,
+        1
+      ]
+    }
+  },
+  "environment": {
+    "shadows": true,
+    "shadowMapType": "pcf-soft"
+  },
+  "authoring": {
+    "views": [
+      {
+        "id": "hero",
+        "role": "hero",
+        "projection": "perspective",
+        "position": [
+          8,
+          4,
+          7
+        ],
+        "target": [
+          2.2,
+          1.3,
+          0
+        ],
+        "fov": 52
+      },
+      {
+        "id": "horses",
+        "role": "diagnostic",
+        "projection": "perspective",
+        "position": [
+          7.8,
+          2.8,
+          4
+        ],
+        "target": [
+          4.1,
+          1.2,
+          0
+        ],
+        "fov": 48
+      },
+      {
+        "id": "wicket",
+        "role": "diagnostic",
+        "projection": "perspective",
+        "position": [
+          2,
+          1.6,
+          3
+        ],
+        "target": [
+          0,
+          0.6,
+          0
+        ],
+        "fov": 45
+      }
+    ]
+  },
+  "nodes": [
+    {
+      "id": "coach",
+      "name": "Attelage royal",
+      "content": {
+        "type": "asset",
+        "asset": "royalCoach",
+        "castShadow": true,
+        "receiveShadow": true
+      },
+      "transform": {
+        "position": [
+          0,
+          0,
+          0
+        ],
+        "rotationDeg": [
+          0,
+          0,
+          0
+        ]
+      }
+    }
+  ]
+}

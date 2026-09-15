@@ -1,0 +1,295 @@
+{
+  "version": "iwsdk.scene.v1",
+  "units": "meters",
+  "resources": {
+    "prefabs": []
+  },
+  "components": {
+    "com.iwsdk.components.IBLGradient": {
+      "sky": [
+        0.8,
+        0.84,
+        0.9,
+        1
+      ],
+      "equator": [
+        0.66,
+        0.65,
+        0.6,
+        1
+      ],
+      "ground": [
+        0.24,
+        0.25,
+        0.28,
+        1
+      ],
+      "intensity": 0.8
+    },
+    "com.iwsdk.components.DomeGradient": {
+      "sky": [
+        0.055,
+        0.075,
+        0.11,
+        1
+      ],
+      "equator": [
+        0.09,
+        0.11,
+        0.14,
+        1
+      ],
+      "ground": [
+        0.06,
+        0.07,
+        0.09,
+        1
+      ],
+      "intensity": 1
+    }
+  },
+  "authoring": {
+    "views": [
+      {
+        "id": "hero",
+        "role": "hero",
+        "projection": "perspective",
+        "fov": 40,
+        "position": [
+          0,
+          1.4,
+          5.1
+        ],
+        "target": [
+          0,
+          0.58,
+          0
+        ]
+      },
+      {
+        "id": "royal-francois",
+        "role": "diagnostic",
+        "projection": "perspective",
+        "fov": 38,
+        "position": [
+          -1.27,
+          0.75,
+          1.85
+        ],
+        "target": [
+          -1.5,
+          0.59,
+          0
+        ]
+      },
+      {
+        "id": "royal-francois-profile",
+        "role": "diagnostic",
+        "projection": "perspective",
+        "fov": 36,
+        "position": [
+          0.3999999999999999,
+          0.81,
+          0.2
+        ],
+        "target": [
+          -1.5,
+          0.58,
+          0
+        ]
+      },
+      {
+        "id": "royal-louis",
+        "role": "diagnostic",
+        "projection": "perspective",
+        "fov": 38,
+        "position": [
+          -0.27,
+          0.75,
+          1.85
+        ],
+        "target": [
+          -0.5,
+          0.59,
+          0
+        ]
+      },
+      {
+        "id": "royal-louis-profile",
+        "role": "diagnostic",
+        "projection": "perspective",
+        "fov": 36,
+        "position": [
+          1.4,
+          0.81,
+          0.2
+        ],
+        "target": [
+          -0.5,
+          0.58,
+          0
+        ]
+      },
+      {
+        "id": "royal-catherine",
+        "role": "diagnostic",
+        "projection": "perspective",
+        "fov": 38,
+        "position": [
+          0.73,
+          0.75,
+          1.85
+        ],
+        "target": [
+          0.5,
+          0.59,
+          0
+        ]
+      },
+      {
+        "id": "royal-catherine-profile",
+        "role": "diagnostic",
+        "projection": "perspective",
+        "fov": 36,
+        "position": [
+          2.4,
+          0.81,
+          0.2
+        ],
+        "target": [
+          0.5,
+          0.58,
+          0
+        ]
+      },
+      {
+        "id": "royal-anne",
+        "role": "diagnostic",
+        "projection": "perspective",
+        "fov": 38,
+        "position": [
+          1.73,
+          0.75,
+          1.85
+        ],
+        "target": [
+          1.5,
+          0.59,
+          0
+        ]
+      },
+      {
+        "id": "royal-anne-profile",
+        "role": "diagnostic",
+        "projection": "perspective",
+        "fov": 36,
+        "position": [
+          3.4,
+          0.81,
+          0.2
+        ],
+        "target": [
+          1.5,
+          0.58,
+          0
+        ]
+      }
+    ]
+  },
+  "nodes": [
+    {
+      "id": "studio-key",
+      "transform": {
+        "position": [
+          -3,
+          4,
+          4
+        ],
+        "rotationDeg": [
+          -35,
+          -30,
+          0
+        ]
+      },
+      "components": {
+        "DirectionalLight": {
+          "color": [
+            1,
+            0.92,
+            0.81,
+            1
+          ],
+          "intensity": 2
+        }
+      }
+    },
+    {
+      "id": "royal-francois",
+      "name": "François Ier — MakeHuman, d’après Clouet",
+      "content": {
+        "type": "asset",
+        "asset": "bustFrancoisI",
+        "castShadow": true,
+        "receiveShadow": true
+      },
+      "transform": {
+        "position": [
+          -1.5,
+          0,
+          0
+        ]
+      }
+    },
+    {
+      "id": "royal-louis",
+      "name": "Louis XIV — MakeHuman, d’après Rigaud",
+      "content": {
+        "type": "asset",
+        "asset": "bustLouisXIV",
+        "castShadow": true,
+        "receiveShadow": true
+      },
+      "transform": {
+        "position": [
+          -0.5,
+          0,
+          0
+        ]
+      }
+    },
+    {
+      "id": "royal-catherine",
+      "name": "Catherine de Médicis — MakeHuman, d’après Clouet",
+      "content": {
+        "type": "asset",
+        "asset": "bustCatherineMedici",
+        "castShadow": true,
+        "receiveShadow": true
+      },
+      "transform": {
+        "position": [
+          0.5,
+          0,
+          0
+        ]
+      }
+    },
+    {
+      "id": "royal-anne",
+      "name": "Anne de France — MakeHuman, d’après Jean Hey",
+      "content": {
+        "type": "asset",
+        "asset": "bustAnneFrance",
+        "castShadow": true,
+        "receiveShadow": true
+      },
+      "transform": {
+        "position": [
+          1.5,
+          0,
+          0
+        ]
+      }
+    }
+  ]
+}

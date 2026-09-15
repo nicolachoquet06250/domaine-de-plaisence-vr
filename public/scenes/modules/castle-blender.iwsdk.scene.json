@@ -1,0 +1,1479 @@
+{
+  "version": "iwsdk.scene.v1",
+  "units": "meters",
+  "resources": {},
+  "components": {
+    "com.iwsdk.components.DomeGradient": {
+      "equator": [
+        0.81,
+        0.81,
+        0.69,
+        1
+      ],
+      "ground": [
+        0.26,
+        0.32,
+        0.2,
+        1
+      ],
+      "intensity": 1,
+      "sky": [
+        0.28,
+        0.49,
+        0.6,
+        1
+      ]
+    },
+    "com.iwsdk.components.IBLGradient": {
+      "equator": [
+        0.73,
+        0.73,
+        0.64,
+        1
+      ],
+      "ground": [
+        0.27,
+        0.32,
+        0.22,
+        1
+      ],
+      "intensity": 0.55,
+      "sky": [
+        0.8,
+        0.85,
+        0.89,
+        1
+      ]
+    }
+  },
+  "environment": {
+    "shadows": true,
+    "shadowMapType": "pcf-soft"
+  },
+  "nodes": [
+    {
+      "components": {
+        "com.iwsdk.components.DirectionalLight": {
+          "castShadow": true,
+          "color": [
+            1,
+            0.88,
+            0.67,
+            1
+          ],
+          "intensity": 1.8,
+          "shadowMapSize": "2048",
+          "shadowCameraSize": 75,
+          "shadowCameraFar": 150,
+          "shadowNormalBias": 0.12
+        }
+      },
+      "id": "sun",
+      "transform": {
+        "position": [
+          -25,
+          40,
+          25
+        ],
+        "rotationDeg": [
+          -48,
+          -30,
+          0
+        ]
+      }
+    },
+    {
+      "children": [
+        {
+          "components": {},
+          "content": {
+            "asset": "palace",
+            "type": "asset",
+            "receiveShadow": true,
+            "castShadow": true
+          },
+          "id": "castle/palace",
+          "name": "palace",
+          "transform": {
+            "position": [
+              0,
+              0,
+              0
+            ]
+          },
+          "children": [
+            {
+              "id": "castle/collision",
+              "name": "Collision palace",
+              "content": {
+                "type": "asset",
+                "asset": "palaceCollision",
+                "castShadow": false,
+                "receiveShadow": false
+              },
+              "components": {
+                "StaticCollision": {}
+              }
+            }
+          ]
+        },
+        {
+          "id": "castle/interior",
+          "name": "Salons, galerie et escalier",
+          "content": {
+            "type": "asset",
+            "asset": "palaceInterior",
+            "castShadow": false,
+            "receiveShadow": true
+          },
+          "transform": {
+            "position": [
+              0,
+              0,
+              0
+            ]
+          }
+        },
+        {
+          "id": "castle/glazing",
+          "name": "Vitrages transparents",
+          "content": {
+            "type": "asset",
+            "asset": "palaceGlass",
+            "castShadow": false,
+            "receiveShadow": true
+          },
+          "transform": {
+            "position": [
+              0,
+              0,
+              0
+            ]
+          }
+        },
+        {
+          "id": "castle/door-entrance",
+          "name": "Porte du vestibule",
+          "content": {
+            "type": "asset",
+            "asset": "palaceDoor",
+            "castShadow": false,
+            "receiveShadow": true
+          },
+          "transform": {
+            "position": [
+              0,
+              0.64,
+              6
+            ],
+            "rotationDeg": [
+              0,
+              0,
+              0
+            ],
+            "scale": [
+              1,
+              0.8285714285714285,
+              1
+            ]
+          },
+          "components": {
+            "PalaceDoor": {
+              "automatic": true,
+              "approachDistance": 3.2
+            },
+            "RayInteractable": {}
+          },
+          "children": [
+            {
+              "id": "castle/door-entrance/blocker",
+              "name": "Porte du vestibule — collision",
+              "content": {
+                "type": "asset",
+                "asset": "palaceDoorCollision",
+                "castShadow": false,
+                "receiveShadow": true
+              },
+              "transform": {
+                "position": [
+                  0,
+                  0,
+                  0
+                ]
+              },
+              "components": {
+                "PalaceDoorBlocker": {
+                  "owner": {
+                    "type": "node",
+                    "id": "castle/door-entrance"
+                  }
+                }
+              }
+            }
+          ]
+        },
+        {
+          "id": "castle/door-west-salon",
+          "name": "Porte du salon ouest",
+          "content": {
+            "type": "asset",
+            "asset": "palaceDoor",
+            "castShadow": false,
+            "receiveShadow": true
+          },
+          "transform": {
+            "position": [
+              -4.65,
+              0.64,
+              3.8
+            ],
+            "rotationDeg": [
+              0,
+              -90,
+              0
+            ],
+            "scale": [
+              1,
+              1,
+              1
+            ]
+          },
+          "components": {
+            "PalaceDoor": {
+              "automatic": true,
+              "approachDistance": 3.2
+            },
+            "RayInteractable": {}
+          },
+          "children": [
+            {
+              "id": "castle/door-west-salon/blocker",
+              "name": "Porte du salon ouest — collision",
+              "content": {
+                "type": "asset",
+                "asset": "palaceDoorCollision",
+                "castShadow": false,
+                "receiveShadow": true
+              },
+              "transform": {
+                "position": [
+                  0,
+                  0,
+                  0
+                ]
+              },
+              "components": {
+                "PalaceDoorBlocker": {
+                  "owner": {
+                    "type": "node",
+                    "id": "castle/door-west-salon"
+                  }
+                }
+              }
+            }
+          ]
+        },
+        {
+          "id": "castle/door-east-salon",
+          "name": "Porte du salon est",
+          "content": {
+            "type": "asset",
+            "asset": "palaceDoor",
+            "castShadow": false,
+            "receiveShadow": true
+          },
+          "transform": {
+            "position": [
+              4.65,
+              0.64,
+              3.8
+            ],
+            "rotationDeg": [
+              0,
+              90,
+              0
+            ],
+            "scale": [
+              1,
+              1,
+              1
+            ]
+          },
+          "components": {
+            "PalaceDoor": {
+              "automatic": true,
+              "approachDistance": 3.2
+            },
+            "RayInteractable": {}
+          },
+          "children": [
+            {
+              "id": "castle/door-east-salon/blocker",
+              "name": "Porte du salon est — collision",
+              "content": {
+                "type": "asset",
+                "asset": "palaceDoorCollision",
+                "castShadow": false,
+                "receiveShadow": true
+              },
+              "transform": {
+                "position": [
+                  0,
+                  0,
+                  0
+                ]
+              },
+              "components": {
+                "PalaceDoorBlocker": {
+                  "owner": {
+                    "type": "node",
+                    "id": "castle/door-east-salon"
+                  }
+                }
+              }
+            }
+          ]
+        },
+        {
+          "id": "castle/door-west-gallery",
+          "name": "Porte ouest de la galerie",
+          "content": {
+            "type": "asset",
+            "asset": "palaceDoor",
+            "castShadow": false,
+            "receiveShadow": true
+          },
+          "transform": {
+            "position": [
+              -4.65,
+              5.04,
+              3.8
+            ],
+            "rotationDeg": [
+              0,
+              -90,
+              0
+            ],
+            "scale": [
+              1,
+              1,
+              1
+            ]
+          },
+          "components": {
+            "PalaceDoor": {
+              "automatic": true,
+              "approachDistance": 3.2
+            },
+            "RayInteractable": {}
+          },
+          "children": [
+            {
+              "id": "castle/door-west-gallery/blocker",
+              "name": "Porte ouest de la galerie — collision",
+              "content": {
+                "type": "asset",
+                "asset": "palaceDoorCollision",
+                "castShadow": false,
+                "receiveShadow": true
+              },
+              "transform": {
+                "position": [
+                  0,
+                  0,
+                  0
+                ]
+              },
+              "components": {
+                "PalaceDoorBlocker": {
+                  "owner": {
+                    "type": "node",
+                    "id": "castle/door-west-gallery"
+                  }
+                }
+              }
+            }
+          ]
+        },
+        {
+          "id": "castle/door-east-gallery",
+          "name": "Porte est de la galerie",
+          "content": {
+            "type": "asset",
+            "asset": "palaceDoor",
+            "castShadow": false,
+            "receiveShadow": true
+          },
+          "transform": {
+            "position": [
+              4.65,
+              5.04,
+              3.8
+            ],
+            "rotationDeg": [
+              0,
+              90,
+              0
+            ],
+            "scale": [
+              1,
+              1,
+              1
+            ]
+          },
+          "components": {
+            "PalaceDoor": {
+              "automatic": true,
+              "approachDistance": 3.2
+            },
+            "RayInteractable": {}
+          },
+          "children": [
+            {
+              "id": "castle/door-east-gallery/blocker",
+              "name": "Porte est de la galerie — collision",
+              "content": {
+                "type": "asset",
+                "asset": "palaceDoorCollision",
+                "castShadow": false,
+                "receiveShadow": true
+              },
+              "transform": {
+                "position": [
+                  0,
+                  0,
+                  0
+                ]
+              },
+              "components": {
+                "PalaceDoorBlocker": {
+                  "owner": {
+                    "type": "node",
+                    "id": "castle/door-east-gallery"
+                  }
+                }
+              }
+            }
+          ]
+        },
+        {
+          "id": "castle/light-vestibule",
+          "name": "Lustre vestibule",
+          "content": {
+            "type": "group"
+          },
+          "transform": {
+            "position": [
+              0,
+              7.9,
+              0
+            ]
+          },
+          "components": {
+            "PointLight": {
+              "color": [
+                1,
+                0.8,
+                0.57,
+                1
+              ],
+              "intensity": 85,
+              "distance": 13,
+              "decay": 2,
+              "castShadow": false
+            }
+          }
+        },
+        {
+          "id": "castle/light-salon-west",
+          "name": "Lustre salon-west",
+          "content": {
+            "type": "group"
+          },
+          "transform": {
+            "position": [
+              -10.6,
+              3.54,
+              0
+            ]
+          },
+          "components": {
+            "PointLight": {
+              "color": [
+                1,
+                0.8,
+                0.57,
+                1
+              ],
+              "intensity": 38,
+              "distance": 10,
+              "decay": 2,
+              "castShadow": false
+            }
+          }
+        },
+        {
+          "id": "castle/light-salon-east",
+          "name": "Lustre salon-east",
+          "content": {
+            "type": "group"
+          },
+          "transform": {
+            "position": [
+              10.6,
+              3.54,
+              0
+            ]
+          },
+          "components": {
+            "PointLight": {
+              "color": [
+                1,
+                0.8,
+                0.57,
+                1
+              ],
+              "intensity": 38,
+              "distance": 10,
+              "decay": 2,
+              "castShadow": false
+            }
+          }
+        },
+        {
+          "id": "castle/light-gallery-west",
+          "name": "Lustre gallery-west",
+          "content": {
+            "type": "group"
+          },
+          "transform": {
+            "position": [
+              -10.6,
+              7.94,
+              0
+            ]
+          },
+          "components": {
+            "PointLight": {
+              "color": [
+                1,
+                0.8,
+                0.57,
+                1
+              ],
+              "intensity": 38,
+              "distance": 10,
+              "decay": 2,
+              "castShadow": false
+            }
+          }
+        },
+        {
+          "id": "castle/light-gallery-east",
+          "name": "Lustre gallery-east",
+          "content": {
+            "type": "group"
+          },
+          "transform": {
+            "position": [
+              10.6,
+              7.94,
+              0
+            ]
+          },
+          "components": {
+            "PointLight": {
+              "color": [
+                1,
+                0.8,
+                0.57,
+                1
+              ],
+              "intensity": 38,
+              "distance": 10,
+              "decay": 2,
+              "castShadow": false
+            }
+          }
+        },
+        {
+          "id": "mirror-west-vanity",
+          "name": "Miroir ovale west",
+          "content": {
+            "type": "asset",
+            "asset": "mirrorOval"
+          },
+          "components": {
+            "PalaceMirror": {}
+          },
+          "transform": {
+            "position": [
+              -7,
+              7.07,
+              -5.163
+            ],
+            "scale": [
+              0.505,
+              0.675,
+              1
+            ]
+          }
+        },
+        {
+          "id": "mirror-west-salon",
+          "name": "Miroir de cheminee west",
+          "content": {
+            "type": "asset",
+            "asset": "mirrorRectangle"
+          },
+          "components": {
+            "PalaceMirror": {}
+          },
+          "transform": {
+            "position": [
+              -19.925,
+              3.17,
+              0
+            ],
+            "rotationDeg": [
+              0,
+              90,
+              0
+            ],
+            "scale": [
+              1.79,
+              1.74,
+              1
+            ]
+          }
+        },
+        {
+          "id": "mirror-west-gallery",
+          "name": "Miroir de cheminee west",
+          "content": {
+            "type": "asset",
+            "asset": "mirrorRectangle"
+          },
+          "components": {
+            "PalaceMirror": {}
+          },
+          "transform": {
+            "position": [
+              -19.925,
+              7.57,
+              0
+            ],
+            "rotationDeg": [
+              0,
+              90,
+              0
+            ],
+            "scale": [
+              1.79,
+              1.74,
+              1
+            ]
+          }
+        },
+        {
+          "id": "mirror-east-vanity",
+          "name": "Miroir ovale east",
+          "content": {
+            "type": "asset",
+            "asset": "mirrorOval"
+          },
+          "components": {
+            "PalaceMirror": {}
+          },
+          "transform": {
+            "position": [
+              7,
+              7.07,
+              -5.163
+            ],
+            "scale": [
+              0.505,
+              0.675,
+              1
+            ]
+          }
+        },
+        {
+          "id": "mirror-east-salon",
+          "name": "Miroir de cheminee east",
+          "content": {
+            "type": "asset",
+            "asset": "mirrorRectangle"
+          },
+          "components": {
+            "PalaceMirror": {}
+          },
+          "transform": {
+            "position": [
+              19.925,
+              3.17,
+              0
+            ],
+            "rotationDeg": [
+              0,
+              -90,
+              0
+            ],
+            "scale": [
+              1.79,
+              1.74,
+              1
+            ]
+          }
+        },
+        {
+          "id": "mirror-east-gallery",
+          "name": "Miroir de cheminee east",
+          "content": {
+            "type": "asset",
+            "asset": "mirrorRectangle"
+          },
+          "components": {
+            "PalaceMirror": {}
+          },
+          "transform": {
+            "position": [
+              19.925,
+              7.57,
+              0
+            ],
+            "rotationDeg": [
+              0,
+              -90,
+              0
+            ],
+            "scale": [
+              1.79,
+              1.74,
+              1
+            ]
+          }
+        },
+        {
+          "id": "hearth-west-salon",
+          "name": "Foyer allume ouest salon",
+          "content": {
+            "type": "group"
+          },
+          "transform": {
+            "position": [
+              -19.84,
+              0.8200000000000001,
+              0
+            ],
+            "rotationDeg": [
+              0,
+              90,
+              0
+            ]
+          },
+          "components": {
+            "HearthFire": {
+              "phase": 0.64
+            }
+          },
+          "children": [
+            {
+              "id": "hearth-west-salon-wood",
+              "content": {
+                "type": "asset",
+                "asset": "hearth"
+              }
+            },
+            {
+              "id": "hearth-west-salon-flames",
+              "content": {
+                "type": "asset",
+                "asset": "hearthFire"
+              }
+            },
+            {
+              "id": "hearth-west-salon-glow",
+              "transform": {
+                "position": [
+                  0,
+                  0.42,
+                  0.27
+                ]
+              },
+              "components": {
+                "HearthGlow": {
+                  "phase": 0.64
+                },
+                "PointLight": {
+                  "color": [
+                    1,
+                    0.23,
+                    0.035,
+                    1
+                  ],
+                  "intensity": 3,
+                  "distance": 3,
+                  "decay": 2,
+                  "castShadow": false
+                }
+              }
+            }
+          ]
+        },
+        {
+          "id": "hearth-west-gallery",
+          "name": "Foyer allume ouest etage",
+          "content": {
+            "type": "group"
+          },
+          "transform": {
+            "position": [
+              -19.84,
+              5.22,
+              0
+            ],
+            "rotationDeg": [
+              0,
+              90,
+              0
+            ]
+          },
+          "components": {
+            "HearthFire": {
+              "phase": 5.04
+            }
+          },
+          "children": [
+            {
+              "id": "hearth-west-gallery-wood",
+              "content": {
+                "type": "asset",
+                "asset": "hearth"
+              }
+            },
+            {
+              "id": "hearth-west-gallery-flames",
+              "content": {
+                "type": "asset",
+                "asset": "hearthFire"
+              }
+            },
+            {
+              "id": "hearth-west-gallery-glow",
+              "transform": {
+                "position": [
+                  0,
+                  0.42,
+                  0.27
+                ]
+              },
+              "components": {
+                "HearthGlow": {
+                  "phase": 5.04
+                },
+                "PointLight": {
+                  "color": [
+                    1,
+                    0.23,
+                    0.035,
+                    1
+                  ],
+                  "intensity": 3,
+                  "distance": 3,
+                  "decay": 2,
+                  "castShadow": false
+                }
+              }
+            }
+          ]
+        },
+        {
+          "id": "hearth-east-salon",
+          "name": "Foyer allume est salon",
+          "content": {
+            "type": "group"
+          },
+          "transform": {
+            "position": [
+              19.84,
+              0.8200000000000001,
+              0
+            ],
+            "rotationDeg": [
+              0,
+              -90,
+              0
+            ]
+          },
+          "components": {
+            "HearthFire": {
+              "phase": 4.04
+            }
+          },
+          "children": [
+            {
+              "id": "hearth-east-salon-wood",
+              "content": {
+                "type": "asset",
+                "asset": "hearth"
+              }
+            },
+            {
+              "id": "hearth-east-salon-flames",
+              "content": {
+                "type": "asset",
+                "asset": "hearthFire"
+              }
+            },
+            {
+              "id": "hearth-east-salon-glow",
+              "transform": {
+                "position": [
+                  0,
+                  0.42,
+                  0.27
+                ]
+              },
+              "components": {
+                "HearthGlow": {
+                  "phase": 4.04
+                },
+                "PointLight": {
+                  "color": [
+                    1,
+                    0.23,
+                    0.035,
+                    1
+                  ],
+                  "intensity": 3,
+                  "distance": 3,
+                  "decay": 2,
+                  "castShadow": false
+                }
+              }
+            }
+          ]
+        },
+        {
+          "id": "hearth-east-gallery",
+          "name": "Foyer allume est etage",
+          "content": {
+            "type": "group"
+          },
+          "transform": {
+            "position": [
+              19.84,
+              5.22,
+              0
+            ],
+            "rotationDeg": [
+              0,
+              -90,
+              0
+            ]
+          },
+          "components": {
+            "HearthFire": {
+              "phase": 8.44
+            }
+          },
+          "children": [
+            {
+              "id": "hearth-east-gallery-wood",
+              "content": {
+                "type": "asset",
+                "asset": "hearth"
+              }
+            },
+            {
+              "id": "hearth-east-gallery-flames",
+              "content": {
+                "type": "asset",
+                "asset": "hearthFire"
+              }
+            },
+            {
+              "id": "hearth-east-gallery-glow",
+              "transform": {
+                "position": [
+                  0,
+                  0.42,
+                  0.27
+                ]
+              },
+              "components": {
+                "HearthGlow": {
+                  "phase": 8.44
+                },
+                "PointLight": {
+                  "color": [
+                    1,
+                    0.23,
+                    0.035,
+                    1
+                  ],
+                  "intensity": 3,
+                  "distance": 3,
+                  "decay": 2,
+                  "castShadow": false
+                }
+              }
+            }
+          ]
+        },
+        {
+          "id": "royal-francois",
+          "name": "François Ier — MakeHuman, d’après Clouet",
+          "content": {
+            "type": "asset",
+            "asset": "bustFrancoisI",
+            "castShadow": true,
+            "receiveShadow": true
+          },
+          "transform": {
+            "position": [
+              -12.8,
+              6.14,
+              1
+            ]
+          }
+        },
+        {
+          "id": "royal-louis",
+          "name": "Louis XIV — MakeHuman, d’après Rigaud",
+          "content": {
+            "type": "asset",
+            "asset": "bustLouisXIV",
+            "castShadow": true,
+            "receiveShadow": true
+          },
+          "transform": {
+            "position": [
+              12.8,
+              6.14,
+              1
+            ]
+          }
+        },
+        {
+          "id": "royal-catherine",
+          "name": "Catherine de Médicis — MakeHuman, d’après Clouet",
+          "content": {
+            "type": "asset",
+            "asset": "bustCatherineMedici",
+            "castShadow": true,
+            "receiveShadow": true
+          },
+          "transform": {
+            "position": [
+              -6.1,
+              1.74,
+              -4.25
+            ]
+          }
+        },
+        {
+          "id": "royal-anne",
+          "name": "Anne de France — MakeHuman, d’après Jean Hey",
+          "content": {
+            "type": "asset",
+            "asset": "bustAnneFrance",
+            "castShadow": true,
+            "receiveShadow": true
+          },
+          "transform": {
+            "position": [
+              6.1,
+              1.74,
+              -4.25
+            ]
+          }
+        }
+      ],
+      "content": {
+        "type": "group"
+      },
+      "id": "castle",
+      "transform": {
+        "position": [
+          0,
+          0,
+          0
+        ]
+      }
+    }
+  ],
+  "authoring": {
+    "views": [
+      {
+        "id": "castle-facade",
+        "role": "hero",
+        "projection": "perspective",
+        "position": [
+          29,
+          15,
+          28
+        ],
+        "target": [
+          0,
+          7,
+          0
+        ],
+        "fov": 55
+      },
+      {
+        "id": "castle-hall",
+        "role": "diagnostic",
+        "projection": "perspective",
+        "position": [
+          0,
+          2.3,
+          4.5
+        ],
+        "target": [
+          0,
+          3.9,
+          -2.1999999999999993
+        ],
+        "fov": 80
+      },
+      {
+        "id": "castle-salon",
+        "role": "diagnostic",
+        "projection": "perspective",
+        "position": [
+          6.3,
+          2.25,
+          3.3000000000000007
+        ],
+        "target": [
+          15.5,
+          2.1,
+          -1
+        ],
+        "fov": 75
+      },
+      {
+        "id": "castle-gallery",
+        "role": "diagnostic",
+        "projection": "perspective",
+        "position": [
+          0,
+          6.7,
+          4.100000000000001
+        ],
+        "target": [
+          0,
+          3.4,
+          -2.8000000000000007
+        ],
+        "fov": 80
+      },
+      {
+        "id": "castle-bedroom",
+        "role": "diagnostic",
+        "projection": "perspective",
+        "position": [
+          6.2,
+          6.8,
+          1.5
+        ],
+        "target": [
+          10.1,
+          6.05,
+          -2.9
+        ],
+        "fov": 75
+      },
+      {
+        "id": "castle-bathroom",
+        "role": "diagnostic",
+        "projection": "perspective",
+        "position": [
+          15.3,
+          6.85,
+          1.5
+        ],
+        "target": [
+          18,
+          5.95,
+          -2.8
+        ],
+        "fov": 75
+      },
+      {
+        "id": "castle-bathroom-fixtures",
+        "role": "diagnostic",
+        "projection": "perspective",
+        "position": [
+          15.3,
+          6.75,
+          1.3
+        ],
+        "target": [
+          18.4,
+          5.9,
+          3.8
+        ],
+        "fov": 75
+      },
+      {
+        "id": "castle-understairs",
+        "role": "diagnostic",
+        "projection": "perspective",
+        "position": [
+          0.2,
+          1.55,
+          -0.8
+        ],
+        "target": [
+          3.2,
+          2.55,
+          0.3
+        ],
+        "fov": 78
+      },
+      {
+        "id": "castle-landing",
+        "role": "diagnostic",
+        "projection": "perspective",
+        "position": [
+          0,
+          4.4,
+          -2.8
+        ],
+        "target": [
+          3.8,
+          3.1,
+          -5.45
+        ],
+        "fov": 78
+      },
+      {
+        "id": "castle-balustrade",
+        "role": "diagnostic",
+        "projection": "perspective",
+        "position": [
+          11.8,
+          2.7,
+          10.5
+        ],
+        "target": [
+          12.8,
+          1.3,
+          7.3
+        ],
+        "fov": 63
+      },
+      {
+        "id": "door-jamb",
+        "role": "diagnostic",
+        "projection": "perspective",
+        "position": [
+          6,
+          2.35,
+          2
+        ],
+        "target": [
+          4.65,
+          2.1,
+          2.16
+        ],
+        "fov": 65
+      },
+      {
+        "id": "royal-francois",
+        "role": "diagnostic",
+        "projection": "perspective",
+        "position": [
+          -12.5,
+          6.95,
+          2.6
+        ],
+        "target": [
+          -12.8,
+          6.76,
+          1
+        ],
+        "fov": 52
+      },
+      {
+        "id": "royal-louis",
+        "role": "diagnostic",
+        "projection": "perspective",
+        "position": [
+          12.8,
+          6.95,
+          2.6
+        ],
+        "target": [
+          12.8,
+          6.76,
+          1
+        ],
+        "fov": 52
+      },
+      {
+        "id": "lawn-relief",
+        "role": "diagnostic",
+        "projection": "perspective",
+        "position": [
+          9,
+          0.45,
+          19
+        ],
+        "target": [
+          12,
+          0.08,
+          15
+        ],
+        "fov": 65
+      },
+      {
+        "id": "flower-stems",
+        "role": "diagnostic",
+        "projection": "perspective",
+        "position": [
+          10.1,
+          1.05,
+          9.8
+        ],
+        "target": [
+          10.5,
+          0.55,
+          9
+        ],
+        "fov": 65
+      },
+      {
+        "id": "hearth-detail",
+        "role": "diagnostic",
+        "projection": "perspective",
+        "position": [
+          17.05,
+          1.55,
+          1
+        ],
+        "target": [
+          19.84,
+          1.35,
+          0
+        ],
+        "fov": 44
+      },
+      {
+        "id": "hearth-upper",
+        "role": "diagnostic",
+        "projection": "perspective",
+        "position": [
+          -17.15,
+          6.1,
+          0.85
+        ],
+        "target": [
+          -19.84,
+          5.9,
+          0
+        ],
+        "fov": 44
+      },
+      {
+        "id": "chimney-wall-exterior",
+        "role": "diagnostic",
+        "projection": "perspective",
+        "position": [
+          29,
+          5.4,
+          4
+        ],
+        "target": [
+          21,
+          5.4,
+          0
+        ],
+        "fov": 60
+      },
+      {
+        "id": "chimney-wall-interior",
+        "role": "diagnostic",
+        "projection": "perspective",
+        "position": [
+          16.5,
+          2.7,
+          3
+        ],
+        "target": [
+          20.6,
+          2.8,
+          0
+        ],
+        "fov": 70
+      },
+      {
+        "id": "bust-francois",
+        "role": "diagnostic",
+        "projection": "perspective",
+        "fov": 44,
+        "position": [
+          -12.3,
+          6.84,
+          3.1
+        ],
+        "target": [
+          -12.8,
+          6.67,
+          1
+        ]
+      },
+      {
+        "id": "bust-louis",
+        "role": "diagnostic",
+        "projection": "perspective",
+        "fov": 44,
+        "position": [
+          13.3,
+          6.84,
+          3.1
+        ],
+        "target": [
+          12.8,
+          6.67,
+          1
+        ]
+      },
+      {
+        "id": "bust-catherine",
+        "role": "diagnostic",
+        "projection": "perspective",
+        "fov": 44,
+        "position": [
+          -5.6,
+          2.44,
+          -2.15
+        ],
+        "target": [
+          -6.1,
+          2.27,
+          -4.25
+        ]
+      },
+      {
+        "id": "bust-anne",
+        "role": "diagnostic",
+        "projection": "perspective",
+        "fov": 44,
+        "position": [
+          6.6,
+          2.44,
+          -2.15
+        ],
+        "target": [
+          6.1,
+          2.27,
+          -4.25
+        ]
+      }
+    ]
+  }
+}

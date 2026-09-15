@@ -1,0 +1,3191 @@
+{
+  "version": "iwsdk.scene.v1",
+  "units": "meters",
+  "resources": {
+    "prefabs": []
+  },
+  "components": {
+    "com.iwsdk.components.DomeGradient": {
+      "equator": [
+        0.81,
+        0.81,
+        0.69,
+        1
+      ],
+      "ground": [
+        0.26,
+        0.32,
+        0.2,
+        1
+      ],
+      "intensity": 1,
+      "sky": [
+        0.28,
+        0.49,
+        0.6,
+        1
+      ]
+    },
+    "com.iwsdk.components.IBLGradient": {
+      "equator": [
+        0.73,
+        0.73,
+        0.64,
+        1
+      ],
+      "ground": [
+        0.27,
+        0.32,
+        0.22,
+        1
+      ],
+      "intensity": 0.55,
+      "sky": [
+        0.8,
+        0.85,
+        0.89,
+        1
+      ]
+    }
+  },
+  "environment": {
+    "shadows": true,
+    "shadowMapType": "pcf-soft"
+  },
+  "player": {
+    "transform": {
+      "position": [
+        0,
+        0,
+        2
+      ]
+    }
+  },
+  "authoring": {
+    "views": [
+      {
+        "id": "hero",
+        "fov": 65,
+        "projection": "perspective",
+        "target": [
+          0,
+          1.75,
+          -3
+        ],
+        "role": "hero",
+        "position": [
+          0,
+          1.65,
+          2
+        ]
+      },
+      {
+        "id": "quarter",
+        "fov": 55,
+        "projection": "perspective",
+        "target": [
+          0,
+          0,
+          0
+        ],
+        "role": "diagnostic",
+        "position": [
+          11,
+          9,
+          12
+        ]
+      },
+      {
+        "id": "landscape-vista",
+        "role": "diagnostic",
+        "projection": "perspective",
+        "fov": 65,
+        "position": [
+          3,
+          1.65,
+          2
+        ],
+        "target": [
+          100,
+          6,
+          -115
+        ]
+      },
+      {
+        "id": "landscape-overview",
+        "role": "diagnostic",
+        "projection": "perspective",
+        "fov": 57,
+        "position": [
+          175,
+          130,
+          95
+        ],
+        "target": [
+          50,
+          0,
+          -55
+        ]
+      },
+      {
+        "id": "landscape-top",
+        "role": "diagnostic",
+        "projection": "orthographic",
+        "height": 255,
+        "position": [
+          50,
+          210,
+          -60
+        ],
+        "target": [
+          50,
+          0,
+          -60
+        ]
+      },
+      {
+        "id": "royal-gate",
+        "role": "diagnostic",
+        "projection": "perspective",
+        "position": [
+          112,
+          5,
+          -47
+        ],
+        "target": [
+          100,
+          4,
+          -65
+        ],
+        "fov": 58
+      },
+      {
+        "id": "arrival-path-junction",
+        "role": "diagnostic",
+        "projection": "perspective",
+        "position": [
+          13,
+          9,
+          8
+        ],
+        "target": [
+          8,
+          0,
+          0
+        ],
+        "fov": 55
+      },
+      {
+        "id": "arrival-wicket",
+        "role": "diagnostic",
+        "projection": "perspective",
+        "position": [
+          5,
+          1.65,
+          2.4
+        ],
+        "target": [
+          9.8,
+          1,
+          0
+        ],
+        "fov": 66
+      },
+      {
+        "id": "arrival-coach",
+        "role": "diagnostic",
+        "projection": "perspective",
+        "position": [
+          17,
+          4.2,
+          8
+        ],
+        "target": [
+          14.5,
+          1.5,
+          -0.6
+        ],
+        "fov": 54
+      },
+      {
+        "id": "arrival-exit-top",
+        "role": "diagnostic",
+        "projection": "orthographic",
+        "height": 19,
+        "position": [
+          11,
+          23,
+          0
+        ],
+        "target": [
+          11,
+          0,
+          0
+        ]
+      },
+      {
+        "id": "arrival-spawn",
+        "role": "diagnostic",
+        "projection": "perspective",
+        "position": [
+          0,
+          1.65,
+          2
+        ],
+        "target": [
+          0,
+          2,
+          -4
+        ],
+        "fov": 75
+      },
+      {
+        "id": "visit-gate",
+        "role": "diagnostic",
+        "projection": "perspective",
+        "position": [
+          106,
+          3,
+          -51
+        ],
+        "target": [
+          100,
+          3,
+          -72
+        ],
+        "fov": 66
+      },
+      {
+        "id": "visit-interior",
+        "role": "diagnostic",
+        "projection": "perspective",
+        "position": [
+          100,
+          2,
+          -96
+        ],
+        "target": [
+          100,
+          3,
+          -109
+        ],
+        "fov": 70
+      },
+      {
+        "id": "visit-overview",
+        "role": "diagnostic",
+        "projection": "perspective",
+        "position": [
+          154,
+          95,
+          30
+        ],
+        "target": [
+          60,
+          0,
+          -50
+        ],
+        "fov": 65
+      },
+      {
+        "id": "bust-francois",
+        "role": "diagnostic",
+        "projection": "perspective",
+        "fov": 44,
+        "position": [
+          87.7,
+          6.84,
+          -119.9
+        ],
+        "target": [
+          87.2,
+          6.67,
+          -122
+        ]
+      },
+      {
+        "id": "bust-louis",
+        "role": "diagnostic",
+        "projection": "perspective",
+        "fov": 44,
+        "position": [
+          113.3,
+          6.84,
+          -119.9
+        ],
+        "target": [
+          112.8,
+          6.67,
+          -122
+        ]
+      },
+      {
+        "id": "bust-catherine",
+        "role": "diagnostic",
+        "projection": "perspective",
+        "fov": 44,
+        "position": [
+          94.4,
+          2.44,
+          -125.15
+        ],
+        "target": [
+          93.9,
+          2.27,
+          -127.25
+        ]
+      },
+      {
+        "id": "bust-anne",
+        "role": "diagnostic",
+        "projection": "perspective",
+        "fov": 44,
+        "position": [
+          106.6,
+          2.44,
+          -125.15
+        ],
+        "target": [
+          106.1,
+          2.27,
+          -127.25
+        ]
+      }
+    ]
+  },
+  "nodes": [
+    {
+      "content": {
+        "asset": "arrival",
+        "type": "asset"
+      },
+      "id": "arrival-terrace",
+      "name": "Terrasse solo"
+    },
+    {
+      "content": {
+        "asset": "arrivalCollision",
+        "type": "asset"
+      },
+      "id": "arrival-collision",
+      "components": {
+        "StaticCollision": {}
+      }
+    },
+    {
+      "content": {
+        "asset": "arrival-panel",
+        "type": "asset"
+      },
+      "id": "arrival-panel",
+      "transform": {
+        "scale": 1.5,
+        "position": [
+          0,
+          1.95,
+          -2
+        ]
+      },
+      "name": "Accueil solo",
+      "components": {
+        "RayInteractable": {}
+      }
+    },
+    {
+      "components": {
+        "com.iwsdk.components.DirectionalLight": {
+          "castShadow": true,
+          "color": [
+            1,
+            0.88,
+            0.67,
+            1
+          ],
+          "intensity": 1.8,
+          "shadowMapSize": "2048",
+          "shadowCameraSize": 75,
+          "shadowCameraFar": 150,
+          "shadowNormalBias": 0.12
+        }
+      },
+      "id": "sun",
+      "transform": {
+        "position": [
+          -25,
+          40,
+          25
+        ],
+        "rotationDeg": [
+          -48,
+          -30,
+          0
+        ]
+      }
+    },
+    {
+      "children": [
+        {
+          "components": {
+            "StaticCollision": {}
+          },
+          "content": {
+            "asset": "cypressCollision",
+            "type": "asset"
+          },
+          "id": "arrival-tree-collision--5"
+        }
+      ],
+      "transform": {
+        "scale": 0.65,
+        "position": [
+          -5,
+          0,
+          -3
+        ]
+      },
+      "content": {
+        "asset": "cypress",
+        "type": "asset"
+      },
+      "id": "arrival-tree--5"
+    },
+    {
+      "children": [
+        {
+          "components": {
+            "StaticCollision": {}
+          },
+          "content": {
+            "asset": "cypressCollision",
+            "type": "asset"
+          },
+          "id": "arrival-tree-collision-5"
+        }
+      ],
+      "transform": {
+        "scale": 0.65,
+        "position": [
+          5,
+          0,
+          -3
+        ]
+      },
+      "content": {
+        "asset": "cypress",
+        "type": "asset"
+      },
+      "id": "arrival-tree-5"
+    },
+    {
+      "id": "arrival-lawn-relief",
+      "name": "Pelouse en relief",
+      "content": {
+        "type": "asset",
+        "asset": "arrivalLawnRelief",
+        "receiveShadow": true,
+        "castShadow": false
+      }
+    },
+    {
+      "id": "landscape-terrain",
+      "name": "Prairie autour du domaine",
+      "content": {
+        "type": "asset",
+        "asset": "arrivalTerrain",
+        "castShadow": false,
+        "receiveShadow": true
+      },
+      "transform": {
+        "position": [
+          0,
+          0,
+          0
+        ]
+      }
+    },
+    {
+      "id": "landscape-forest",
+      "name": "Foret de chenes",
+      "content": {
+        "type": "asset",
+        "asset": "arrivalForest",
+        "castShadow": false,
+        "receiveShadow": true
+      },
+      "transform": {
+        "position": [
+          0,
+          0,
+          0
+        ]
+      }
+    },
+    {
+      "id": "landscape-path",
+      "name": "Chemin sinueux vers le portail",
+      "content": {
+        "type": "asset",
+        "asset": "arrivalPath",
+        "castShadow": false,
+        "receiveShadow": true
+      },
+      "transform": {
+        "position": [
+          0,
+          0,
+          0
+        ]
+      }
+    },
+    {
+      "id": "landscape-boundary",
+      "name": "Protection invisible de la place",
+      "content": {
+        "type": "asset",
+        "asset": "arrivalBoundary",
+        "castShadow": false,
+        "receiveShadow": true
+      },
+      "transform": {
+        "position": [
+          0,
+          0,
+          0
+        ]
+      },
+      "components": {
+        "StaticCollision": {},
+        "ArrivalBoundary": {}
+      }
+    },
+    {
+      "id": "arrival-wicket",
+      "name": "Portillon royal ferme",
+      "content": {
+        "type": "asset",
+        "asset": "arrivalWicket",
+        "castShadow": true,
+        "receiveShadow": true
+      },
+      "transform": {
+        "position": [
+          7.555815805552804,
+          0,
+          0
+        ],
+        "rotationDeg": [
+          0,
+          90,
+          0
+        ]
+      }
+    },
+    {
+      "id": "arrival-coach",
+      "name": "Attelage royal a cinq metres du portillon",
+      "content": {
+        "type": "asset",
+        "asset": "royalCoach",
+        "castShadow": true,
+        "receiveShadow": true
+      },
+      "transform": {
+        "position": [
+          12.510428931294015,
+          0.1559601239192107,
+          0.1713448801171473
+        ],
+        "rotationDeg": [
+          0,
+          17.542824538383282,
+          0
+        ]
+      }
+    },
+    {
+      "id": "coach-departure",
+      "name": "Embarquement pour le chateau",
+      "content": {
+        "type": "asset",
+        "asset": "coachPortal",
+        "castShadow": false
+      },
+      "transform": {
+        "position": [
+          7.15,
+          0,
+          0
+        ],
+        "rotationDeg": [
+          0,
+          90,
+          0
+        ]
+      },
+      "components": {
+        "CoachPortal": {
+          "destination": "castle"
+        }
+      }
+    },
+    {
+      "id": "coach-turning-court",
+      "name": "Aire de retournement en gravier",
+      "content": {
+        "type": "asset",
+        "asset": "coachTurningCourt",
+        "castShadow": false,
+        "receiveShadow": true
+      }
+    },
+    {
+      "id": "complete-estate",
+      "name": "Domaine complet pendant la visite",
+      "transform": {
+        "position": [
+          100,
+          0,
+          -95
+        ]
+      },
+      "children": [
+        {
+          "components": {
+            "RayInteractable": {},
+            "ScreenSpace": {
+              "height": "285px",
+              "left": "18px",
+              "top": "18px",
+              "width": "285px"
+            }
+          },
+          "content": {
+            "asset": "estate-panel",
+            "type": "asset",
+            "receiveShadow": true,
+            "castShadow": false
+          },
+          "id": "estate-panel",
+          "name": "estate-panel",
+          "transform": {
+            "position": [
+              -2,
+              1.8,
+              21
+            ],
+            "scale": 0.006
+          }
+        },
+        {
+          "children": [
+            {
+              "components": {},
+              "content": {
+                "asset": "palace",
+                "type": "asset",
+                "receiveShadow": true,
+                "castShadow": true
+              },
+              "id": "castle/palace",
+              "name": "palace",
+              "transform": {
+                "position": [
+                  0,
+                  0,
+                  0
+                ]
+              },
+              "children": [
+                {
+                  "id": "castle/collision",
+                  "name": "Collision palace",
+                  "content": {
+                    "type": "asset",
+                    "asset": "palaceCollision",
+                    "castShadow": false,
+                    "receiveShadow": false
+                  },
+                  "components": {
+                    "StaticCollision": {}
+                  }
+                }
+              ]
+            },
+            {
+              "id": "castle/interior",
+              "name": "Salons, galerie et escalier",
+              "content": {
+                "type": "asset",
+                "asset": "palaceInterior",
+                "castShadow": false,
+                "receiveShadow": true
+              },
+              "transform": {
+                "position": [
+                  0,
+                  0,
+                  0
+                ]
+              }
+            },
+            {
+              "id": "castle/glazing",
+              "name": "Vitrages transparents",
+              "content": {
+                "type": "asset",
+                "asset": "palaceGlass",
+                "castShadow": false,
+                "receiveShadow": true
+              },
+              "transform": {
+                "position": [
+                  0,
+                  0,
+                  0
+                ]
+              }
+            },
+            {
+              "id": "castle/door-entrance",
+              "name": "Porte du vestibule",
+              "content": {
+                "type": "asset",
+                "asset": "palaceDoor",
+                "castShadow": false,
+                "receiveShadow": true
+              },
+              "transform": {
+                "position": [
+                  0,
+                  0.64,
+                  6
+                ],
+                "rotationDeg": [
+                  0,
+                  0,
+                  0
+                ],
+                "scale": [
+                  1,
+                  0.8285714285714285,
+                  1
+                ]
+              },
+              "components": {
+                "PalaceDoor": {
+                  "automatic": true,
+                  "approachDistance": 3.2
+                },
+                "RayInteractable": {}
+              },
+              "children": [
+                {
+                  "id": "castle/door-entrance/blocker",
+                  "name": "Porte du vestibule — collision",
+                  "content": {
+                    "type": "asset",
+                    "asset": "palaceDoorCollision",
+                    "castShadow": false,
+                    "receiveShadow": true
+                  },
+                  "transform": {
+                    "position": [
+                      0,
+                      0,
+                      0
+                    ]
+                  },
+                  "components": {
+                    "PalaceDoorBlocker": {
+                      "owner": {
+                        "type": "node",
+                        "id": "castle/door-entrance"
+                      }
+                    }
+                  }
+                }
+              ]
+            },
+            {
+              "id": "castle/door-west-salon",
+              "name": "Porte du salon ouest",
+              "content": {
+                "type": "asset",
+                "asset": "palaceDoor",
+                "castShadow": false,
+                "receiveShadow": true
+              },
+              "transform": {
+                "position": [
+                  -4.65,
+                  0.64,
+                  3.8
+                ],
+                "rotationDeg": [
+                  0,
+                  -90,
+                  0
+                ],
+                "scale": [
+                  1,
+                  1,
+                  1
+                ]
+              },
+              "components": {
+                "PalaceDoor": {
+                  "automatic": true,
+                  "approachDistance": 3.2
+                },
+                "RayInteractable": {}
+              },
+              "children": [
+                {
+                  "id": "castle/door-west-salon/blocker",
+                  "name": "Porte du salon ouest — collision",
+                  "content": {
+                    "type": "asset",
+                    "asset": "palaceDoorCollision",
+                    "castShadow": false,
+                    "receiveShadow": true
+                  },
+                  "transform": {
+                    "position": [
+                      0,
+                      0,
+                      0
+                    ]
+                  },
+                  "components": {
+                    "PalaceDoorBlocker": {
+                      "owner": {
+                        "type": "node",
+                        "id": "castle/door-west-salon"
+                      }
+                    }
+                  }
+                }
+              ]
+            },
+            {
+              "id": "castle/door-east-salon",
+              "name": "Porte du salon est",
+              "content": {
+                "type": "asset",
+                "asset": "palaceDoor",
+                "castShadow": false,
+                "receiveShadow": true
+              },
+              "transform": {
+                "position": [
+                  4.65,
+                  0.64,
+                  3.8
+                ],
+                "rotationDeg": [
+                  0,
+                  90,
+                  0
+                ],
+                "scale": [
+                  1,
+                  1,
+                  1
+                ]
+              },
+              "components": {
+                "PalaceDoor": {
+                  "automatic": true,
+                  "approachDistance": 3.2
+                },
+                "RayInteractable": {}
+              },
+              "children": [
+                {
+                  "id": "castle/door-east-salon/blocker",
+                  "name": "Porte du salon est — collision",
+                  "content": {
+                    "type": "asset",
+                    "asset": "palaceDoorCollision",
+                    "castShadow": false,
+                    "receiveShadow": true
+                  },
+                  "transform": {
+                    "position": [
+                      0,
+                      0,
+                      0
+                    ]
+                  },
+                  "components": {
+                    "PalaceDoorBlocker": {
+                      "owner": {
+                        "type": "node",
+                        "id": "castle/door-east-salon"
+                      }
+                    }
+                  }
+                }
+              ]
+            },
+            {
+              "id": "castle/door-west-gallery",
+              "name": "Porte ouest de la galerie",
+              "content": {
+                "type": "asset",
+                "asset": "palaceDoor",
+                "castShadow": false,
+                "receiveShadow": true
+              },
+              "transform": {
+                "position": [
+                  -4.65,
+                  5.04,
+                  3.8
+                ],
+                "rotationDeg": [
+                  0,
+                  -90,
+                  0
+                ],
+                "scale": [
+                  1,
+                  1,
+                  1
+                ]
+              },
+              "components": {
+                "PalaceDoor": {
+                  "automatic": true,
+                  "approachDistance": 3.2
+                },
+                "RayInteractable": {}
+              },
+              "children": [
+                {
+                  "id": "castle/door-west-gallery/blocker",
+                  "name": "Porte ouest de la galerie — collision",
+                  "content": {
+                    "type": "asset",
+                    "asset": "palaceDoorCollision",
+                    "castShadow": false,
+                    "receiveShadow": true
+                  },
+                  "transform": {
+                    "position": [
+                      0,
+                      0,
+                      0
+                    ]
+                  },
+                  "components": {
+                    "PalaceDoorBlocker": {
+                      "owner": {
+                        "type": "node",
+                        "id": "castle/door-west-gallery"
+                      }
+                    }
+                  }
+                }
+              ]
+            },
+            {
+              "id": "castle/door-east-gallery",
+              "name": "Porte est de la galerie",
+              "content": {
+                "type": "asset",
+                "asset": "palaceDoor",
+                "castShadow": false,
+                "receiveShadow": true
+              },
+              "transform": {
+                "position": [
+                  4.65,
+                  5.04,
+                  3.8
+                ],
+                "rotationDeg": [
+                  0,
+                  90,
+                  0
+                ],
+                "scale": [
+                  1,
+                  1,
+                  1
+                ]
+              },
+              "components": {
+                "PalaceDoor": {
+                  "automatic": true,
+                  "approachDistance": 3.2
+                },
+                "RayInteractable": {}
+              },
+              "children": [
+                {
+                  "id": "castle/door-east-gallery/blocker",
+                  "name": "Porte est de la galerie — collision",
+                  "content": {
+                    "type": "asset",
+                    "asset": "palaceDoorCollision",
+                    "castShadow": false,
+                    "receiveShadow": true
+                  },
+                  "transform": {
+                    "position": [
+                      0,
+                      0,
+                      0
+                    ]
+                  },
+                  "components": {
+                    "PalaceDoorBlocker": {
+                      "owner": {
+                        "type": "node",
+                        "id": "castle/door-east-gallery"
+                      }
+                    }
+                  }
+                }
+              ]
+            },
+            {
+              "id": "castle/light-vestibule",
+              "name": "Lustre vestibule",
+              "content": {
+                "type": "group"
+              },
+              "transform": {
+                "position": [
+                  0,
+                  7.9,
+                  0
+                ]
+              },
+              "components": {
+                "PointLight": {
+                  "color": [
+                    1,
+                    0.8,
+                    0.57,
+                    1
+                  ],
+                  "intensity": 85,
+                  "distance": 13,
+                  "decay": 2,
+                  "castShadow": false
+                }
+              }
+            },
+            {
+              "id": "castle/light-salon-west",
+              "name": "Lustre salon-west",
+              "content": {
+                "type": "group"
+              },
+              "transform": {
+                "position": [
+                  -10.6,
+                  3.54,
+                  0
+                ]
+              },
+              "components": {
+                "PointLight": {
+                  "color": [
+                    1,
+                    0.8,
+                    0.57,
+                    1
+                  ],
+                  "intensity": 38,
+                  "distance": 10,
+                  "decay": 2,
+                  "castShadow": false
+                }
+              }
+            },
+            {
+              "id": "castle/light-salon-east",
+              "name": "Lustre salon-east",
+              "content": {
+                "type": "group"
+              },
+              "transform": {
+                "position": [
+                  10.6,
+                  3.54,
+                  0
+                ]
+              },
+              "components": {
+                "PointLight": {
+                  "color": [
+                    1,
+                    0.8,
+                    0.57,
+                    1
+                  ],
+                  "intensity": 38,
+                  "distance": 10,
+                  "decay": 2,
+                  "castShadow": false
+                }
+              }
+            },
+            {
+              "id": "castle/light-gallery-west",
+              "name": "Lustre gallery-west",
+              "content": {
+                "type": "group"
+              },
+              "transform": {
+                "position": [
+                  -10.6,
+                  7.94,
+                  0
+                ]
+              },
+              "components": {
+                "PointLight": {
+                  "color": [
+                    1,
+                    0.8,
+                    0.57,
+                    1
+                  ],
+                  "intensity": 38,
+                  "distance": 10,
+                  "decay": 2,
+                  "castShadow": false
+                }
+              }
+            },
+            {
+              "id": "castle/light-gallery-east",
+              "name": "Lustre gallery-east",
+              "content": {
+                "type": "group"
+              },
+              "transform": {
+                "position": [
+                  10.6,
+                  7.94,
+                  0
+                ]
+              },
+              "components": {
+                "PointLight": {
+                  "color": [
+                    1,
+                    0.8,
+                    0.57,
+                    1
+                  ],
+                  "intensity": 38,
+                  "distance": 10,
+                  "decay": 2,
+                  "castShadow": false
+                }
+              }
+            },
+            {
+              "id": "mirror-west-vanity",
+              "name": "Miroir ovale west",
+              "content": {
+                "type": "asset",
+                "asset": "mirrorOval"
+              },
+              "components": {
+                "PalaceMirror": {}
+              },
+              "transform": {
+                "position": [
+                  -7,
+                  7.07,
+                  -5.163
+                ],
+                "scale": [
+                  0.505,
+                  0.675,
+                  1
+                ]
+              }
+            },
+            {
+              "id": "mirror-west-salon",
+              "name": "Miroir de cheminee west",
+              "content": {
+                "type": "asset",
+                "asset": "mirrorRectangle"
+              },
+              "components": {
+                "PalaceMirror": {}
+              },
+              "transform": {
+                "position": [
+                  -19.925,
+                  3.17,
+                  0
+                ],
+                "rotationDeg": [
+                  0,
+                  90,
+                  0
+                ],
+                "scale": [
+                  1.79,
+                  1.74,
+                  1
+                ]
+              }
+            },
+            {
+              "id": "mirror-west-gallery",
+              "name": "Miroir de cheminee west",
+              "content": {
+                "type": "asset",
+                "asset": "mirrorRectangle"
+              },
+              "components": {
+                "PalaceMirror": {}
+              },
+              "transform": {
+                "position": [
+                  -19.925,
+                  7.57,
+                  0
+                ],
+                "rotationDeg": [
+                  0,
+                  90,
+                  0
+                ],
+                "scale": [
+                  1.79,
+                  1.74,
+                  1
+                ]
+              }
+            },
+            {
+              "id": "mirror-east-vanity",
+              "name": "Miroir ovale east",
+              "content": {
+                "type": "asset",
+                "asset": "mirrorOval"
+              },
+              "components": {
+                "PalaceMirror": {}
+              },
+              "transform": {
+                "position": [
+                  7,
+                  7.07,
+                  -5.163
+                ],
+                "scale": [
+                  0.505,
+                  0.675,
+                  1
+                ]
+              }
+            },
+            {
+              "id": "mirror-east-salon",
+              "name": "Miroir de cheminee east",
+              "content": {
+                "type": "asset",
+                "asset": "mirrorRectangle"
+              },
+              "components": {
+                "PalaceMirror": {}
+              },
+              "transform": {
+                "position": [
+                  19.925,
+                  3.17,
+                  0
+                ],
+                "rotationDeg": [
+                  0,
+                  -90,
+                  0
+                ],
+                "scale": [
+                  1.79,
+                  1.74,
+                  1
+                ]
+              }
+            },
+            {
+              "id": "mirror-east-gallery",
+              "name": "Miroir de cheminee east",
+              "content": {
+                "type": "asset",
+                "asset": "mirrorRectangle"
+              },
+              "components": {
+                "PalaceMirror": {}
+              },
+              "transform": {
+                "position": [
+                  19.925,
+                  7.57,
+                  0
+                ],
+                "rotationDeg": [
+                  0,
+                  -90,
+                  0
+                ],
+                "scale": [
+                  1.79,
+                  1.74,
+                  1
+                ]
+              }
+            },
+            {
+              "id": "hearth-west-salon",
+              "name": "Foyer allume ouest salon",
+              "content": {
+                "type": "group"
+              },
+              "transform": {
+                "position": [
+                  -19.84,
+                  0.8200000000000001,
+                  0
+                ],
+                "rotationDeg": [
+                  0,
+                  90,
+                  0
+                ]
+              },
+              "components": {
+                "HearthFire": {
+                  "phase": 0.64
+                }
+              },
+              "children": [
+                {
+                  "id": "hearth-west-salon-wood",
+                  "content": {
+                    "type": "asset",
+                    "asset": "hearth"
+                  }
+                },
+                {
+                  "id": "hearth-west-salon-flames",
+                  "content": {
+                    "type": "asset",
+                    "asset": "hearthFire"
+                  }
+                },
+                {
+                  "id": "hearth-west-salon-glow",
+                  "transform": {
+                    "position": [
+                      0,
+                      0.42,
+                      0.27
+                    ]
+                  },
+                  "components": {
+                    "HearthGlow": {
+                      "phase": 0.64
+                    },
+                    "PointLight": {
+                      "color": [
+                        1,
+                        0.23,
+                        0.035,
+                        1
+                      ],
+                      "intensity": 3,
+                      "distance": 3,
+                      "decay": 2,
+                      "castShadow": false
+                    }
+                  }
+                }
+              ]
+            },
+            {
+              "id": "hearth-west-gallery",
+              "name": "Foyer allume ouest etage",
+              "content": {
+                "type": "group"
+              },
+              "transform": {
+                "position": [
+                  -19.84,
+                  5.22,
+                  0
+                ],
+                "rotationDeg": [
+                  0,
+                  90,
+                  0
+                ]
+              },
+              "components": {
+                "HearthFire": {
+                  "phase": 5.04
+                }
+              },
+              "children": [
+                {
+                  "id": "hearth-west-gallery-wood",
+                  "content": {
+                    "type": "asset",
+                    "asset": "hearth"
+                  }
+                },
+                {
+                  "id": "hearth-west-gallery-flames",
+                  "content": {
+                    "type": "asset",
+                    "asset": "hearthFire"
+                  }
+                },
+                {
+                  "id": "hearth-west-gallery-glow",
+                  "transform": {
+                    "position": [
+                      0,
+                      0.42,
+                      0.27
+                    ]
+                  },
+                  "components": {
+                    "HearthGlow": {
+                      "phase": 5.04
+                    },
+                    "PointLight": {
+                      "color": [
+                        1,
+                        0.23,
+                        0.035,
+                        1
+                      ],
+                      "intensity": 3,
+                      "distance": 3,
+                      "decay": 2,
+                      "castShadow": false
+                    }
+                  }
+                }
+              ]
+            },
+            {
+              "id": "hearth-east-salon",
+              "name": "Foyer allume est salon",
+              "content": {
+                "type": "group"
+              },
+              "transform": {
+                "position": [
+                  19.84,
+                  0.8200000000000001,
+                  0
+                ],
+                "rotationDeg": [
+                  0,
+                  -90,
+                  0
+                ]
+              },
+              "components": {
+                "HearthFire": {
+                  "phase": 4.04
+                }
+              },
+              "children": [
+                {
+                  "id": "hearth-east-salon-wood",
+                  "content": {
+                    "type": "asset",
+                    "asset": "hearth"
+                  }
+                },
+                {
+                  "id": "hearth-east-salon-flames",
+                  "content": {
+                    "type": "asset",
+                    "asset": "hearthFire"
+                  }
+                },
+                {
+                  "id": "hearth-east-salon-glow",
+                  "transform": {
+                    "position": [
+                      0,
+                      0.42,
+                      0.27
+                    ]
+                  },
+                  "components": {
+                    "HearthGlow": {
+                      "phase": 4.04
+                    },
+                    "PointLight": {
+                      "color": [
+                        1,
+                        0.23,
+                        0.035,
+                        1
+                      ],
+                      "intensity": 3,
+                      "distance": 3,
+                      "decay": 2,
+                      "castShadow": false
+                    }
+                  }
+                }
+              ]
+            },
+            {
+              "id": "hearth-east-gallery",
+              "name": "Foyer allume est etage",
+              "content": {
+                "type": "group"
+              },
+              "transform": {
+                "position": [
+                  19.84,
+                  5.22,
+                  0
+                ],
+                "rotationDeg": [
+                  0,
+                  -90,
+                  0
+                ]
+              },
+              "components": {
+                "HearthFire": {
+                  "phase": 8.44
+                }
+              },
+              "children": [
+                {
+                  "id": "hearth-east-gallery-wood",
+                  "content": {
+                    "type": "asset",
+                    "asset": "hearth"
+                  }
+                },
+                {
+                  "id": "hearth-east-gallery-flames",
+                  "content": {
+                    "type": "asset",
+                    "asset": "hearthFire"
+                  }
+                },
+                {
+                  "id": "hearth-east-gallery-glow",
+                  "transform": {
+                    "position": [
+                      0,
+                      0.42,
+                      0.27
+                    ]
+                  },
+                  "components": {
+                    "HearthGlow": {
+                      "phase": 8.44
+                    },
+                    "PointLight": {
+                      "color": [
+                        1,
+                        0.23,
+                        0.035,
+                        1
+                      ],
+                      "intensity": 3,
+                      "distance": 3,
+                      "decay": 2,
+                      "castShadow": false
+                    }
+                  }
+                }
+              ]
+            },
+            {
+              "id": "royal-francois",
+              "name": "François Ier — MakeHuman, d’après Clouet",
+              "content": {
+                "type": "asset",
+                "asset": "bustFrancoisI",
+                "castShadow": true,
+                "receiveShadow": true
+              },
+              "transform": {
+                "position": [
+                  -12.8,
+                  6.14,
+                  1
+                ]
+              }
+            },
+            {
+              "id": "royal-louis",
+              "name": "Louis XIV — MakeHuman, d’après Rigaud",
+              "content": {
+                "type": "asset",
+                "asset": "bustLouisXIV",
+                "castShadow": true,
+                "receiveShadow": true
+              },
+              "transform": {
+                "position": [
+                  12.8,
+                  6.14,
+                  1
+                ]
+              }
+            },
+            {
+              "id": "royal-catherine",
+              "name": "Catherine de Médicis — MakeHuman, d’après Clouet",
+              "content": {
+                "type": "asset",
+                "asset": "bustCatherineMedici",
+                "castShadow": true,
+                "receiveShadow": true
+              },
+              "transform": {
+                "position": [
+                  -6.1,
+                  1.74,
+                  -4.25
+                ]
+              }
+            },
+            {
+              "id": "royal-anne",
+              "name": "Anne de France — MakeHuman, d’après Jean Hey",
+              "content": {
+                "type": "asset",
+                "asset": "bustAnneFrance",
+                "castShadow": true,
+                "receiveShadow": true
+              },
+              "transform": {
+                "position": [
+                  6.1,
+                  1.74,
+                  -4.25
+                ]
+              }
+            }
+          ],
+          "content": {
+            "type": "group"
+          },
+          "id": "castle",
+          "transform": {
+            "position": [
+              0,
+              0,
+              -28
+            ]
+          }
+        },
+        {
+          "children": [
+            {
+              "components": {},
+              "content": {
+                "asset": "coachEstateLawn",
+                "type": "asset",
+                "receiveShadow": true,
+                "castShadow": false
+              },
+              "framingRole": "support",
+              "id": "gardens/ground",
+              "name": "ground",
+              "transform": {
+                "position": [
+                  0,
+                  0,
+                  0
+                ]
+              },
+              "children": [
+                {
+                  "id": "gardens/ground/collision",
+                  "name": "Collision ground",
+                  "content": {
+                    "type": "asset",
+                    "asset": "groundCollision",
+                    "castShadow": false,
+                    "receiveShadow": false
+                  },
+                  "components": {
+                    "StaticCollision": {}
+                  }
+                }
+              ]
+            },
+            {
+              "content": {
+                "asset": "parterre",
+                "type": "asset",
+                "receiveShadow": true,
+                "castShadow": true
+              },
+              "id": "gardens/parterre-west-north",
+              "name": "parterre-west-north",
+              "transform": {
+                "position": [
+                  -12,
+                  0,
+                  -10
+                ]
+              },
+              "children": [
+                {
+                  "id": "gardens/parterre-west-north/collision",
+                  "name": "Collision parterre-west-north",
+                  "content": {
+                    "type": "asset",
+                    "asset": "parterreCollision",
+                    "castShadow": false,
+                    "receiveShadow": false
+                  },
+                  "components": {
+                    "StaticCollision": {}
+                  }
+                }
+              ]
+            },
+            {
+              "content": {
+                "asset": "parterre",
+                "type": "asset",
+                "receiveShadow": true,
+                "castShadow": true
+              },
+              "id": "gardens/parterre-west-south",
+              "name": "parterre-west-south",
+              "transform": {
+                "position": [
+                  -12,
+                  0,
+                  10
+                ]
+              },
+              "children": [
+                {
+                  "id": "gardens/parterre-west-south/collision",
+                  "name": "Collision parterre-west-south",
+                  "content": {
+                    "type": "asset",
+                    "asset": "parterreCollision",
+                    "castShadow": false,
+                    "receiveShadow": false
+                  },
+                  "components": {
+                    "StaticCollision": {}
+                  }
+                }
+              ]
+            },
+            {
+              "content": {
+                "asset": "parterre",
+                "type": "asset",
+                "receiveShadow": true,
+                "castShadow": true
+              },
+              "id": "gardens/parterre-east-north",
+              "name": "parterre-east-north",
+              "transform": {
+                "position": [
+                  12,
+                  0,
+                  -10
+                ]
+              },
+              "children": [
+                {
+                  "id": "gardens/parterre-east-north/collision",
+                  "name": "Collision parterre-east-north",
+                  "content": {
+                    "type": "asset",
+                    "asset": "parterreCollision",
+                    "castShadow": false,
+                    "receiveShadow": false
+                  },
+                  "components": {
+                    "StaticCollision": {}
+                  }
+                }
+              ]
+            },
+            {
+              "content": {
+                "asset": "parterre",
+                "type": "asset",
+                "receiveShadow": true,
+                "castShadow": true
+              },
+              "id": "gardens/parterre-east-south",
+              "name": "parterre-east-south",
+              "transform": {
+                "position": [
+                  12,
+                  0,
+                  10
+                ]
+              },
+              "children": [
+                {
+                  "id": "gardens/parterre-east-south/collision",
+                  "name": "Collision parterre-east-south",
+                  "content": {
+                    "type": "asset",
+                    "asset": "parterreCollision",
+                    "castShadow": false,
+                    "receiveShadow": false
+                  },
+                  "components": {
+                    "StaticCollision": {}
+                  }
+                }
+              ]
+            },
+            {
+              "content": {
+                "asset": "pathLong",
+                "type": "asset",
+                "receiveShadow": true,
+                "castShadow": false
+              },
+              "id": "gardens/allee-centrale",
+              "name": "allee-centrale",
+              "transform": {
+                "position": [
+                  0,
+                  0.008,
+                  0
+                ],
+                "scale": [
+                  7,
+                  1,
+                  54
+                ]
+              },
+              "children": [
+                {
+                  "id": "gardens/allee-centrale/collision",
+                  "name": "Collision allee-centrale",
+                  "content": {
+                    "type": "asset",
+                    "asset": "pathCollision",
+                    "castShadow": false,
+                    "receiveShadow": false
+                  },
+                  "components": {
+                    "StaticCollision": {}
+                  }
+                }
+              ]
+            },
+            {
+              "content": {
+                "asset": "pathCross",
+                "type": "asset",
+                "receiveShadow": true,
+                "castShadow": false
+              },
+              "id": "gardens/allee-transversale",
+              "name": "allee-transversale",
+              "transform": {
+                "position": [
+                  0,
+                  0.008,
+                  0
+                ],
+                "scale": [
+                  45,
+                  1,
+                  7
+                ]
+              },
+              "children": [
+                {
+                  "id": "gardens/allee-transversale/collision",
+                  "name": "Collision allee-transversale",
+                  "content": {
+                    "type": "asset",
+                    "asset": "pathCollision",
+                    "castShadow": false,
+                    "receiveShadow": false
+                  },
+                  "components": {
+                    "StaticCollision": {}
+                  }
+                }
+              ]
+            },
+            {
+              "content": {
+                "asset": "pathTerrace",
+                "type": "asset",
+                "receiveShadow": true,
+                "castShadow": false
+              },
+              "id": "gardens/terrasse",
+              "name": "terrasse",
+              "transform": {
+                "position": [
+                  0,
+                  0.008,
+                  -20
+                ],
+                "scale": [
+                  45,
+                  1,
+                  6
+                ]
+              },
+              "children": [
+                {
+                  "id": "gardens/terrasse/collision",
+                  "name": "Collision terrasse",
+                  "content": {
+                    "type": "asset",
+                    "asset": "pathCollision",
+                    "castShadow": false,
+                    "receiveShadow": false
+                  },
+                  "components": {
+                    "StaticCollision": {}
+                  }
+                }
+              ]
+            },
+            {
+              "content": {
+                "asset": "pathTerrace",
+                "type": "asset",
+                "receiveShadow": true,
+                "castShadow": false
+              },
+              "id": "gardens/entree",
+              "name": "entree",
+              "transform": {
+                "position": [
+                  0,
+                  0.008,
+                  24
+                ],
+                "scale": [
+                  45,
+                  1,
+                  6
+                ]
+              },
+              "children": [
+                {
+                  "id": "gardens/entree/collision",
+                  "name": "Collision entree",
+                  "content": {
+                    "type": "asset",
+                    "asset": "pathCollision",
+                    "castShadow": false,
+                    "receiveShadow": false
+                  },
+                  "components": {
+                    "StaticCollision": {}
+                  }
+                }
+              ]
+            },
+            {
+              "content": {
+                "asset": "cypress",
+                "type": "asset",
+                "receiveShadow": true,
+                "castShadow": true
+              },
+              "id": "gardens/cypres--23-0",
+              "name": "cypres--23-0",
+              "transform": {
+                "position": [
+                  -23,
+                  0,
+                  -25
+                ]
+              },
+              "children": [
+                {
+                  "id": "gardens/cypres--23-0/collision",
+                  "name": "Collision cypres--23-0",
+                  "content": {
+                    "type": "asset",
+                    "asset": "cypressCollision",
+                    "castShadow": false,
+                    "receiveShadow": false
+                  },
+                  "components": {
+                    "StaticCollision": {}
+                  }
+                }
+              ]
+            },
+            {
+              "content": {
+                "asset": "cypress",
+                "type": "asset",
+                "receiveShadow": true,
+                "castShadow": true
+              },
+              "id": "gardens/cypres--23-1",
+              "name": "cypres--23-1",
+              "transform": {
+                "position": [
+                  -23,
+                  0,
+                  -18
+                ]
+              },
+              "children": [
+                {
+                  "id": "gardens/cypres--23-1/collision",
+                  "name": "Collision cypres--23-1",
+                  "content": {
+                    "type": "asset",
+                    "asset": "cypressCollision",
+                    "castShadow": false,
+                    "receiveShadow": false
+                  },
+                  "components": {
+                    "StaticCollision": {}
+                  }
+                }
+              ]
+            },
+            {
+              "content": {
+                "asset": "cypress",
+                "type": "asset",
+                "receiveShadow": true,
+                "castShadow": true
+              },
+              "id": "gardens/cypres--23-2",
+              "name": "cypres--23-2",
+              "transform": {
+                "position": [
+                  -23,
+                  0,
+                  -11
+                ]
+              },
+              "children": [
+                {
+                  "id": "gardens/cypres--23-2/collision",
+                  "name": "Collision cypres--23-2",
+                  "content": {
+                    "type": "asset",
+                    "asset": "cypressCollision",
+                    "castShadow": false,
+                    "receiveShadow": false
+                  },
+                  "components": {
+                    "StaticCollision": {}
+                  }
+                }
+              ]
+            },
+            {
+              "content": {
+                "asset": "cypress",
+                "type": "asset",
+                "receiveShadow": true,
+                "castShadow": true
+              },
+              "id": "gardens/cypres--23-3",
+              "name": "cypres--23-3",
+              "transform": {
+                "position": [
+                  -23,
+                  0,
+                  -4
+                ]
+              },
+              "children": [
+                {
+                  "id": "gardens/cypres--23-3/collision",
+                  "name": "Collision cypres--23-3",
+                  "content": {
+                    "type": "asset",
+                    "asset": "cypressCollision",
+                    "castShadow": false,
+                    "receiveShadow": false
+                  },
+                  "components": {
+                    "StaticCollision": {}
+                  }
+                }
+              ]
+            },
+            {
+              "content": {
+                "asset": "cypress",
+                "type": "asset",
+                "receiveShadow": true,
+                "castShadow": true
+              },
+              "id": "gardens/cypres--23-4",
+              "name": "cypres--23-4",
+              "transform": {
+                "position": [
+                  -23,
+                  0,
+                  3
+                ]
+              },
+              "children": [
+                {
+                  "id": "gardens/cypres--23-4/collision",
+                  "name": "Collision cypres--23-4",
+                  "content": {
+                    "type": "asset",
+                    "asset": "cypressCollision",
+                    "castShadow": false,
+                    "receiveShadow": false
+                  },
+                  "components": {
+                    "StaticCollision": {}
+                  }
+                }
+              ]
+            },
+            {
+              "content": {
+                "asset": "cypress",
+                "type": "asset",
+                "receiveShadow": true,
+                "castShadow": true
+              },
+              "id": "gardens/cypres--23-5",
+              "name": "cypres--23-5",
+              "transform": {
+                "position": [
+                  -23,
+                  0,
+                  10
+                ]
+              },
+              "children": [
+                {
+                  "id": "gardens/cypres--23-5/collision",
+                  "name": "Collision cypres--23-5",
+                  "content": {
+                    "type": "asset",
+                    "asset": "cypressCollision",
+                    "castShadow": false,
+                    "receiveShadow": false
+                  },
+                  "components": {
+                    "StaticCollision": {}
+                  }
+                }
+              ]
+            },
+            {
+              "content": {
+                "asset": "cypress",
+                "type": "asset",
+                "receiveShadow": true,
+                "castShadow": true
+              },
+              "id": "gardens/cypres--23-6",
+              "name": "cypres--23-6",
+              "transform": {
+                "position": [
+                  -23,
+                  0,
+                  17
+                ]
+              },
+              "children": [
+                {
+                  "id": "gardens/cypres--23-6/collision",
+                  "name": "Collision cypres--23-6",
+                  "content": {
+                    "type": "asset",
+                    "asset": "cypressCollision",
+                    "castShadow": false,
+                    "receiveShadow": false
+                  },
+                  "components": {
+                    "StaticCollision": {}
+                  }
+                }
+              ]
+            },
+            {
+              "content": {
+                "asset": "cypress",
+                "type": "asset",
+                "receiveShadow": true,
+                "castShadow": true
+              },
+              "id": "gardens/cypres--23-7",
+              "name": "cypres--23-7",
+              "transform": {
+                "position": [
+                  -23,
+                  0,
+                  24
+                ]
+              },
+              "children": [
+                {
+                  "id": "gardens/cypres--23-7/collision",
+                  "name": "Collision cypres--23-7",
+                  "content": {
+                    "type": "asset",
+                    "asset": "cypressCollision",
+                    "castShadow": false,
+                    "receiveShadow": false
+                  },
+                  "components": {
+                    "StaticCollision": {}
+                  }
+                }
+              ]
+            },
+            {
+              "content": {
+                "asset": "cypress",
+                "type": "asset",
+                "receiveShadow": true,
+                "castShadow": true
+              },
+              "id": "gardens/cypres-23-0",
+              "name": "cypres-23-0",
+              "transform": {
+                "position": [
+                  23,
+                  0,
+                  -25
+                ]
+              },
+              "children": [
+                {
+                  "id": "gardens/cypres-23-0/collision",
+                  "name": "Collision cypres-23-0",
+                  "content": {
+                    "type": "asset",
+                    "asset": "cypressCollision",
+                    "castShadow": false,
+                    "receiveShadow": false
+                  },
+                  "components": {
+                    "StaticCollision": {}
+                  }
+                }
+              ]
+            },
+            {
+              "content": {
+                "asset": "cypress",
+                "type": "asset",
+                "receiveShadow": true,
+                "castShadow": true
+              },
+              "id": "gardens/cypres-23-1",
+              "name": "cypres-23-1",
+              "transform": {
+                "position": [
+                  23,
+                  0,
+                  -18
+                ]
+              },
+              "children": [
+                {
+                  "id": "gardens/cypres-23-1/collision",
+                  "name": "Collision cypres-23-1",
+                  "content": {
+                    "type": "asset",
+                    "asset": "cypressCollision",
+                    "castShadow": false,
+                    "receiveShadow": false
+                  },
+                  "components": {
+                    "StaticCollision": {}
+                  }
+                }
+              ]
+            },
+            {
+              "content": {
+                "asset": "cypress",
+                "type": "asset",
+                "receiveShadow": true,
+                "castShadow": true
+              },
+              "id": "gardens/cypres-23-2",
+              "name": "cypres-23-2",
+              "transform": {
+                "position": [
+                  23,
+                  0,
+                  -11
+                ]
+              },
+              "children": [
+                {
+                  "id": "gardens/cypres-23-2/collision",
+                  "name": "Collision cypres-23-2",
+                  "content": {
+                    "type": "asset",
+                    "asset": "cypressCollision",
+                    "castShadow": false,
+                    "receiveShadow": false
+                  },
+                  "components": {
+                    "StaticCollision": {}
+                  }
+                }
+              ]
+            },
+            {
+              "content": {
+                "asset": "cypress",
+                "type": "asset",
+                "receiveShadow": true,
+                "castShadow": true
+              },
+              "id": "gardens/cypres-23-3",
+              "name": "cypres-23-3",
+              "transform": {
+                "position": [
+                  23,
+                  0,
+                  -4
+                ]
+              },
+              "children": [
+                {
+                  "id": "gardens/cypres-23-3/collision",
+                  "name": "Collision cypres-23-3",
+                  "content": {
+                    "type": "asset",
+                    "asset": "cypressCollision",
+                    "castShadow": false,
+                    "receiveShadow": false
+                  },
+                  "components": {
+                    "StaticCollision": {}
+                  }
+                }
+              ]
+            },
+            {
+              "content": {
+                "asset": "cypress",
+                "type": "asset",
+                "receiveShadow": true,
+                "castShadow": true
+              },
+              "id": "gardens/cypres-23-4",
+              "name": "cypres-23-4",
+              "transform": {
+                "position": [
+                  23,
+                  0,
+                  3
+                ]
+              },
+              "children": [
+                {
+                  "id": "gardens/cypres-23-4/collision",
+                  "name": "Collision cypres-23-4",
+                  "content": {
+                    "type": "asset",
+                    "asset": "cypressCollision",
+                    "castShadow": false,
+                    "receiveShadow": false
+                  },
+                  "components": {
+                    "StaticCollision": {}
+                  }
+                }
+              ]
+            },
+            {
+              "content": {
+                "asset": "cypress",
+                "type": "asset",
+                "receiveShadow": true,
+                "castShadow": true
+              },
+              "id": "gardens/cypres-23-5",
+              "name": "cypres-23-5",
+              "transform": {
+                "position": [
+                  23,
+                  0,
+                  10
+                ]
+              },
+              "children": [
+                {
+                  "id": "gardens/cypres-23-5/collision",
+                  "name": "Collision cypres-23-5",
+                  "content": {
+                    "type": "asset",
+                    "asset": "cypressCollision",
+                    "castShadow": false,
+                    "receiveShadow": false
+                  },
+                  "components": {
+                    "StaticCollision": {}
+                  }
+                }
+              ]
+            },
+            {
+              "content": {
+                "asset": "cypress",
+                "type": "asset",
+                "receiveShadow": true,
+                "castShadow": true
+              },
+              "id": "gardens/cypres-23-6",
+              "name": "cypres-23-6",
+              "transform": {
+                "position": [
+                  23,
+                  0,
+                  17
+                ]
+              },
+              "children": [
+                {
+                  "id": "gardens/cypres-23-6/collision",
+                  "name": "Collision cypres-23-6",
+                  "content": {
+                    "type": "asset",
+                    "asset": "cypressCollision",
+                    "castShadow": false,
+                    "receiveShadow": false
+                  },
+                  "components": {
+                    "StaticCollision": {}
+                  }
+                }
+              ]
+            },
+            {
+              "content": {
+                "asset": "cypress",
+                "type": "asset",
+                "receiveShadow": true,
+                "castShadow": true
+              },
+              "id": "gardens/cypres-23-7",
+              "name": "cypres-23-7",
+              "transform": {
+                "position": [
+                  23,
+                  0,
+                  24
+                ]
+              },
+              "children": [
+                {
+                  "id": "gardens/cypres-23-7/collision",
+                  "name": "Collision cypres-23-7",
+                  "content": {
+                    "type": "asset",
+                    "asset": "cypressCollision",
+                    "castShadow": false,
+                    "receiveShadow": false
+                  },
+                  "components": {
+                    "StaticCollision": {}
+                  }
+                }
+              ]
+            },
+            {
+              "content": {
+                "asset": "urn",
+                "type": "asset",
+                "receiveShadow": true,
+                "castShadow": true
+              },
+              "id": "gardens/vasque--7--19",
+              "name": "vasque--7--19",
+              "transform": {
+                "position": [
+                  -7,
+                  0,
+                  -19
+                ]
+              },
+              "children": [
+                {
+                  "id": "gardens/vasque--7--19/collision",
+                  "name": "Collision vasque--7--19",
+                  "content": {
+                    "type": "asset",
+                    "asset": "urnCollision",
+                    "castShadow": false,
+                    "receiveShadow": false
+                  },
+                  "components": {
+                    "StaticCollision": {}
+                  }
+                }
+              ]
+            },
+            {
+              "content": {
+                "asset": "urn",
+                "type": "asset",
+                "receiveShadow": true,
+                "castShadow": true
+              },
+              "id": "gardens/vasque--7-20",
+              "name": "vasque--7-20",
+              "transform": {
+                "position": [
+                  -7,
+                  0,
+                  20
+                ]
+              },
+              "children": [
+                {
+                  "id": "gardens/vasque--7-20/collision",
+                  "name": "Collision vasque--7-20",
+                  "content": {
+                    "type": "asset",
+                    "asset": "urnCollision",
+                    "castShadow": false,
+                    "receiveShadow": false
+                  },
+                  "components": {
+                    "StaticCollision": {}
+                  }
+                }
+              ]
+            },
+            {
+              "content": {
+                "asset": "urn",
+                "type": "asset",
+                "receiveShadow": true,
+                "castShadow": true
+              },
+              "id": "gardens/vasque-7--19",
+              "name": "vasque-7--19",
+              "transform": {
+                "position": [
+                  7,
+                  0,
+                  -19
+                ]
+              },
+              "children": [
+                {
+                  "id": "gardens/vasque-7--19/collision",
+                  "name": "Collision vasque-7--19",
+                  "content": {
+                    "type": "asset",
+                    "asset": "urnCollision",
+                    "castShadow": false,
+                    "receiveShadow": false
+                  },
+                  "components": {
+                    "StaticCollision": {}
+                  }
+                }
+              ]
+            },
+            {
+              "content": {
+                "asset": "urn",
+                "type": "asset",
+                "receiveShadow": true,
+                "castShadow": true
+              },
+              "id": "gardens/vasque-7-20",
+              "name": "vasque-7-20",
+              "transform": {
+                "position": [
+                  7,
+                  0,
+                  20
+                ]
+              },
+              "children": [
+                {
+                  "id": "gardens/vasque-7-20/collision",
+                  "name": "Collision vasque-7-20",
+                  "content": {
+                    "type": "asset",
+                    "asset": "urnCollision",
+                    "castShadow": false,
+                    "receiveShadow": false
+                  },
+                  "components": {
+                    "StaticCollision": {}
+                  }
+                }
+              ]
+            },
+            {
+              "content": {
+                "asset": "bench",
+                "type": "asset",
+                "receiveShadow": true,
+                "castShadow": false
+              },
+              "id": "gardens/banc--6.2--4.5",
+              "name": "banc--6.2--4.5",
+              "transform": {
+                "position": [
+                  -3.05,
+                  0.048,
+                  -8
+                ],
+                "rotationDeg": [
+                  0,
+                  90,
+                  0
+                ]
+              },
+              "children": [
+                {
+                  "id": "gardens/banc--6.2--4.5/collision",
+                  "name": "Collision banc--6.2--4.5",
+                  "content": {
+                    "type": "asset",
+                    "asset": "benchCollision",
+                    "castShadow": false,
+                    "receiveShadow": false
+                  },
+                  "components": {
+                    "StaticCollision": {}
+                  }
+                }
+              ]
+            },
+            {
+              "content": {
+                "asset": "bench",
+                "type": "asset",
+                "receiveShadow": true,
+                "castShadow": false
+              },
+              "id": "gardens/banc--6.2-4.5",
+              "name": "banc--6.2-4.5",
+              "transform": {
+                "position": [
+                  -3.05,
+                  0.048,
+                  8
+                ],
+                "rotationDeg": [
+                  0,
+                  90,
+                  0
+                ]
+              },
+              "children": [
+                {
+                  "id": "gardens/banc--6.2-4.5/collision",
+                  "name": "Collision banc--6.2-4.5",
+                  "content": {
+                    "type": "asset",
+                    "asset": "benchCollision",
+                    "castShadow": false,
+                    "receiveShadow": false
+                  },
+                  "components": {
+                    "StaticCollision": {}
+                  }
+                }
+              ]
+            },
+            {
+              "content": {
+                "asset": "bench",
+                "type": "asset",
+                "receiveShadow": true,
+                "castShadow": false
+              },
+              "id": "gardens/banc-6.2--4.5",
+              "name": "banc-6.2--4.5",
+              "transform": {
+                "position": [
+                  3.05,
+                  0.048,
+                  -8
+                ],
+                "rotationDeg": [
+                  0,
+                  -90,
+                  0
+                ]
+              },
+              "children": [
+                {
+                  "id": "gardens/banc-6.2--4.5/collision",
+                  "name": "Collision banc-6.2--4.5",
+                  "content": {
+                    "type": "asset",
+                    "asset": "benchCollision",
+                    "castShadow": false,
+                    "receiveShadow": false
+                  },
+                  "components": {
+                    "StaticCollision": {}
+                  }
+                }
+              ]
+            },
+            {
+              "content": {
+                "asset": "bench",
+                "type": "asset",
+                "receiveShadow": true,
+                "castShadow": false
+              },
+              "id": "gardens/banc-6.2-4.5",
+              "name": "banc-6.2-4.5",
+              "transform": {
+                "position": [
+                  3.05,
+                  0.048,
+                  8
+                ],
+                "rotationDeg": [
+                  0,
+                  -90,
+                  0
+                ]
+              },
+              "children": [
+                {
+                  "id": "gardens/banc-6.2-4.5/collision",
+                  "name": "Collision banc-6.2-4.5",
+                  "content": {
+                    "type": "asset",
+                    "asset": "benchCollision",
+                    "castShadow": false,
+                    "receiveShadow": false
+                  },
+                  "components": {
+                    "StaticCollision": {}
+                  }
+                }
+              ]
+            }
+          ],
+          "content": {
+            "type": "group"
+          },
+          "id": "gardens"
+        },
+        {
+          "children": [
+            {
+              "content": {
+                "asset": "basin",
+                "type": "asset",
+                "receiveShadow": true,
+                "castShadow": true
+              },
+              "id": "fountain/basin",
+              "name": "basin",
+              "transform": {
+                "position": [
+                  0,
+                  0,
+                  0
+                ]
+              },
+              "components": {},
+              "children": [
+                {
+                  "id": "fountain/basin/collision",
+                  "name": "Collision basin",
+                  "content": {
+                    "type": "asset",
+                    "asset": "basinCollision",
+                    "castShadow": false,
+                    "receiveShadow": false
+                  },
+                  "components": {
+                    "StaticCollision": {}
+                  }
+                }
+              ]
+            },
+            {
+              "components": {
+                "FountainWater": {}
+              },
+              "content": {
+                "asset": "water",
+                "type": "asset",
+                "receiveShadow": true,
+                "castShadow": false
+              },
+              "id": "fountain/water",
+              "name": "water",
+              "transform": {
+                "position": [
+                  0,
+                  0,
+                  0
+                ]
+              }
+            },
+            {
+              "components": {
+                "WaterJet": {
+                  "kind": 1,
+                  "phase": 0
+                }
+              },
+              "content": {
+                "asset": "centralJet",
+                "type": "asset",
+                "receiveShadow": true,
+                "castShadow": false
+              },
+              "id": "fountain/jet-central",
+              "name": "jet-central",
+              "transform": {
+                "position": [
+                  0,
+                  0,
+                  0
+                ]
+              }
+            },
+            {
+              "components": {
+                "WaterJet": {
+                  "kind": 0,
+                  "phase": 0
+                }
+              },
+              "content": {
+                "asset": "lateralJet",
+                "type": "asset",
+                "receiveShadow": true,
+                "castShadow": false
+              },
+              "id": "fountain/jet-lateral-1",
+              "name": "jet-lateral-1",
+              "transform": {
+                "position": [
+                  3.1,
+                  0,
+                  0
+                ],
+                "rotationDeg": [
+                  0,
+                  0,
+                  0
+                ]
+              }
+            },
+            {
+              "components": {
+                "WaterJet": {
+                  "kind": 0,
+                  "phase": 0
+                }
+              },
+              "content": {
+                "asset": "lateralJet",
+                "type": "asset",
+                "receiveShadow": true,
+                "castShadow": false
+              },
+              "id": "fountain/jet-lateral-2",
+              "name": "jet-lateral-2",
+              "transform": {
+                "position": [
+                  1.5500000000000005,
+                  0,
+                  2.68467875173176
+                ],
+                "rotationDeg": [
+                  0,
+                  -60,
+                  0
+                ]
+              }
+            },
+            {
+              "components": {
+                "WaterJet": {
+                  "kind": 0,
+                  "phase": 0
+                }
+              },
+              "content": {
+                "asset": "lateralJet",
+                "type": "asset",
+                "receiveShadow": true,
+                "castShadow": false
+              },
+              "id": "fountain/jet-lateral-3",
+              "name": "jet-lateral-3",
+              "transform": {
+                "position": [
+                  -1.5499999999999994,
+                  0,
+                  2.68467875173176
+                ],
+                "rotationDeg": [
+                  0,
+                  -120,
+                  0
+                ]
+              }
+            },
+            {
+              "components": {
+                "WaterJet": {
+                  "kind": 0,
+                  "phase": 0
+                }
+              },
+              "content": {
+                "asset": "lateralJet",
+                "type": "asset",
+                "receiveShadow": true,
+                "castShadow": false
+              },
+              "id": "fountain/jet-lateral-4",
+              "name": "jet-lateral-4",
+              "transform": {
+                "position": [
+                  -3.1,
+                  0,
+                  3.796405077356795e-16
+                ],
+                "rotationDeg": [
+                  0,
+                  -180,
+                  0
+                ]
+              }
+            },
+            {
+              "components": {
+                "WaterJet": {
+                  "kind": 0,
+                  "phase": 0
+                }
+              },
+              "content": {
+                "asset": "lateralJet",
+                "type": "asset",
+                "receiveShadow": true,
+                "castShadow": false
+              },
+              "id": "fountain/jet-lateral-5",
+              "name": "jet-lateral-5",
+              "transform": {
+                "position": [
+                  -1.5500000000000014,
+                  0,
+                  -2.6846787517317594
+                ],
+                "rotationDeg": [
+                  0,
+                  -240,
+                  0
+                ]
+              }
+            },
+            {
+              "components": {
+                "WaterJet": {
+                  "kind": 0,
+                  "phase": 0
+                }
+              },
+              "content": {
+                "asset": "lateralJet",
+                "type": "asset",
+                "receiveShadow": true,
+                "castShadow": false
+              },
+              "id": "fountain/jet-lateral-6",
+              "name": "jet-lateral-6",
+              "transform": {
+                "position": [
+                  1.5500000000000005,
+                  0,
+                  -2.68467875173176
+                ],
+                "rotationDeg": [
+                  0,
+                  -300,
+                  0
+                ]
+              }
+            }
+          ],
+          "content": {
+            "type": "group"
+          },
+          "id": "fountain"
+        },
+        {
+          "id": "royal-enclosure",
+          "name": "Enceinte et portail royaux",
+          "children": [
+            {
+              "id": "royal-enclosure/gate",
+              "name": "Grand portail royal",
+              "content": {
+                "type": "asset",
+                "asset": "royalGate",
+                "castShadow": false,
+                "receiveShadow": true
+              },
+              "transform": {
+                "position": [
+                  0,
+                  0,
+                  0
+                ]
+              }
+            },
+            {
+              "id": "royal-enclosure/fence",
+              "name": "Clotures en fer forge ornees",
+              "content": {
+                "type": "asset",
+                "asset": "royalFence",
+                "castShadow": false,
+                "receiveShadow": true
+              },
+              "transform": {
+                "position": [
+                  0,
+                  0,
+                  0
+                ]
+              }
+            },
+            {
+              "id": "royal-enclosure/collision",
+              "name": "Collision enceinte et vantaux",
+              "content": {
+                "type": "asset",
+                "asset": "royalEnclosureCollision",
+                "castShadow": false,
+                "receiveShadow": true
+              },
+              "transform": {
+                "position": [
+                  0,
+                  0,
+                  0
+                ]
+              },
+              "components": {
+                "StaticCollision": {}
+              }
+            },
+            {
+              "id": "royal-enclosure/approach",
+              "name": "Gravier sous le portail",
+              "content": {
+                "type": "asset",
+                "asset": "royalGateApproach",
+                "castShadow": false,
+                "receiveShadow": true
+              },
+              "transform": {
+                "position": [
+                  0,
+                  0,
+                  0
+                ]
+              },
+              "children": [
+                {
+                  "id": "royal-enclosure/approach/collision",
+                  "name": "Collision raccord gravier",
+                  "content": {
+                    "type": "asset",
+                    "asset": "pathCollision",
+                    "castShadow": false,
+                    "receiveShadow": true
+                  },
+                  "transform": {
+                    "position": [
+                      0,
+                      0.008,
+                      29
+                    ],
+                    "scale": [
+                      7,
+                      1,
+                      4
+                    ]
+                  },
+                  "components": {
+                    "StaticCollision": {}
+                  }
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "coach-return",
+      "name": "Retour en carrosse",
+      "content": {
+        "type": "asset",
+        "asset": "coachPortal",
+        "castShadow": false
+      },
+      "transform": {
+        "position": [
+          100,
+          0,
+          -65.5
+        ],
+        "rotationDeg": [
+          0,
+          0,
+          0
+        ]
+      },
+      "components": {
+        "CoachPortal": {
+          "destination": "arrival"
+        }
+      }
+    }
+  ]
+}
