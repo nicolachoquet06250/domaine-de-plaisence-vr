@@ -1,0 +1,189 @@
+"""Royal wrought iron perimeter and circular gravel junction. Local Blender MCP."""
+import bpy, bmesh, math, json
+import numpy as np
+from pathlib import Path
+from mathutils import Vector
+ROOT=Path('C:/Users/nicol/Documents/workspaces/vr-workspace/test-meta-web-sdk-update')
+OUT=ROOT/'public/gltf/royal-enclosure';OUT.mkdir(parents=True,exist_ok=True)
+EVID=ROOT/'artifacts/royal-enclosure'
+scene=bpy.data.scenes.new('Portail royal - ferronnerie et raccord du chemin');bpy.context.window.scene=scene
+stats={}
+def mat(name,color,metal,rough):
+ m=bpy.data.materials.new(name);m.use_nodes=True;p=next(n for n in m.node_tree.nodes if n.type=='BSDF_PRINCIPLED')
+ p.inputs['Base Color'].default_value=(*color,1);p.inputs['Metallic'].default_value=metal;p.inputs['Roughness'].default_value=rough
+ return m
+iron=mat('Fer forge noir patine',(.028,.041,.037),.78,.33)
+gold=mat('Dorure royale a la feuille',(.83,.52,.15),.86,.25)
+stone=mat('Calcaire des piliers moulures',(.64,.59,.48),0,.75)
+dark=mat('Blason email bleu royal',(.025,.08,.16),.3,.29)
+materials=[iron,gold,stone,dark]
+
+class Builder:
+ def __init__(self,name):self.name=name;self.v=[];self.f=[];self.mi=[]
+ def add(self,v,f,material,transform=lambda p:p):
+  off=len(self.v);self.v.extend(transform(p) for p in v);self.f.extend(tuple(off+i for i in face) for face in f);self.mi.extend([material]*len(f))
+ def box(self,x,y,z,w,h,d,material=0,transform=lambda p:p):
+  v=[(x+sx*w/2,y+sy*h/2,z+sz*d/2) for sx,sy,sz in [(-1,-1,-1),(1,-1,-1),(1,1,-1),(-1,1,-1),(-1,-1,1),(1,-1,1),(1,1,1),(-1,1,1)]]
+  self.add(v,[(0,3,2,1),(4,5,6,7),(0,1,5,4),(3,7,6,2),(0,4,7,3),(1,2,6,5)],material,transform)
+ def tube(self,points,radius,material=0,sides=5,transform=lambda p:p):
+  v=[];f=[]
+  for j,p in enumerate(points):
+   p=Vector(p);t=(Vector(points[min(j+1,len(points)-1)])-Vector(points[max(0,j-1)])).normalized();u=t.cross(Vector((0,0,1)))
+   if u.length<.01:u=t.cross(Vector((0,1,0)))
+   u.normalize();w=t.cross(u)
+   for i in range(sides):v.append(tuple(p+radius*(u*math.cos(i*math.tau/sides)+w*math.sin(i*math.tau/sides))))
+  for j in range(len(points)-1):
+   for i in range(sides):a=j*sides+i;b=j*sides+(i+1)%sides;f.append((a,b,b+sides,a+sides))
+  f.extend([tuple(reversed(range(sides))),tuple((len(points)-1)*sides+i for i in range(sides))]);self.add(v,f,material,transform)
+ def outline(self,points,depth,material=1,transform=lambda p:p):
+  # Extruded planar silhouette; Blender triangulates the concave fleur-de-lys.
+  n=len(points);v=[(x,y,z) for z in [-depth/2,depth/2] for x,y in points]
+  f=[tuple(reversed(range(n))),tuple(range(n,n*2))]+[(i,(i+1)%n,(i+1)%n+n,i+n) for i in range(n)]
+  self.add(v,f,material,transform)
+ def fleur(self,x,y,z,h,transform=lambda p:p):
+  outline=[(0,1),(.13,.72),(.10,.45),(.29,.72),(.48,.65),(.5,.44),(.34,.3),(.2,.33),(.26,.46),(.18,.48),(.09,.22),(.26,.20),(.26,.11),(.09,.1),(.17,0),(0,.06),(-.17,0),(-.09,.1),(-.26,.11),(-.26,.2),(-.09,.22),(-.18,.48),(-.26,.46),(-.2,.33),(-.34,.3),(-.5,.44),(-.48,.65),(-.29,.72),(-.1,.45),(-.13,.72)]
+  self.outline([(x+a*h,y+b*h) for a,b in outline],.065 if h>.4 else .035,1,lambda p:transform((p[0],p[1],p[2]+z)))
+ def scroll(self,x,y,z,scale,flip=1,transform=lambda p:p,material=0):
+  points=[]
+  for i in range(19):
+   a=-math.pi*.55+i/18*math.pi*2.05;r=scale*(1-i/18*.85)
+   points.append((x+flip*math.cos(a)*r,y+math.sin(a)*r,z))
+  self.tube(points,.024 if scale<.5 else .038,material,5,transform)
+ def mesh(self):
+  data=bpy.data.meshes.new(self.name);data.from_pydata([(x,-z,y) for x,y,z in self.v],[],self.f)
+  for m in materials:data.materials.append(m)
+  for p,mi in zip(data.polygons,self.mi):p.material_index=mi
+  bm=bmesh.new();bm.from_mesh(data);bmesh.ops.recalc_face_normals(bm,faces=list(bm.faces));bm.to_mesh(data);bm.free();data.validate();data.update()
+  obj=bpy.data.objects.new(self.name,data);scene.collection.objects.link(obj);return obj
+
+def export(name,objects):
+ bpy.ops.object.select_all(action='DESELECT')
+ for obj in objects:obj.hide_set(False);obj.select_set(True)
+ bpy.context.view_layer.objects.active=objects[0]
+ bpy.ops.export_scene.gltf(filepath=str(OUT/(name+'.glb')),export_format='GLB',use_selection=True,use_active_scene=True,export_animations=False,export_image_format='AUTO')
+ for obj in objects:obj.data.calc_loop_triangles()
+ stats[name]={'triangles':sum(len(obj.data.loop_triangles) for obj in objects),'bytes':(OUT/(name+'.glb')).stat().st_size}
+
+gate=Builder('Portail royal - couronne fleurs de lys et volutes')
+for side in [-1,1]:
+ x=side*6
+ # Stepped plinth, pilaster, inset panels and multiple projecting cornices.
+ for y,w,h,d in [(.14,1.75,.28,1.65),(.38,1.55,.2,1.45),(2.9,1.3,4.85,1.25),(5.35,1.55,.18,1.45),(5.55,1.72,.2,1.62),(5.75,1.48,.2,1.38)]:gate.box(x,y,30,w,h,d,2)
+ for yy in [1.1,3,4.8]:
+  gate.box(x,yy,30.645,.89,.10,.055,1)
+ for xx in [-.49,.49]:gate.box(x+xx,2.95,30.64,.08,4.0,.07,2)
+ gate.fleur(x,2.1,30.68,.92)
+ gate.tube([(x+.40*math.cos(a),5.96,30+.40*math.sin(a)) for a in np.linspace(0,math.tau,25)],.08,1,6)
+ for flip in [-1,1]:gate.scroll(x+flip*.17,6.2,30,.35,flip,material=1)
+ gate.fleur(x,6.2,30,.7)
+ # Both leaves stay open, leaving more than seven metres of clear passage.
+ def leaf(p,s=side):
+  t,y,z=p;return (s*(5.3-t*math.cos(math.radians(78))),y,30-t*math.sin(math.radians(78))+z)
+ for t in [0,5.2]:gate.box(t,2.55,0,.13,4.8,.14,0,leaf)
+ for yy in [.35,.7,1.32]:gate.box(2.6,yy,0,5.2,.10,.12,0,leaf)
+ gate.tube([(t,4.6+.6*math.sin(t/5.2*math.pi/2),0) for t in np.linspace(0,5.2,30)],.085,0,6,leaf)
+ gate.tube([(t,4.83+.6*math.sin(t/5.2*math.pi/2),0) for t in np.linspace(0,5.2,30)],.035,1,5,leaf)
+ for t in np.linspace(.27,4.93,18):
+  top=4.6+.6*math.sin(t/5.2*math.pi/2);gate.box(t,(top+.4)/2,0,.049,top-.4,.06,0,leaf);gate.fleur(t,top,.0,.33,leaf)
+ for t in [.7,1.65,2.6,3.55,4.5]:
+  for flip in [-1,1]:gate.scroll(t+flip*.16,1.0,.045,.26,flip,leaf,1)
+ for t in [1.1,4.1]:
+  for yy in [2.05,3.45]:
+   for flip in [-1,1]:gate.scroll(t+flip*.25,yy,.07,.49,flip,leaf)
+ gate.tube([(2.6+.65*math.cos(a),2.8+1.0*math.sin(a),.12) for a in np.linspace(0,math.tau,37)],.055,1,6,leaf)
+ gate.fleur(2.6,2.18,.17,1.24,leaf)
+ for yy in [.6,2.5,4.25]:gate.box(-.03,yy,0,.24,.24,.25,1,leaf)
+
+# Permanent arched overthrow, visible above the open leaves.
+for dy,ma,r in [(0,0,.085),(.25,1,.045),(-.28,0,.045)]:
+ gate.tube([(x,5.45+1.35*(1-(x/5.3)**2)+dy,30) for x in np.linspace(-5.3,5.3,65)],r,ma,6)
+for x in np.linspace(-5.0,5.0,23):
+ h=5.45+1.35*(1-(x/5.3)**2);gate.fleur(x,h+.22,30,.38)
+for side in [-1,1]:
+ for x in [1.6,2.65,3.7,4.6]:gate.scroll(side*x,5.3+1.22*(1-(x/5.3)**2),30,.34,side,material=1)
+gate.outline([(.0,5.86),(.67,6.28),(.65,7.21),(-.65,7.21),(-.67,6.28)],.13,3,lambda p:(p[0],p[1],p[2]+30.16))
+gate.tube([(.0,5.86,30.25),(.67,6.28,30.25),(.65,7.21,30.25),(-.65,7.21,30.25),(-.67,6.28,30.25),(.0,5.86,30.25)],.047,1,6)
+gate.fleur(0,6.15,30.31,.88)
+# Three-dimensional crown: two circlets, raised ribs, fleur points, orb and cross.
+for yy in [7.35,7.55]:gate.tube([(.79*math.cos(a),yy,30+.34*math.sin(a)) for a in np.linspace(0,math.tau,33)],.065,1,6)
+for angle in np.linspace(0,math.tau,9)[:-1]:
+ gate.tube([(.78*math.cos(angle)*math.cos(t),7.53+.73*math.sin(t),30+.34*math.sin(angle)*math.cos(t)) for t in np.linspace(0,math.pi/2,13)],.046,1,5)
+ gate.fleur(.78*math.cos(angle),7.5,30+.34*math.sin(angle),.34)
+gate.box(0,8.33,30,.11,.38,.11,1);gate.box(0,8.39,30,.36,.09,.10,1)
+gate_obj=gate.mesh();export('royalGate',[gate_obj])
+
+fence=Builder('Enceinte complete - fer forge et couronnements dores')
+segments=[((-30,-40),(30,-40)),((-30,-40),(-30,30)),((30,-40),(30,30)),((-30,30),(-6.68,30)),((6.68,30),(30,30))]
+panel_count=0
+for start,end in segments:
+ length=math.dist(start,end);count=round(length/3);step=length/count;dx=(end[0]-start[0])/length;dz=(end[1]-start[1])/length
+ def line(p):x,y,z=p;return(start[0]+dx*x-dz*z,y,start[1]+dz*x+dx*z)
+ fence.box(length/2,.2,0,length,.4,.58,2,line);fence.box(length/2,.43,0,length,.10,.70,2,line)
+ for i in range(count+1):
+  x=i*step;fence.box(x,2.18,0,.15,3.5,.17,0,line)
+  for yy in [.7,3.45,3.86]:fence.box(x,yy,0,.22,.10,.24,1,line)
+  fence.fleur(x,3.91,0,.36,line)
+ for i in range(count):
+  panel_count+=1;x=i*step
+  for yy in [.74,1.17,3.28]:fence.box(x+step/2,yy,0,step,.065,.08,0,line)
+  for t in np.linspace(.25,step-.25,10):
+   fence.box(x+t,1.98,0,.043,2.52,.05,0,line);fence.fleur(x+t,3.27,0,.32,line)
+  for flip in [-1,1]:
+   fence.scroll(x+step/2+flip*.37,3.58,0,.40,flip,line,1)
+   fence.scroll(x+step/2+flip*.35,.97,0,.25,flip,line)
+  fence.tube([(x+t,3.49+.25*math.sin(t/step*math.pi),0) for t in np.linspace(0,step,13)],.028,0,5,line)
+  fence.fleur(x+step/2,3.76,0,.48,line)
+fence_obj=fence.mesh();bpy.context.view_layer.objects.active=fence_obj
+mod=fence_obj.modifiers.new('Optimisation des surfaces et volutes','DECIMATE');mod.ratio=.6;bpy.ops.object.modifier_apply(modifier=mod.name);fence_obj.data.validate()
+export('royalFence',[fence_obj])
+for name,obj,ratio in [('royalGateFar',gate_obj,.5),('royalFenceFar',fence_obj,.4)]:
+ clone=obj.copy();clone.data=obj.data.copy();scene.collection.objects.link(clone);bpy.context.view_layer.objects.active=clone
+ mod=clone.modifiers.new('Details lointains','DECIMATE');mod.ratio=ratio;bpy.ops.object.modifier_apply(modifier=mod.name);clone.data.validate();export(name,[clone]);clone.hide_render=True;clone.hide_set(True)
+
+# The exact existing gravel material and its physical UV density.
+previous=set(scene.objects);bpy.ops.import_scene.gltf(filepath=str(ROOT/'public/gltf/garden/pathLong.glb'));loaded=[o for o in scene.objects if o not in previous]
+source=next(o for o in loaded if o.type=='MESH');source.update_tag();bpy.context.view_layer.update()
+gravel=source.data.materials[0];coords=[];uv=[]
+for face in source.data.polygons:
+ if face.normal.z>.8:
+  for li in face.loop_indices:
+   p=source.matrix_world@source.data.vertices[source.data.loops[li].vertex_index].co
+   coords.append([p.x*7,-p.y*54,1]);uv.append(tuple(source.data.uv_layers.active.data[li].uv))
+assert len(coords)>=3,'top UV reference missing'
+uv_map=np.linalg.lstsq(np.array(coords),np.array(uv),rcond=None)[0]
+control=[(8.025,0),(13,0),(20,-5),(29,-2),(43,-12),(53,-26),(70,-23),(88,-35),(100,-49),(100,-68)]
+samples=[]
+for k in range(len(control)-1):
+ p0=np.array(control[max(0,k-1)]);p1=np.array(control[k]);p2=np.array(control[k+1]);p3=np.array(control[min(len(control)-1,k+2)])
+ for j in range(24):
+  t=j/24;p=.5*((2*p1)+(-p0+p2)*t+(2*p0-5*p1+4*p2-p3)*t*t+(-p0+3*p1-3*p2+p3)*t*t*t);samples.append(tuple(p))
+samples.append(control[-1]);verts=[];faces=[];across=17
+for i,(x,z) in enumerate(samples):
+ tangent=Vector(samples[min(i+1,len(samples)-1)])-Vector(samples[max(0,i-1)]);tangent.normalize();normal=Vector((-tangent.y,tangent.x))
+ width=3.6+3.4*max(0,min(1,(-z-51)/17))
+ for j in range(across):
+  s=(j/(across-1)-.5)*width;xx=x+normal.x*s;zz=z+normal.y*s
+  if x<10 and abs(z)<2:xx-=max(0,1-(x-8.025)/1.4)*(8.025-math.sqrt(8.025**2-s*s))
+  if i==0:xx=math.sqrt(8.025**2-s*s);zz=s
+  r=math.hypot(xx,zz)
+  if r<8.025:xx*=8.025/r;zz*=8.025/r
+  h=.048+.18*math.sin(math.pi*max(0,min(1,(r-8)/16)))**2
+  verts.append((xx,-zz,h))
+  if i and j:a=i*across+j;faces.append((a-across-1,a-across,a,a-1))
+data=bpy.data.meshes.new('Chemin ajuste au cercle et gravier du chateau');data.from_pydata(verts,[],faces);data.materials.append(gravel)
+bm=bmesh.new();bm.from_mesh(data);bmesh.ops.recalc_face_normals(bm,faces=list(bm.faces));bm.to_mesh(data);bm.free();data.update();layer=data.uv_layers.new()
+for face in data.polygons:
+ for li in face.loop_indices:
+  p=data.vertices[data.loops[li].vertex_index].co;layer.data[li].uv=tuple(np.array([p.x-100,-p.y+95,1])@uv_map)
+path_obj=bpy.data.objects.new('Chemin tangent au cercle - gravier identique',data);scene.collection.objects.link(path_obj);export('arrivalPath',[path_obj])
+for o in loaded:bpy.data.objects.remove(o,do_unlink=True)
+
+# Matching short approach in the playable castle scene, from z=27 to the gate.
+data2=bpy.data.meshes.new('Raccord du portail a l allee axiale');data2.from_pydata([(-3.5,-27,.048),(3.5,-27,.048),(3.5,-31,.048),(-3.5,-31,.048)],[],[(0,3,2,1)]);data2.materials.append(gravel);data2.update();layer=data2.uv_layers.new()
+for li in data2.polygons[0].loop_indices:
+ p=data2.vertices[data2.loops[li].vertex_index].co;layer.data[li].uv=tuple(np.array([p.x,-p.y,1])@uv_map)
+approach=bpy.data.objects.new('Raccord gravier portail',data2);scene.collection.objects.link(approach);export('gateApproach',[approach])
+
+bpy.data.libraries.write(str(EVID/'portail-royal-et-enceinte.blend'),{scene},fake_user=True,compress=True)
+(EVID/'model-stats.json').write_text(json.dumps({'assets':stats,'panels':panel_count,'segments':segments,'gateHeight':8.52,'fenceHeight':4.27,'hinges':5.3,'leafLength':5.2,'openAngle':78,'circleRadius':8.025,'uvMap':uv_map.tolist(),'pathSamples':samples},indent=2))
+print('ROYAL ENCLOSURE COMPLETE',json.dumps(stats),'panels',panel_count)

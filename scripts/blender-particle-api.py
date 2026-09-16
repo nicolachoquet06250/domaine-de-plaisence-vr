@@ -1,0 +1,2 @@
+import bpy,json
+print(json.dumps({'method':str(bpy.types.ParticleHairKey.bl_rna.functions['co_object_set'].description),'params':[(p.identifier,p.description) for p in bpy.types.ParticleHairKey.bl_rna.functions['co_object_set'].parameters],'particle':[(p.identifier,p.is_readonly) for p in bpy.types.Particle.bl_rna.properties if 'hair' in p.identifier],'settings':[(p.identifier,p.type) for p in bpy.types.ParticleSettings.bl_rna.properties if any(t in p.identifier for t in ['root','tip','radius','hair','child'])]}))
