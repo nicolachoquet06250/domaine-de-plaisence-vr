@@ -1,0 +1,25 @@
+<style>
+ @font-face { font-family: "Pseudo"; src: url("../fonts/dm-sans-regular.ttf"); font-weight: 400; }
+ .arrival { width: 140; padding: 8; gap: 4; flex-direction: column; background-color: #f5efe0; border-radius: 3; border-width: 0.4; border-color: #b49759; }
+ .kicker { font-size: 3; color: #897044; }
+ .title { font-size: 7; font-weight: 700; color: #233e34; }
+ .body { font-size: 3.8; font-family: "Pseudo"; color: #536153; line-height: 1.3; }
+ .action { height: 13; background-color: #233e34; color: #f5efe0; border-radius: 2; align-items: center; justify-content: center; font-size: 4.5; font-family: "Pseudo"; cursor: pointer; }
+ .nickname { height: 12; padding: 3; font-size: 4.5; font-family: "Pseudo"; color: #233e34; background-color: #fffaf0; border-width: 0.3; border-color: #b49759; border-radius: 2; }
+ .choices { flex-direction: row; gap: 3; }
+ .choice { width: 60; height: 11; background-color: #e8dfca; color: #233e34; border-radius: 2; align-items: center; justify-content: center; font-size: 4; font-family: "Pseudo"; cursor: pointer; }
+</style>
+<div class="arrival" id="arrival-root">
+ <div class="kicker">DOMAINE DE PLAISANCE / ACCUEIL SOLO</div>
+ <div class="title">Bienvenue au domaine</div>
+ <div class="body">Prenez vos reperes. Vous etes seul ici, sans connexion au salon.</div>
+ <div class="body">Votre pseudo (24 caracteres maximum)</div>
+ <input class="nickname" id="arrival-nickname" placeholder="Votre pseudo" />
+ <div class="body">Choisissez votre personnage de cour</div>
+ <div class="choices"><button class="choice" id="arrival-avatar-male">Homme</button><button class="choice" id="arrival-avatar-female">Femme</button></div>
+ <button class="action" id="arrival-connect" style="display: none;">Partir en carrosse</button>
+ <div class="body" id="arrival-status">Choisissez votre pseudo et votre personnage, puis traversez le portail dore au portillon.</div>
+ <button class="action" id="enter-vr" style="display: none;"><span id="enter-vr-label">Entrer en VR</span></button>
+ <div class="body" id="vr-status" style="display: none;">Ouvrez ce lien dans le navigateur du casque.</div>
+ <div class="body">Reglages : M au clavier / B sur la manette droite.</div>
+</div>

@@ -1,0 +1,16 @@
+<style>
+ .coach-panel { width: 60; padding: 3; gap: 1.5; flex-direction: column; background-color: #17372c; border-width: 0.2; border-color: #c4a76a; border-radius: 2; }
+ .coach-title { font-size: 3.8; color: #f6e8c7; font-weight: 700; }
+ .coach-copy { font-size: 2.7; color: #eee3cb; }
+ .coach-actions { flex-direction: row; gap: 2; }
+ .coach-button { height: 7; width: 25; background-color: #e7d2a2; color: #20392e; align-items: center; justify-content: center; border-radius: 1; font-size: 3; }
+</style>
+<div id="coach-root" class="coach-panel">
+ <div id="coach-title" class="coach-title">En route vers le chateau</div>
+ <div id="coach-progress" class="coach-copy">Voyage en carrosse</div>
+ <div id="coach-status" class="coach-copy">Installez-vous. Vous pouvez regarder autour de vous.</div>
+ <div id="coach-actions" class="coach-actions" style="display: none;">
+  <button id="coach-retry" class="coach-button">Reessayer</button>
+  <button id="coach-return" class="coach-button">Retour accueil</button>
+ </div>
+</div>

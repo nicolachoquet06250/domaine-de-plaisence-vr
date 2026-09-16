@@ -1,0 +1,19 @@
+<style>
+ .panel { width: 310; padding: 20; background-color: #f5efe0; border-radius: 5; flex-direction: column; gap: 8; }
+ .eyebrow { font-size: 10; color: #897044; }
+ .title { font-size: 24; font-weight: 700; color: #233e34; }
+ .body { font-size: 12; color: #536153; line-height: 1.4; }
+ .rule { height: 1; background-color: #d6c9ad; margin-top: 4; margin-bottom: 4; }
+ .estate-vr-button { height: 48; margin-top: 6; background-color: #233e34; color: #f5efe0; border-radius: 4; justify-content: center; align-items: center; font-size: 18; font-weight: 700; cursor: pointer; }
+</style>
+<div class="panel" id="estate-root">
+ <div class="eyebrow">UN JARDIN EN PARTAGE</div>
+ <div class="title">Domaine de Plaisance</div>
+ <div class="body">Une promenade au fil de l'eau.</div>
+ <div class="rule"></div>
+ <div class="body">ZQSD / WASD : marcher. Glisser sur la vue pour regarder autour de soi.</div>
+ <div class="body">En VR : utilisez les joysticks.</div>
+ <div class="body">Confort : touche M / bouton B en VR.</div>
+ <button class="estate-vr-button" id="enter-vr" style="display: none;"><span id="enter-vr-label">Entrer en VR</span></button>
+ <div class="body" id="vr-status" style="display: none;">Ouvrez ce lien dans le navigateur du casque.</div>
+</div>

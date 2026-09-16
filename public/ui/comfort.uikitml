@@ -1,0 +1,35 @@
+<style>
+ .comfort-panel { width: 82; padding: 4; flex-direction: column; gap: 2; background-color: #f5efe0; border-color: #ac9463; border-width: 0.25; border-radius: 2; }
+ .comfort-eyebrow { font-size: 2.5; color: #897044; }
+ .comfort-title { font-size: 5; font-weight: 700; color: #233e34; }
+ .comfort-body { font-size: 3.1; color: #536153; line-height: 1.35; }
+ .comfort-value { font-size: 4.2; color: #233e34; font-weight: 700; }
+ .comfort-row { flex-direction: row; gap: 1; }
+ .comfort-choice { width: 14; height: 9; justify-content: center; align-items: center; border-width: 0.2; border-color: #8b805f; border-radius: 1; background-color: #e3dac5; color: #233e34; font-size: 3.5; cursor: pointer; }
+ .comfort-close { height: 8; justify-content: center; align-items: center; border-radius: 1; background-color: #233e34; color: #f5efe0; font-size: 3.5; cursor: pointer; }
+</style>
+<div class="comfort-panel" id="comfort-root">
+ <div class="comfort-eyebrow">DOMAINE DE PLAISANCE</div>
+ <div class="comfort-title">Confort de visite</div>
+ <div class="comfort-body">Effet tunnel pendant les mouvements</div>
+ <div class="comfort-value" id="comfort-value">Intensite : 50 %</div>
+ <div class="comfort-row">
+  <button class="comfort-choice" id="comfort-0">0 %</button>
+  <button class="comfort-choice" id="comfort-25">25 %</button>
+  <button class="comfort-choice" id="comfort-50">50 %</button>
+  <button class="comfort-choice" id="comfort-75">75 %</button>
+  <button class="comfort-choice" id="comfort-100">100 %</button>
+ </div>
+ <div class="comfort-body">0 % : aucun effet. 100 % : effet maximal.</div>
+ <div class="comfort-body" id="comfort-saved">Choix conserve sur cet appareil.</div>
+ <div id="comfort-voice" style="flex-direction: column; gap: 2;">
+ <div class="comfort-value">Voix de proximite</div>
+ <div class="comfort-body">Plus un visiteur est proche, plus sa voix est audible.</div>
+ <button class="comfort-close" id="comfort-microphone">Activer le micro</button>
+ <button class="comfort-close" id="comfort-listening">Ecouter les voix</button>
+ <div class="comfort-body" id="comfort-voice-status">Micro coupe</div>
+ </div>
+ <button class="comfort-close" id="comfort-session">Creer un salon et entrer</button>
+ <button class="comfort-close" id="comfort-close">Fermer</button>
+ <div class="comfort-body">M au clavier / B sur la manette droite</div>
+</div>
