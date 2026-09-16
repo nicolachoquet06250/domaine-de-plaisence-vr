@@ -1,0 +1,41 @@
+{
+  "name": "test-meta-web-sdk-update",
+  "version": "0.1.0",
+  "private": true,
+  "type": "module",
+  "scripts": {
+    "dev": "iwsdk dev up --open --foreground",
+    "dev:runtime": "vite",
+    "dev:down": "iwsdk dev down",
+    "dev:status": "iwsdk dev status",
+    "reference:status": "iwsdk reference status",
+    "reference:warmup": "iwsdk reference warmup",
+    "typecheck": "tsc --noEmit",
+    "build": "vite build",
+    "build:package": "rm -rf package && vite build && mkdir package && cp -r package.json package-lock.json dist server package/",
+    "build:package:ps1": "pwsh.exe -NoProfile -Command \"Remove-Item -Recurse -Force package; vite build && mkdir package; Copy-Item -Recurse package.json package/; Copy-Item -Recurse package-lock.json package/; Copy-Item -Recurse dist package/; Copy-Item -Recurse server package/\"",
+    "preview": "vite preview",
+    "start": "node server/start.mjs",
+    "test:rooms": "node --test tests/rooms.test.mjs"
+  },
+  "dependencies": {
+    "@iwsdk/core": "0.5.3",
+    "three": "npm:super-three@0.181.0",
+    "ws": "8.21.3"
+  },
+  "devDependencies": {
+    "@iwsdk/cli": "0.5.3",
+    "@iwsdk/reference": "0.5.3",
+    "@iwsdk/vite-plugin-dev": "0.5.3",
+    "@meta-quest/metavr": "^1.3.2",
+    "@types/three": "^0.181.0",
+    "typescript": "^5.5.0",
+    "vite": "^7.1.4"
+  },
+  "overrides": {
+    "sharp": "0.35.3"
+  },
+  "engines": {
+    "node": ">=20.19.0 <21.0.0-0 || >=22.12.0 <23.0.0-0 || >=24.0.0"
+  }
+}
