@@ -1,0 +1,12 @@
+{
+  "content": [
+    {
+      "type": "text",
+      "text": "Error executing code: Communication error with Blender: No data received"
+    }
+  ],
+  "structuredContent": {
+    "result": "Error executing code: Communication error with Blender: No data received"
+  },
+  "isError": false
+}

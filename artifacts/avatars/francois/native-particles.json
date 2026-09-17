@@ -1,0 +1,26 @@
+[
+  {
+    "name": "courtMale Particules Tour oreille dense.001",
+    "parents": 460,
+    "rootSurfaceGapMax": 9.47056250879541e-05,
+    "rootDriftMax": 3.747575384366301e-07,
+    "maxRootTipLength": 0.09695036923240975,
+    "dynamics": true
+  },
+  {
+    "name": "courtMale Particules Barbe continue Francois Ier",
+    "parents": 600,
+    "rootSurfaceGapMax": 0.0002502294664736837,
+    "rootDriftMax": 3.604185273983647e-07,
+    "maxRootTipLength": 0.004418481380421323,
+    "dynamics": true
+  },
+  {
+    "name": "courtFemale Particules Tour oreille dense",
+    "parents": 460,
+    "rootSurfaceGapMax": 0.00027632733690552413,
+    "rootDriftMax": 2.9461017361425856e-07,
+    "maxRootTipLength": 0.06657258035741517,
+    "dynamics": true
+  }
+]

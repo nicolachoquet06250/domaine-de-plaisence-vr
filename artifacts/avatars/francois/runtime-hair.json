@@ -1,0 +1,180 @@
+{
+  "before": [
+    {
+      "name": "Verification cheveux male",
+      "values": {
+        "roomId": "",
+        "nickname": "",
+        "avatar": "male",
+        "status": "hair-ready",
+        "visitorCount": 8220,
+        "serverTime": 0,
+        "microphone": "off",
+        "listening": false,
+        "voicePeers": 1,
+        "voiceError": "",
+        "bodyVisible": false,
+        "animation": "Idle",
+        "leftTracked": false,
+        "rightTracked": false,
+        "leftWrist": [
+          0,
+          0,
+          0
+        ],
+        "rightWrist": [
+          0,
+          0,
+          0
+        ],
+        "leftTarget": [
+          0,
+          0,
+          0
+        ],
+        "rightTarget": [
+          0,
+          0,
+          0
+        ],
+        "leftReachError": 0,
+        "rightReachError": 0.0004208786122035235,
+        "leftElbowFlex": 0.017928676679730415,
+        "rightElbowFlex": 0
+      }
+    },
+    {
+      "name": "Verification cheveux female",
+      "values": {
+        "roomId": "",
+        "nickname": "",
+        "avatar": "female",
+        "status": "hair-ready",
+        "visitorCount": 8220,
+        "serverTime": 0,
+        "microphone": "off",
+        "listening": false,
+        "voicePeers": 1,
+        "voiceError": "",
+        "bodyVisible": false,
+        "animation": "Idle",
+        "leftTracked": false,
+        "rightTracked": false,
+        "leftWrist": [
+          0,
+          0,
+          0
+        ],
+        "rightWrist": [
+          0,
+          0,
+          0
+        ],
+        "leftTarget": [
+          0,
+          0,
+          0
+        ],
+        "rightTarget": [
+          0,
+          0,
+          0
+        ],
+        "leftReachError": 0,
+        "rightReachError": 0.00040204368997365236,
+        "leftElbowFlex": 0.0039468747563660145,
+        "rightElbowFlex": 0
+      }
+    }
+  ],
+  "afterAbruptYaw": [
+    {
+      "name": "Verification cheveux male",
+      "values": {
+        "roomId": "",
+        "nickname": "",
+        "avatar": "male",
+        "status": "hair-ready",
+        "visitorCount": 8225,
+        "serverTime": 0.65,
+        "microphone": "off",
+        "listening": false,
+        "voicePeers": 1,
+        "voiceError": "",
+        "bodyVisible": false,
+        "animation": "Idle",
+        "leftTracked": false,
+        "rightTracked": false,
+        "leftWrist": [
+          0,
+          0,
+          0
+        ],
+        "rightWrist": [
+          0,
+          0,
+          0
+        ],
+        "leftTarget": [
+          0,
+          0,
+          0
+        ],
+        "rightTarget": [
+          0,
+          0,
+          0
+        ],
+        "leftReachError": 0,
+        "rightReachError": 0.009106982499361038,
+        "leftElbowFlex": 0.0581546276807785,
+        "rightElbowFlex": 0
+      }
+    },
+    {
+      "name": "Verification cheveux female",
+      "values": {
+        "roomId": "",
+        "nickname": "",
+        "avatar": "female",
+        "status": "hair-ready",
+        "visitorCount": 8225,
+        "serverTime": -0.65,
+        "microphone": "off",
+        "listening": false,
+        "voicePeers": 1,
+        "voiceError": "",
+        "bodyVisible": false,
+        "animation": "Idle",
+        "leftTracked": false,
+        "rightTracked": false,
+        "leftWrist": [
+          0,
+          0,
+          0
+        ],
+        "rightWrist": [
+          0,
+          0,
+          0
+        ],
+        "leftTarget": [
+          0,
+          0,
+          0
+        ],
+        "rightTarget": [
+          0,
+          0,
+          0
+        ],
+        "leftReachError": 0,
+        "rightReachError": 0.0008564229356124997,
+        "leftElbowFlex": 0.02631193958222866,
+        "rightElbowFlex": 0
+      }
+    }
+  ],
+  "frames": 3,
+  "delta": 0.013888888888888888
+}

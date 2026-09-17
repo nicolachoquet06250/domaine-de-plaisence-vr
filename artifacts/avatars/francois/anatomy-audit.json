@@ -1,0 +1,95 @@
+{
+  "headLoweringMm": 50,
+  "nativeParticles": [
+    {
+      "name": "courtMale Particules Tour oreille dense.001",
+      "parents": 460,
+      "expected": 460,
+      "dynamics": true,
+      "rootSurfaceGapMax": 1.7759013175964355,
+      "exampleRoot": [
+        -0.07311591506004333,
+        -1.0310983657836914,
+        0.20031356811523438
+      ]
+    },
+    {
+      "name": "courtMale Particules Barbe continue Francois Ier",
+      "parents": 1000,
+      "expected": 1000,
+      "dynamics": true,
+      "rootSurfaceGapMax": 1.6325767040252686,
+      "exampleRoot": [
+        0.866218626499176,
+        0.5183519124984741,
+        2.7229270935058594
+      ]
+    },
+    {
+      "name": "courtFemale Particules Tour oreille dense",
+      "parents": 460,
+      "expected": 460,
+      "dynamics": true,
+      "rootSurfaceGapMax": 1.6870760917663574,
+      "exampleRoot": [
+        0.6048720479011536,
+        -1.3614884614944458,
+        0.6994195580482483
+      ]
+    }
+  ],
+  "models": {
+    "courtMale": {
+      "beardConstruction": "continuous facial topology; feathered cheek boundary; sculpted chin volume",
+      "visemes": [
+        "viseme_sil",
+        "viseme_PP",
+        "viseme_FF",
+        "viseme_TH",
+        "viseme_DD",
+        "viseme_kk",
+        "viseme_CH",
+        "viseme_SS",
+        "viseme_nn",
+        "viseme_RR",
+        "viseme_aa",
+        "viseme_E",
+        "viseme_I",
+        "viseme_O",
+        "viseme_U"
+      ],
+      "finite": true,
+      "headBone": [
+        0.0,
+        0.0,
+        1.4700000286102295
+      ]
+    },
+    "courtFemale": {
+      "beardConstruction": null,
+      "visemes": [
+        "viseme_sil",
+        "viseme_PP",
+        "viseme_FF",
+        "viseme_TH",
+        "viseme_DD",
+        "viseme_kk",
+        "viseme_CH",
+        "viseme_SS",
+        "viseme_nn",
+        "viseme_RR",
+        "viseme_aa",
+        "viseme_E",
+        "viseme_I",
+        "viseme_O",
+        "viseme_U"
+      ],
+      "finite": true,
+      "headBone": [
+        0.0,
+        0.0,
+        1.3964999914169312
+      ]
+    }
+  }
+}

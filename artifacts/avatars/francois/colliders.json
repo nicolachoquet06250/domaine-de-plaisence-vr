@@ -1,0 +1,10 @@
+{
+  "courtMale": {
+    "interiorColliderScale": 0.8448261783808522,
+    "minimumRestClearanceNormalized": 1.0309278350515465
+  },
+  "courtFemale": {
+    "interiorColliderScale": 0.9583886139320896,
+    "minimumRestClearanceNormalized": 1.0309278350515465
+  }
+}

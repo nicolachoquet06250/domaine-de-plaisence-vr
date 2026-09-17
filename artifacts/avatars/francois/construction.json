@@ -1,0 +1,12 @@
+{
+  "courtMale": {
+    "vertices": 76501,
+    "meshes": 48,
+    "nativeHairSystems": 2
+  },
+  "courtFemale": {
+    "vertices": 77538,
+    "meshes": 64,
+    "nativeHairSystems": 1
+  }
+}
