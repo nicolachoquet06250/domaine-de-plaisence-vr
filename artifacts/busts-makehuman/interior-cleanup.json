@@ -1,0 +1,17 @@
+{
+  "removed": [
+    {
+      "object": "palaceInterior Chateau Marbre noir.008",
+      "removedVertices": 112
+    },
+    {
+      "object": "palaceInterior Chateau Moulures ivoire.008",
+      "removedVertices": 3908
+    }
+  ],
+  "perBustVertices": {
+    "-1": 2010,
+    "1": 2010
+  },
+  "pedestalTopsPreserved": 1.74
+}

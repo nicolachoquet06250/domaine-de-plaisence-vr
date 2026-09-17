@@ -1,0 +1,12 @@
+{
+  "content": [
+    {
+      "type": "text",
+      "text": "Code executed successfully: [{\"object\": \"bustFrancoisI Chevelure pleine - contour anatomique des oreilles.002 - particules editables\", \"parents\": 180, \"children\": 16, \"gravity\": [0.0, 0.0, -9.8100004196167], \"dynamics\": true}, {\"object\": \"bustLouisXIV Chevelure pleine - contour anatomique des oreilles.002 - particules editables\", \"parents\": 180, \"children\": 16, \"gravity\": [0.0, 0.0, -9.8100004196167], \"dynamics\": true}, {\"object\": \"bustCatherineMedici Chevelure pleine - contour anatomique des oreilles.002 - particules editables\", \"parents\": 180, \"children\": 16, \"gravity\": [0.0, 0.0, -9.8100004196167], \"dynamics\": true}, {\"object\": \"bustAnneFrance Chevelure pleine - contour anatomique des oreilles.002 - particules editables\", \"parents\": 180, \"children\": 16, \"gravity\": [0.0, 0.0, -9.8100004196167], \"dynamics\": true}]\n"
+    }
+  ],
+  "structuredContent": {
+    "result": "Code executed successfully: [{\"object\": \"bustFrancoisI Chevelure pleine - contour anatomique des oreilles.002 - particules editables\", \"parents\": 180, \"children\": 16, \"gravity\": [0.0, 0.0, -9.8100004196167], \"dynamics\": true}, {\"object\": \"bustLouisXIV Chevelure pleine - contour anatomique des oreilles.002 - particules editables\", \"parents\": 180, \"children\": 16, \"gravity\": [0.0, 0.0, -9.8100004196167], \"dynamics\": true}, {\"object\": \"bustCatherineMedici Chevelure pleine - contour anatomique des oreilles.002 - particules editables\", \"parents\": 180, \"children\": 16, \"gravity\": [0.0, 0.0, -9.8100004196167], \"dynamics\": true}, {\"object\": \"bustAnneFrance Chevelure pleine - contour anatomique des oreilles.002 - particules editables\", \"parents\": 180, \"children\": 16, \"gravity\": [0.0, 0.0, -9.8100004196167], \"dynamics\": true}]\n"
+  },
+  "isError": false
+}

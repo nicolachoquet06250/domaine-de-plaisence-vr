@@ -1,0 +1,68 @@
+[
+  {
+    "name": "palaceInterior Chateau Marbre creme veine.008",
+    "materials": [
+      "Chateau Marbre creme veine.004"
+    ],
+    "vertices": 2176,
+    "inside": 72,
+    "bounds": [
+      [
+        -6.45359992980957,
+        6.45359992980957
+      ],
+      [
+        3.896399974822998,
+        4.603600025177002
+      ],
+      [
+        1.7400000095367432,
+        1.7400000095367432
+      ]
+    ]
+  },
+  {
+    "name": "palaceInterior Chateau Marbre noir.008",
+    "materials": [
+      "Chateau Marbre noir.004"
+    ],
+    "vertices": 112,
+    "inside": 112,
+    "bounds": [
+      [
+        -6.202008247375488,
+        6.202008247375488
+      ],
+      [
+        4.087679862976074,
+        4.118320465087891
+      ],
+      [
+        2.4609999656677246,
+        2.4790000915527344
+      ]
+    ]
+  },
+  {
+    "name": "palaceInterior Chateau Moulures ivoire.008",
+    "materials": [
+      "Chateau Moulures ivoire.004"
+    ],
+    "vertices": 6492,
+    "inside": 3908,
+    "bounds": [
+      [
+        -6.429999828338623,
+        6.429999828338623
+      ],
+      [
+        4.028936386108398,
+        4.429999828338623
+      ],
+      [
+        1.7300000190734863,
+        2.6710000038146973
+      ]
+    ]
+  }
+]

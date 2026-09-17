@@ -1,0 +1,22 @@
+{
+  "bustFrancoisI": {
+    "objects": 23,
+    "vertices": 57036,
+    "triangles": 104476
+  },
+  "bustLouisXIV": {
+    "objects": 71,
+    "vertices": 86546,
+    "triangles": 168090
+  },
+  "bustCatherineMedici": {
+    "objects": 12,
+    "vertices": 53282,
+    "triangles": 103302
+  },
+  "bustAnneFrance": {
+    "objects": 56,
+    "vertices": 53214,
+    "triangles": 103534
+  }
+}
