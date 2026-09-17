@@ -1,0 +1,22 @@
+{
+  "asset": "arrival",
+  "url": "gltf/arrival/arrival.glb",
+  "bytes": 2544316,
+  "triangles": 52900,
+  "meshes": 24,
+  "floorHeight": 0,
+  "radius": 8,
+  "columnPositions": [
+    [
+      -2.6,
+      0,
+      -4
+    ],
+    [
+      2.6,
+      0,
+      -4
+    ]
+  ],
+  "panelClearance": "original panel and navigation transforms preserved"
+}
