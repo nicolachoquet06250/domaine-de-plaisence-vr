@@ -1,0 +1,49 @@
+                                                 
+▄▄▄▄▄▄  ▄▄      ▄▄   ▄▄▄▄    ▄▄▄▄▄     ▄▄   ▄▄▄ 
+▀▀██▀▀  ██      ██ ▄█▀▀▀▀█   ██▀▀▀██   ██  ██▀  
+  ██    ▀█▄ ██ ▄█▀ ██▄       ██    ██  ██▄██    
+  ██     ██ ██ ██   ▀████▄   ██    ██  █████    
+  ██     ███▀▀███       ▀██  ██    ██  ██  ██▄  
+▄▄██▄▄   ███  ███  █▄▄▄▄▄█▀  ██▄▄▄██   ██   ██▄ 
+▀▀▀▀▀▀   ▀▀▀  ▀▀▀   ▀▀▀▀▀    ▀▀▀▀▀     ▀▀    ▀▀                                                
+===============================================
+Immersive Web SDK v0.5.3
+Three.js r181
+EliCS v3.4.2
+✔ anatomical side is determined by geometry, with independent tracked arms (3.1779ms)
+✔ reachable world targets preserve limb lengths under translated, yawed and scaled roots (0.6316ms)
+✔ unreachable targets clamp extension, folding, shoulder swing and wrist rotation (1.344ms)
+✔ both exported Blender rigs accept world grip targets without stretching (4.6159ms)
+✔ exported bind frames match WebXR grip thumb and finger axes for both hands and body yaws (127.1355ms)
+✔ exported arms preserve measured lengths and anatomical bend limits for extreme controller poses (14.774ms)
+✔ real skinned fingertip vertices match the WebXR grip frame after XR posing (138.8493ms)
+✖ enlarged hands retain proportions and centre the grip inside the palm, not at the wrist (2.4994ms)
+✔ Blender Walking swings opposite arms with bent elbows; sidestep clips have no arm swing (3.2827ms)
+ℹ tests 9
+ℹ suites 0
+ℹ pass 8
+ℹ fail 1
+ℹ cancelled 0
+ℹ skipped 0
+ℹ todo 0
+ℹ duration_ms 3120.679
+
+✖ failing tests:
+
+test at tests\court-avatar-ik.test.mjs:195:1
+✖ enlarged hands retain proportions and centre the grip inside the palm, not at the wrist (2.4994ms)
+  AssertionError [ERR_ASSERTION]: uniform anatomical length scale
+      at TestContext.<anonymous> (file:///C:/Users/nicol/Documents/workspaces/vr-workspace/test-meta-web-sdk-update/tests/court-avatar-ik.test.mjs:203:14)
+      at Test.runInAsyncScope (node:async_hooks:226:14)
+      at Test.run (node:internal/test_runner/test:1402:25)
+      at Test.processPendingSubtests (node:internal/test_runner/test:974:18)
+      at Test.postRun (node:internal/test_runner/test:1542:19)
+      at Test.run (node:internal/test_runner/test:1467:12)
+      at async Test.processPendingSubtests (node:internal/test_runner/test:974:7) {
+    generatedMessage: false,
+    code: 'ERR_ASSERTION',
+    actual: false,
+    expected: true,
+    operator: '==',
+    diff: 'simple'
+  }

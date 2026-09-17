@@ -1,0 +1,394 @@
+{
+  "rigBefore": [
+    {
+      "entityIndex": 1,
+      "active": true,
+      "name": "Salon de visite",
+      "components": [
+        {
+          "componentId": "RoomConnection",
+          "values": {
+            "roomId": "695175431f47f753e525bb36b10bbded",
+            "nickname": "Essai rig",
+            "avatar": "female",
+            "status": "connected",
+            "visitorCount": 1,
+            "serverTime": 1788937180.3345,
+            "microphone": "off",
+            "listening": false,
+            "voicePeers": 0,
+            "voiceError": "",
+            "bodyVisible": true,
+            "animation": "Idle",
+            "leftTracked": true,
+            "rightTracked": true,
+            "leftWrist": [
+              -0.2839798033237457,
+              1.2893567085266113,
+              23.74964141845703
+            ],
+            "rightWrist": [
+              0.3039798438549042,
+              1.3393566608428955,
+              23.77964210510254
+            ],
+            "leftTarget": [
+              -0.2839798033237457,
+              1.2893567085266113,
+              23.74964141845703
+            ],
+            "rightTarget": [
+              0.3039798438549042,
+              1.3393566608428955,
+              23.77964210510254
+            ],
+            "leftReachError": 7.928711909244157e-9,
+            "rightReachError": 4.161472944019806e-9,
+            "leftElbowFlex": 108.56478118896484,
+            "rightElbowFlex": 120.35330963134766
+          }
+        }
+      ],
+      "_tab": {
+        "id": "tab-mttoaag5-z7gtcy",
+        "generation": 3
+      }
+    }
+  ],
+  "rigAfter": [
+    {
+      "entityIndex": 1,
+      "active": true,
+      "name": "Salon de visite",
+      "components": [
+        {
+          "componentId": "RoomConnection",
+          "values": {
+            "roomId": "695175431f47f753e525bb36b10bbded",
+            "nickname": "Essai rig",
+            "avatar": "female",
+            "status": "connected",
+            "visitorCount": 1,
+            "serverTime": 1788937180.3345,
+            "microphone": "off",
+            "listening": false,
+            "voicePeers": 0,
+            "voiceError": "",
+            "bodyVisible": true,
+            "animation": "Idle",
+            "leftTracked": true,
+            "rightTracked": true,
+            "leftWrist": [
+              -0.2839798033237457,
+              1.2893567085266113,
+              23.74964141845703
+            ],
+            "rightWrist": [
+              0.37518033385276794,
+              1.5719631910324097,
+              23.790035247802734
+            ],
+            "leftTarget": [
+              -0.2839798033237457,
+              1.2893567085266113,
+              23.74964141845703
+            ],
+            "rightTarget": [
+              0.37518033385276794,
+              1.5719631910324097,
+              23.790035247802734
+            ],
+            "leftReachError": 7.942064783605929e-9,
+            "rightReachError": 6.116420703250469e-9,
+            "leftElbowFlex": 108.50981140136719,
+            "rightElbowFlex": 116.51995086669922
+          }
+        }
+      ],
+      "_tab": {
+        "id": "tab-mttoaag5-z7gtcy",
+        "generation": 3
+      }
+    }
+  ],
+  "rigFar": [
+    {
+      "entityIndex": 1,
+      "active": true,
+      "name": "Salon de visite",
+      "components": [
+        {
+          "componentId": "RoomConnection",
+          "values": {
+            "roomId": "695175431f47f753e525bb36b10bbded",
+            "nickname": "Essai rig",
+            "avatar": "female",
+            "status": "connected",
+            "visitorCount": 1,
+            "serverTime": 1788937540.7045,
+            "microphone": "off",
+            "listening": false,
+            "voicePeers": 0,
+            "voiceError": "",
+            "bodyVisible": true,
+            "animation": "Idle",
+            "leftTracked": true,
+            "rightTracked": true,
+            "leftWrist": [
+              -0.3073377311229706,
+              1.2893567085266113,
+              23.74964141845703
+            ],
+            "rightWrist": [
+              0.6936136484146118,
+              1.5076117515563965,
+              23.76426887512207
+            ],
+            "leftTarget": [
+              -0.3073377311229706,
+              1.2893567085266113,
+              23.74964141845703
+            ],
+            "rightTarget": [
+              1.7960201501846313,
+              1.6055727005004883,
+              23.215858459472656
+            ],
+            "leftReachError": 8.12057088239726e-9,
+            "rightReachError": 1.2351723909378052,
+            "leftElbowFlex": 106.9620590209961,
+            "rightElbowFlex": 5
+          }
+        }
+      ],
+      "_tab": {
+        "id": "tab-mttoaag5-z7gtcy",
+        "generation": 3
+      }
+    }
+  ],
+  "strafeRight": [
+    {
+      "entityIndex": 1,
+      "active": true,
+      "name": "Salon de visite",
+      "components": [
+        {
+          "componentId": "RoomConnection",
+          "values": {
+            "roomId": "695175431f47f753e525bb36b10bbded",
+            "nickname": "Essai rig",
+            "avatar": "female",
+            "status": "connected",
+            "visitorCount": 1,
+            "serverTime": 1788937891.108,
+            "microphone": "off",
+            "listening": false,
+            "voicePeers": 0,
+            "voiceError": "",
+            "bodyVisible": true,
+            "animation": "StrafeRight",
+            "leftTracked": true,
+            "rightTracked": true,
+            "leftWrist": [
+              0.29969164729118347,
+              1.291595458984375,
+              23.74964141845703
+            ],
+            "rightWrist": [
+              0.9110091924667358,
+              1.3415954113006592,
+              23.77964210510254
+            ],
+            "leftTarget": [
+              0.29969164729118347,
+              1.291595458984375,
+              23.74964141845703
+            ],
+            "rightTarget": [
+              0.9110091924667358,
+              1.3415954113006592,
+              23.77964210510254
+            ],
+            "leftReachError": 2.9686532343475847e-8,
+            "rightReachError": 2.9344496610406168e-8,
+            "leftElbowFlex": 104.86897277832031,
+            "rightElbowFlex": 119.41667938232422
+          }
+        }
+      ],
+      "_tab": {
+        "id": "tab-mttoaag5-z7gtcy",
+        "generation": 3
+      }
+    }
+  ],
+  "strafeLeft": [
+    {
+      "entityIndex": 1,
+      "active": true,
+      "name": "Salon de visite",
+      "components": [
+        {
+          "componentId": "RoomConnection",
+          "values": {
+            "roomId": "695175431f47f753e525bb36b10bbded",
+            "nickname": "Essai rig",
+            "avatar": "female",
+            "status": "connected",
+            "visitorCount": 1,
+            "serverTime": 1788937911.122,
+            "microphone": "off",
+            "listening": false,
+            "voicePeers": 0,
+            "voiceError": "",
+            "bodyVisible": true,
+            "animation": "StrafeLeft",
+            "leftTracked": true,
+            "rightTracked": true,
+            "leftWrist": [
+              -10.980500221252441,
+              1.2921260595321655,
+              23.74964141845703
+            ],
+            "rightWrist": [
+              -10.369182586669922,
+              1.3421260118484497,
+              23.77964210510254
+            ],
+            "leftTarget": [
+              -10.980500221252441,
+              1.292126178741455,
+              23.74964141845703
+            ],
+            "rightTarget": [
+              -10.369182586669922,
+              1.3421261310577393,
+              23.77964210510254
+            ],
+            "leftReachError": 2.9652561295279156e-8,
+            "rightReachError": 2.925684583487964e-8,
+            "leftElbowFlex": 103.71623229980469,
+            "rightElbowFlex": 118.43233489990234
+          }
+        }
+      ],
+      "_tab": {
+        "id": "tab-mttoaag5-z7gtcy",
+        "generation": 3
+      }
+    }
+  ],
+  "rigIdle": [
+    {
+      "entityIndex": 1,
+      "active": true,
+      "name": "Salon de visite",
+      "components": [
+        {
+          "componentId": "RoomConnection",
+          "values": {
+            "roomId": "695175431f47f753e525bb36b10bbded",
+            "nickname": "Essai rig",
+            "avatar": "female",
+            "status": "connected",
+            "visitorCount": 1,
+            "serverTime": 1788937931.1085,
+            "microphone": "off",
+            "listening": false,
+            "voicePeers": 0,
+            "voiceError": "",
+            "bodyVisible": true,
+            "animation": "StrafeLeft",
+            "leftTracked": true,
+            "rightTracked": true,
+            "leftWrist": [
+              -16.19216537475586,
+              1.292140245437622,
+              23.74964141845703
+            ],
+            "rightWrist": [
+              -15.580848693847656,
+              1.3421401977539062,
+              23.77964210510254
+            ],
+            "leftTarget": [
+              -16.19216537475586,
+              1.292140245437622,
+              23.74964141845703
+            ],
+            "rightTarget": [
+              -15.580848693847656,
+              1.3421401977539062,
+              23.77964210510254
+            ],
+            "leftReachError": 2.9681954671900712e-8,
+            "rightReachError": 2.9856575878284275e-8,
+            "leftElbowFlex": 106.69903564453125,
+            "rightElbowFlex": 120.24799346923828
+          }
+        }
+      ],
+      "_tab": {
+        "id": "tab-mttoaag5-z7gtcy",
+        "generation": 3
+      }
+    }
+  ],
+  "rigSettled": [
+    {
+      "entityIndex": 1,
+      "active": true,
+      "name": "Salon de visite",
+      "components": [
+        {
+          "componentId": "RoomConnection",
+          "values": {
+            "roomId": "695175431f47f753e525bb36b10bbded",
+            "nickname": "Essai rig",
+            "avatar": "female",
+            "status": "connected",
+            "visitorCount": 1,
+            "serverTime": 1788938614.33,
+            "microphone": "off",
+            "listening": false,
+            "voicePeers": 0,
+            "voiceError": "",
+            "bodyVisible": true,
+            "animation": "Idle",
+            "leftTracked": true,
+            "rightTracked": true,
+            "leftWrist": [
+              -16.926780700683594,
+              1.2921421527862549,
+              23.74964141845703
+            ],
+            "rightWrist": [
+              -16.31546401977539,
+              1.342142105102539,
+              23.77964210510254
+            ],
+            "leftTarget": [
+              -16.926780700683594,
+              1.2921421527862549,
+              23.74964141845703
+            ],
+            "rightTarget": [
+              -16.31546401977539,
+              1.342142105102539,
+              23.77964210510254
+            ],
+            "leftReachError": 6.8592234114817074e-9,
+            "rightReachError": 4.2748360407074415e-9,
+            "leftElbowFlex": 106.7525863647461,
+            "rightElbowFlex": 120.1884765625
+          }
+        }
+      ],
+      "_tab": {
+        "id": "tab-mttoaag5-z7gtcy",
+        "generation": 3
+      }
+    }
+  ]
+}

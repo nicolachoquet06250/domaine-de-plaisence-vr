@@ -1,0 +1,22 @@
+{
+  "neutral": {
+    "content": [
+      {
+        "type": "text",
+        "text": "{\n  \"entityIndex\": 1,\n  \"active\": true,\n  \"name\": \"Salon de visite\",\n  \"components\": [\n    {\n      \"componentId\": \"RoomConnection\",\n      \"values\": {\n        \"roomId\": \"205dfbf62fa9ece676777412135f3602\",\n        \"nickname\": \"Essai mains\",\n        \"avatar\": \"female\",\n        \"status\": \"connected\",\n        \"visitorCount\": 1,\n        \"serverTime\": 1788944734.9505,\n        \"microphone\": \"off\",\n        \"listening\": false,\n        \"voicePeers\": 0,\n        \"voiceError\": \"\",\n        \"bodyVisible\": true,\n        \"animation\": \"Idle\",\n        \"leftTracked\": true,\n        \"rightTracked\": true,\n        \"leftWrist\": [\n          -0.2839798033237457,\n          1.2867265939712524,\n          23.74964141845703\n        ],\n        \"rightWrist\": [\n          0.3039798438549042,\n          1.3367265462875366,\n          23.77964210510254\n        ],\n        \"leftTarget\": [\n          -0.2839798033237457,\n          1.2867265939712524,\n          23.74964141845703\n        ],\n        \"rightTarget\": [\n          0.3039798438549042,\n          1.3367265462875366,\n          23.77964210510254\n        ],\n        \"leftReachError\": 2.6564055843891765e-8,\n        \"rightReachError\": 3.164814899037083e-8,\n        \"leftElbowFlex\": 108.74388122558594,\n        \"rightElbowFlex\": 120.44812774658203\n      }\n    }\n  ],\n  \"_tab\": {\n    \"id\": \"tab-mttoaag5-z7gtcy\",\n    \"generation\": 13\n  }\n}"
+      }
+    ]
+  },
+  "moved": {
+    "content": [
+      {
+        "type": "text",
+        "text": "WARNING: Active browser tab changed (previous: tab-mttoa95o-n2qdqk, current: tab-mttoaag5-z7gtcy). All previously cached state (device positions, scene hierarchy, ECS snapshots) is now invalid. Re-query any state you need before proceeding."
+      },
+      {
+        "type": "text",
+        "text": "{\n  \"entityIndex\": 1,\n  \"active\": true,\n  \"name\": \"Salon de visite\",\n  \"components\": [\n    {\n      \"componentId\": \"RoomConnection\",\n      \"values\": {\n        \"roomId\": \"205dfbf62fa9ece676777412135f3602\",\n        \"nickname\": \"Essai mains\",\n        \"avatar\": \"female\",\n        \"status\": \"connected\",\n        \"visitorCount\": 1,\n        \"serverTime\": 1788944904.96,\n        \"microphone\": \"off\",\n        \"listening\": false,\n        \"voicePeers\": 0,\n        \"voiceError\": \"\",\n        \"bodyVisible\": true,\n        \"animation\": \"Idle\",\n        \"leftTracked\": true,\n        \"rightTracked\": true,\n        \"leftWrist\": [\n          -0.3491635024547577,\n          1.4290188550949097,\n          23.715742111206055\n        ],\n        \"rightWrist\": [\n          0.33916354179382324,\n          1.2678700685501099,\n          23.731239318847656\n        ],\n        \"leftTarget\": [\n          -0.3491635024547577,\n          1.4290188550949097,\n          23.715742111206055\n        ],\n        \"rightTarget\": [\n          0.33916354179382324,\n          1.2678700685501099,\n          23.731239318847656\n        ],\n        \"leftReachError\": 3.812516879975192e-8,\n        \"rightReachError\": 2.7926521539711757e-8,\n        \"leftElbowFlex\": 107.94583892822266,\n        \"rightElbowFlex\": 97.45997619628906\n      }\n    }\n  ],\n  \"_tab\": {\n    \"id\": \"tab-mttoaag5-z7gtcy\",\n    \"generation\": 13\n  }\n}"
+      }
+    ]
+  }
+}

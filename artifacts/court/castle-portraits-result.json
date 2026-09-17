@@ -1,0 +1,12 @@
+{
+  "content": [
+    {
+      "type": "text",
+      "text": "Code executed successfully: 02:53:48 | INFO: Data are loaded, start creating Blender stuff\n02:53:48 | INFO: Blender create Mesh node bustFrancoisI Creux sculptes.002\n02:53:48 | INFO: Blender create Mesh node bustFrancoisI Marbre statuaire ivoire.002\n02:53:48 | INFO: glTF import finished in 0.11s\n02:53:48 | INFO: Data are loaded, start creating Blender stuff\n02:53:48 | INFO: Blender create Mesh node bustLouisXIV Creux sculptes.002\n02:53:48 | INFO: Blender create Mesh node bustLouisXIV Marbre statuaire ivoire.002\n02:53:48 | INFO: glTF import finished in 0.13s\nInfos: Enregistré sous « chateau-plaisance.blend »\nHistorical portrait busts placed on their upstairs pedestals\n"
+    }
+  ],
+  "structuredContent": {
+    "result": "Code executed successfully: 02:53:48 | INFO: Data are loaded, start creating Blender stuff\n02:53:48 | INFO: Blender create Mesh node bustFrancoisI Creux sculptes.002\n02:53:48 | INFO: Blender create Mesh node bustFrancoisI Marbre statuaire ivoire.002\n02:53:48 | INFO: glTF import finished in 0.11s\n02:53:48 | INFO: Data are loaded, start creating Blender stuff\n02:53:48 | INFO: Blender create Mesh node bustLouisXIV Creux sculptes.002\n02:53:48 | INFO: Blender create Mesh node bustLouisXIV Marbre statuaire ivoire.002\n02:53:48 | INFO: glTF import finished in 0.13s\nInfos: Enregistré sous « chateau-plaisance.blend »\nHistorical portrait busts placed on their upstairs pedestals\n"
+  },
+  "isError": false
+}

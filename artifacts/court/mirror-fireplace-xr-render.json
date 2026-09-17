@@ -1,0 +1,8 @@
+{
+  "ok": true,
+  "data": {
+    "workspaceRoot": "C:\\Users\\nicol\\Documents\\workspaces\\vr-workspace\\test-meta-web-sdk-update",
+    "operation": "browser.screenshot",
+    "screenshotPath": "artifacts/court/mirror-fireplace-xr.png"
+  }
+}

@@ -1,0 +1,70 @@
+{
+  "asset": "gltf/arrival-coach/royalCoachAnimated.glb",
+  "forward": "+X",
+  "seat": [
+    -0.6,
+    2.1,
+    0
+  ],
+  "clips": {
+    "HorseIdle": 3,
+    "HorseWalk": 1.2
+  },
+  "walkNominalSpeed": 1.0833333333333335,
+  "rigs": [
+    {
+      "name": "HorseRig1.001",
+      "bones": 16,
+      "vertices": 10593
+    },
+    {
+      "name": "HorseRig2.001",
+      "bones": 16,
+      "vertices": 10625
+    }
+  ],
+  "wheels": [
+    {
+      "name": "WheelRearL.001",
+      "radius": 0.76,
+      "axis": "Z",
+      "position": [
+        -1.25,
+        0.7599999904632568,
+        -1.0299999713897705
+      ]
+    },
+    {
+      "name": "WheelRearR.001",
+      "radius": 0.76,
+      "axis": "Z",
+      "position": [
+        -1.25,
+        0.7599999904632568,
+        1.0299999713897705
+      ]
+    },
+    {
+      "name": "WheelFrontL.001",
+      "radius": 0.59,
+      "axis": "Z",
+      "position": [
+        1.100000023841858,
+        0.5899999737739563,
+        -1.0299999713897705
+      ]
+    },
+    {
+      "name": "WheelFrontR.001",
+      "radius": 0.59,
+      "axis": "Z",
+      "position": [
+        1.100000023841858,
+        0.5899999737739563,
+        1.0299999713897705
+      ]
+    }
+  ],
+  "triangles": 64540,
+  "bytes": 3328008
+}

@@ -1,0 +1,20 @@
+✔ every path stays solo without an invitation; both invitation formats work; disconnect returns to root (1.3541ms)
+✔ solo at / keeps the map and URL until explicit creation (118.423ms)
+✔ solo at /maps/plaisance?other=1#garden keeps the map and URL until explicit creation (60.6355ms)
+✔ solo at /app/maps/plaisance/ keeps the map and URL until explicit creation (46.1836ms)
+✔ nickname field preserves spaces while typing, persists and reaches the connection without entering invite URLs (90.3653ms)
+✔ the reported invitation prompts for a nickname despite a legacy automatic visitor name (80.3587ms)
+✔ blank identity cannot enter, while deliberately chosen visitor-style names remain valid (141.5642ms)
+✔ roomId invitation without a saved nickname waits in solo then joins the exact invited room (36.2511ms)
+✔ room invitation without a saved nickname waits in solo then joins the exact invited room (42.0616ms)
+✔ blank or inaccessible nickname storage still requires personalisation, and load failure retains the invitation (76.2633ms)
+✔ direct invitation with saved nickname joins; leaving releases voice, socket and avatars without retry (42.7251ms)
+✔ gender choice is required alongside nickname, persists, and is shared without changing invitation URLs (93.1132ms)
+ℹ tests 12
+ℹ suites 0
+ℹ pass 12
+ℹ fail 0
+ℹ cancelled 0
+ℹ skipped 0
+ℹ todo 0
+ℹ duration_ms 1308.4738

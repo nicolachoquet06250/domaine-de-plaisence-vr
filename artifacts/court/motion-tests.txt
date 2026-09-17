@@ -1,0 +1,52 @@
+✔ every path stays solo without an invitation; both invitation formats work; disconnect returns to root (3.413ms)
+✔ solo at / keeps the map and URL until explicit creation (117.2016ms)
+✔ solo at /maps/plaisance?other=1#garden keeps the map and URL until explicit creation (65.9955ms)
+✔ solo at /app/maps/plaisance/ keeps the map and URL until explicit creation (48.7497ms)
+✔ nickname field preserves spaces while typing, persists and reaches the connection without entering invite URLs (102.6584ms)
+✔ the reported invitation prompts for a nickname despite a legacy automatic visitor name (82.8326ms)
+✔ blank identity cannot enter, while deliberately chosen visitor-style names remain valid (166.3613ms)
+✔ roomId invitation without a saved nickname waits in solo then joins the exact invited room (41.8493ms)
+✔ room invitation without a saved nickname waits in solo then joins the exact invited room (47.4261ms)
+✔ blank or inaccessible nickname storage still requires personalisation, and load failure retains the invitation (79.758ms)
+✔ direct invitation with saved nickname joins; leaving releases voice, socket and avatars without retry (32.7012ms)
+✔ gender choice is required alongside nickname, persists, and is shared without changing invitation URLs (116.9194ms)
+✔ GLB verifier accepts actual skeletal deformation and rejects corrupt weights, missing clips and broken loops (10505.6145ms)
+                                                 
+▄▄▄▄▄▄  ▄▄      ▄▄   ▄▄▄▄    ▄▄▄▄▄     ▄▄   ▄▄▄ 
+▀▀██▀▀  ██      ██ ▄█▀▀▀▀█   ██▀▀▀██   ██  ██▀  
+  ██    ▀█▄ ██ ▄█▀ ██▄       ██    ██  ██▄██    
+  ██     ██ ██ ██   ▀████▄   ██    ██  █████    
+  ██     ███▀▀███       ▀██  ██    ██  ██  ██▄  
+▄▄██▄▄   ███  ███  █▄▄▄▄▄█▀  ██▄▄▄██   ██   ██▄ 
+▀▀▀▀▀▀   ▀▀▀  ▀▀▀   ▀▀▀▀▀    ▀▀▀▀▀     ▀▀    ▀▀                                                
+===============================================
+Immersive Web SDK v0.5.3
+Three.js r181
+EliCS v3.4.2
+✔ anatomical side is determined by geometry, with independent tracked arms (4.4373ms)
+✔ reachable world targets preserve limb lengths under translated, yawed and scaled roots (1.1202ms)
+✔ unreachable targets clamp extension, folding, shoulder swing and wrist rotation (1.67ms)
+✔ both exported Blender rigs accept world grip targets without stretching (8.8544ms)
+                                                 
+▄▄▄▄▄▄  ▄▄      ▄▄   ▄▄▄▄    ▄▄▄▄▄     ▄▄   ▄▄▄ 
+▀▀██▀▀  ██      ██ ▄█▀▀▀▀█   ██▀▀▀██   ██  ██▀  
+  ██    ▀█▄ ██ ▄█▀ ██▄       ██    ██  ██▄██    
+  ██     ██ ██ ██   ▀████▄   ██    ██  █████    
+  ██     ███▀▀███       ▀██  ██    ██  ██  ██▄  
+▄▄██▄▄   ███  ███  █▄▄▄▄▄█▀  ██▄▄▄██   ██   ██▄ 
+▀▀▀▀▀▀   ▀▀▀  ▀▀▀   ▀▀▀▀▀    ▀▀▀▀▀     ▀▀    ▀▀                                                
+===============================================
+Immersive Web SDK v0.5.3
+Three.js r181
+EliCS v3.4.2
+✔ independent mixers blend Idle/Walking, then return to rest without mutating other avatars (14.3835ms)
+✔ strafing follows local anatomical left/right and preserves the body yaw (6.9152ms)
+✔ changing identity during load and leaving before completion cannot resurrect obsolete avatars (3.105ms)
+ℹ tests 20
+ℹ suites 0
+ℹ pass 20
+ℹ fail 0
+ℹ cancelled 0
+ℹ skipped 0
+ℹ todo 0
+ℹ duration_ms 10593.9521

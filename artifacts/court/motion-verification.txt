@@ -1,0 +1,129 @@
+                                                 
+▄▄▄▄▄▄  ▄▄      ▄▄   ▄▄▄▄    ▄▄▄▄▄     ▄▄   ▄▄▄ 
+▀▀██▀▀  ██      ██ ▄█▀▀▀▀█   ██▀▀▀██   ██  ██▀  
+  ██    ▀█▄ ██ ▄█▀ ██▄       ██    ██  ██▄██    
+  ██     ██ ██ ██   ▀████▄   ██    ██  █████    
+  ██     ███▀▀███       ▀██  ██    ██  ██  ██▄  
+▄▄██▄▄   ███  ███  █▄▄▄▄▄█▀  ██▄▄▄██   ██   ██▄ 
+▀▀▀▀▀▀   ▀▀▀  ▀▀▀   ▀▀▀▀▀    ▀▀▀▀▀     ▀▀    ▀▀                                                
+===============================================
+Immersive Web SDK v0.5.3
+Three.js r181
+EliCS v3.4.2
+{
+  "assets": {
+    "courtMale": {
+      "bytes": 1336236,
+      "vertices": 22847,
+      "triangles": 43368,
+      "skins": 1,
+      "weightedJoints": 16,
+      "skinnedPrimitives": 14,
+      "maxWeightError": 2.9802322387695312e-8,
+      "bounds": {
+        "min": [
+          -0.3737599517231716,
+          0.00199997111242709,
+          -0.1292800038146973
+        ],
+        "max": [
+          0.3737599517231716,
+          1.8440395593643188,
+          0.20500000073109978
+        ]
+      },
+      "clips": {
+        "Idle": {
+          "movingJointTracks": 5,
+          "maxLoopError": 0.0004561212027032935,
+          "duration": 3,
+          "maxBoneMotion": 0.016554072003485253,
+          "maxSkinnedVertexMotion": 0.019842259563845624
+        },
+        "Walking": {
+          "movingJointTracks": 12,
+          "maxLoopError": 0.0004008810790702599,
+          "duration": 1,
+          "maxBoneMotion": 0.30229308608907934,
+          "maxSkinnedVertexMotion": 0.3651710121499622
+        },
+        "StrafeLeft": {
+          "movingJointTracks": 10,
+          "maxLoopError": 0.0004008810790702599,
+          "duration": 1,
+          "maxBoneMotion": 0.25990435678602763,
+          "maxSkinnedVertexMotion": 0.2909019448883381
+        },
+        "StrafeRight": {
+          "movingJointTracks": 10,
+          "maxLoopError": 0.0004008810790702599,
+          "duration": 1,
+          "maxBoneMotion": 0.25990435678602763,
+          "maxSkinnedVertexMotion": 0.2909019448883381
+        }
+      }
+    },
+    "courtFemale": {
+      "bytes": 1135276,
+      "vertices": 19259,
+      "triangles": 36382,
+      "skins": 1,
+      "weightedJoints": 16,
+      "skinnedPrimitives": 13,
+      "maxWeightError": 2.9802322387695312e-8,
+      "bounds": {
+        "min": [
+          -0.4150550067424774,
+          0.0018999412923747924,
+          -0.33692699670791626
+        ],
+        "max": [
+          0.4150550067424774,
+          1.7005001988709005,
+          0.33692699670791626
+        ]
+      },
+      "clips": {
+        "Idle": {
+          "movingJointTracks": 5,
+          "maxLoopError": 0.0004008810790702599,
+          "duration": 3,
+          "maxBoneMotion": 0.015778090263510524,
+          "maxSkinnedVertexMotion": 0.018891216349676415
+        },
+        "Walking": {
+          "movingJointTracks": 12,
+          "maxLoopError": 0.0004008810790702599,
+          "duration": 1,
+          "maxBoneMotion": 0.2876433213256424,
+          "maxSkinnedVertexMotion": 0.3476295203714929
+        },
+        "StrafeLeft": {
+          "movingJointTracks": 10,
+          "maxLoopError": 0.0004008810790702599,
+          "duration": 1,
+          "maxBoneMotion": 0.24822556665493,
+          "maxSkinnedVertexMotion": 0.2776334957288538
+        },
+        "StrafeRight": {
+          "movingJointTracks": 10,
+          "maxLoopError": 0.0004008810790702599,
+          "duration": 1,
+          "maxBoneMotion": 0.24822556665493,
+          "maxSkinnedVertexMotion": 0.2776334957288538
+        }
+      }
+    }
+  },
+  "checks": [
+    "embedded GLBs",
+    "normalized joint weights",
+    "articulated weighted skeletons",
+    "Idle, Walking, StrafeLeft and StrafeRight loop closure",
+    "human scale and feet origin",
+    "actual animated bone and vertex displacement",
+    "SDK skeleton clone independence",
+    "prototype and material sharing"
+  ],
+  "decoder": "glTF buffers reconstructed with core types; AssetManager.getGLTF clone API exercised directly"
+}

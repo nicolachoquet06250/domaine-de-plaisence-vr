@@ -1,0 +1,67 @@
+✔ every path stays solo without an invitation; both invitation formats work; disconnect returns to root (2.8498ms)
+✔ solo at / keeps the map and URL until explicit creation (179.8095ms)
+✔ solo at /maps/plaisance?other=1#garden keeps the map and URL until explicit creation (111.2919ms)
+✔ solo at /app/maps/plaisance/ keeps the map and URL until explicit creation (84.2ms)
+✔ nickname field preserves spaces while typing, persists and reaches the connection without entering invite URLs (142.6525ms)
+✔ the reported invitation prompts for a nickname despite a legacy automatic visitor name (128.5607ms)
+✔ blank identity cannot enter, while deliberately chosen visitor-style names remain valid (211.4722ms)
+✔ roomId invitation without a saved nickname waits in solo then joins the exact invited room (56.5939ms)
+✔ room invitation without a saved nickname waits in solo then joins the exact invited room (65.4787ms)
+✔ blank or inaccessible nickname storage still requires personalisation, and load failure retains the invitation (115.4746ms)
+✔ direct invitation with saved nickname joins; leaving releases voice, socket and avatars without retry (62.3167ms)
+✖ gender choice is required alongside nickname, persists, and is shared without changing invitation URLs (49.2554ms)
+                                                 
+▄▄▄▄▄▄  ▄▄      ▄▄   ▄▄▄▄    ▄▄▄▄▄     ▄▄   ▄▄▄ 
+▀▀██▀▀  ██      ██ ▄█▀▀▀▀█   ██▀▀▀██   ██  ██▀  
+  ██    ▀█▄ ██ ▄█▀ ██▄       ██    ██  ██▄██    
+  ██     ██ ██ ██   ▀████▄   ██    ██  █████    
+  ██     ███▀▀███       ▀██  ██    ██  ██  ██▄  
+▄▄██▄▄   ███  ███  █▄▄▄▄▄█▀  ██▄▄▄██   ██   ██▄ 
+▀▀▀▀▀▀   ▀▀▀  ▀▀▀   ▀▀▀▀▀    ▀▀▀▀▀     ▀▀    ▀▀                                                
+===============================================
+Immersive Web SDK v0.5.3
+Three.js r181
+EliCS v3.4.2
+✔ independent mixers blend Idle/Walking, then return to rest without mutating other avatars (13.5041ms)
+✔ changing identity during load and leaving before completion cannot resurrect obsolete avatars (4.1001ms)
+✔ nicknames are normalized and included in welcome, join and late arrivals (784.1389ms)
+✔ avatar identity survives join, late arrival and reconnect, with validated floor poses (276.9553ms)
+✔ nickname normalization bounds length and removes invisible control characters (5.443ms)
+✔ two visitors exchange head and hand poses; another room stays isolated (271.7079ms)
+✔ leave removes membership; reconnect snapshots active peers and last poses (140.5331ms)
+✔ invalid poses and malformed JSON close the sender without broadcasting (227.9363ms)
+✔ room capacity returns a specific close reason and frees departed slots (74.6682ms)
+✔ clock replies echo timestamp; oversized packets are rejected (28.6159ms)
+✔ heartbeat removes unresponsive visitors and empty rooms (105.3321ms)
+✔ voice descriptions and ICE are targeted, sender-authenticated and room-isolated (109.8313ms)
+✔ invalid voice signals never reach peers; voice burst does not consume pose quota (36.0197ms)
+ℹ tests 25
+ℹ suites 0
+ℹ pass 24
+ℹ fail 1
+ℹ cancelled 0
+ℹ skipped 0
+ℹ todo 0
+ℹ duration_ms 12239.6043
+
+✖ failing tests:
+
+test at tests\arrival.test.mjs:191:1
+✖ gender choice is required alongside nickname, persists, and is shared without changing invitation URLs (49.2554ms)
+  AssertionError [ERR_ASSERTION]: Expected values to be strictly equal:
+  + actual - expected
+  
+  + 'Femme (choisi)'
+  - 'Femme · choisi'
+           ^
+  
+      at TestContext.<anonymous> (file:///C:/Users/nicol/Documents/workspaces/vr-workspace/test-meta-web-sdk-update/tests/arrival.test.mjs:198:10)
+      at async Test.run (node:internal/test_runner/test:1409:7)
+      at async Test.processPendingSubtests (node:internal/test_runner/test:974:7) {
+    generatedMessage: true,
+    code: 'ERR_ASSERTION',
+    actual: 'Femme (choisi)',
+    expected: 'Femme · choisi',
+    operator: 'strictEqual',
+    diff: 'simple'
+  }

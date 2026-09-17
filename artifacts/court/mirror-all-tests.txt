@@ -1,0 +1,72 @@
+✔ every path stays solo without an invitation; both invitation formats work; disconnect returns to root (1.5586ms)
+✔ solo at / keeps the map and URL until explicit creation (131.9636ms)
+✔ solo at /maps/plaisance?other=1#garden keeps the map and URL until explicit creation (93.5669ms)
+✔ solo at /app/maps/plaisance/ keeps the map and URL until explicit creation (73.7506ms)
+✔ nickname field preserves spaces while typing, persists and reaches the connection without entering invite URLs (145.4095ms)
+✔ the reported invitation prompts for a nickname despite a legacy automatic visitor name (171.4585ms)
+✔ blank identity cannot enter, while deliberately chosen visitor-style names remain valid (737.5325ms)
+✔ roomId invitation without a saved nickname waits in solo then joins the exact invited room (60.4028ms)
+✔ room invitation without a saved nickname waits in solo then joins the exact invited room (64.0506ms)
+✔ blank or inaccessible nickname storage still requires personalisation, and load failure retains the invitation (91.6512ms)
+✔ direct invitation with saved nickname joins; leaving releases voice, socket and avatars without retry (37.4732ms)
+✔ gender choice is required alongside nickname, persists, and is shared without changing invitation URLs (162.5739ms)
+✔ GLB verifier accepts actual skeletal deformation and rejects corrupt weights, missing clips and broken loops (19827.4669ms)
+                                                 
+▄▄▄▄▄▄  ▄▄      ▄▄   ▄▄▄▄    ▄▄▄▄▄     ▄▄   ▄▄▄ 
+▀▀██▀▀  ██      ██ ▄█▀▀▀▀█   ██▀▀▀██   ██  ██▀  
+  ██    ▀█▄ ██ ▄█▀ ██▄       ██    ██  ██▄██    
+  ██     ██ ██ ██   ▀████▄   ██    ██  █████    
+  ██     ███▀▀███       ▀██  ██    ██  ██  ██▄  
+▄▄██▄▄   ███  ███  █▄▄▄▄▄█▀  ██▄▄▄██   ██   ██▄ 
+▀▀▀▀▀▀   ▀▀▀  ▀▀▀   ▀▀▀▀▀    ▀▀▀▀▀     ▀▀    ▀▀                                                
+===============================================
+Immersive Web SDK v0.5.3
+Three.js r181
+EliCS v3.4.2
+✔ anatomical side is determined by geometry, with independent tracked arms (36.7252ms)
+✔ reachable world targets preserve limb lengths under translated, yawed and scaled roots (1.7685ms)
+✔ unreachable targets clamp extension, folding, shoulder swing and wrist rotation (3.6549ms)
+✔ both exported Blender rigs accept world grip targets without stretching (12.7857ms)
+✔ exported bind frames match WebXR grip thumb and finger axes for both hands and body yaws (287.4621ms)
+✔ exported arms preserve measured lengths and anatomical bend limits for extreme controller poses (35.0387ms)
+✔ real skinned fingertip vertices match the WebXR grip frame after XR posing (227.3123ms)
+✔ enlarged hands retain proportions and centre the grip inside the palm, not at the wrist (3.7847ms)
+✔ Blender Walking swings opposite arms with bent elbows; sidestep clips have no arm swing (4.3ms)
+                                                 
+▄▄▄▄▄▄  ▄▄      ▄▄   ▄▄▄▄    ▄▄▄▄▄     ▄▄   ▄▄▄ 
+▀▀██▀▀  ██      ██ ▄█▀▀▀▀█   ██▀▀▀██   ██  ██▀  
+  ██    ▀█▄ ██ ▄█▀ ██▄       ██    ██  ██▄██    
+  ██     ██ ██ ██   ▀████▄   ██    ██  █████    
+  ██     ███▀▀███       ▀██  ██    ██  ██  ██▄  
+▄▄██▄▄   ███  ███  █▄▄▄▄▄█▀  ██▄▄▄██   ██   ██▄ 
+▀▀▀▀▀▀   ▀▀▀  ▀▀▀   ▀▀▀▀▀    ▀▀▀▀▀     ▀▀    ▀▀                                                
+===============================================
+Immersive Web SDK v0.5.3
+Three.js r181
+EliCS v3.4.2
+✔ first-person head stays available to mirrors while hidden from both direct eye cameras (10.4986ms)
+✔ independent mixers blend Idle/Walking, then return to rest without mutating other avatars (6.5271ms)
+✔ strafing follows local anatomical left/right and preserves the body yaw (5.3109ms)
+✔ changing identity during load and leaving before completion cannot resurrect obsolete avatars (3.4378ms)
+                                                 
+▄▄▄▄▄▄  ▄▄      ▄▄   ▄▄▄▄    ▄▄▄▄▄     ▄▄   ▄▄▄ 
+▀▀██▀▀  ██      ██ ▄█▀▀▀▀█   ██▀▀▀██   ██  ██▀  
+  ██    ▀█▄ ██ ▄█▀ ██▄       ██    ██  ██▄██    
+  ██     ██ ██ ██   ▀████▄   ██    ██  █████    
+  ██     ███▀▀███       ▀██  ██    ██  ██  ██▄  
+▄▄██▄▄   ███  ███  █▄▄▄▄▄█▀  ██▄▄▄██   ██   ██▄ 
+▀▀▀▀▀▀   ▀▀▀  ▀▀▀   ▀▀▀▀▀    ▀▀▀▀▀     ▀▀    ▀▀                                                
+===============================================
+Immersive Web SDK v0.5.3
+Three.js r181
+EliCS v3.4.2
+✔ plane reflection mirrors each eye, clips the rear room and retains asymmetric XR projections (5.0785ms)
+✔ independent eye targets restore renderer and mirror state even when rendering throws (2.9548ms)
+ℹ tests 28
+ℹ suites 0
+ℹ pass 28
+ℹ fail 0
+ℹ cancelled 0
+ℹ skipped 0
+ℹ todo 0
+ℹ duration_ms 19951.6059

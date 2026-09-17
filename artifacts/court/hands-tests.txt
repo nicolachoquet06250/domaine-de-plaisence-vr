@@ -1,0 +1,36 @@
+✔ every path stays solo without an invitation; both invitation formats work; disconnect returns to root (1.1399ms)
+✔ solo at / keeps the map and URL until explicit creation (103.0074ms)
+✔ solo at /maps/plaisance?other=1#garden keeps the map and URL until explicit creation (64.1774ms)
+✔ solo at /app/maps/plaisance/ keeps the map and URL until explicit creation (51.7051ms)
+✔ nickname field preserves spaces while typing, persists and reaches the connection without entering invite URLs (89.911ms)
+✔ the reported invitation prompts for a nickname despite a legacy automatic visitor name (79.1279ms)
+✔ blank identity cannot enter, while deliberately chosen visitor-style names remain valid (160.4179ms)
+✔ roomId invitation without a saved nickname waits in solo then joins the exact invited room (38.3361ms)
+✔ room invitation without a saved nickname waits in solo then joins the exact invited room (41.3662ms)
+✔ blank or inaccessible nickname storage still requires personalisation, and load failure retains the invitation (77.5346ms)
+✔ direct invitation with saved nickname joins; leaving releases voice, socket and avatars without retry (37.069ms)
+✔ gender choice is required alongside nickname, persists, and is shared without changing invitation URLs (103.7667ms)
+✔ GLB verifier accepts actual skeletal deformation and rejects corrupt weights, missing clips and broken loops (9168.1506ms)
+                                                 
+▄▄▄▄▄▄  ▄▄      ▄▄   ▄▄▄▄    ▄▄▄▄▄     ▄▄   ▄▄▄ 
+▀▀██▀▀  ██      ██ ▄█▀▀▀▀█   ██▀▀▀██   ██  ██▀  
+  ██    ▀█▄ ██ ▄█▀ ██▄       ██    ██  ██▄██    
+  ██     ██ ██ ██   ▀████▄   ██    ██  █████    
+  ██     ███▀▀███       ▀██  ██    ██  ██  ██▄  
+▄▄██▄▄   ███  ███  █▄▄▄▄▄█▀  ██▄▄▄██   ██   ██▄ 
+▀▀▀▀▀▀   ▀▀▀  ▀▀▀   ▀▀▀▀▀    ▀▀▀▀▀     ▀▀    ▀▀                                                
+===============================================
+Immersive Web SDK v0.5.3
+Three.js r181
+EliCS v3.4.2
+✔ independent mixers blend Idle/Walking, then return to rest without mutating other avatars (12.6937ms)
+✔ strafing follows local anatomical left/right and preserves the body yaw (5.2925ms)
+✔ changing identity during load and leaving before completion cannot resurrect obsolete avatars (2.5611ms)
+ℹ tests 16
+ℹ suites 0
+ℹ pass 16
+ℹ fail 0
+ℹ cancelled 0
+ℹ skipped 0
+ℹ todo 0
+ℹ duration_ms 9260.6295
