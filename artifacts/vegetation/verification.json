@@ -1,0 +1,56 @@
+{
+  "estateLawnRelief": {
+    "triangles": 146038,
+    "drawCalls": 21,
+    "bytes": 6963008,
+    "grassVertices": 154931,
+    "raisedVertices": 81843,
+    "bounds": {
+      "min": [
+        -35,
+        -0.6000000238418579,
+        -51
+      ],
+      "max": [
+        35.02424240112305,
+        0.14964410662651062,
+        39.01948547363281
+      ]
+    }
+  },
+  "arrivalLawnRelief": {
+    "triangles": 62710,
+    "drawCalls": 5,
+    "bytes": 3077696,
+    "grassVertices": 63455,
+    "raisedVertices": 33649,
+    "bounds": {
+      "min": [
+        -20,
+        -0.30000001192092896,
+        -20
+      ],
+      "max": [
+        20,
+        0.14900292456150055,
+        20
+      ]
+    }
+  },
+  "parterre": {
+    "rootedFlowers": 70,
+    "stemVertices": 3850,
+    "stemHeightMeters": [
+      0.5446095146595363,
+      0.7300864543376587
+    ]
+  },
+  "urn": {
+    "rootedFlowers": 12,
+    "stemVertices": 660,
+    "stemHeightMeters": [
+      0.3210238253284452,
+      0.44334251489864096
+    ]
+  }
+}
