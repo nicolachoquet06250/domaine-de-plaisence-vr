@@ -1,0 +1,22 @@
+{
+  "removed": [
+    {
+      "object": "palaceInterior Chateau Marbre creme veine.004",
+      "vertices": 8,
+      "boundsBlender": [
+        [
+          -4.650000095367432,
+          4.0,
+          4.78000020980835
+        ],
+        [
+          4.650000095367432,
+          5.78000020980835,
+          5.039999961853027
+        ]
+      ]
+    }
+  ],
+  "removedColliders": 1,
+  "keptIntermediateLandingY": 2.84
+}

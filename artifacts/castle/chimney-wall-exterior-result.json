@@ -1,0 +1,257 @@
+{
+  "ok": true,
+  "data": {
+    "workspaceRoot": "C:\\Users\\nicol\\Documents\\workspaces\\vr-workspace\\test-meta-web-sdk-update",
+    "operation": "scene.render-file",
+    "result": {
+      "camera": {
+        "fov": 60,
+        "lookAt": [
+          21,
+          5.4,
+          0
+        ],
+        "position": [
+          29,
+          5.4,
+          4
+        ],
+        "projection": "perspective",
+        "view": "custom",
+        "viewId": "chimney-wall-exterior"
+      },
+      "composedDocumentHash": "sha256:7a445de4690158a7961261eefda71bd3617f8ba8f10be67d013cef1e25558750",
+      "dependencies": [],
+      "diagnostics": [],
+      "height": 1200,
+      "mimeType": "image/png",
+      "path": "public/scenes/modules/castle-blender.iwsdk.scene.json",
+      "renderStats": {
+        "available": true,
+        "calls": 111,
+        "frameTimeSamplesMs": [
+          24.2,
+          3569.9,
+          12,
+          9.9,
+          7.6,
+          5.9,
+          3.7,
+          4.4,
+          2.9
+        ],
+        "lines": 0,
+        "environment": {
+          "browser": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/153.0.0.0 Safari/537.36",
+          "devicePixelRatio": 2,
+          "emulatedUserAgent": "Mozilla/5.0 (X11; Linux x86_64; Quest 3) AppleWebKit/537.36 (KHTML, like Gecko) OculusBrowser/33.0.0.x.x.x Chrome/126.0.6478.122 VR Safari/537.36",
+          "emulationProfile": {
+            "active": true,
+            "device": "metaQuest3",
+            "runtime": "IWER"
+          },
+          "gpu": "ANGLE (Intel, Intel(R) Iris(R) Xe Graphics (0x0000A7A0) Direct3D11 vs_5_0 ps_5_0, D3D11)",
+          "hostPlatform": "Windows",
+          "hostUserAgent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/153.0.0.0 Safari/537.36",
+          "renderer": "IWSDK WebGL",
+          "visibility": {
+            "method": "threejs-first-hit-sampling-v1",
+            "occlusion": "conservative-cpu-first-hit",
+            "sampleGrid": "3x3-projected-bounds+overhead-lower-frame",
+            "uncertainObjectsIncluded": false
+          }
+        },
+        "geometryCount": 61,
+        "points": 0,
+        "programs": 24,
+        "materialCount": 39,
+        "meshCount": 114,
+        "nodeCount": 45,
+        "objectCount": 191,
+        "shadowCasters": 19,
+        "sceneAssets": [
+          {
+            "id": "palace",
+            "meshCount": 15
+          },
+          {
+            "id": "palaceCollision",
+            "meshCount": 1
+          },
+          {
+            "id": "palaceInterior",
+            "meshCount": 25
+          },
+          {
+            "id": "palaceGlass",
+            "meshCount": 1
+          },
+          {
+            "id": "palaceDoor",
+            "meshCount": 7
+          },
+          {
+            "id": "palaceDoorCollision",
+            "meshCount": 1
+          },
+          {
+            "id": "palaceDoor",
+            "meshCount": 7
+          },
+          {
+            "id": "palaceDoorCollision",
+            "meshCount": 1
+          },
+          {
+            "id": "palaceDoor",
+            "meshCount": 7
+          },
+          {
+            "id": "palaceDoorCollision",
+            "meshCount": 1
+          },
+          {
+            "id": "palaceDoor",
+            "meshCount": 7
+          },
+          {
+            "id": "palaceDoorCollision",
+            "meshCount": 1
+          },
+          {
+            "id": "palaceDoor",
+            "meshCount": 7
+          },
+          {
+            "id": "palaceDoorCollision",
+            "meshCount": 1
+          },
+          {
+            "id": "bustFrancoisI",
+            "meshCount": 2
+          },
+          {
+            "id": "bustLouisXIV",
+            "meshCount": 2
+          },
+          {
+            "id": "mirrorOval",
+            "meshCount": 1
+          },
+          {
+            "id": "mirrorRectangle",
+            "meshCount": 1
+          },
+          {
+            "id": "mirrorRectangle",
+            "meshCount": 1
+          },
+          {
+            "id": "mirrorOval",
+            "meshCount": 1
+          },
+          {
+            "id": "mirrorRectangle",
+            "meshCount": 1
+          },
+          {
+            "id": "mirrorRectangle",
+            "meshCount": 1
+          },
+          {
+            "id": "hearth",
+            "meshCount": 6
+          },
+          {
+            "id": "hearthFire",
+            "meshCount": 1
+          },
+          {
+            "id": "hearth",
+            "meshCount": 6
+          },
+          {
+            "id": "hearthFire",
+            "meshCount": 1
+          },
+          {
+            "id": "hearth",
+            "meshCount": 6
+          },
+          {
+            "id": "hearthFire",
+            "meshCount": 1
+          },
+          {
+            "id": "hearth",
+            "meshCount": 6
+          },
+          {
+            "id": "hearthFire",
+            "meshCount": 1
+          }
+        ],
+        "textures": 64,
+        "triangles": 327038,
+        "visibleNodeIds": [
+          "castle",
+          "castle/light-gallery-east",
+          "castle/light-gallery-west",
+          "castle/light-salon-east",
+          "castle/light-salon-west",
+          "castle/light-vestibule",
+          "castle/palace",
+          "hearth-east-gallery",
+          "hearth-east-gallery-glow",
+          "hearth-east-salon",
+          "hearth-east-salon-glow",
+          "hearth-west-gallery",
+          "hearth-west-gallery-glow",
+          "hearth-west-salon",
+          "hearth-west-salon-glow",
+          "sun"
+        ],
+        "framingBounds": {
+          "max": [
+            21.58,
+            17.41,
+            9.5
+          ],
+          "min": [
+            -21.58,
+            0,
+            -7.58
+          ],
+          "size": [
+            43.16,
+            17.41,
+            17.08
+          ]
+        },
+        "worldBounds": {
+          "max": [
+            21.58,
+            40.2342,
+            25.2425
+          ],
+          "min": [
+            -25.1949,
+            0,
+            -7.58
+          ],
+          "size": [
+            46.7749,
+            40.2342,
+            32.8225
+          ]
+        }
+      },
+      "runtimeHash": "sha256:7d245602cd808fb5efc8fab1979295f302143e1d2f258aafcc6792030898eb67",
+      "screenshotSha256": "sha256:78161ef815af41316e5ca4eccd4dfbc664e9989fffe6332d75012cc04ee38dca",
+      "sourceDocumentHash": "sha256:7a445de4690158a7961261eefda71bd3617f8ba8f10be67d013cef1e25558750",
+      "valid": true,
+      "width": 1600
+    },
+    "screenshotPath": "artifacts/castle/chimney-wall-exterior.png"
+  }
+}

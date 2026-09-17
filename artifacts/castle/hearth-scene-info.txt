@@ -1,0 +1,56 @@
+2026-09-10 18:22:47,396 - BlenderMCPServer - INFO - BlenderMCP server starting up
+2026-09-10 18:22:47,398 - BlenderMCPServer - INFO - Blender addon on disk is current (protocol 5).
+2026-09-10 18:22:47,405 - BlenderMCPServer - INFO - Connected to Blender at localhost:9876
+2026-09-10 18:22:47,405 - BlenderMCPServer - INFO - Created new persistent connection to Blender
+2026-09-10 18:22:47,405 - BlenderMCPServer - INFO - Sending command: get_addon_info with params: None
+2026-09-10 18:22:47,405 - BlenderMCPServer - INFO - Command sent, waiting for response...
+2026-09-10 18:22:47,471 - BlenderMCPServer - INFO - Received complete response (358 bytes)
+2026-09-10 18:22:47,471 - BlenderMCPServer - INFO - Received 358 bytes of data
+2026-09-10 18:22:47,472 - BlenderMCPServer - INFO - Response parsed, status: success
+2026-09-10 18:22:47,472 - BlenderMCPServer - INFO - Blender addon up to date (protocol 5, addon [1, 6], Blender 5.2.1 LTS)
+2026-09-10 18:22:47,472 - BlenderMCPServer - INFO - Sending command: get_telemetry_consent with params: None
+2026-09-10 18:22:47,472 - BlenderMCPServer - INFO - Command sent, waiting for response...
+2026-09-10 18:22:47,516 - BlenderMCPServer - INFO - Received complete response (50 bytes)
+2026-09-10 18:22:47,516 - BlenderMCPServer - INFO - Received 50 bytes of data
+2026-09-10 18:22:47,516 - BlenderMCPServer - INFO - Response parsed, status: success
+2026-09-10 18:22:47,572 - BlenderMCPServer - INFO - Successfully connected to Blender on startup
+2026-09-10 18:22:47,582 - mcp.server.lowlevel.server - INFO - Processing request of type CallToolRequest
+2026-09-10 18:22:47,583 - BlenderMCPServer - INFO - Sending command: get_scene_info with params: None
+2026-09-10 18:22:47,583 - BlenderMCPServer - INFO - Command sent, waiting for response...
+2026-09-10 18:22:47,627 - BlenderMCPServer - INFO - Received complete response (1016 bytes)
+2026-09-10 18:22:47,627 - BlenderMCPServer - INFO - Received 1016 bytes of data
+2026-09-10 18:22:47,627 - BlenderMCPServer - INFO - Response parsed, status: success
+{
+  "content": [
+    {
+      "type": "text",
+      "text": "{\n  \"name\": \"Chateau - Architecture et interieur.002\",\n  \"object_count\": 73,\n  \"objects\": [\n    {\n      \"name\": \"Oak_Leaf_Left.002\",\n      \"type\": \"MESH\",\n      \"location\": [\n        1.6,\n        0.0,\n        0.0\n      ]\n    },\n    {\n      \"name\": \"Hinge_Left.002\",\n      \"type\": \"EMPTY\",\n      \"location\": [\n        -1.6,\n        -6.0,\n        0.64\n      ]\n    },\n    {\n      \"name\": \"Oak_Leaf_Right.002\",\n      \"type\": \"MESH\",\n      \"location\": [\n        -1.6,\n        0.0,\n        0.0\n      ]\n    },\n    {\n      \"name\": \"Hinge_Right.002\",\n      \"type\": \"EMPTY\",\n      \"location\": [\n        1.6,\n        -6.0,\n        0.64\n      ]\n    },\n    {\n      \"name\": \"palace Chateau Calcaire de taille.004\",\n      \"type\": \"MESH\",\n      \"location\": [\n        0.0,\n        0.0,\n        0.0\n      ]\n    },\n    {\n      \"name\": \"palace Chateau Moulures ivoire.004\",\n      \"type\": \"MESH\",\n      \"location\": [\n        0.0,\n        0.0,\n        0.0\n      ]\n    },\n    {\n      \"name\": \"palace Chateau Bronze dore patine.004\",\n      \"type\": \"MESH\",\n      \"location\": [\n        0.0,\n        0.0,\n        0.0\n      ]\n    },\n    {\n      \"name\": \"palace Chateau Chene des portes.002\",\n      \"type\": \"MESH\",\n      \"location\": [\n        0.0,\n        0.0,\n        0.0\n      ]\n    },\n    {\n      \"name\": \"palace Chateau Moulures ivoire.005\",\n      \"type\": \"MESH\",\n      \"location\": [\n        0.0,\n        0.0,\n        0.0\n      ]\n    },\n    {\n      \"name\": \"palace Chateau Calcaire de taille.005\",\n      \"type\": \"MESH\",\n      \"location\": [\n        0.0,\n        0.0,\n        0.0\n      ]\n    }\n  ],\n  \"materials_count\": 36\n}"
+    }
+  ],
+  "structuredContent": {
+    "result": "{\n  \"name\": \"Chateau - Architecture et interieur.002\",\n  \"object_count\": 73,\n  \"objects\": [\n    {\n      \"name\": \"Oak_Leaf_Left.002\",\n      \"type\": \"MESH\",\n      \"location\": [\n        1.6,\n        0.0,\n        0.0\n      ]\n    },\n    {\n      \"name\": \"Hinge_Left.002\",\n      \"type\": \"EMPTY\",\n      \"location\": [\n        -1.6,\n        -6.0,\n        0.64\n      ]\n    },\n    {\n      \"name\": \"Oak_Leaf_Right.002\",\n      \"type\": \"MESH\",\n      \"location\": [\n        -1.6,\n        0.0,\n        0.0\n      ]\n    },\n    {\n      \"name\": \"Hinge_Right.002\",\n      \"type\": \"EMPTY\",\n      \"location\": [\n        1.6,\n        -6.0,\n        0.64\n      ]\n    },\n    {\n      \"name\": \"palace Chateau Calcaire de taille.004\",\n      \"type\": \"MESH\",\n      \"location\": [\n        0.0,\n        0.0,\n        0.0\n      ]\n    },\n    {\n      \"name\": \"palace Chateau Moulures ivoire.004\",\n      \"type\": \"MESH\",\n      \"location\": [\n        0.0,\n        0.0,\n        0.0\n      ]\n    },\n    {\n      \"name\": \"palace Chateau Bronze dore patine.004\",\n      \"type\": \"MESH\",\n      \"location\": [\n        0.0,\n        0.0,\n        0.0\n      ]\n    },\n    {\n      \"name\": \"palace Chateau Chene des portes.002\",\n      \"type\": \"MESH\",\n      \"location\": [\n        0.0,\n        0.0,\n        0.0\n      ]\n    },\n    {\n      \"name\": \"palace Chateau Moulures ivoire.005\",\n      \"type\": \"MESH\",\n      \"location\": [\n        0.0,\n        0.0,\n        0.0\n      ]\n    },\n    {\n      \"name\": \"palace Chateau Calcaire de taille.005\",\n      \"type\": \"MESH\",\n      \"location\": [\n        0.0,\n        0.0,\n        0.0\n      ]\n    }\n  ],\n  \"materials_count\": 36\n}"
+  },
+  "isError": false
+}
+2026-09-10 18:22:47,635 - BlenderMCPServer - INFO - Sending command: drain_human_activity with params: None
+2026-09-10 18:22:47,636 - BlenderMCPServer - INFO - Command sent, waiting for response...
+2026-09-10 18:22:47,678 - BlenderMCPServer - INFO - Received complete response (47 bytes)
+2026-09-10 18:22:47,678 - BlenderMCPServer - INFO - Received 47 bytes of data
+2026-09-10 18:22:47,678 - BlenderMCPServer - INFO - Response parsed, status: success
+2026-09-10 18:22:47,678 - BlenderMCPServer - INFO - Sending command: get_world_state_snapshot with params: None
+2026-09-10 18:22:47,678 - BlenderMCPServer - INFO - Command sent, waiting for response...
+2026-09-10 18:22:47,741 - BlenderMCPServer - INFO - Received complete response (30764 bytes)
+2026-09-10 18:22:47,741 - BlenderMCPServer - INFO - Received 30764 bytes of data
+2026-09-10 18:22:47,742 - BlenderMCPServer - INFO - Response parsed, status: success
+2026-09-10 18:22:47,743 - BlenderMCPServer - INFO - Sending command: get_viewport_screenshot with params: {'max_size': 512, 'filepath': 'C:\\Users\\nicol\\AppData\\Local\\Temp\\blender_mcp_episode_25728_2ca0d703.png', 'format': 'png'}
+2026-09-10 18:22:47,744 - BlenderMCPServer - INFO - Command sent, waiting for response...
+2026-09-10 18:22:47,837 - BlenderMCPServer - INFO - Received complete response (196 bytes)
+2026-09-10 18:22:47,838 - BlenderMCPServer - INFO - Received 196 bytes of data
+2026-09-10 18:22:47,838 - BlenderMCPServer - INFO - Response parsed, status: success
+2026-09-10 18:22:47,838 - httpx - INFO - HTTP Request: POST https://yzasssndwqceclzilcdu.supabase.co/rest/v1/telemetry_events "HTTP/1.1 201 Created"
+2026-09-10 18:22:47,867 - httpx - INFO - HTTP Request: POST https://yzasssndwqceclzilcdu.supabase.co/rest/v1/trajectory_steps "HTTP/1.1 201 Created"
+2026-09-10 18:22:48,028 - httpx - INFO - HTTP Request: POST https://yzasssndwqceclzilcdu.supabase.co/rest/v1/telemetry_events "HTTP/1.1 201 Created"
+2026-09-10 18:22:48,986 - httpx - INFO - HTTP Request: POST https://yzasssndwqceclzilcdu.supabase.co/storage/v1/object/telemetry-screenshots/episode_6d2c6011-2922-4d9d-b035-da49876bfc5c_1789057367844.png "HTTP/1.1 200 OK"
+2026-09-10 18:22:49,255 - httpx - INFO - HTTP Request: POST https://yzasssndwqceclzilcdu.supabase.co/rest/v1/trajectory_steps "HTTP/1.1 201 Created"
+2026-09-10 18:22:49,257 - BlenderMCPServer - INFO - Disconnecting from Blender on shutdown
+2026-09-10 18:22:49,257 - BlenderMCPServer - INFO - BlenderMCP server shut down

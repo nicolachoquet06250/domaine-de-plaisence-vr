@@ -1,0 +1,59 @@
+{
+  "assets": {
+    "palace": {
+      "bytes": 3982636,
+      "triangles": 77778,
+      "drawCalls": 14
+    },
+    "palaceInterior": {
+      "bytes": 4239840,
+      "triangles": 92090,
+      "drawCalls": 25
+    },
+    "palaceGlass": {
+      "bytes": 278284,
+      "triangles": 4928,
+      "drawCalls": 1
+    },
+    "palaceDoor": {
+      "bytes": 88404,
+      "triangles": 1240,
+      "drawCalls": 6
+    }
+  },
+  "checks": [
+    "transparent low-roughness glazing",
+    "two Blender hinge clips, each 105 degrees",
+    "60 wall-to-door seam probes and 36 clear opening probes",
+    "entrance and four salon openings clear",
+    "63 stair support samples",
+    "upper floors supported",
+    "window collision",
+    "intermediate landing joins wall; inaccessible upper slab removed",
+    "return stairs have a traversable underside with solid support columns",
+    "real locomotion capsule climbs both flights and turns into upper salon",
+    "garden, fountain and player spawn preserved"
+  ],
+  "route": [
+    [
+      -0.000003953438722795528,
+      2.8538664884790492,
+      -2.9926335766622256
+    ],
+    [
+      3.080058529071471,
+      2.8500002070778763,
+      -3.0489148279973195
+    ],
+    [
+      3.1495076188609636,
+      5.049642493262187,
+      3.741312424348822
+    ],
+    [
+      6.9408371172628796,
+      5.049999962642343,
+      3.7992280534423175
+    ]
+  ]
+}

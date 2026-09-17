@@ -1,0 +1,192 @@
+{
+  "ok": true,
+  "data": {
+    "workspaceRoot": "C:\\Users\\nicol\\Documents\\workspaces\\vr-workspace\\test-meta-web-sdk-update",
+    "operation": "scene.render-file",
+    "result": {
+      "camera": {
+        "fov": 78,
+        "lookAt": [
+          3.8,
+          3.1,
+          -5.45
+        ],
+        "position": [
+          0,
+          4.4,
+          -2.8
+        ],
+        "projection": "perspective",
+        "view": "custom",
+        "viewId": "castle-landing"
+      },
+      "composedDocumentHash": "sha256:f4cd31dbd4ab472cba8e2e74182bdd295f1e1db0015761ce9889af15006cdfc3",
+      "dependencies": [],
+      "diagnostics": [],
+      "height": 1600,
+      "mimeType": "image/png",
+      "path": "public/scenes/modules/castle-blender.iwsdk.scene.json",
+      "renderStats": {
+        "available": true,
+        "calls": 36,
+        "frameTimeSamplesMs": [
+          61.7,
+          349.3,
+          2.6,
+          2.2,
+          1.7,
+          1117.2,
+          4.5,
+          5.2
+        ],
+        "lines": 0,
+        "environment": {
+          "browser": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/153.0.0.0 Safari/537.36",
+          "devicePixelRatio": 2,
+          "emulatedUserAgent": "Mozilla/5.0 (X11; Linux x86_64; Quest 3) AppleWebKit/537.36 (KHTML, like Gecko) OculusBrowser/33.0.0.x.x.x Chrome/126.0.6478.122 VR Safari/537.36",
+          "emulationProfile": {
+            "active": true,
+            "device": "metaQuest3",
+            "runtime": "IWER"
+          },
+          "gpu": "ANGLE (Intel, Intel(R) Iris(R) Xe Graphics (0x0000A7A0) Direct3D11 vs_5_0 ps_5_0, D3D11)",
+          "hostPlatform": "Windows",
+          "hostUserAgent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/153.0.0.0 Safari/537.36",
+          "renderer": "IWSDK WebGL",
+          "visibility": {
+            "method": "threejs-first-hit-sampling-v1",
+            "occlusion": "conservative-cpu-first-hit",
+            "sampleGrid": "3x3-projected-bounds+overhead-lower-frame",
+            "uncertainObjectsIncluded": false
+          }
+        },
+        "geometryCount": 46,
+        "points": 0,
+        "programs": 18,
+        "materialCount": 31,
+        "meshCount": 74,
+        "nodeCount": 23,
+        "objectCount": 131,
+        "shadowCasters": 15,
+        "sceneAssets": [
+          {
+            "id": "palace",
+            "meshCount": 11
+          },
+          {
+            "id": "palaceCollision",
+            "meshCount": 1
+          },
+          {
+            "id": "palaceInterior",
+            "meshCount": 23
+          },
+          {
+            "id": "palaceGlass",
+            "meshCount": 1
+          },
+          {
+            "id": "palaceDoor",
+            "meshCount": 7
+          },
+          {
+            "id": "palaceDoorCollision",
+            "meshCount": 1
+          },
+          {
+            "id": "palaceDoor",
+            "meshCount": 7
+          },
+          {
+            "id": "palaceDoorCollision",
+            "meshCount": 1
+          },
+          {
+            "id": "palaceDoor",
+            "meshCount": 7
+          },
+          {
+            "id": "palaceDoorCollision",
+            "meshCount": 1
+          },
+          {
+            "id": "palaceDoor",
+            "meshCount": 7
+          },
+          {
+            "id": "palaceDoorCollision",
+            "meshCount": 1
+          },
+          {
+            "id": "palaceDoor",
+            "meshCount": 7
+          },
+          {
+            "id": "palaceDoorCollision",
+            "meshCount": 1
+          },
+          {
+            "id": "bustFrancoisI",
+            "meshCount": 2
+          },
+          {
+            "id": "bustLouisXIV",
+            "meshCount": 2
+          }
+        ],
+        "textures": 41,
+        "triangles": 186224,
+        "visibleNodeIds": [
+          "castle",
+          "castle/interior",
+          "castle/light-gallery-east",
+          "castle/light-gallery-west",
+          "castle/light-salon-east",
+          "castle/light-salon-west",
+          "castle/light-vestibule",
+          "sun"
+        ],
+        "framingBounds": {
+          "max": [
+            21.58,
+            17.41,
+            9.5
+          ],
+          "min": [
+            -21.58,
+            0,
+            -7.58
+          ],
+          "size": [
+            43.16,
+            17.41,
+            17.08
+          ]
+        },
+        "worldBounds": {
+          "max": [
+            21.58,
+            40.2342,
+            25.2425
+          ],
+          "min": [
+            -25.1949,
+            0,
+            -7.58
+          ],
+          "size": [
+            46.7749,
+            40.2342,
+            32.8225
+          ]
+        }
+      },
+      "runtimeHash": "sha256:aef5e72f03a49d45d2a692ae232bb4d0828c19edc56d4349b26a586d578ae50e",
+      "screenshotSha256": "sha256:9f32cda1a11fe1dc1059648e584fa2518db2a81df8191f6c8a8c2fd180e79dca",
+      "sourceDocumentHash": "sha256:f4cd31dbd4ab472cba8e2e74182bdd295f1e1db0015761ce9889af15006cdfc3",
+      "valid": true,
+      "width": 2000
+    },
+    "screenshotPath": "artifacts/castle/landing-without-platform.png"
+  }
+}

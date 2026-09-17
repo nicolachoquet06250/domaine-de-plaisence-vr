@@ -1,0 +1,71 @@
+                                                 
+▄▄▄▄▄▄  ▄▄      ▄▄   ▄▄▄▄    ▄▄▄▄▄     ▄▄   ▄▄▄ 
+▀▀██▀▀  ██      ██ ▄█▀▀▀▀█   ██▀▀▀██   ██  ██▀  
+  ██    ▀█▄ ██ ▄█▀ ██▄       ██    ██  ██▄██    
+  ██     ██ ██ ██   ▀████▄   ██    ██  █████    
+  ██     ███▀▀███       ▀██  ██    ██  ██  ██▄  
+▄▄██▄▄   ███  ███  █▄▄▄▄▄█▀  ██▄▄▄██   ██   ██▄ 
+▀▀▀▀▀▀   ▀▀▀  ▀▀▀   ▀▀▀▀▀    ▀▀▀▀▀     ▀▀    ▀▀                                                
+===============================================
+Immersive Web SDK v0.5.3
+Three.js r181
+EliCS v3.4.2
+{
+  "assets": {
+    "palace": {
+      "bytes": 4179548,
+      "triangles": 81794,
+      "drawCalls": 10
+    },
+    "palaceInterior": {
+      "bytes": 4236628,
+      "triangles": 92066,
+      "drawCalls": 23
+    },
+    "palaceGlass": {
+      "bytes": 298060,
+      "triangles": 5280,
+      "drawCalls": 1
+    },
+    "palaceDoor": {
+      "bytes": 88404,
+      "triangles": 1240,
+      "drawCalls": 6
+    }
+  },
+  "checks": [
+    "transparent low-roughness glazing",
+    "two Blender hinge clips, each 105 degrees",
+    "60 wall-to-door seam probes and 36 clear opening probes",
+    "entrance and four salon openings clear",
+    "63 stair support samples",
+    "upper floors supported",
+    "window collision",
+    "both rear landings join wall",
+    "return stairs have a traversable underside with solid support columns",
+    "real locomotion capsule climbs both flights and turns into upper salon",
+    "garden, fountain and player spawn preserved"
+  ],
+  "route": [
+    [
+      0.0000018769410233351375,
+      2.8538667756414817,
+      -2.993361701116722
+    ],
+    [
+      3.080072165990214,
+      2.850000202928463,
+      -3.048931253657604
+    ],
+    [
+      3.1495076300437335,
+      5.049642524136589,
+      3.7413020042570864
+    ],
+    [
+      6.940836987459595,
+      5.049999962641128,
+      3.7992278915313595
+    ]
+  ]
+}

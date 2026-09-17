@@ -1,0 +1,13 @@
+{
+  "environment": "Managed IWSDK runtime, desktop GPU; VIEW_ID branches simulated, no OCULUS_multiview extension",
+  "results": [
+    { "mirrorEye": 0, "color": [240, 0, 0] },
+    { "mirrorEye": 1, "color": [0, 240, 0] },
+    { "flameEye": 0, "distance": 2, "lit": 117 },
+    { "flameEye": 0, "distance": 0.2, "lit": 100 },
+    { "flameEye": 0, "distance": 2, "lit": 117 },
+    { "flameEye": 1, "distance": 2, "lit": 117 },
+    { "flameEye": 1, "distance": 0.2, "lit": 100 },
+    { "flameEye": 1, "distance": 2, "lit": 117 }
+  ]
+}

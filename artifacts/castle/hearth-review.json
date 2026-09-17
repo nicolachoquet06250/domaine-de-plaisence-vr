@@ -1,0 +1,32 @@
+{
+  "activeFile": "public/scenes/plaisance.iwsdk.scene.json",
+  "runtimeHash": "sha256:4511838396564e1358c2fbb3fa355a4b4e8cb80166b41ab4540d4d80ddd029e2",
+  "sourceDocumentHash": "sha256:16ebae9afe5e527b46defd8580791c092a124c87e67564293582fc2f91537f8a",
+  "dirty": false,
+  "conflict": false,
+  "diagnostics": [],
+  "validation": {
+    "valid": true,
+    "issues": [],
+    "lifecycle": {
+      "schemaValid": "passed",
+      "capabilityCompatible": "passed",
+      "resourcesReady": "not-run",
+      "editorCommitted": "not-run",
+      "runtimeProven": "not-run"
+    }
+  },
+  "geometry": {
+    "triangles": 12256,
+    "bytes": 667272,
+    "fireplaces": 4,
+    "flameTrianglesEach": 32
+  },
+  "verification": {
+    "typecheck": "passed",
+    "build": "passed",
+    "moduleRender": "hearth-detail, valid",
+    "rootRender": "hearth-detail and hearth-upper, valid",
+    "runtime": "four HearthFire entities animate; east light observed at 2.812 and 3.654 cd"
+  }
+}

@@ -1,0 +1,659 @@
+{
+  "finalRoot": {
+    "camera": {
+      "fov": 58,
+      "lookAt": [
+        0,
+        4,
+        -12
+      ],
+      "position": [
+        0,
+        9,
+        33
+      ],
+      "projection": "perspective",
+      "view": "custom",
+      "viewId": "hero"
+    },
+    "composedDocumentHash": "sha256:6a544b2869d01d63f13158ad891df0df14a92a069742f9b95e9f12871be18b8c",
+    "dependencies": [],
+    "diagnostics": [],
+    "height": 1440,
+    "mimeType": "image/png",
+    "path": "public/scenes/plaisance.iwsdk.scene.json",
+    "renderStats": {
+      "available": true,
+      "calls": 178,
+      "frameTimeSamplesMs": [
+        45.4,
+        1.3,
+        672.1,
+        14.3,
+        5,
+        6.5,
+        43.5,
+        8.3
+      ],
+      "lines": 0,
+      "environment": {
+        "browser": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/153.0.0.0 Safari/537.36",
+        "devicePixelRatio": 2,
+        "emulatedUserAgent": "Mozilla/5.0 (X11; Linux x86_64; Quest 3) AppleWebKit/537.36 (KHTML, like Gecko) OculusBrowser/33.0.0.x.x.x Chrome/126.0.6478.122 VR Safari/537.36",
+        "emulationProfile": {
+          "active": true,
+          "device": "metaQuest3",
+          "runtime": "IWER"
+        },
+        "gpu": "ANGLE (Intel, Intel(R) Iris(R) Xe Graphics (0x0000A7A0) Direct3D11 vs_5_0 ps_5_0, D3D11)",
+        "hostPlatform": "Windows",
+        "hostUserAgent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/153.0.0.0 Safari/537.36",
+        "renderer": "IWSDK WebGL",
+        "visibility": {
+          "method": "threejs-first-hit-sampling-v1",
+          "occlusion": "conservative-cpu-first-hit",
+          "sampleGrid": "3x3-projected-bounds+overhead-lower-frame",
+          "uncertainObjectsIncluded": false
+        }
+      },
+      "geometryCount": 72,
+      "points": 0,
+      "programs": 24,
+      "materialCount": 61,
+      "meshCount": 245,
+      "nodeCount": 128,
+      "objectCount": 436,
+      "shadowCasters": 98,
+      "sceneAssets": [
+        {
+          "id": "estate-panel",
+          "meshCount": 1
+        },
+        {
+          "id": "palace",
+          "meshCount": 11
+        },
+        {
+          "id": "palaceCollision",
+          "meshCount": 1
+        },
+        {
+          "id": "palaceInterior",
+          "meshCount": 16
+        },
+        {
+          "id": "palaceGlass",
+          "meshCount": 1
+        },
+        {
+          "id": "palaceDoor",
+          "meshCount": 7
+        },
+        {
+          "id": "palaceDoorCollision",
+          "meshCount": 1
+        },
+        {
+          "id": "palaceDoor",
+          "meshCount": 7
+        },
+        {
+          "id": "palaceDoorCollision",
+          "meshCount": 1
+        },
+        {
+          "id": "palaceDoor",
+          "meshCount": 7
+        },
+        {
+          "id": "palaceDoorCollision",
+          "meshCount": 1
+        },
+        {
+          "id": "palaceDoor",
+          "meshCount": 7
+        },
+        {
+          "id": "palaceDoorCollision",
+          "meshCount": 1
+        },
+        {
+          "id": "palaceDoor",
+          "meshCount": 7
+        },
+        {
+          "id": "palaceDoorCollision",
+          "meshCount": 1
+        },
+        {
+          "id": "ground",
+          "meshCount": 2
+        },
+        {
+          "id": "groundCollision",
+          "meshCount": 1
+        },
+        {
+          "id": "parterre",
+          "meshCount": 6
+        },
+        {
+          "id": "parterreCollision",
+          "meshCount": 1
+        },
+        {
+          "id": "parterre",
+          "meshCount": 6
+        },
+        {
+          "id": "parterreCollision",
+          "meshCount": 1
+        },
+        {
+          "id": "parterre",
+          "meshCount": 6
+        },
+        {
+          "id": "parterreCollision",
+          "meshCount": 1
+        },
+        {
+          "id": "parterre",
+          "meshCount": 6
+        },
+        {
+          "id": "parterreCollision",
+          "meshCount": 1
+        },
+        {
+          "id": "pathLong",
+          "meshCount": 2
+        },
+        {
+          "id": "pathCollision",
+          "meshCount": 1
+        },
+        {
+          "id": "pathCross",
+          "meshCount": 2
+        },
+        {
+          "id": "pathCollision",
+          "meshCount": 1
+        },
+        {
+          "id": "pathTerrace",
+          "meshCount": 2
+        },
+        {
+          "id": "pathCollision",
+          "meshCount": 1
+        },
+        {
+          "id": "pathTerrace",
+          "meshCount": 2
+        },
+        {
+          "id": "pathCollision",
+          "meshCount": 1
+        },
+        {
+          "id": "cypress",
+          "meshCount": 4
+        },
+        {
+          "id": "cypressCollision",
+          "meshCount": 1
+        },
+        {
+          "id": "cypress",
+          "meshCount": 4
+        },
+        {
+          "id": "cypressCollision",
+          "meshCount": 1
+        },
+        {
+          "id": "cypress",
+          "meshCount": 4
+        },
+        {
+          "id": "cypressCollision",
+          "meshCount": 1
+        },
+        {
+          "id": "cypress",
+          "meshCount": 4
+        },
+        {
+          "id": "cypressCollision",
+          "meshCount": 1
+        },
+        {
+          "id": "cypress",
+          "meshCount": 4
+        },
+        {
+          "id": "cypressCollision",
+          "meshCount": 1
+        },
+        {
+          "id": "cypress",
+          "meshCount": 4
+        },
+        {
+          "id": "cypressCollision",
+          "meshCount": 1
+        },
+        {
+          "id": "cypress",
+          "meshCount": 4
+        },
+        {
+          "id": "cypressCollision",
+          "meshCount": 1
+        },
+        {
+          "id": "cypress",
+          "meshCount": 4
+        },
+        {
+          "id": "cypressCollision",
+          "meshCount": 1
+        },
+        {
+          "id": "cypress",
+          "meshCount": 4
+        },
+        {
+          "id": "cypressCollision",
+          "meshCount": 1
+        },
+        {
+          "id": "cypress",
+          "meshCount": 4
+        },
+        {
+          "id": "cypressCollision",
+          "meshCount": 1
+        },
+        {
+          "id": "cypress",
+          "meshCount": 4
+        },
+        {
+          "id": "cypressCollision",
+          "meshCount": 1
+        },
+        {
+          "id": "cypress",
+          "meshCount": 4
+        },
+        {
+          "id": "cypressCollision",
+          "meshCount": 1
+        },
+        {
+          "id": "cypress",
+          "meshCount": 4
+        },
+        {
+          "id": "cypressCollision",
+          "meshCount": 1
+        },
+        {
+          "id": "cypress",
+          "meshCount": 4
+        },
+        {
+          "id": "cypressCollision",
+          "meshCount": 1
+        },
+        {
+          "id": "cypress",
+          "meshCount": 4
+        },
+        {
+          "id": "cypressCollision",
+          "meshCount": 1
+        },
+        {
+          "id": "cypress",
+          "meshCount": 4
+        },
+        {
+          "id": "cypressCollision",
+          "meshCount": 1
+        },
+        {
+          "id": "urn",
+          "meshCount": 5
+        },
+        {
+          "id": "urnCollision",
+          "meshCount": 1
+        },
+        {
+          "id": "urn",
+          "meshCount": 5
+        },
+        {
+          "id": "urnCollision",
+          "meshCount": 1
+        },
+        {
+          "id": "urn",
+          "meshCount": 5
+        },
+        {
+          "id": "urnCollision",
+          "meshCount": 1
+        },
+        {
+          "id": "urn",
+          "meshCount": 5
+        },
+        {
+          "id": "urnCollision",
+          "meshCount": 1
+        },
+        {
+          "id": "bench",
+          "meshCount": 4
+        },
+        {
+          "id": "benchCollision",
+          "meshCount": 1
+        },
+        {
+          "id": "bench",
+          "meshCount": 4
+        },
+        {
+          "id": "benchCollision",
+          "meshCount": 1
+        },
+        {
+          "id": "bench",
+          "meshCount": 4
+        },
+        {
+          "id": "benchCollision",
+          "meshCount": 1
+        },
+        {
+          "id": "bench",
+          "meshCount": 4
+        },
+        {
+          "id": "benchCollision",
+          "meshCount": 1
+        },
+        {
+          "id": "gardenBorder",
+          "meshCount": 2
+        },
+        {
+          "id": "gardenBorderCollision",
+          "meshCount": 1
+        },
+        {
+          "id": "gardenBorder",
+          "meshCount": 2
+        },
+        {
+          "id": "gardenBorderCollision",
+          "meshCount": 1
+        },
+        {
+          "id": "gardenBorder",
+          "meshCount": 2
+        },
+        {
+          "id": "gardenBorderCollision",
+          "meshCount": 1
+        },
+        {
+          "id": "gardenBorder",
+          "meshCount": 2
+        },
+        {
+          "id": "gardenBorderCollision",
+          "meshCount": 1
+        },
+        {
+          "id": "gardenBorder",
+          "meshCount": 2
+        },
+        {
+          "id": "gardenBorderCollision",
+          "meshCount": 1
+        },
+        {
+          "id": "gardenBorder",
+          "meshCount": 2
+        },
+        {
+          "id": "gardenBorderCollision",
+          "meshCount": 1
+        },
+        {
+          "id": "gardenBorder",
+          "meshCount": 2
+        },
+        {
+          "id": "gardenBorderCollision",
+          "meshCount": 1
+        },
+        {
+          "id": "gardenBorder",
+          "meshCount": 2
+        },
+        {
+          "id": "gardenBorderCollision",
+          "meshCount": 1
+        },
+        {
+          "id": "gardenBorder",
+          "meshCount": 2
+        },
+        {
+          "id": "gardenBorderCollision",
+          "meshCount": 1
+        },
+        {
+          "id": "gardenBorder",
+          "meshCount": 2
+        },
+        {
+          "id": "gardenBorderCollision",
+          "meshCount": 1
+        },
+        {
+          "id": "gardenBorder",
+          "meshCount": 2
+        },
+        {
+          "id": "gardenBorderCollision",
+          "meshCount": 1
+        },
+        {
+          "id": "gardenBorder",
+          "meshCount": 2
+        },
+        {
+          "id": "gardenBorderCollision",
+          "meshCount": 1
+        },
+        {
+          "id": "gardenBorder",
+          "meshCount": 2
+        },
+        {
+          "id": "gardenBorderCollision",
+          "meshCount": 1
+        },
+        {
+          "id": "gardenBorder",
+          "meshCount": 2
+        },
+        {
+          "id": "gardenBorderCollision",
+          "meshCount": 1
+        },
+        {
+          "id": "basin",
+          "meshCount": 4
+        },
+        {
+          "id": "basinCollision",
+          "meshCount": 1
+        },
+        {
+          "id": "water",
+          "meshCount": 1
+        },
+        {
+          "id": "centralJet",
+          "meshCount": 2
+        },
+        {
+          "id": "lateralJet",
+          "meshCount": 2
+        },
+        {
+          "id": "lateralJet",
+          "meshCount": 2
+        },
+        {
+          "id": "lateralJet",
+          "meshCount": 2
+        },
+        {
+          "id": "lateralJet",
+          "meshCount": 2
+        },
+        {
+          "id": "lateralJet",
+          "meshCount": 2
+        },
+        {
+          "id": "lateralJet",
+          "meshCount": 2
+        }
+      ],
+      "textures": 65,
+      "triangles": 361912,
+      "visibleNodeIds": [
+        "castle",
+        "castle/door-entrance",
+        "castle/interior",
+        "castle/light-gallery-east",
+        "castle/light-gallery-west",
+        "castle/light-salon-east",
+        "castle/light-salon-west",
+        "castle/light-vestibule",
+        "castle/palace",
+        "estate-panel",
+        "fountain",
+        "fountain/jet-central",
+        "fountain/jet-lateral-5",
+        "fountain/water",
+        "gardens",
+        "gardens/allee-centrale",
+        "gardens/allee-transversale",
+        "gardens/balustrade--30-0",
+        "gardens/balustrade--30-1",
+        "gardens/balustrade--30-2",
+        "gardens/balustrade--30-3",
+        "gardens/balustrade-30-0",
+        "gardens/balustrade-30-1",
+        "gardens/balustrade-30-2",
+        "gardens/balustrade-30-3",
+        "gardens/banc--6.2--4.5",
+        "gardens/banc--6.2-4.5",
+        "gardens/banc-6.2--4.5",
+        "gardens/banc-6.2-4.5",
+        "gardens/cypres--23-0",
+        "gardens/cypres--23-1",
+        "gardens/cypres--23-2",
+        "gardens/cypres--23-3",
+        "gardens/cypres--23-4",
+        "gardens/cypres-23-0",
+        "gardens/cypres-23-1",
+        "gardens/cypres-23-2",
+        "gardens/cypres-23-3",
+        "gardens/cypres-23-4",
+        "gardens/ground",
+        "gardens/parterre-east-north",
+        "gardens/parterre-east-south",
+        "gardens/parterre-west-north",
+        "gardens/parterre-west-south",
+        "gardens/vasque--7--19",
+        "gardens/vasque--7-20",
+        "gardens/vasque-7--19",
+        "gardens/vasque-7-20",
+        "sun"
+      ],
+      "framingBounds": {
+        "max": [
+          30.365,
+          37.8438,
+          30.245
+        ],
+        "min": [
+          -30.365,
+          -33.2402,
+          -40.245
+        ],
+        "size": [
+          60.73,
+          71.084,
+          70.49
+        ]
+      },
+      "worldBounds": {
+        "max": [
+          35,
+          40.2342,
+          39
+        ],
+        "min": [
+          -35,
+          -33.2402,
+          -51
+        ],
+        "size": [
+          70,
+          73.4744,
+          90
+        ]
+      }
+    },
+    "runtimeHash": "sha256:0579ecb2d66f3b156ca1699ef1e3bf4d41e460691ecf91d7cb6170235a09cf2c",
+    "screenshotSha256": "sha256:108b9cf89628ea64e851b4e4cdd0c25ce1cc477c04607f3fd1cbce3e10d56243",
+    "sourceDocumentHash": "sha256:6a544b2869d01d63f13158ad891df0df14a92a069742f9b95e9f12871be18b8c",
+    "valid": true,
+    "width": 2000
+  },
+  "doorVerification": {
+    "content": [
+      {
+        "type": "text",
+        "text": "{\n  \"from\": \"door-closed\",\n  \"to\": \"door-open\",\n  \"frameDelta\": 26952,\n  \"timeDelta\": 464053.59999999776,\n  \"entities\": [\n    {\n      \"entityIndex\": 19,\n      \"name\": \"Porte du vestibule\",\n      \"status\": \"changed\",\n      \"components\": [\n        {\n          \"componentId\": \"PalaceDoor\",\n          \"status\": \"changed\",\n          \"fields\": [\n            {\n              \"field\": \"requestedOpen\",\n              \"from\": false,\n              \"to\": true\n            },\n            {\n              \"field\": \"openness\",\n              \"from\": 0,\n              \"to\": 1\n            }\n          ]\n        }\n      ]\n    },\n    {\n      \"entityIndex\": 20,\n      \"name\": \"Porte du vestibule — collision\",\n      \"status\": \"changed\",\n      \"components\": [\n        {\n          \"componentId\": \"LocomotionEnvironment\",\n          \"status\": \"removed\"\n        }\n      ]\n    },\n    {\n      \"entityIndex\": 133,\n      \"name\": \"jet-central\",\n      \"status\": \"changed\",\n      \"components\": [\n        {\n          \"componentId\": \"WaterJet\",\n          \"status\": \"changed\",\n          \"fields\": [\n            {\n              \"field\": \"elapsed\",\n              \"from\": 1.562000036239624,\n              \"to\": 1.4019999504089355\n            }\n          ]\n        }\n      ]\n    },\n    {\n      \"entityIndex\": 134,\n      \"name\": \"jet-lateral-1\",\n      \"status\": \"changed\",\n      \"components\": [\n        {\n          \"componentId\": \"WaterJet\",\n          \"status\": \"changed\",\n          \"fields\": [\n            {\n              \"field\": \"elapsed\",\n              \"from\": 1.562000036239624,\n              \"to\": 1.4019999504089355\n            }\n          ]\n        }\n      ]\n    },\n    {\n      \"entityIndex\": 135,\n      \"name\": \"jet-lateral-2\",\n      \"status\": \"changed\",\n      \"components\": [\n        {\n          \"componentId\": \"WaterJet\",\n          \"status\": \"changed\",\n          \"fields\": [\n            {\n              \"field\": \"elapsed\",\n              \"from\": 1.562000036239624,\n              \"to\": 1.4019999504089355\n            }\n          ]\n        }\n      ]\n    },\n    {\n      \"entityIndex\": 136,\n      \"name\": \"jet-lateral-3\",\n      \"status\": \"changed\",\n      \"components\": [\n        {\n          \"componentId\": \"WaterJet\",\n          \"status\": \"changed\",\n          \"fields\": [\n            {\n              \"field\": \"elapsed\",\n              \"from\": 1.562000036239624,\n              \"to\": 1.4019999504089355\n            }\n          ]\n        }\n      ]\n    },\n    {\n      \"entityIndex\": 137,\n      \"name\": \"jet-lateral-4\",\n      \"status\": \"changed\",\n      \"components\": [\n        {\n          \"componentId\": \"WaterJet\",\n          \"status\": \"changed\",\n          \"fields\": [\n            {\n              \"field\": \"elapsed\",\n              \"from\": 1.562000036239624,\n              \"to\": 1.4019999504089355\n            }\n          ]\n        }\n      ]\n    },\n    {\n      \"entityIndex\": 138,\n      \"name\": \"jet-lateral-5\",\n      \"status\": \"changed\",\n      \"components\": [\n        {\n          \"componentId\": \"WaterJet\",\n          \"status\": \"changed\",\n          \"fields\": [\n            {\n              \"field\": \"elapsed\",\n              \"from\": 1.562000036239624,\n              \"to\": 1.4019999504089355\n            }\n          ]\n        }\n      ]\n    },\n    {\n      \"entityIndex\": 139,\n      \"name\": \"jet-lateral-6\",\n      \"status\": \"changed\",\n      \"components\": [\n        {\n          \"componentId\": \"WaterJet\",\n          \"status\": \"changed\",\n          \"fields\": [\n            {\n              \"field\": \"elapsed\",\n              \"from\": 1.562000036239624,\n              \"to\": 1.4019999504089355\n            }\n          ]\n        }\n      ]\n    }\n  ],\n  \"summary\": {\n    \"added\": 0,\n    \"removed\": 0,\n    \"changed\": 9\n  },\n  \"_tab\": {\n    \"id\": \"tab-mtrq4sry-qmbauk\",\n    \"generation\": 2\n  }\n}"
+      }
+    ]
+  },
+  "runtimeHierarchy": {
+    "content": [
+      {
+        "type": "text",
+        "text": "WARNING: Active browser tab changed (previous: tab-mtrq4s6u-pjjpdo, current: tab-mtrq4sry-qmbauk). All previously cached state (device positions, scene hierarchy, ECS snapshots) is now invalid. Re-query any state you need before proceeding."
+      },
+      {
+        "type": "text",
+        "text": "{\n  \"name\": \"(unnamed)\",\n  \"uuid\": \"fdced003-ed70-41e1-8abc-fc5bf9a99a3b\",\n  \"objectType\": \"Scene\",\n  \"environment\": {\n    \"shadows\": true,\n    \"shadowMapType\": \"pcf-soft\"\n  },\n  \"entityIndex\": 0,\n  \"children\": [\n    {\n      \"name\": \"(unnamed)\",\n      \"uuid\": \"aed5d283-d949-40c1-b8c7-82e55198ec2e\",\n      \"objectType\": \"Group\",\n      \"entityIndex\": 2\n    },\n    {\n      \"name\": \"(unnamed)\",\n      \"uuid\": \"4749e016-3d0a-4c8f-a7e0-87d5e5584fa7\",\n      \"objectType\": \"Mesh\"\n    },\n    {\n      \"name\": \"(unnamed)\",\n      \"uuid\": \"d30f1460-ad9f-4626-a2f3-00908a2c0253\",\n      \"objectType\": \"Line2\"\n    },\n    {\n      \"name\": \"LevelRoot\",\n      \"uuid\": \"b213e524-4687-4cae-89b3-695057ebb2ff\",\n      \"objectType\": \"Object3D\",\n      \"runtimeHash\": \"sha256:0579ecb2d66f3b156ca1699ef1e3bf4d41e460691ecf91d7cb6170235a09cf2c\",\n      \"resources\": {},\n      \"environment\": {\n        \"shadows\": true,\n        \"shadowMapType\": \"pcf-soft\"\n      },\n      \"entityIndex\": 11\n    },\n    {\n      \"name\": \"directional-light-target\",\n      \"uuid\": \"5d336d1d-9a4a-48c5-8fc2-bc789d680c84\",\n      \"objectType\": \"Object3D\",\n      \"sceneNodeId\": \"sun\",\n      \"sourceNodeId\": \"sun\",\n      \"runtimeHash\": \"sha256:0579ecb2d66f3b156ca1699ef1e3bf4d41e460691ecf91d7cb6170235a09cf2c\",\n      \"framingRole\": \"content\"\n    },\n    {\n      \"name\": \"Salon de visite\",\n      \"uuid\": \"3a34318b-e293-4412-8d08-29654de6b057\",\n      \"objectType\": \"Object3D\",\n      \"entityIndex\": 1\n    },\n    {\n      \"name\": \"Menu de confort\",\n      \"uuid\": \"3e821a4e-5cb9-499b-b024-116fb3dbd0e8\",\n      \"objectType\": \"Group\",\n      \"entityIndex\": 140\n    },\n    {\n      \"name\": \"(unnamed)\",\n      \"uuid\": \"5c7f2f8a-f9be-4551-a7a3-559e8877aedb\",\n      \"objectType\": \"Mesh\"\n    }\n  ],\n  \"_tab\": {\n    \"id\": \"tab-mtrq4sry-qmbauk\",\n    \"generation\": 1\n  }\n}"
+      }
+    ]
+  }
+}

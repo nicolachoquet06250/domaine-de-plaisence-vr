@@ -1,0 +1,2128 @@
+{
+  "authoring": {
+    "views": [
+      {
+        "fov": 58,
+        "id": "hero",
+        "position": [
+          0,
+          9,
+          33
+        ],
+        "projection": "perspective",
+        "role": "hero",
+        "target": [
+          0,
+          4,
+          -12
+        ]
+      },
+      {
+        "height": 85,
+        "id": "top",
+        "position": [
+          0,
+          85,
+          0
+        ],
+        "projection": "orthographic",
+        "role": "diagnostic",
+        "target": [
+          0,
+          0,
+          -5
+        ]
+      },
+      {
+        "fov": 55,
+        "id": "quarter",
+        "position": [
+          38,
+          24,
+          27
+        ],
+        "projection": "perspective",
+        "role": "diagnostic",
+        "target": [
+          0,
+          3,
+          -9
+        ]
+      },
+      {
+        "fov": 70,
+        "id": "spawn",
+        "position": [
+          0,
+          1.65,
+          24
+        ],
+        "projection": "perspective",
+        "role": "diagnostic",
+        "target": [
+          0,
+          3,
+          -20
+        ]
+      }
+    ]
+  },
+  "components": {
+    "com.iwsdk.components.DomeGradient": {
+      "equator": [
+        0.81,
+        0.81,
+        0.69,
+        1
+      ],
+      "ground": [
+        0.26,
+        0.32,
+        0.2,
+        1
+      ],
+      "intensity": 1,
+      "sky": [
+        0.28,
+        0.49,
+        0.6,
+        1
+      ]
+    },
+    "com.iwsdk.components.IBLGradient": {
+      "equator": [
+        0.73,
+        0.73,
+        0.64,
+        1
+      ],
+      "ground": [
+        0.27,
+        0.32,
+        0.22,
+        1
+      ],
+      "intensity": 0.55,
+      "sky": [
+        0.8,
+        0.85,
+        0.89,
+        1
+      ]
+    }
+  },
+  "nodes": [
+    {
+      "components": {
+        "com.iwsdk.components.DirectionalLight": {
+          "castShadow": true,
+          "color": [
+            1,
+            0.88,
+            0.67,
+            1
+          ],
+          "intensity": 1.8,
+          "shadowMapSize": "2048",
+          "shadowCameraSize": 75,
+          "shadowCameraFar": 150,
+          "shadowNormalBias": 0.12
+        }
+      },
+      "id": "sun",
+      "transform": {
+        "position": [
+          -25,
+          40,
+          25
+        ],
+        "rotationDeg": [
+          -48,
+          -30,
+          0
+        ]
+      }
+    },
+    {
+      "components": {
+        "RayInteractable": {},
+        "ScreenSpace": {
+          "height": "285px",
+          "left": "18px",
+          "top": "18px",
+          "width": "285px"
+        }
+      },
+      "content": {
+        "asset": "estate-panel",
+        "type": "asset",
+        "receiveShadow": true,
+        "castShadow": false
+      },
+      "id": "estate-panel",
+      "name": "estate-panel",
+      "transform": {
+        "position": [
+          -2,
+          1.8,
+          21
+        ],
+        "scale": 0.006
+      }
+    },
+    {
+      "children": [
+        {
+          "components": {},
+          "content": {
+            "asset": "palace",
+            "type": "asset",
+            "receiveShadow": true,
+            "castShadow": true
+          },
+          "id": "castle/palace",
+          "name": "palace",
+          "transform": {
+            "position": [
+              0,
+              0,
+              0
+            ]
+          },
+          "children": [
+            {
+              "id": "castle/collision",
+              "name": "Collision palace",
+              "content": {
+                "type": "asset",
+                "asset": "palaceCollision",
+                "castShadow": false,
+                "receiveShadow": false
+              },
+              "components": {
+                "StaticCollision": {}
+              }
+            }
+          ]
+        }
+      ],
+      "content": {
+        "type": "group"
+      },
+      "id": "castle",
+      "transform": {
+        "position": [
+          0,
+          0,
+          -28
+        ]
+      }
+    },
+    {
+      "children": [
+        {
+          "components": {},
+          "content": {
+            "asset": "ground",
+            "type": "asset",
+            "receiveShadow": true,
+            "castShadow": false
+          },
+          "framingRole": "support",
+          "id": "gardens/ground",
+          "name": "ground",
+          "transform": {
+            "position": [
+              0,
+              0,
+              0
+            ]
+          },
+          "children": [
+            {
+              "id": "gardens/ground/collision",
+              "name": "Collision ground",
+              "content": {
+                "type": "asset",
+                "asset": "groundCollision",
+                "castShadow": false,
+                "receiveShadow": false
+              },
+              "components": {
+                "StaticCollision": {}
+              }
+            }
+          ]
+        },
+        {
+          "content": {
+            "asset": "parterre",
+            "type": "asset",
+            "receiveShadow": true,
+            "castShadow": true
+          },
+          "id": "gardens/parterre-west-north",
+          "name": "parterre-west-north",
+          "transform": {
+            "position": [
+              -12,
+              0,
+              -10
+            ]
+          },
+          "children": [
+            {
+              "id": "gardens/parterre-west-north/collision",
+              "name": "Collision parterre-west-north",
+              "content": {
+                "type": "asset",
+                "asset": "parterreCollision",
+                "castShadow": false,
+                "receiveShadow": false
+              },
+              "components": {
+                "StaticCollision": {}
+              }
+            }
+          ]
+        },
+        {
+          "content": {
+            "asset": "parterre",
+            "type": "asset",
+            "receiveShadow": true,
+            "castShadow": true
+          },
+          "id": "gardens/parterre-west-south",
+          "name": "parterre-west-south",
+          "transform": {
+            "position": [
+              -12,
+              0,
+              10
+            ]
+          },
+          "children": [
+            {
+              "id": "gardens/parterre-west-south/collision",
+              "name": "Collision parterre-west-south",
+              "content": {
+                "type": "asset",
+                "asset": "parterreCollision",
+                "castShadow": false,
+                "receiveShadow": false
+              },
+              "components": {
+                "StaticCollision": {}
+              }
+            }
+          ]
+        },
+        {
+          "content": {
+            "asset": "parterre",
+            "type": "asset",
+            "receiveShadow": true,
+            "castShadow": true
+          },
+          "id": "gardens/parterre-east-north",
+          "name": "parterre-east-north",
+          "transform": {
+            "position": [
+              12,
+              0,
+              -10
+            ]
+          },
+          "children": [
+            {
+              "id": "gardens/parterre-east-north/collision",
+              "name": "Collision parterre-east-north",
+              "content": {
+                "type": "asset",
+                "asset": "parterreCollision",
+                "castShadow": false,
+                "receiveShadow": false
+              },
+              "components": {
+                "StaticCollision": {}
+              }
+            }
+          ]
+        },
+        {
+          "content": {
+            "asset": "parterre",
+            "type": "asset",
+            "receiveShadow": true,
+            "castShadow": true
+          },
+          "id": "gardens/parterre-east-south",
+          "name": "parterre-east-south",
+          "transform": {
+            "position": [
+              12,
+              0,
+              10
+            ]
+          },
+          "children": [
+            {
+              "id": "gardens/parterre-east-south/collision",
+              "name": "Collision parterre-east-south",
+              "content": {
+                "type": "asset",
+                "asset": "parterreCollision",
+                "castShadow": false,
+                "receiveShadow": false
+              },
+              "components": {
+                "StaticCollision": {}
+              }
+            }
+          ]
+        },
+        {
+          "content": {
+            "asset": "pathLong",
+            "type": "asset",
+            "receiveShadow": true,
+            "castShadow": false
+          },
+          "id": "gardens/allee-centrale",
+          "name": "allee-centrale",
+          "transform": {
+            "position": [
+              0,
+              0.008,
+              0
+            ],
+            "scale": [
+              7,
+              1,
+              54
+            ]
+          },
+          "children": [
+            {
+              "id": "gardens/allee-centrale/collision",
+              "name": "Collision allee-centrale",
+              "content": {
+                "type": "asset",
+                "asset": "pathCollision",
+                "castShadow": false,
+                "receiveShadow": false
+              },
+              "components": {
+                "StaticCollision": {}
+              }
+            }
+          ]
+        },
+        {
+          "content": {
+            "asset": "pathCross",
+            "type": "asset",
+            "receiveShadow": true,
+            "castShadow": false
+          },
+          "id": "gardens/allee-transversale",
+          "name": "allee-transversale",
+          "transform": {
+            "position": [
+              0,
+              0.008,
+              0
+            ],
+            "scale": [
+              45,
+              1,
+              7
+            ]
+          },
+          "children": [
+            {
+              "id": "gardens/allee-transversale/collision",
+              "name": "Collision allee-transversale",
+              "content": {
+                "type": "asset",
+                "asset": "pathCollision",
+                "castShadow": false,
+                "receiveShadow": false
+              },
+              "components": {
+                "StaticCollision": {}
+              }
+            }
+          ]
+        },
+        {
+          "content": {
+            "asset": "pathTerrace",
+            "type": "asset",
+            "receiveShadow": true,
+            "castShadow": false
+          },
+          "id": "gardens/terrasse",
+          "name": "terrasse",
+          "transform": {
+            "position": [
+              0,
+              0.008,
+              -20
+            ],
+            "scale": [
+              45,
+              1,
+              6
+            ]
+          },
+          "children": [
+            {
+              "id": "gardens/terrasse/collision",
+              "name": "Collision terrasse",
+              "content": {
+                "type": "asset",
+                "asset": "pathCollision",
+                "castShadow": false,
+                "receiveShadow": false
+              },
+              "components": {
+                "StaticCollision": {}
+              }
+            }
+          ]
+        },
+        {
+          "content": {
+            "asset": "pathTerrace",
+            "type": "asset",
+            "receiveShadow": true,
+            "castShadow": false
+          },
+          "id": "gardens/entree",
+          "name": "entree",
+          "transform": {
+            "position": [
+              0,
+              0.008,
+              24
+            ],
+            "scale": [
+              45,
+              1,
+              6
+            ]
+          },
+          "children": [
+            {
+              "id": "gardens/entree/collision",
+              "name": "Collision entree",
+              "content": {
+                "type": "asset",
+                "asset": "pathCollision",
+                "castShadow": false,
+                "receiveShadow": false
+              },
+              "components": {
+                "StaticCollision": {}
+              }
+            }
+          ]
+        },
+        {
+          "content": {
+            "asset": "cypress",
+            "type": "asset",
+            "receiveShadow": true,
+            "castShadow": true
+          },
+          "id": "gardens/cypres--23-0",
+          "name": "cypres--23-0",
+          "transform": {
+            "position": [
+              -23,
+              0,
+              -25
+            ]
+          },
+          "children": [
+            {
+              "id": "gardens/cypres--23-0/collision",
+              "name": "Collision cypres--23-0",
+              "content": {
+                "type": "asset",
+                "asset": "cypressCollision",
+                "castShadow": false,
+                "receiveShadow": false
+              },
+              "components": {
+                "StaticCollision": {}
+              }
+            }
+          ]
+        },
+        {
+          "content": {
+            "asset": "cypress",
+            "type": "asset",
+            "receiveShadow": true,
+            "castShadow": true
+          },
+          "id": "gardens/cypres--23-1",
+          "name": "cypres--23-1",
+          "transform": {
+            "position": [
+              -23,
+              0,
+              -18
+            ]
+          },
+          "children": [
+            {
+              "id": "gardens/cypres--23-1/collision",
+              "name": "Collision cypres--23-1",
+              "content": {
+                "type": "asset",
+                "asset": "cypressCollision",
+                "castShadow": false,
+                "receiveShadow": false
+              },
+              "components": {
+                "StaticCollision": {}
+              }
+            }
+          ]
+        },
+        {
+          "content": {
+            "asset": "cypress",
+            "type": "asset",
+            "receiveShadow": true,
+            "castShadow": true
+          },
+          "id": "gardens/cypres--23-2",
+          "name": "cypres--23-2",
+          "transform": {
+            "position": [
+              -23,
+              0,
+              -11
+            ]
+          },
+          "children": [
+            {
+              "id": "gardens/cypres--23-2/collision",
+              "name": "Collision cypres--23-2",
+              "content": {
+                "type": "asset",
+                "asset": "cypressCollision",
+                "castShadow": false,
+                "receiveShadow": false
+              },
+              "components": {
+                "StaticCollision": {}
+              }
+            }
+          ]
+        },
+        {
+          "content": {
+            "asset": "cypress",
+            "type": "asset",
+            "receiveShadow": true,
+            "castShadow": true
+          },
+          "id": "gardens/cypres--23-3",
+          "name": "cypres--23-3",
+          "transform": {
+            "position": [
+              -23,
+              0,
+              -4
+            ]
+          },
+          "children": [
+            {
+              "id": "gardens/cypres--23-3/collision",
+              "name": "Collision cypres--23-3",
+              "content": {
+                "type": "asset",
+                "asset": "cypressCollision",
+                "castShadow": false,
+                "receiveShadow": false
+              },
+              "components": {
+                "StaticCollision": {}
+              }
+            }
+          ]
+        },
+        {
+          "content": {
+            "asset": "cypress",
+            "type": "asset",
+            "receiveShadow": true,
+            "castShadow": true
+          },
+          "id": "gardens/cypres--23-4",
+          "name": "cypres--23-4",
+          "transform": {
+            "position": [
+              -23,
+              0,
+              3
+            ]
+          },
+          "children": [
+            {
+              "id": "gardens/cypres--23-4/collision",
+              "name": "Collision cypres--23-4",
+              "content": {
+                "type": "asset",
+                "asset": "cypressCollision",
+                "castShadow": false,
+                "receiveShadow": false
+              },
+              "components": {
+                "StaticCollision": {}
+              }
+            }
+          ]
+        },
+        {
+          "content": {
+            "asset": "cypress",
+            "type": "asset",
+            "receiveShadow": true,
+            "castShadow": true
+          },
+          "id": "gardens/cypres--23-5",
+          "name": "cypres--23-5",
+          "transform": {
+            "position": [
+              -23,
+              0,
+              10
+            ]
+          },
+          "children": [
+            {
+              "id": "gardens/cypres--23-5/collision",
+              "name": "Collision cypres--23-5",
+              "content": {
+                "type": "asset",
+                "asset": "cypressCollision",
+                "castShadow": false,
+                "receiveShadow": false
+              },
+              "components": {
+                "StaticCollision": {}
+              }
+            }
+          ]
+        },
+        {
+          "content": {
+            "asset": "cypress",
+            "type": "asset",
+            "receiveShadow": true,
+            "castShadow": true
+          },
+          "id": "gardens/cypres--23-6",
+          "name": "cypres--23-6",
+          "transform": {
+            "position": [
+              -23,
+              0,
+              17
+            ]
+          },
+          "children": [
+            {
+              "id": "gardens/cypres--23-6/collision",
+              "name": "Collision cypres--23-6",
+              "content": {
+                "type": "asset",
+                "asset": "cypressCollision",
+                "castShadow": false,
+                "receiveShadow": false
+              },
+              "components": {
+                "StaticCollision": {}
+              }
+            }
+          ]
+        },
+        {
+          "content": {
+            "asset": "cypress",
+            "type": "asset",
+            "receiveShadow": true,
+            "castShadow": true
+          },
+          "id": "gardens/cypres--23-7",
+          "name": "cypres--23-7",
+          "transform": {
+            "position": [
+              -23,
+              0,
+              24
+            ]
+          },
+          "children": [
+            {
+              "id": "gardens/cypres--23-7/collision",
+              "name": "Collision cypres--23-7",
+              "content": {
+                "type": "asset",
+                "asset": "cypressCollision",
+                "castShadow": false,
+                "receiveShadow": false
+              },
+              "components": {
+                "StaticCollision": {}
+              }
+            }
+          ]
+        },
+        {
+          "content": {
+            "asset": "cypress",
+            "type": "asset",
+            "receiveShadow": true,
+            "castShadow": true
+          },
+          "id": "gardens/cypres-23-0",
+          "name": "cypres-23-0",
+          "transform": {
+            "position": [
+              23,
+              0,
+              -25
+            ]
+          },
+          "children": [
+            {
+              "id": "gardens/cypres-23-0/collision",
+              "name": "Collision cypres-23-0",
+              "content": {
+                "type": "asset",
+                "asset": "cypressCollision",
+                "castShadow": false,
+                "receiveShadow": false
+              },
+              "components": {
+                "StaticCollision": {}
+              }
+            }
+          ]
+        },
+        {
+          "content": {
+            "asset": "cypress",
+            "type": "asset",
+            "receiveShadow": true,
+            "castShadow": true
+          },
+          "id": "gardens/cypres-23-1",
+          "name": "cypres-23-1",
+          "transform": {
+            "position": [
+              23,
+              0,
+              -18
+            ]
+          },
+          "children": [
+            {
+              "id": "gardens/cypres-23-1/collision",
+              "name": "Collision cypres-23-1",
+              "content": {
+                "type": "asset",
+                "asset": "cypressCollision",
+                "castShadow": false,
+                "receiveShadow": false
+              },
+              "components": {
+                "StaticCollision": {}
+              }
+            }
+          ]
+        },
+        {
+          "content": {
+            "asset": "cypress",
+            "type": "asset",
+            "receiveShadow": true,
+            "castShadow": true
+          },
+          "id": "gardens/cypres-23-2",
+          "name": "cypres-23-2",
+          "transform": {
+            "position": [
+              23,
+              0,
+              -11
+            ]
+          },
+          "children": [
+            {
+              "id": "gardens/cypres-23-2/collision",
+              "name": "Collision cypres-23-2",
+              "content": {
+                "type": "asset",
+                "asset": "cypressCollision",
+                "castShadow": false,
+                "receiveShadow": false
+              },
+              "components": {
+                "StaticCollision": {}
+              }
+            }
+          ]
+        },
+        {
+          "content": {
+            "asset": "cypress",
+            "type": "asset",
+            "receiveShadow": true,
+            "castShadow": true
+          },
+          "id": "gardens/cypres-23-3",
+          "name": "cypres-23-3",
+          "transform": {
+            "position": [
+              23,
+              0,
+              -4
+            ]
+          },
+          "children": [
+            {
+              "id": "gardens/cypres-23-3/collision",
+              "name": "Collision cypres-23-3",
+              "content": {
+                "type": "asset",
+                "asset": "cypressCollision",
+                "castShadow": false,
+                "receiveShadow": false
+              },
+              "components": {
+                "StaticCollision": {}
+              }
+            }
+          ]
+        },
+        {
+          "content": {
+            "asset": "cypress",
+            "type": "asset",
+            "receiveShadow": true,
+            "castShadow": true
+          },
+          "id": "gardens/cypres-23-4",
+          "name": "cypres-23-4",
+          "transform": {
+            "position": [
+              23,
+              0,
+              3
+            ]
+          },
+          "children": [
+            {
+              "id": "gardens/cypres-23-4/collision",
+              "name": "Collision cypres-23-4",
+              "content": {
+                "type": "asset",
+                "asset": "cypressCollision",
+                "castShadow": false,
+                "receiveShadow": false
+              },
+              "components": {
+                "StaticCollision": {}
+              }
+            }
+          ]
+        },
+        {
+          "content": {
+            "asset": "cypress",
+            "type": "asset",
+            "receiveShadow": true,
+            "castShadow": true
+          },
+          "id": "gardens/cypres-23-5",
+          "name": "cypres-23-5",
+          "transform": {
+            "position": [
+              23,
+              0,
+              10
+            ]
+          },
+          "children": [
+            {
+              "id": "gardens/cypres-23-5/collision",
+              "name": "Collision cypres-23-5",
+              "content": {
+                "type": "asset",
+                "asset": "cypressCollision",
+                "castShadow": false,
+                "receiveShadow": false
+              },
+              "components": {
+                "StaticCollision": {}
+              }
+            }
+          ]
+        },
+        {
+          "content": {
+            "asset": "cypress",
+            "type": "asset",
+            "receiveShadow": true,
+            "castShadow": true
+          },
+          "id": "gardens/cypres-23-6",
+          "name": "cypres-23-6",
+          "transform": {
+            "position": [
+              23,
+              0,
+              17
+            ]
+          },
+          "children": [
+            {
+              "id": "gardens/cypres-23-6/collision",
+              "name": "Collision cypres-23-6",
+              "content": {
+                "type": "asset",
+                "asset": "cypressCollision",
+                "castShadow": false,
+                "receiveShadow": false
+              },
+              "components": {
+                "StaticCollision": {}
+              }
+            }
+          ]
+        },
+        {
+          "content": {
+            "asset": "cypress",
+            "type": "asset",
+            "receiveShadow": true,
+            "castShadow": true
+          },
+          "id": "gardens/cypres-23-7",
+          "name": "cypres-23-7",
+          "transform": {
+            "position": [
+              23,
+              0,
+              24
+            ]
+          },
+          "children": [
+            {
+              "id": "gardens/cypres-23-7/collision",
+              "name": "Collision cypres-23-7",
+              "content": {
+                "type": "asset",
+                "asset": "cypressCollision",
+                "castShadow": false,
+                "receiveShadow": false
+              },
+              "components": {
+                "StaticCollision": {}
+              }
+            }
+          ]
+        },
+        {
+          "content": {
+            "asset": "urn",
+            "type": "asset",
+            "receiveShadow": true,
+            "castShadow": true
+          },
+          "id": "gardens/vasque--7--19",
+          "name": "vasque--7--19",
+          "transform": {
+            "position": [
+              -7,
+              0,
+              -19
+            ]
+          },
+          "children": [
+            {
+              "id": "gardens/vasque--7--19/collision",
+              "name": "Collision vasque--7--19",
+              "content": {
+                "type": "asset",
+                "asset": "urnCollision",
+                "castShadow": false,
+                "receiveShadow": false
+              },
+              "components": {
+                "StaticCollision": {}
+              }
+            }
+          ]
+        },
+        {
+          "content": {
+            "asset": "urn",
+            "type": "asset",
+            "receiveShadow": true,
+            "castShadow": true
+          },
+          "id": "gardens/vasque--7-20",
+          "name": "vasque--7-20",
+          "transform": {
+            "position": [
+              -7,
+              0,
+              20
+            ]
+          },
+          "children": [
+            {
+              "id": "gardens/vasque--7-20/collision",
+              "name": "Collision vasque--7-20",
+              "content": {
+                "type": "asset",
+                "asset": "urnCollision",
+                "castShadow": false,
+                "receiveShadow": false
+              },
+              "components": {
+                "StaticCollision": {}
+              }
+            }
+          ]
+        },
+        {
+          "content": {
+            "asset": "urn",
+            "type": "asset",
+            "receiveShadow": true,
+            "castShadow": true
+          },
+          "id": "gardens/vasque-7--19",
+          "name": "vasque-7--19",
+          "transform": {
+            "position": [
+              7,
+              0,
+              -19
+            ]
+          },
+          "children": [
+            {
+              "id": "gardens/vasque-7--19/collision",
+              "name": "Collision vasque-7--19",
+              "content": {
+                "type": "asset",
+                "asset": "urnCollision",
+                "castShadow": false,
+                "receiveShadow": false
+              },
+              "components": {
+                "StaticCollision": {}
+              }
+            }
+          ]
+        },
+        {
+          "content": {
+            "asset": "urn",
+            "type": "asset",
+            "receiveShadow": true,
+            "castShadow": true
+          },
+          "id": "gardens/vasque-7-20",
+          "name": "vasque-7-20",
+          "transform": {
+            "position": [
+              7,
+              0,
+              20
+            ]
+          },
+          "children": [
+            {
+              "id": "gardens/vasque-7-20/collision",
+              "name": "Collision vasque-7-20",
+              "content": {
+                "type": "asset",
+                "asset": "urnCollision",
+                "castShadow": false,
+                "receiveShadow": false
+              },
+              "components": {
+                "StaticCollision": {}
+              }
+            }
+          ]
+        },
+        {
+          "content": {
+            "asset": "bench",
+            "type": "asset",
+            "receiveShadow": true,
+            "castShadow": false
+          },
+          "id": "gardens/banc--6.2--4.5",
+          "name": "banc--6.2--4.5",
+          "transform": {
+            "position": [
+              -3.05,
+              0.048,
+              -8
+            ],
+            "rotationDeg": [
+              0,
+              90,
+              0
+            ]
+          },
+          "children": [
+            {
+              "id": "gardens/banc--6.2--4.5/collision",
+              "name": "Collision banc--6.2--4.5",
+              "content": {
+                "type": "asset",
+                "asset": "benchCollision",
+                "castShadow": false,
+                "receiveShadow": false
+              },
+              "components": {
+                "StaticCollision": {}
+              }
+            }
+          ]
+        },
+        {
+          "content": {
+            "asset": "bench",
+            "type": "asset",
+            "receiveShadow": true,
+            "castShadow": false
+          },
+          "id": "gardens/banc--6.2-4.5",
+          "name": "banc--6.2-4.5",
+          "transform": {
+            "position": [
+              -3.05,
+              0.048,
+              8
+            ],
+            "rotationDeg": [
+              0,
+              90,
+              0
+            ]
+          },
+          "children": [
+            {
+              "id": "gardens/banc--6.2-4.5/collision",
+              "name": "Collision banc--6.2-4.5",
+              "content": {
+                "type": "asset",
+                "asset": "benchCollision",
+                "castShadow": false,
+                "receiveShadow": false
+              },
+              "components": {
+                "StaticCollision": {}
+              }
+            }
+          ]
+        },
+        {
+          "content": {
+            "asset": "bench",
+            "type": "asset",
+            "receiveShadow": true,
+            "castShadow": false
+          },
+          "id": "gardens/banc-6.2--4.5",
+          "name": "banc-6.2--4.5",
+          "transform": {
+            "position": [
+              3.05,
+              0.048,
+              -8
+            ],
+            "rotationDeg": [
+              0,
+              -90,
+              0
+            ]
+          },
+          "children": [
+            {
+              "id": "gardens/banc-6.2--4.5/collision",
+              "name": "Collision banc-6.2--4.5",
+              "content": {
+                "type": "asset",
+                "asset": "benchCollision",
+                "castShadow": false,
+                "receiveShadow": false
+              },
+              "components": {
+                "StaticCollision": {}
+              }
+            }
+          ]
+        },
+        {
+          "content": {
+            "asset": "bench",
+            "type": "asset",
+            "receiveShadow": true,
+            "castShadow": false
+          },
+          "id": "gardens/banc-6.2-4.5",
+          "name": "banc-6.2-4.5",
+          "transform": {
+            "position": [
+              3.05,
+              0.048,
+              8
+            ],
+            "rotationDeg": [
+              0,
+              -90,
+              0
+            ]
+          },
+          "children": [
+            {
+              "id": "gardens/banc-6.2-4.5/collision",
+              "name": "Collision banc-6.2-4.5",
+              "content": {
+                "type": "asset",
+                "asset": "benchCollision",
+                "castShadow": false,
+                "receiveShadow": false
+              },
+              "components": {
+                "StaticCollision": {}
+              }
+            }
+          ]
+        },
+        {
+          "content": {
+            "asset": "gardenBorder",
+            "type": "asset",
+            "receiveShadow": true,
+            "castShadow": false
+          },
+          "id": "gardens/balustrade--30-0",
+          "name": "balustrade--30-0",
+          "transform": {
+            "position": [
+              -30,
+              0,
+              -35
+            ],
+            "rotationDeg": [
+              0,
+              90,
+              0
+            ]
+          },
+          "components": {},
+          "children": [
+            {
+              "id": "gardens/balustrade--30-0/collision",
+              "name": "Collision balustrade--30-0",
+              "content": {
+                "type": "asset",
+                "asset": "gardenBorderCollision",
+                "castShadow": false,
+                "receiveShadow": false
+              },
+              "components": {
+                "StaticCollision": {}
+              }
+            }
+          ]
+        },
+        {
+          "content": {
+            "asset": "gardenBorder",
+            "type": "asset",
+            "receiveShadow": true,
+            "castShadow": false
+          },
+          "id": "gardens/balustrade--30-1",
+          "name": "balustrade--30-1",
+          "transform": {
+            "position": [
+              -30,
+              0,
+              -25
+            ],
+            "rotationDeg": [
+              0,
+              90,
+              0
+            ]
+          },
+          "components": {},
+          "children": [
+            {
+              "id": "gardens/balustrade--30-1/collision",
+              "name": "Collision balustrade--30-1",
+              "content": {
+                "type": "asset",
+                "asset": "gardenBorderCollision",
+                "castShadow": false,
+                "receiveShadow": false
+              },
+              "components": {
+                "StaticCollision": {}
+              }
+            }
+          ]
+        },
+        {
+          "content": {
+            "asset": "gardenBorder",
+            "type": "asset",
+            "receiveShadow": true,
+            "castShadow": false
+          },
+          "id": "gardens/balustrade--30-2",
+          "name": "balustrade--30-2",
+          "transform": {
+            "position": [
+              -30,
+              0,
+              -15
+            ],
+            "rotationDeg": [
+              0,
+              90,
+              0
+            ]
+          },
+          "components": {},
+          "children": [
+            {
+              "id": "gardens/balustrade--30-2/collision",
+              "name": "Collision balustrade--30-2",
+              "content": {
+                "type": "asset",
+                "asset": "gardenBorderCollision",
+                "castShadow": false,
+                "receiveShadow": false
+              },
+              "components": {
+                "StaticCollision": {}
+              }
+            }
+          ]
+        },
+        {
+          "content": {
+            "asset": "gardenBorder",
+            "type": "asset",
+            "receiveShadow": true,
+            "castShadow": false
+          },
+          "id": "gardens/balustrade--30-3",
+          "name": "balustrade--30-3",
+          "transform": {
+            "position": [
+              -30,
+              0,
+              -5
+            ],
+            "rotationDeg": [
+              0,
+              90,
+              0
+            ]
+          },
+          "components": {},
+          "children": [
+            {
+              "id": "gardens/balustrade--30-3/collision",
+              "name": "Collision balustrade--30-3",
+              "content": {
+                "type": "asset",
+                "asset": "gardenBorderCollision",
+                "castShadow": false,
+                "receiveShadow": false
+              },
+              "components": {
+                "StaticCollision": {}
+              }
+            }
+          ]
+        },
+        {
+          "content": {
+            "asset": "gardenBorder",
+            "type": "asset",
+            "receiveShadow": true,
+            "castShadow": false
+          },
+          "id": "gardens/balustrade--30-4",
+          "name": "balustrade--30-4",
+          "transform": {
+            "position": [
+              -30,
+              0,
+              5
+            ],
+            "rotationDeg": [
+              0,
+              90,
+              0
+            ]
+          },
+          "components": {},
+          "children": [
+            {
+              "id": "gardens/balustrade--30-4/collision",
+              "name": "Collision balustrade--30-4",
+              "content": {
+                "type": "asset",
+                "asset": "gardenBorderCollision",
+                "castShadow": false,
+                "receiveShadow": false
+              },
+              "components": {
+                "StaticCollision": {}
+              }
+            }
+          ]
+        },
+        {
+          "content": {
+            "asset": "gardenBorder",
+            "type": "asset",
+            "receiveShadow": true,
+            "castShadow": false
+          },
+          "id": "gardens/balustrade--30-5",
+          "name": "balustrade--30-5",
+          "transform": {
+            "position": [
+              -30,
+              0,
+              15
+            ],
+            "rotationDeg": [
+              0,
+              90,
+              0
+            ]
+          },
+          "components": {},
+          "children": [
+            {
+              "id": "gardens/balustrade--30-5/collision",
+              "name": "Collision balustrade--30-5",
+              "content": {
+                "type": "asset",
+                "asset": "gardenBorderCollision",
+                "castShadow": false,
+                "receiveShadow": false
+              },
+              "components": {
+                "StaticCollision": {}
+              }
+            }
+          ]
+        },
+        {
+          "content": {
+            "asset": "gardenBorder",
+            "type": "asset",
+            "receiveShadow": true,
+            "castShadow": false
+          },
+          "id": "gardens/balustrade--30-6",
+          "name": "balustrade--30-6",
+          "transform": {
+            "position": [
+              -30,
+              0,
+              25
+            ],
+            "rotationDeg": [
+              0,
+              90,
+              0
+            ]
+          },
+          "components": {},
+          "children": [
+            {
+              "id": "gardens/balustrade--30-6/collision",
+              "name": "Collision balustrade--30-6",
+              "content": {
+                "type": "asset",
+                "asset": "gardenBorderCollision",
+                "castShadow": false,
+                "receiveShadow": false
+              },
+              "components": {
+                "StaticCollision": {}
+              }
+            }
+          ]
+        },
+        {
+          "content": {
+            "asset": "gardenBorder",
+            "type": "asset",
+            "receiveShadow": true,
+            "castShadow": false
+          },
+          "id": "gardens/balustrade-30-0",
+          "name": "balustrade-30-0",
+          "transform": {
+            "position": [
+              30,
+              0,
+              -35
+            ],
+            "rotationDeg": [
+              0,
+              90,
+              0
+            ]
+          },
+          "components": {},
+          "children": [
+            {
+              "id": "gardens/balustrade-30-0/collision",
+              "name": "Collision balustrade-30-0",
+              "content": {
+                "type": "asset",
+                "asset": "gardenBorderCollision",
+                "castShadow": false,
+                "receiveShadow": false
+              },
+              "components": {
+                "StaticCollision": {}
+              }
+            }
+          ]
+        },
+        {
+          "content": {
+            "asset": "gardenBorder",
+            "type": "asset",
+            "receiveShadow": true,
+            "castShadow": false
+          },
+          "id": "gardens/balustrade-30-1",
+          "name": "balustrade-30-1",
+          "transform": {
+            "position": [
+              30,
+              0,
+              -25
+            ],
+            "rotationDeg": [
+              0,
+              90,
+              0
+            ]
+          },
+          "components": {},
+          "children": [
+            {
+              "id": "gardens/balustrade-30-1/collision",
+              "name": "Collision balustrade-30-1",
+              "content": {
+                "type": "asset",
+                "asset": "gardenBorderCollision",
+                "castShadow": false,
+                "receiveShadow": false
+              },
+              "components": {
+                "StaticCollision": {}
+              }
+            }
+          ]
+        },
+        {
+          "content": {
+            "asset": "gardenBorder",
+            "type": "asset",
+            "receiveShadow": true,
+            "castShadow": false
+          },
+          "id": "gardens/balustrade-30-2",
+          "name": "balustrade-30-2",
+          "transform": {
+            "position": [
+              30,
+              0,
+              -15
+            ],
+            "rotationDeg": [
+              0,
+              90,
+              0
+            ]
+          },
+          "components": {},
+          "children": [
+            {
+              "id": "gardens/balustrade-30-2/collision",
+              "name": "Collision balustrade-30-2",
+              "content": {
+                "type": "asset",
+                "asset": "gardenBorderCollision",
+                "castShadow": false,
+                "receiveShadow": false
+              },
+              "components": {
+                "StaticCollision": {}
+              }
+            }
+          ]
+        },
+        {
+          "content": {
+            "asset": "gardenBorder",
+            "type": "asset",
+            "receiveShadow": true,
+            "castShadow": false
+          },
+          "id": "gardens/balustrade-30-3",
+          "name": "balustrade-30-3",
+          "transform": {
+            "position": [
+              30,
+              0,
+              -5
+            ],
+            "rotationDeg": [
+              0,
+              90,
+              0
+            ]
+          },
+          "components": {},
+          "children": [
+            {
+              "id": "gardens/balustrade-30-3/collision",
+              "name": "Collision balustrade-30-3",
+              "content": {
+                "type": "asset",
+                "asset": "gardenBorderCollision",
+                "castShadow": false,
+                "receiveShadow": false
+              },
+              "components": {
+                "StaticCollision": {}
+              }
+            }
+          ]
+        },
+        {
+          "content": {
+            "asset": "gardenBorder",
+            "type": "asset",
+            "receiveShadow": true,
+            "castShadow": false
+          },
+          "id": "gardens/balustrade-30-4",
+          "name": "balustrade-30-4",
+          "transform": {
+            "position": [
+              30,
+              0,
+              5
+            ],
+            "rotationDeg": [
+              0,
+              90,
+              0
+            ]
+          },
+          "components": {},
+          "children": [
+            {
+              "id": "gardens/balustrade-30-4/collision",
+              "name": "Collision balustrade-30-4",
+              "content": {
+                "type": "asset",
+                "asset": "gardenBorderCollision",
+                "castShadow": false,
+                "receiveShadow": false
+              },
+              "components": {
+                "StaticCollision": {}
+              }
+            }
+          ]
+        },
+        {
+          "content": {
+            "asset": "gardenBorder",
+            "type": "asset",
+            "receiveShadow": true,
+            "castShadow": false
+          },
+          "id": "gardens/balustrade-30-5",
+          "name": "balustrade-30-5",
+          "transform": {
+            "position": [
+              30,
+              0,
+              15
+            ],
+            "rotationDeg": [
+              0,
+              90,
+              0
+            ]
+          },
+          "components": {},
+          "children": [
+            {
+              "id": "gardens/balustrade-30-5/collision",
+              "name": "Collision balustrade-30-5",
+              "content": {
+                "type": "asset",
+                "asset": "gardenBorderCollision",
+                "castShadow": false,
+                "receiveShadow": false
+              },
+              "components": {
+                "StaticCollision": {}
+              }
+            }
+          ]
+        },
+        {
+          "content": {
+            "asset": "gardenBorder",
+            "type": "asset",
+            "receiveShadow": true,
+            "castShadow": false
+          },
+          "id": "gardens/balustrade-30-6",
+          "name": "balustrade-30-6",
+          "transform": {
+            "position": [
+              30,
+              0,
+              25
+            ],
+            "rotationDeg": [
+              0,
+              90,
+              0
+            ]
+          },
+          "components": {},
+          "children": [
+            {
+              "id": "gardens/balustrade-30-6/collision",
+              "name": "Collision balustrade-30-6",
+              "content": {
+                "type": "asset",
+                "asset": "gardenBorderCollision",
+                "castShadow": false,
+                "receiveShadow": false
+              },
+              "components": {
+                "StaticCollision": {}
+              }
+            }
+          ]
+        }
+      ],
+      "content": {
+        "type": "group"
+      },
+      "id": "gardens"
+    },
+    {
+      "children": [
+        {
+          "content": {
+            "asset": "basin",
+            "type": "asset",
+            "receiveShadow": true,
+            "castShadow": true
+          },
+          "id": "fountain/basin",
+          "name": "basin",
+          "transform": {
+            "position": [
+              0,
+              0,
+              0
+            ]
+          },
+          "components": {},
+          "children": [
+            {
+              "id": "fountain/basin/collision",
+              "name": "Collision basin",
+              "content": {
+                "type": "asset",
+                "asset": "basinCollision",
+                "castShadow": false,
+                "receiveShadow": false
+              },
+              "components": {
+                "StaticCollision": {}
+              }
+            }
+          ]
+        },
+        {
+          "components": {
+            "FountainWater": {}
+          },
+          "content": {
+            "asset": "water",
+            "type": "asset",
+            "receiveShadow": true,
+            "castShadow": false
+          },
+          "id": "fountain/water",
+          "name": "water",
+          "transform": {
+            "position": [
+              0,
+              0,
+              0
+            ]
+          }
+        },
+        {
+          "components": {
+            "WaterJet": {
+              "kind": 1,
+              "phase": 0
+            }
+          },
+          "content": {
+            "asset": "centralJet",
+            "type": "asset",
+            "receiveShadow": true,
+            "castShadow": false
+          },
+          "id": "fountain/jet-central",
+          "name": "jet-central",
+          "transform": {
+            "position": [
+              0,
+              0,
+              0
+            ]
+          }
+        },
+        {
+          "components": {
+            "WaterJet": {
+              "kind": 0,
+              "phase": 0
+            }
+          },
+          "content": {
+            "asset": "lateralJet",
+            "type": "asset",
+            "receiveShadow": true,
+            "castShadow": false
+          },
+          "id": "fountain/jet-lateral-1",
+          "name": "jet-lateral-1",
+          "transform": {
+            "position": [
+              3.1,
+              0,
+              0
+            ],
+            "rotationDeg": [
+              0,
+              0,
+              0
+            ]
+          }
+        },
+        {
+          "components": {
+            "WaterJet": {
+              "kind": 0,
+              "phase": 0
+            }
+          },
+          "content": {
+            "asset": "lateralJet",
+            "type": "asset",
+            "receiveShadow": true,
+            "castShadow": false
+          },
+          "id": "fountain/jet-lateral-2",
+          "name": "jet-lateral-2",
+          "transform": {
+            "position": [
+              1.5500000000000005,
+              0,
+              2.68467875173176
+            ],
+            "rotationDeg": [
+              0,
+              -60,
+              0
+            ]
+          }
+        },
+        {
+          "components": {
+            "WaterJet": {
+              "kind": 0,
+              "phase": 0
+            }
+          },
+          "content": {
+            "asset": "lateralJet",
+            "type": "asset",
+            "receiveShadow": true,
+            "castShadow": false
+          },
+          "id": "fountain/jet-lateral-3",
+          "name": "jet-lateral-3",
+          "transform": {
+            "position": [
+              -1.5499999999999994,
+              0,
+              2.68467875173176
+            ],
+            "rotationDeg": [
+              0,
+              -120,
+              0
+            ]
+          }
+        },
+        {
+          "components": {
+            "WaterJet": {
+              "kind": 0,
+              "phase": 0
+            }
+          },
+          "content": {
+            "asset": "lateralJet",
+            "type": "asset",
+            "receiveShadow": true,
+            "castShadow": false
+          },
+          "id": "fountain/jet-lateral-4",
+          "name": "jet-lateral-4",
+          "transform": {
+            "position": [
+              -3.1,
+              0,
+              3.796405077356795e-16
+            ],
+            "rotationDeg": [
+              0,
+              -180,
+              0
+            ]
+          }
+        },
+        {
+          "components": {
+            "WaterJet": {
+              "kind": 0,
+              "phase": 0
+            }
+          },
+          "content": {
+            "asset": "lateralJet",
+            "type": "asset",
+            "receiveShadow": true,
+            "castShadow": false
+          },
+          "id": "fountain/jet-lateral-5",
+          "name": "jet-lateral-5",
+          "transform": {
+            "position": [
+              -1.5500000000000014,
+              0,
+              -2.6846787517317594
+            ],
+            "rotationDeg": [
+              0,
+              -240,
+              0
+            ]
+          }
+        },
+        {
+          "components": {
+            "WaterJet": {
+              "kind": 0,
+              "phase": 0
+            }
+          },
+          "content": {
+            "asset": "lateralJet",
+            "type": "asset",
+            "receiveShadow": true,
+            "castShadow": false
+          },
+          "id": "fountain/jet-lateral-6",
+          "name": "jet-lateral-6",
+          "transform": {
+            "position": [
+              1.5500000000000005,
+              0,
+              -2.68467875173176
+            ],
+            "rotationDeg": [
+              0,
+              -300,
+              0
+            ]
+          }
+        }
+      ],
+      "content": {
+        "type": "group"
+      },
+      "id": "fountain"
+    }
+  ],
+  "player": {
+    "transform": {
+      "position": [
+        0,
+        0,
+        24
+      ]
+    }
+  },
+  "resources": {},
+  "units": "meters",
+  "version": "iwsdk.scene.v1",
+  "environment": {
+    "shadows": true,
+    "shadowMapType": "pcf-soft"
+  }
+}

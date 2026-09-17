@@ -1,0 +1,82 @@
+[
+  {
+    "type": "bed",
+    "position": [
+      -10.0,
+      5.04,
+      -2.85
+    ]
+  },
+  {
+    "type": "nightstand",
+    "position": [
+      -11.95,
+      5.04,
+      -3.85
+    ]
+  },
+  {
+    "type": "nightstand",
+    "position": [
+      -8.05,
+      5.04,
+      -3.85
+    ]
+  },
+  {
+    "type": "bathtub",
+    "position": [
+      -17.8,
+      5.04,
+      -3.55
+    ]
+  },
+  {
+    "type": "toilet",
+    "position": [
+      -19.55,
+      5.04,
+      3.2
+    ]
+  },
+  {
+    "type": "bed",
+    "position": [
+      10.0,
+      5.04,
+      -2.85
+    ]
+  },
+  {
+    "type": "nightstand",
+    "position": [
+      8.05,
+      5.04,
+      -3.85
+    ]
+  },
+  {
+    "type": "nightstand",
+    "position": [
+      11.95,
+      5.04,
+      -3.85
+    ]
+  },
+  {
+    "type": "bathtub",
+    "position": [
+      17.8,
+      5.04,
+      -3.55
+    ]
+  },
+  {
+    "type": "toilet",
+    "position": [
+      19.55,
+      5.04,
+      3.2
+    ]
+  }
+]
