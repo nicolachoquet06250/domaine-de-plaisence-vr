@@ -1,0 +1,52 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="900" viewBox="0 0 1200 900">
+<defs>
+ <pattern id="meadow" width="24" height="24" patternUnits="userSpaceOnUse"><rect width="24" height="24" fill="#dbe4c6"/><path d="M4 8l2-3m10 14l3-2" stroke="#bdcca5" stroke-width="1"/></pattern>
+ <g id="oak"><circle r="12" fill="#58794f"/><circle cx="-8" cy="-3" r="8" fill="#70915e"/><circle cx="6" cy="-7" r="9" fill="#7e9b66"/><circle cx="7" cy="5" r="9" fill="#648858"/><circle cx="-4" cy="5" r="8" fill="#769662"/><circle r="2" fill="#69503d"/></g>
+</defs>
+<rect width="1200" height="900" fill="#f5f1e8"/>
+<g font-family="Arial,sans-serif" fill="#243b31">
+<text x="40" y="49" font-size="27" font-weight="bold">ACCUEIL — EXTENSION PAYSAGERE</text>
+<text x="40" y="77" font-size="15" fill="#687368">Plan propose pour validation • Vue de dessus • Aucun changement de scene effectue</text>
+<rect x="340" y="100" width="720" height="720" rx="12" fill="url(#meadow)" stroke="#afbc99" stroke-width="2"/>
+<path d="M365 195Q465 110 600 165T1010 150M370 320Q425 270 477 320M375 700Q410 795 665 790T1020 740M1015 285Q1050 470 998 650" fill="none" stroke="#ccd8b6" stroke-width="35" stroke-linecap="round"/>
+<g>
+<use href="#oak" transform="translate(385 152) scale(1.6)"/><use href="#oak" transform="translate(443 148) scale(1.1)"/><use href="#oak" transform="translate(491 173) scale(1.8)"/><use href="#oak" transform="translate(551 133) scale(1.2)"/><use href="#oak" transform="translate(600 160) scale(1.5)"/><use href="#oak" transform="translate(650 131) scale(1.3)"/><use href="#oak" transform="translate(707 164) scale(1.8)"/><use href="#oak" transform="translate(778 147) scale(1.5)"/><use href="#oak" transform="translate(842 134) scale(1.8)"/><use href="#oak" transform="translate(900 166) scale(1.1)"/><use href="#oak" transform="translate(980 147) scale(1.8)"/>
+<use href="#oak" transform="translate(395 238) scale(1.3)"/><use href="#oak" transform="translate(455 263) scale(1.6)"/><use href="#oak" transform="translate(510 229) scale(1.2)"/><use href="#oak" transform="translate(576 266) scale(1.8)"/><use href="#oak" transform="translate(652 230) scale(1.1)"/><use href="#oak" transform="translate(699 286) scale(1.6)"/>
+<use href="#oak" transform="translate(383 343) scale(1.7)"/><use href="#oak" transform="translate(437 366) scale(1.1)"/><use href="#oak" transform="translate(498 322) scale(1.5)"/><use href="#oak" transform="translate(555 360) scale(1.8)"/><use href="#oak" transform="translate(643 346) scale(1.4)"/>
+<use href="#oak" transform="translate(395 456) scale(1.3)"/><use href="#oak" transform="translate(457 420) scale(1.8)"/><use href="#oak" transform="translate(512 485) scale(1.2)"/><use href="#oak" transform="translate(575 442) scale(1.3)"/>
+<use href="#oak" transform="translate(982 252) scale(1.4)"/><use href="#oak" transform="translate(1017 316) scale(1.7)"/><use href="#oak" transform="translate(991 396) scale(1.5)"/><use href="#oak" transform="translate(1020 475) scale(1.6)"/><use href="#oak" transform="translate(971 530) scale(1.2)"/><use href="#oak" transform="translate(1016 601) scale(1.8)"/><use href="#oak" transform="translate(963 676) scale(1.5)"/><use href="#oak" transform="translate(1013 743) scale(1.2)"/>
+<use href="#oak" transform="translate(387 566) scale(1.6)"/><use href="#oak" transform="translate(450 594) scale(1.4)"/><use href="#oak" transform="translate(392 688) scale(1.5)"/><use href="#oak" transform="translate(463 735) scale(1.9)"/><use href="#oak" transform="translate(547 774) scale(1.4)"/><use href="#oak" transform="translate(615 730) scale(1.6)"/><use href="#oak" transform="translate(695 781) scale(1.4)"/><use href="#oak" transform="translate(751 740) scale(1.8)"/><use href="#oak" transform="translate(845 782) scale(1.7)"/><use href="#oak" transform="translate(903 732) scale(1.5)"/>
+</g>
+<!-- Garden translated as one block; relative composition is retained. -->
+<rect x="760" y="235" width="180" height="210" fill="#b5c394" stroke="#8e8874" stroke-width="5"/>
+<path d="M850 445V282M783 355H917" stroke="#dbcfb3" stroke-width="21"/>
+<g fill="#88a273" stroke="#52744c" stroke-width="4"><rect x="793" y="304" width="42" height="42"/><rect x="865" y="304" width="42" height="42"/><rect x="793" y="364" width="42" height="42"/><rect x="865" y="364" width="42" height="42"/></g>
+<circle cx="850" cy="355" r="12" fill="#80adb0" stroke="#e4dcc7" stroke-width="4"/>
+<g fill="#aaa48e" stroke="#766e5a" stroke-width="2"><rect x="773" y="249" width="154" height="36"/><rect x="772" y="242" width="32" height="50"/><rect x="896" y="242" width="32" height="50"/><rect x="834" y="247" width="32" height="42"/></g>
+<text x="850" y="220" text-anchor="middle" font-size="17" font-weight="bold">CHATEAU AU LOIN</text>
+<text x="850" y="424" text-anchor="middle" font-size="12">Jardins : disposition actuelle</text>
+<!-- Exterior gravel path reaches the entrance with the central avenue's tangent. -->
+<path d="M574 634C620 590 640 660 705 603S750 550 802 547S850 512 850 445" fill="none" stroke="#ab9875" stroke-width="15" stroke-linecap="round"/>
+<path d="M574 634C620 590 640 660 705 603S750 550 802 547S850 512 850 445" fill="none" stroke="#d8c5a1" stroke-width="11" stroke-linecap="round"/>
+<path d="M839 445H861" stroke="#d8c5a1" stroke-width="6"/><g fill="#8c7755"><rect x="833" y="438" width="7" height="14"/><rect x="861" y="438" width="7" height="14"/></g>
+<text x="888" y="473" font-size="13">Portail / entree</text>
+<text x="712" y="670" font-size="15" text-anchor="middle">Chemin de gravier en S</text>
+<text x="712" y="691" font-size="12" text-anchor="middle">Continuite visuelle jusqu'a l'allee centrale</text>
+<path d="M552 620L823 305" stroke="#bd974a" stroke-width="2" stroke-dasharray="7 6"/>
+<text x="680" y="459" transform="rotate(-49 680 459)" font-size="12" fill="#96783d">Vue degagee • environ 160 m jusqu'au chateau</text>
+<circle cx="550" cy="640" r="24" fill="#c6b493" stroke="#8a785b" stroke-width="2"/>
+<circle cx="550" cy="640" r="25" fill="none" stroke="#be6849" stroke-width="3" stroke-dasharray="4 3"/>
+<rect x="541" y="625" width="18" height="5" fill="#325749"/><circle cx="550" cy="646" r="4" fill="#243b31"/>
+<path d="M542 646H480" stroke="#715e46"/><text x="477" y="640" text-anchor="end" font-size="13" font-weight="bold">Place actuelle</text><text x="477" y="660" text-anchor="end" font-size="12">Diametre 16 m</text>
+<text x="360" y="845" font-size="12" fill="#687368">Terrain propose : environ 240 x 240 m • Implantation indicative, volumes et arbres schematiques</text>
+<path d="M350 860h150m-150-5v10m150-10v10" stroke="#243b31" stroke-width="2"/><text x="425" y="884" text-anchor="middle" font-size="12">50 m</text>
+<text x="40" y="147" font-size="18" font-weight="bold">01  ACCUEIL CONSERVE</text>
+<text x="40" y="179" font-size="15"><tspan x="40">Pavillon, panneau, vegetaux,</tspan><tspan x="40" dy="23">decorations et spawn inchanges.</tspan></text>
+<text x="40" y="251" font-size="18" font-weight="bold">02  DOMAINE EN ARRIERE-PLAN</text>
+<text x="40" y="283" font-size="15"><tspan x="40">Chateau exterieur, fontaine,</tspan><tspan x="40" dy="23">parterres, bancs et clotures.</tspan><tspan x="40" dy="23">Ensemble decale vers l'avant droit.</tspan><tspan x="40" dy="23">Aucun amenagement interieur.</tspan></text>
+<text x="40" y="402" font-size="18" font-weight="bold">03  FORET DE CHENES</text>
+<text x="40" y="434" font-size="15"><tspan x="40">Modeles Blender de 6 a 20 m.</tspan><tspan x="40" dy="23">Silhouettes et tailles variees.</tspan><tspan x="40" dy="23">Clairiere devant la vue principale.</tspan></text>
+<text x="40" y="540" font-size="18" font-weight="bold">04  DEPLACEMENT SECURISE</text>
+<text x="40" y="572" font-size="15"><tspan x="40">Collision invisible fermee a 360°</tspan><tspan x="40" dy="23">au pourtour de la place.</tspan><tspan x="40" dy="23">Sol continu sous le spawn.</tspan><tspan x="40" dy="23">Paysage exterieur non accessible</tspan><tspan x="40" dy="23">depuis l'accueil.</tspan></text>
+<rect x="35" y="743" width="275" height="65" rx="9" fill="#e7dcc5"/><text x="53" y="769" font-size="15" font-weight="bold">PLAN A VALIDER</text><text x="53" y="793" font-size="13">La creation 3D commencera ensuite.</text>
+</g></svg>

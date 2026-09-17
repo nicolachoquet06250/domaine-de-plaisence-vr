@@ -1,0 +1,19 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 900 1060" role="img" aria-labelledby="layout-title layout-desc">
+<title id="layout-title">Domaine de Plaisance — plan directeur</title><desc id="layout-desc">Terrain 70 par 90 mètres. Château centré en 0,-28, large de 40 mètres et profond de 12. Fontaine de rayon 4 mètres en 0,0. Quatre parterres centrés en plus ou moins 12, plus ou moins 10. Départ en 0,24.</desc>
+<defs><pattern id="grass" width="24" height="24" patternUnits="userSpaceOnUse"><rect width="24" height="24" fill="#65775b"/><path d="M3 8l2-3m12 14 2-3" stroke="#738465" stroke-width="1"/></pattern><g id="parterre"><rect x="-72" y="-55" width="144" height="110" rx="5" fill="#d4c6a8"/><rect x="-64" y="-47" width="128" height="94" rx="3" fill="#314d3a"/><path d="M-54-37H54V37H-54Z M-45-28L45 28M45-28L-45 28" fill="none" stroke="#9cab76" stroke-width="5"/><ellipse rx="18" ry="13" fill="#bb7a74"/></g><g id="tree"><circle r="14" fill="#435741"/><circle r="10" fill="#263f32"/><circle cy="-3" r="6" fill="#5f7452"/></g></defs>
+<rect width="900" height="1060" fill="#f0eadf"/>
+<text x="70" y="55" fill="#243b30" font-family="Georgia,serif" font-size="30">DOMAINE DE PLAISANCE</text><text x="70" y="80" fill="#726c5f" font-family="Arial,sans-serif" font-size="12" letter-spacing="3">PLAN DIRECTEUR · 1 UNITÉ = 1 MÈTRE</text>
+<g transform="translate(450 560) scale(8)">
+<rect x="-35" y="-45" width="70" height="90" fill="url(#grass)" stroke="#465f49" stroke-width=".4"/>
+<path d="M-3 43V-22M-30 0H30M-28-20H28V20H-28Z" fill="none" stroke="#d1c4a8" stroke-width="5"/>
+<path d="M0 44V-22" stroke="#e2d6ba" stroke-width="6"/>
+<rect x="-23" y="-23" width="46" height="4" fill="#e2d6ba"/>
+<g transform="translate(0 -28)"><rect x="-20" y="-6" width="40" height="12" fill="#d9ccad" stroke="#554f47" stroke-width=".3"/><rect x="-19" y="-5" width="15" height="10" fill="#55606a"/><rect x="4" y="-5" width="15" height="10" fill="#55606a"/><rect x="-4" y="-6" width="8" height="12" fill="#48545e"/><path d="M-19 0H-4M4 0H19M0-6V6" stroke="#90948d" stroke-width=".3"/></g>
+<g transform="scale(.125)"><use href="#parterre" x="-96" y="-80"/><use href="#parterre" x="96" y="-80"/><use href="#parterre" x="-96" y="80"/><use href="#parterre" x="96" y="80"/></g>
+<circle r="6.6" fill="#e2d6ba"/><circle r="4" fill="#d9d0b9" stroke="#b8ad92" stroke-width=".4"/><circle r="3.5" fill="#4eaaa6"/>
+<g stroke="#e3f7ee" stroke-width=".2"><path d="M0-2.6Q-1-1 0 0M2.25-1.3Q.5-1 0 0M2.25 1.3Q1 .5 0 0M0 2.6Q1 1 0 0M-2.25 1.3Q-.5 1 0 0M-2.25-1.3Q-1-.5 0 0" fill="none"/></g><circle r=".65" fill="#f2f2d9"/>
+<g transform="scale(.125)"><use href="#tree" x="-240" y="-240"/><use href="#tree" x="240" y="-240"/><use href="#tree" x="-240" y="-160"/><use href="#tree" x="240" y="-160"/><use href="#tree" x="-240" y="-80"/><use href="#tree" x="240" y="-80"/><use href="#tree" x="-240"/><use href="#tree" x="240"/><use href="#tree" x="-240" y="80"/><use href="#tree" x="240" y="80"/><use href="#tree" x="-240" y="160"/><use href="#tree" x="240" y="160"/><use href="#tree" x="-240" y="240"/><use href="#tree" x="240" y="240"/></g>
+<circle cx="0" cy="24" r="1" fill="#b36c45" stroke="#fff2dc" stroke-width=".3"/><path d="M0 23l-1.5 3h3Z" fill="#fff2dc"/>
+</g>
+<g font-family="Arial,sans-serif" fill="#243b30" font-size="13"><path d="M625 336H790" stroke="#615d50"/><text x="637" y="322">CHÂTEAU · 40 × 12 m</text><text x="637" y="354">Centre (0, −28)</text><path d="M488 560H740" stroke="#615d50"/><text x="622" y="548">FONTAINE · R 4 m</text><text x="622" y="579">6 jets latéraux + 1 central</text><text x="474" y="758">DÉPART (0, 0, 24)</text><text x="91" y="990">Terrain : 70 × 90 m · axe du château vers −Z</text><text x="91" y="1014">Parterres : (−12, −10), (+12, −10), (−12, +10), (+12, +10)</text><path d="M735 950h80m-80-5v10m80-10v10" stroke="#243b30"/><text x="762" y="973">10 m</text></g>
+</svg>
