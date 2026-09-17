@@ -1,0 +1,34 @@
+[
+  {
+    "file": "src\\assets.ts",
+    "strings": 16
+  },
+  {
+    "file": "src\\mobile-controls.ts",
+    "strings": 1
+  },
+  {
+    "file": "src\\multiplayer.ts",
+    "strings": 21
+  },
+  {
+    "file": "src\\scene-assets\\garden.scene-asset.ts",
+    "strings": 10
+  },
+  {
+    "file": "src\\scene-assets\\palace.scene-asset.ts",
+    "strings": 2
+  },
+  {
+    "file": "src\\scene-assets\\static-collision.ts",
+    "strings": 1
+  },
+  {
+    "file": "src\\voice-session.ts",
+    "strings": 6
+  },
+  {
+    "file": "server\\voice-signaling.mjs",
+    "strings": 1
+  }
+]

@@ -1,0 +1,62 @@
+npm notice run test-meta-web-sdk-update@0.1.0 build
+npm notice run vite build
+🔧 IWSDK Dev Configuration:
+  - Device: metaQuest3
+  - SEM: disabled
+  - AI: disabled
+  - Workspace: disabled
+  - Activation: localhost
+  - UA exception: enabled
+  - Inject on build: false
+vite v7.3.6 building client environment for production...
+⏭️  IWSDK Dev: Skipping build injection (injectOnBuild: false)
+transforming...
+node_modules/zod/v4/core/regexes.js (70:0): A comment
+
+"/** Anchors a pattern source. The interpolation lives here rather than at the call site because
+ * esbuild will not drop a `@__PURE__` call whose own argument interpolates a variable, but it
+ * will drop `anchor(dateSource)`. Keeping it inline pinned `date` into every bundle. */"
+
+in "node_modules/zod/v4/core/regexes.js" contains an annotation that Rollup cannot interpret due to the position of the comment. The comment will be removed to avoid issues.
+node_modules/zod/v4/core/util.js (330:0): A comment
+
+"// Wrapped in a `@__PURE__` IIFE: esbuild never tree-shakes a top-level initializer that contains a member access on `Number`, so the bare object literal survived into every bundle."
+
+in "node_modules/zod/v4/core/util.js" contains an annotation that Rollup cannot interpret due to the position of the comment. The comment will be removed to avoid issues.
+✓ 2236 modules transformed.
+rendering chunks...
+computing gzip size...
+dist/index.html                                0.61 kB │ gzip:     0.38 kB
+dist/assets/worker-_Lh8Vt-i.js                41.91 kB
+dist/assets/HavokPhysics-BqNY-4N9.wasm     2,094.56 kB │ gzip:   664.19 kB
+dist/assets/index-DQ9JyiA1.css                 2.14 kB │ gzip:     0.86 kB
+dist/assets/index-Brupejm_.js                  6.82 kB │ gzip:     2.86 kB
+dist/assets/index-BYpJRKHI.js                 15.54 kB │ gzip:     4.31 kB
+dist/assets/HavokPhysics_es-CC0YQXCi.js       33.63 kB │ gzip:     9.93 kB
+dist/assets/world-initializer-0NvOXnij.js     34.00 kB │ gzip:    11.58 kB
+dist/assets/spaceMono-B4CYWYnD.js             93.25 kB │ gzip:    64.02 kB
+dist/assets/libreBaskerville-B4LNrPqt.js     191.65 kB │ gzip:    95.31 kB
+dist/assets/worker-BA_pRWEz.js               198.35 kB │ gzip:    64.67 kB
+dist/assets/crimsonText-DKwdbbX1.js          225.90 kB │ gzip:   147.16 kB
+dist/assets/lato-Dbeb9-8A.js                 241.26 kB │ gzip:   137.23 kB
+dist/assets/inconsolata-OaCJF_Rp.js          374.71 kB │ gzip:   258.00 kB
+dist/assets/openSans-Jk_2t0YU.js             392.42 kB │ gzip:   272.32 kB
+dist/assets/sourceCodePro-Drc7Wx_n.js        393.45 kB │ gzip:   272.44 kB
+dist/assets/poppins-BhqVNCxH.js              395.69 kB │ gzip:   275.17 kB
+dist/assets/roboto-B1Zlc7NB.js               398.58 kB │ gzip:   276.56 kB
+dist/assets/workSans-CL7PpxF9.js             403.79 kB │ gzip:   280.83 kB
+dist/assets/firaCode-CPGi_dTk.js             416.44 kB │ gzip:   289.80 kB
+dist/assets/inter-BNVRAYFH.js                423.25 kB │ gzip:   282.73 kB
+dist/assets/msdf-worker-BUaSHgMS.js          455.99 kB │ gzip:   180.25 kB
+dist/assets/montserrat-BbePxp6i.js           466.53 kB │ gzip:   285.77 kB
+dist/assets/merriweather-DMXV4vMg.js         507.21 kB │ gzip:   359.12 kB
+dist/assets/nunito-B1wXnF4h.js               541.86 kB │ gzip:   243.77 kB
+dist/assets/playfairDisplay-CyGsuIEm.js      558.95 kB │ gzip:   269.94 kB
+dist/assets/raleway-CMTiBd4l.js              659.71 kB │ gzip:   316.08 kB
+dist/assets/index-DluMG1RK.js              6,654.37 kB │ gzip: 1,702.02 kB
+
+(!) Some chunks are larger than 500 kB after minification. Consider:
+- Using dynamic import() to code-split the application
+- Use build.rollupOptions.output.manualChunks to improve chunking: https://rollupjs.org/configuration-options/#output-manualchunks
+- Adjust chunk size limit for this warning via build.chunkSizeWarningLimit.
+✓ built in 31.11s
