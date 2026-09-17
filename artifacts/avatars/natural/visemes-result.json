@@ -1,0 +1,12 @@
+{
+  "content": [
+    {
+      "type": "text",
+      "text": "Code executed successfully: 15 visemes x 2 avatars rendered\n"
+    }
+  ],
+  "structuredContent": {
+    "result": "Code executed successfully: 15 visemes x 2 avatars rendered\n"
+  },
+  "isError": false
+}

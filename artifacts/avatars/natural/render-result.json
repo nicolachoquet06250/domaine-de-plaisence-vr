@@ -1,0 +1,12 @@
+{
+  "content": [
+    {
+      "type": "text",
+      "text": "Code executed successfully: Studio renders complete\n"
+    }
+  ],
+  "structuredContent": {
+    "result": "Code executed successfully: Studio renders complete\n"
+  },
+  "isError": false
+}

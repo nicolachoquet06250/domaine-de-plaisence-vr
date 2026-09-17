@@ -1,0 +1,152 @@
+{
+  "assets": {
+    "courtMale": {
+      "bytes": 3545884,
+      "vertices": 31050,
+      "triangles": 57377,
+      "skins": 1,
+      "weightedJoints": 16,
+      "skinnedPrimitives": 23,
+      "maxWeightError": 2.9802322387695312e-8,
+      "visemes": {
+        "viseme_sil": 0.00007000565528869629,
+        "viseme_PP": 0.0017094612121582031,
+        "viseme_FF": 0.004800006747245789,
+        "viseme_TH": 0.015000000596046448,
+        "viseme_DD": 0.011364936828613281,
+        "viseme_kk": 0.010010004043579102,
+        "viseme_CH": 0.007910013198852539,
+        "viseme_SS": 0.006065011024475098,
+        "viseme_nn": 0.008714914321899414,
+        "viseme_RR": 0.0072100162506103516,
+        "viseme_aa": 0.017010092735290527,
+        "viseme_E": 0.007910013198852539,
+        "viseme_I": 0.005064964294433594,
+        "viseme_O": 0.013509988784790039,
+        "viseme_U": 0.012536052614450455
+      },
+      "bounds": {
+        "min": [
+          -0.3639645814976096,
+          0.0028324761202334096,
+          -0.12367963606596533
+        ],
+        "max": [
+          0.36408456560213653,
+          1.8850045204162598,
+          0.209038616740194
+        ]
+      },
+      "clips": {
+        "Idle": {
+          "movingJointTracks": 5,
+          "maxLoopError": 0.00048678427104840516,
+          "duration": 3,
+          "maxBoneMotion": 0.01655407203610426,
+          "maxSkinnedVertexMotion": 0.022481090520251105
+        },
+        "Walking": {
+          "movingJointTracks": 12,
+          "maxLoopError": 0.0005100814619366169,
+          "duration": 1,
+          "maxBoneMotion": 0.30229308608907934,
+          "maxSkinnedVertexMotion": 0.37726840574396703
+        },
+        "StrafeLeft": {
+          "movingJointTracks": 8,
+          "maxLoopError": 0.000480660508238709,
+          "duration": 1,
+          "maxBoneMotion": 0.25990435678602763,
+          "maxSkinnedVertexMotion": 0.29961604108029194
+        },
+        "StrafeRight": {
+          "movingJointTracks": 8,
+          "maxLoopError": 0.000480660508238709,
+          "duration": 1,
+          "maxBoneMotion": 0.25990435678602763,
+          "maxSkinnedVertexMotion": 0.30058453008372965
+        }
+      }
+    },
+    "courtFemale": {
+      "bytes": 3603900,
+      "vertices": 32417,
+      "triangles": 59300,
+      "skins": 1,
+      "weightedJoints": 14,
+      "skinnedPrimitives": 25,
+      "maxWeightError": 2.9802322387695312e-8,
+      "visemes": {
+        "viseme_sil": 0.00006651133298873901,
+        "viseme_PP": 0.0015279874205589294,
+        "viseme_FF": 0.004560008645057678,
+        "viseme_TH": 0.014250002801418304,
+        "viseme_DD": 0.010796666145324707,
+        "viseme_kk": 0.009509563446044922,
+        "viseme_CH": 0.007514595985412598,
+        "viseme_SS": 0.00576174259185791,
+        "viseme_nn": 0.008279085159301758,
+        "viseme_RR": 0.006849527359008789,
+        "viseme_aa": 0.016159653663635254,
+        "viseme_E": 0.007514595985412598,
+        "viseme_I": 0.004811644554138184,
+        "viseme_O": 0.012834548950195312,
+        "viseme_U": 0.011205241084098816
+      },
+      "bounds": {
+        "min": [
+          -0.40113359689712524,
+          0.002690822180487983,
+          -0.3123638331890106
+        ],
+        "max": [
+          0.39776456356048584,
+          1.698601910030947,
+          0.3127944767475128
+        ]
+      },
+      "clips": {
+        "Idle": {
+          "movingJointTracks": 5,
+          "maxLoopError": 0.0004008810790702599,
+          "duration": 3,
+          "maxBoneMotion": 0.015778087820162615,
+          "maxSkinnedVertexMotion": 0.021393849947513515
+        },
+        "Walking": {
+          "movingJointTracks": 10,
+          "maxLoopError": 0.0004008810790702599,
+          "duration": 1,
+          "maxBoneMotion": 0.2876433213256424,
+          "maxSkinnedVertexMotion": 0.3584830571438234
+        },
+        "StrafeLeft": {
+          "movingJointTracks": 6,
+          "maxLoopError": 0.0004008810790702599,
+          "duration": 1,
+          "maxBoneMotion": 0.24822556665493,
+          "maxSkinnedVertexMotion": 0.28590159582036295
+        },
+        "StrafeRight": {
+          "movingJointTracks": 6,
+          "maxLoopError": 0.0004008810790702599,
+          "duration": 1,
+          "maxBoneMotion": 0.24822556665493,
+          "maxSkinnedVertexMotion": 0.2868176970940215
+        }
+      }
+    }
+  },
+  "checks": [
+    "embedded GLBs",
+    "normalized joint weights",
+    "articulated weighted skeletons",
+    "Idle, Walking, StrafeLeft and StrafeRight loop closure",
+    "human scale and feet origin",
+    "15 finite named mouth morphs per avatar",
+    "actual animated bone and vertex displacement",
+    "SDK skeleton and mouth clone independence",
+    "prototype and material sharing"
+  ],
+  "decoder": "glTF buffers reconstructed with core types; AssetManager.getGLTF clone API exercised directly"
+}

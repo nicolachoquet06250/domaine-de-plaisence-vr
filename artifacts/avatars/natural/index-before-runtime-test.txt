@@ -1,0 +1,41 @@
+/**
+ * Copyright (c) Meta Platforms, Inc. and affiliates.
+ *
+ * This source code is licensed under the MIT license found in the
+ * LICENSE file in the root directory of this source tree.
+ */
+
+import { World } from '@iwsdk/core';
+import projectOptions from 'virtual:iwsdk-project';
+import { FountainSystem } from './fountain.js';
+import { MultiplayerSystem } from './multiplayer.js';
+import { BrowserLookSystem } from './browser-look.js';
+import { ComfortMenuSystem } from './comfort-menu.js';
+import { VREntrySystem } from './vr-entry.js';
+import { MobileControlsSystem } from './mobile-controls.js';
+import { StaticCollisionSystem } from './static-collisions.js';
+import { PalaceDoorSystem } from './palace-doors.js';
+import { PalaceMirrorSystem } from './palace-mirrors.js';
+import { HearthFireSystem } from './hearth-fire.js';
+import { ArrivalBoundarySystem } from './arrival-boundary.js';
+import { CoachJourneySystem } from './coach-journey.js';
+import { PortalDirectionSystem } from './portal-direction.js';
+
+World.create(
+  document.getElementById('scene-container') as HTMLDivElement,
+  projectOptions,
+).then((world) => {
+  world.registerSystem(BrowserLookSystem, { priority: 1 });
+  world.registerSystem(ComfortMenuSystem, { priority: 2 });
+  world.registerSystem(VREntrySystem, { priority: 3 });
+  world.registerSystem(MobileControlsSystem, { priority: 4 });
+  world.registerSystem(StaticCollisionSystem, { priority: 5 });
+  world.registerSystem(ArrivalBoundarySystem, { priority: 6 });
+  world.registerSystem(MultiplayerSystem, { priority: 21 });
+  world.registerSystem(FountainSystem, { priority: 22 });
+  world.registerSystem(PalaceDoorSystem, { priority: 23 });
+  world.registerSystem(PalaceMirrorSystem, { priority: 24 });
+  world.registerSystem(HearthFireSystem, { priority: 25 });
+  world.registerSystem(CoachJourneySystem, { priority: 10 });
+  world.registerSystem(PortalDirectionSystem, { priority: 26 });
+});

@@ -1,0 +1,12 @@
+[
+  {
+    "Algorithm": "SHA256",
+    "Hash": "0C343ED9B7B8D931487F2C03504335FA3AE3625D5CF284D2A5EF9E046417B98A",
+    "Path": "C:\\Users\\nicol\\Documents\\workspaces\\vr-workspace\\test-meta-web-sdk-update\\public\\gltf\\avatars\\courtMale.glb"
+  },
+  {
+    "Algorithm": "SHA256",
+    "Hash": "2DDA3F93C4E0C1A7B87A3F41C3D1340BBBE5154E7F6DE7033BB6BC83C1DF387B",
+    "Path": "C:\\Users\\nicol\\Documents\\workspaces\\vr-workspace\\test-meta-web-sdk-update\\public\\gltf\\avatars\\courtFemale.glb"
+  }
+]

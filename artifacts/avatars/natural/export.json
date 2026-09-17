@@ -1,0 +1,46 @@
+{
+  "courtMale": {
+    "triangles": 57377,
+    "meshObjects": 17,
+    "bytes": 3545884,
+    "visemes": [
+      "viseme_sil",
+      "viseme_PP",
+      "viseme_FF",
+      "viseme_TH",
+      "viseme_DD",
+      "viseme_kk",
+      "viseme_CH",
+      "viseme_SS",
+      "viseme_nn",
+      "viseme_RR",
+      "viseme_aa",
+      "viseme_E",
+      "viseme_I",
+      "viseme_O",
+      "viseme_U"
+    ]
+  },
+  "courtFemale": {
+    "triangles": 59300,
+    "meshObjects": 18,
+    "bytes": 3603900,
+    "visemes": [
+      "viseme_sil",
+      "viseme_PP",
+      "viseme_FF",
+      "viseme_TH",
+      "viseme_DD",
+      "viseme_kk",
+      "viseme_CH",
+      "viseme_SS",
+      "viseme_nn",
+      "viseme_RR",
+      "viseme_aa",
+      "viseme_E",
+      "viseme_I",
+      "viseme_O",
+      "viseme_U"
+    ]
+  }
+}
