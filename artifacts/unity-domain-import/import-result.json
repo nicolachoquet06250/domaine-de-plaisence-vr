@@ -1,0 +1,22 @@
+{
+    "unityVersion": "2022.3.22f1",
+    "scene": "Assets/DomainePlaisance/Scenes/Domaine de Plaisance.unity",
+    "prefab": "Assets/DomainePlaisance/Prefabs/Domaine de Plaisance.prefab",
+    "meshes": 154,
+    "materials": 161,
+    "textures": 85,
+    "normalMaps": 27,
+    "transparentMaterials": 11,
+    "cutoutMaterials": 3,
+    "colliders": 71,
+    "triangles": 1434267,
+    "interiorSeparate": true,
+    "allMaterialsAssigned": true,
+    "allExpectedTexturesAssigned": true,
+    "sceneReloaded": true,
+    "previews": [
+        "vue-ensemble-unity.png",
+        "chateau-unity.png",
+        "interieur-unity.png"
+    ]
+}

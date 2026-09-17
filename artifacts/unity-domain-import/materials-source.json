@@ -1,0 +1,6629 @@
+{
+  "materials": [
+    {
+      "name": "Aerated water",
+      "baseColor": [
+        0.5600000023841858,
+        0.699999988079071,
+        0.6899999976158142
+      ],
+      "metallic": 0.2800000011920929,
+      "roughness": 0.17000000178813934,
+      "masked": false,
+      "cutoff": 0.5,
+      "alpha": 0.6600000262260437,
+      "emission": [
+        1.0,
+        1.0,
+        1.0
+      ],
+      "emissionStrength": 0.0,
+      "baseTexture": null,
+      "normalTexture": null,
+      "normalStrength": 0.0,
+      "alphaTexture": null,
+      "roughnessTexture": null,
+      "metallicTexture": null,
+      "emissionTexture": null,
+      "doubleSided": true,
+      "graph": [
+        [
+          "BSDF_PRINCIPLED",
+          "BSDF",
+          "OUTPUT_MATERIAL",
+          "Surface"
+        ]
+      ]
+    },
+    {
+      "name": "Aerated water.001",
+      "baseColor": [
+        0.5600000023841858,
+        0.699999988079071,
+        0.6899999976158142
+      ],
+      "metallic": 0.2800000011920929,
+      "roughness": 0.17000000178813934,
+      "masked": false,
+      "cutoff": 0.5,
+      "alpha": 0.6600000262260437,
+      "emission": [
+        1.0,
+        1.0,
+        1.0
+      ],
+      "emissionStrength": 0.0,
+      "baseTexture": null,
+      "normalTexture": null,
+      "normalStrength": 0.0,
+      "alphaTexture": null,
+      "roughnessTexture": null,
+      "metallicTexture": null,
+      "emissionTexture": null,
+      "doubleSided": true,
+      "graph": [
+        [
+          "BSDF_PRINCIPLED",
+          "BSDF",
+          "OUTPUT_MATERIAL",
+          "Surface"
+        ]
+      ]
+    },
+    {
+      "name": "Aged brass fittings",
+      "baseColor": [
+        0.30000001192092896,
+        0.2199999988079071,
+        0.10000000149011612
+      ],
+      "metallic": 0.75,
+      "roughness": 0.36000001430511475,
+      "masked": false,
+      "cutoff": 0.5,
+      "alpha": 1.0,
+      "emission": [
+        1.0,
+        1.0,
+        1.0
+      ],
+      "emissionStrength": 0.0,
+      "baseTexture": null,
+      "normalTexture": null,
+      "normalStrength": 0.0,
+      "alphaTexture": null,
+      "roughnessTexture": null,
+      "metallicTexture": null,
+      "emissionTexture": null,
+      "doubleSided": true,
+      "graph": [
+        [
+          "BSDF_PRINCIPLED",
+          "BSDF",
+          "OUTPUT_MATERIAL",
+          "Surface"
+        ]
+      ]
+    },
+    {
+      "name": "Aged brass fittings.001",
+      "baseColor": [
+        0.30000001192092896,
+        0.2199999988079071,
+        0.10000000149011612
+      ],
+      "metallic": 0.75,
+      "roughness": 0.36000001430511475,
+      "masked": false,
+      "cutoff": 0.5,
+      "alpha": 1.0,
+      "emission": [
+        1.0,
+        1.0,
+        1.0
+      ],
+      "emissionStrength": 0.0,
+      "baseTexture": null,
+      "normalTexture": null,
+      "normalStrength": 0.0,
+      "alphaTexture": null,
+      "roughnessTexture": null,
+      "metallicTexture": null,
+      "emissionTexture": null,
+      "doubleSided": true,
+      "graph": [
+        [
+          "BSDF_PRINCIPLED",
+          "BSDF",
+          "OUTPUT_MATERIAL",
+          "Surface"
+        ]
+      ]
+    },
+    {
+      "name": "Arrival Bronze dore patine.003",
+      "baseColor": [
+        0.6700000166893005,
+        0.38999998569488525,
+        0.0949999988079071
+      ],
+      "metallic": 0.8199999928474426,
+      "roughness": 0.27000001072883606,
+      "masked": false,
+      "cutoff": 0.5,
+      "alpha": 1.0,
+      "emission": [
+        1.0,
+        1.0,
+        1.0
+      ],
+      "emissionStrength": 0.0,
+      "baseTexture": null,
+      "normalTexture": null,
+      "normalStrength": 0.0,
+      "alphaTexture": null,
+      "roughnessTexture": null,
+      "metallicTexture": null,
+      "emissionTexture": null,
+      "doubleSided": false,
+      "graph": [
+        [
+          "BSDF_PRINCIPLED",
+          "BSDF",
+          "OUTPUT_MATERIAL",
+          "Surface"
+        ]
+      ]
+    },
+    {
+      "name": "Arrival Calcaire creme.003",
+      "baseColor": [
+        1,
+        1,
+        1
+      ],
+      "metallic": 0.0,
+      "roughness": 0.7900000214576721,
+      "masked": false,
+      "cutoff": 0.5,
+      "alpha": 1.0,
+      "emission": [
+        1.0,
+        1.0,
+        1.0
+      ],
+      "emissionStrength": 0.0,
+      "baseTexture": "Arrival_Calcaire_creme_albedo.png",
+      "normalTexture": "Arrival_Calcaire_creme_normal.png",
+      "normalStrength": 1.0,
+      "alphaTexture": null,
+      "roughnessTexture": null,
+      "metallicTexture": null,
+      "emissionTexture": null,
+      "doubleSided": false,
+      "graph": [
+        [
+          "BSDF_PRINCIPLED",
+          "BSDF",
+          "OUTPUT_MATERIAL",
+          "Surface"
+        ],
+        [
+          "TEX_IMAGE",
+          "Color",
+          "BSDF_PRINCIPLED",
+          "Base Color"
+        ],
+        [
+          "NORMAL_MAP",
+          "Normal",
+          "BSDF_PRINCIPLED",
+          "Normal"
+        ],
+        [
+          "TEX_IMAGE",
+          "Color",
+          "NORMAL_MAP",
+          "Color"
+        ]
+      ]
+    },
+    {
+      "name": "Arrival Dalles de Bourgogne.003",
+      "baseColor": [
+        1,
+        1,
+        1
+      ],
+      "metallic": 0.0,
+      "roughness": 0.75,
+      "masked": false,
+      "cutoff": 0.5,
+      "alpha": 1.0,
+      "emission": [
+        1.0,
+        1.0,
+        1.0
+      ],
+      "emissionStrength": 0.0,
+      "baseTexture": "Arrival_Dalles_de_Bourgogne_albedo.png",
+      "normalTexture": "Arrival_Dalles_de_Bourgogne_normal.png",
+      "normalStrength": 1.0,
+      "alphaTexture": null,
+      "roughnessTexture": null,
+      "metallicTexture": null,
+      "emissionTexture": null,
+      "doubleSided": false,
+      "graph": [
+        [
+          "BSDF_PRINCIPLED",
+          "BSDF",
+          "OUTPUT_MATERIAL",
+          "Surface"
+        ],
+        [
+          "TEX_IMAGE",
+          "Color",
+          "BSDF_PRINCIPLED",
+          "Base Color"
+        ],
+        [
+          "NORMAL_MAP",
+          "Normal",
+          "BSDF_PRINCIPLED",
+          "Normal"
+        ],
+        [
+          "TEX_IMAGE",
+          "Color",
+          "NORMAL_MAP",
+          "Color"
+        ]
+      ]
+    },
+    {
+      "name": "Arrival Fer forge.003",
+      "baseColor": [
+        0.02500000037252903,
+        0.03500000014901161,
+        0.029999999329447746
+      ],
+      "metallic": 0.7200000286102295,
+      "roughness": 0.44999998807907104,
+      "masked": false,
+      "cutoff": 0.5,
+      "alpha": 1.0,
+      "emission": [
+        1.0,
+        1.0,
+        1.0
+      ],
+      "emissionStrength": 0.0,
+      "baseTexture": null,
+      "normalTexture": null,
+      "normalStrength": 0.0,
+      "alphaTexture": null,
+      "roughnessTexture": null,
+      "metallicTexture": null,
+      "emissionTexture": null,
+      "doubleSided": false,
+      "graph": [
+        [
+          "BSDF_PRINCIPLED",
+          "BSDF",
+          "OUTPUT_MATERIAL",
+          "Surface"
+        ]
+      ]
+    },
+    {
+      "name": "Arrival Joints et terre.003",
+      "baseColor": [
+        0.20000000298023224,
+        0.18000000715255737,
+        0.12999999523162842
+      ],
+      "metallic": 0.0,
+      "roughness": 0.9399999976158142,
+      "masked": false,
+      "cutoff": 0.5,
+      "alpha": 1.0,
+      "emission": [
+        1.0,
+        1.0,
+        1.0
+      ],
+      "emissionStrength": 0.0,
+      "baseTexture": null,
+      "normalTexture": null,
+      "normalStrength": 0.0,
+      "alphaTexture": null,
+      "roughnessTexture": null,
+      "metallicTexture": null,
+      "emissionTexture": null,
+      "doubleSided": false,
+      "graph": [
+        [
+          "BSDF_PRINCIPLED",
+          "BSDF",
+          "OUTPUT_MATERIAL",
+          "Surface"
+        ]
+      ]
+    },
+    {
+      "name": "Arrival Lumiere des lanternes.003",
+      "baseColor": [
+        1.0,
+        0.7200000286102295,
+        0.28999999165534973
+      ],
+      "metallic": 0.0,
+      "roughness": 0.23999999463558197,
+      "masked": false,
+      "cutoff": 0.5,
+      "alpha": 1.0,
+      "emission": [
+        1.0,
+        0.5699999928474426,
+        0.17000000178813934
+      ],
+      "emissionStrength": 2.0,
+      "baseTexture": null,
+      "normalTexture": null,
+      "normalStrength": 0.0,
+      "alphaTexture": null,
+      "roughnessTexture": null,
+      "metallicTexture": null,
+      "emissionTexture": null,
+      "doubleSided": false,
+      "graph": [
+        [
+          "BSDF_PRINCIPLED",
+          "BSDF",
+          "OUTPUT_MATERIAL",
+          "Surface"
+        ]
+      ]
+    },
+    {
+      "name": "Arrival Marbre vert.003",
+      "baseColor": [
+        1,
+        1,
+        1
+      ],
+      "metallic": 0.0,
+      "roughness": 0.36000001430511475,
+      "masked": false,
+      "cutoff": 0.5,
+      "alpha": 1.0,
+      "emission": [
+        1.0,
+        1.0,
+        1.0
+      ],
+      "emissionStrength": 0.0,
+      "baseTexture": "Arrival_Marbre_vert_albedo.png",
+      "normalTexture": "Arrival_Marbre_vert_normal.png",
+      "normalStrength": 1.0,
+      "alphaTexture": null,
+      "roughnessTexture": null,
+      "metallicTexture": null,
+      "emissionTexture": null,
+      "doubleSided": false,
+      "graph": [
+        [
+          "BSDF_PRINCIPLED",
+          "BSDF",
+          "OUTPUT_MATERIAL",
+          "Surface"
+        ],
+        [
+          "TEX_IMAGE",
+          "Color",
+          "BSDF_PRINCIPLED",
+          "Base Color"
+        ],
+        [
+          "NORMAL_MAP",
+          "Normal",
+          "BSDF_PRINCIPLED",
+          "Normal"
+        ],
+        [
+          "TEX_IMAGE",
+          "Color",
+          "NORMAL_MAP",
+          "Color"
+        ]
+      ]
+    },
+    {
+      "name": "Arrival Pierre sculptee.003",
+      "baseColor": [
+        1,
+        1,
+        1
+      ],
+      "metallic": 0.0,
+      "roughness": 0.6600000262260437,
+      "masked": false,
+      "cutoff": 0.5,
+      "alpha": 1.0,
+      "emission": [
+        1.0,
+        1.0,
+        1.0
+      ],
+      "emissionStrength": 0.0,
+      "baseTexture": "Arrival_Pierre_sculptee_albedo.png",
+      "normalTexture": "Arrival_Pierre_sculptee_normal.png",
+      "normalStrength": 1.0,
+      "alphaTexture": null,
+      "roughnessTexture": null,
+      "metallicTexture": null,
+      "emissionTexture": null,
+      "doubleSided": false,
+      "graph": [
+        [
+          "BSDF_PRINCIPLED",
+          "BSDF",
+          "OUTPUT_MATERIAL",
+          "Surface"
+        ],
+        [
+          "TEX_IMAGE",
+          "Color",
+          "BSDF_PRINCIPLED",
+          "Base Color"
+        ],
+        [
+          "NORMAL_MAP",
+          "Normal",
+          "BSDF_PRINCIPLED",
+          "Normal"
+        ],
+        [
+          "TEX_IMAGE",
+          "Color",
+          "NORMAL_MAP",
+          "Color"
+        ]
+      ]
+    },
+    {
+      "name": "Balezanes et liste ivoire.003",
+      "baseColor": [
+        0.6899999976158142,
+        0.6399999856948853,
+        0.5199999809265137
+      ],
+      "metallic": 0.0,
+      "roughness": 0.7900000214576721,
+      "masked": false,
+      "cutoff": 0.5,
+      "alpha": 1.0,
+      "emission": [
+        1.0,
+        1.0,
+        1.0
+      ],
+      "emissionStrength": 0.0,
+      "baseTexture": null,
+      "normalTexture": null,
+      "normalStrength": 0.0,
+      "alphaTexture": null,
+      "roughnessTexture": null,
+      "metallicTexture": null,
+      "emissionTexture": null,
+      "doubleSided": true,
+      "graph": [
+        [
+          "BSDF_PRINCIPLED",
+          "BSDF",
+          "OUTPUT_MATERIAL",
+          "Surface"
+        ]
+      ]
+    },
+    {
+      "name": "Basin water \u2014 jade reflections",
+      "baseColor": [
+        0.10000000149011612,
+        0.25,
+        0.23000000417232513
+      ],
+      "metallic": 0.3199999928474426,
+      "roughness": 0.1599999964237213,
+      "masked": false,
+      "cutoff": 0.5,
+      "alpha": 0.8999999761581421,
+      "emission": [
+        1.0,
+        1.0,
+        1.0
+      ],
+      "emissionStrength": 0.0,
+      "baseTexture": null,
+      "normalTexture": null,
+      "normalStrength": 0.0,
+      "alphaTexture": null,
+      "roughnessTexture": null,
+      "metallicTexture": null,
+      "emissionTexture": null,
+      "doubleSided": true,
+      "graph": [
+        [
+          "BSDF_PRINCIPLED",
+          "BSDF",
+          "OUTPUT_MATERIAL",
+          "Surface"
+        ]
+      ]
+    },
+    {
+      "name": "Blason email bleu royal.001",
+      "baseColor": [
+        0.02500000037252903,
+        0.07999999821186066,
+        0.1599999964237213
+      ],
+      "metallic": 0.30000001192092896,
+      "roughness": 0.28999999165534973,
+      "masked": false,
+      "cutoff": 0.5,
+      "alpha": 1.0,
+      "emission": [
+        1.0,
+        1.0,
+        1.0
+      ],
+      "emissionStrength": 0.0,
+      "baseTexture": null,
+      "normalTexture": null,
+      "normalStrength": 0.0,
+      "alphaTexture": null,
+      "roughnessTexture": null,
+      "metallicTexture": null,
+      "emissionTexture": null,
+      "doubleSided": true,
+      "graph": [
+        [
+          "BSDF_PRINCIPLED",
+          "BSDF",
+          "OUTPUT_MATERIAL",
+          "Surface"
+        ]
+      ]
+    },
+    {
+      "name": "Blason email bleu royal.005",
+      "baseColor": [
+        0.02500000037252903,
+        0.07999999821186066,
+        0.1599999964237213
+      ],
+      "metallic": 0.30000001192092896,
+      "roughness": 0.28999999165534973,
+      "masked": false,
+      "cutoff": 0.5,
+      "alpha": 1.0,
+      "emission": [
+        1.0,
+        1.0,
+        1.0
+      ],
+      "emissionStrength": 0.0,
+      "baseTexture": null,
+      "normalTexture": null,
+      "normalStrength": 0.0,
+      "alphaTexture": null,
+      "roughnessTexture": null,
+      "metallicTexture": null,
+      "emissionTexture": null,
+      "doubleSided": true,
+      "graph": [
+        [
+          "BSDF_PRINCIPLED",
+          "BSDF",
+          "OUTPUT_MATERIAL",
+          "Surface"
+        ]
+      ]
+    },
+    {
+      "name": "Bois de bout.001",
+      "baseColor": [
+        0.36000001430511475,
+        0.20999999344348907,
+        0.08500000089406967
+      ],
+      "metallic": 0.0,
+      "roughness": 0.8799999952316284,
+      "masked": false,
+      "cutoff": 0.5,
+      "alpha": 1.0,
+      "emission": [
+        1.0,
+        1.0,
+        1.0
+      ],
+      "emissionStrength": 0.0,
+      "baseTexture": null,
+      "normalTexture": null,
+      "normalStrength": 0.0,
+      "alphaTexture": null,
+      "roughnessTexture": null,
+      "metallicTexture": null,
+      "emissionTexture": null,
+      "doubleSided": true,
+      "graph": [
+        [
+          "BSDF_PRINCIPLED",
+          "BSDF",
+          "OUTPUT_MATERIAL",
+          "Surface"
+        ]
+      ]
+    },
+    {
+      "name": "Braises incandescentes.001",
+      "baseColor": [
+        0.8999999761581421,
+        0.054999999701976776,
+        0.004000000189989805
+      ],
+      "metallic": 0.0,
+      "roughness": 0.8999999761581421,
+      "masked": false,
+      "cutoff": 0.5,
+      "alpha": 1.0,
+      "emission": [
+        1.0,
+        0.06111111119389534,
+        0.004444444552063942
+      ],
+      "emissionStrength": 2.25,
+      "baseTexture": null,
+      "normalTexture": null,
+      "normalStrength": 0.0,
+      "alphaTexture": null,
+      "roughnessTexture": null,
+      "metallicTexture": null,
+      "emissionTexture": null,
+      "doubleSided": true,
+      "graph": [
+        [
+          "BSDF_PRINCIPLED",
+          "BSDF",
+          "OUTPUT_MATERIAL",
+          "Surface"
+        ]
+      ]
+    },
+    {
+      "name": "Briques de foyer enfumees.001",
+      "baseColor": [
+        0.14000000059604645,
+        0.07500000298023224,
+        0.04399999976158142
+      ],
+      "metallic": 0.0,
+      "roughness": 0.949999988079071,
+      "masked": false,
+      "cutoff": 0.5,
+      "alpha": 1.0,
+      "emission": [
+        1.0,
+        1.0,
+        1.0
+      ],
+      "emissionStrength": 0.0,
+      "baseTexture": null,
+      "normalTexture": null,
+      "normalStrength": 0.0,
+      "alphaTexture": null,
+      "roughnessTexture": null,
+      "metallicTexture": null,
+      "emissionTexture": null,
+      "doubleSided": true,
+      "graph": [
+        [
+          "BSDF_PRINCIPLED",
+          "BSDF",
+          "OUTPUT_MATERIAL",
+          "Surface"
+        ]
+      ]
+    },
+    {
+      "name": "Calcaire des piliers moulures.001",
+      "baseColor": [
+        0.6399999856948853,
+        0.5899999737739563,
+        0.47999998927116394
+      ],
+      "metallic": 0.0,
+      "roughness": 0.75,
+      "masked": false,
+      "cutoff": 0.5,
+      "alpha": 1.0,
+      "emission": [
+        1.0,
+        1.0,
+        1.0
+      ],
+      "emissionStrength": 0.0,
+      "baseTexture": null,
+      "normalTexture": null,
+      "normalStrength": 0.0,
+      "alphaTexture": null,
+      "roughnessTexture": null,
+      "metallicTexture": null,
+      "emissionTexture": null,
+      "doubleSided": true,
+      "graph": [
+        [
+          "BSDF_PRINCIPLED",
+          "BSDF",
+          "OUTPUT_MATERIAL",
+          "Surface"
+        ]
+      ]
+    },
+    {
+      "name": "Calcaire des piliers moulures.002",
+      "baseColor": [
+        0.6399999856948853,
+        0.5899999737739563,
+        0.47999998927116394
+      ],
+      "metallic": 0.0,
+      "roughness": 0.75,
+      "masked": false,
+      "cutoff": 0.5,
+      "alpha": 1.0,
+      "emission": [
+        1.0,
+        1.0,
+        1.0
+      ],
+      "emissionStrength": 0.0,
+      "baseTexture": null,
+      "normalTexture": null,
+      "normalStrength": 0.0,
+      "alphaTexture": null,
+      "roughnessTexture": null,
+      "metallicTexture": null,
+      "emissionTexture": null,
+      "doubleSided": true,
+      "graph": [
+        [
+          "BSDF_PRINCIPLED",
+          "BSDF",
+          "OUTPUT_MATERIAL",
+          "Surface"
+        ]
+      ]
+    },
+    {
+      "name": "Calcaire des piliers moulures.005",
+      "baseColor": [
+        0.6399999856948853,
+        0.5899999737739563,
+        0.47999998927116394
+      ],
+      "metallic": 0.0,
+      "roughness": 0.75,
+      "masked": false,
+      "cutoff": 0.5,
+      "alpha": 1.0,
+      "emission": [
+        1.0,
+        1.0,
+        1.0
+      ],
+      "emissionStrength": 0.0,
+      "baseTexture": null,
+      "normalTexture": null,
+      "normalStrength": 0.0,
+      "alphaTexture": null,
+      "roughnessTexture": null,
+      "metallicTexture": null,
+      "emissionTexture": null,
+      "doubleSided": true,
+      "graph": [
+        [
+          "BSDF_PRINCIPLED",
+          "BSDF",
+          "OUTPUT_MATERIAL",
+          "Surface"
+        ]
+      ]
+    },
+    {
+      "name": "Charbon et joints.001",
+      "baseColor": [
+        0.024000000208616257,
+        0.019999999552965164,
+        0.017000000923871994
+      ],
+      "metallic": 0.0,
+      "roughness": 1.0,
+      "masked": false,
+      "cutoff": 0.5,
+      "alpha": 1.0,
+      "emission": [
+        1.0,
+        1.0,
+        1.0
+      ],
+      "emissionStrength": 0.0,
+      "baseTexture": null,
+      "normalTexture": null,
+      "normalStrength": 0.0,
+      "alphaTexture": null,
+      "roughnessTexture": null,
+      "metallicTexture": null,
+      "emissionTexture": null,
+      "doubleSided": true,
+      "graph": [
+        [
+          "BSDF_PRINCIPLED",
+          "BSDF",
+          "OUTPUT_MATERIAL",
+          "Surface"
+        ]
+      ]
+    },
+    {
+      "name": "Chateau Ardoises jointoyees.004",
+      "baseColor": [
+        1,
+        1,
+        1
+      ],
+      "metallic": 0.0,
+      "roughness": 0.6399999856948853,
+      "masked": false,
+      "cutoff": 0.5,
+      "alpha": 1.0,
+      "emission": [
+        1.0,
+        1.0,
+        1.0
+      ],
+      "emissionStrength": 0.0,
+      "baseTexture": "Chateau_Ardoises_jointoyees_color.png",
+      "normalTexture": "Chateau_Ardoises_jointoyees_normal.png",
+      "normalStrength": 1.0,
+      "alphaTexture": null,
+      "roughnessTexture": null,
+      "metallicTexture": null,
+      "emissionTexture": null,
+      "doubleSided": false,
+      "graph": [
+        [
+          "BSDF_PRINCIPLED",
+          "BSDF",
+          "OUTPUT_MATERIAL",
+          "Surface"
+        ],
+        [
+          "TEX_IMAGE",
+          "Color",
+          "BSDF_PRINCIPLED",
+          "Base Color"
+        ],
+        [
+          "NORMAL_MAP",
+          "Normal",
+          "BSDF_PRINCIPLED",
+          "Normal"
+        ],
+        [
+          "TEX_IMAGE",
+          "Color",
+          "NORMAL_MAP",
+          "Color"
+        ]
+      ]
+    },
+    {
+      "name": "Chateau Argent poli des miroirs.004",
+      "baseColor": [
+        0.8199999928474426,
+        0.8600000143051147,
+        0.8799999952316284
+      ],
+      "metallic": 0.9800000190734863,
+      "roughness": 0.07000000029802322,
+      "masked": false,
+      "cutoff": 0.5,
+      "alpha": 1.0,
+      "emission": [
+        1.0,
+        1.0,
+        1.0
+      ],
+      "emissionStrength": 0.0,
+      "baseTexture": null,
+      "normalTexture": null,
+      "normalStrength": 0.0,
+      "alphaTexture": null,
+      "roughnessTexture": null,
+      "metallicTexture": null,
+      "emissionTexture": null,
+      "doubleSided": false,
+      "graph": [
+        [
+          "BSDF_PRINCIPLED",
+          "BSDF",
+          "OUTPUT_MATERIAL",
+          "Surface"
+        ]
+      ]
+    },
+    {
+      "name": "Chateau Bougies chaudes.004",
+      "baseColor": [
+        1.0,
+        0.75,
+        0.3499999940395355
+      ],
+      "metallic": 0.0,
+      "roughness": 0.3199999928474426,
+      "masked": false,
+      "cutoff": 0.5,
+      "alpha": 1.0,
+      "emission": [
+        1.0,
+        0.6100000143051147,
+        0.23999999463558197
+      ],
+      "emissionStrength": 3.0,
+      "baseTexture": null,
+      "normalTexture": null,
+      "normalStrength": 0.0,
+      "alphaTexture": null,
+      "roughnessTexture": null,
+      "metallicTexture": null,
+      "emissionTexture": null,
+      "doubleSided": false,
+      "graph": [
+        [
+          "BSDF_PRINCIPLED",
+          "BSDF",
+          "OUTPUT_MATERIAL",
+          "Surface"
+        ]
+      ]
+    },
+    {
+      "name": "Chateau Bronze dore patine.001",
+      "baseColor": [
+        0.7200000286102295,
+        0.44999998807907104,
+        0.12999999523162842
+      ],
+      "metallic": 0.8299999833106995,
+      "roughness": 0.25999999046325684,
+      "masked": false,
+      "cutoff": 0.5,
+      "alpha": 1.0,
+      "emission": [
+        1.0,
+        1.0,
+        1.0
+      ],
+      "emissionStrength": 0.0,
+      "baseTexture": null,
+      "normalTexture": null,
+      "normalStrength": 0.0,
+      "alphaTexture": null,
+      "roughnessTexture": null,
+      "metallicTexture": null,
+      "emissionTexture": null,
+      "doubleSided": false,
+      "graph": [
+        [
+          "BSDF_PRINCIPLED",
+          "BSDF",
+          "OUTPUT_MATERIAL",
+          "Surface"
+        ]
+      ]
+    },
+    {
+      "name": "Chateau Bronze dore patine.002",
+      "baseColor": [
+        0.7200000286102295,
+        0.44999998807907104,
+        0.12999999523162842
+      ],
+      "metallic": 0.8299999833106995,
+      "roughness": 0.25999999046325684,
+      "masked": false,
+      "cutoff": 0.5,
+      "alpha": 1.0,
+      "emission": [
+        1.0,
+        1.0,
+        1.0
+      ],
+      "emissionStrength": 0.0,
+      "baseTexture": null,
+      "normalTexture": null,
+      "normalStrength": 0.0,
+      "alphaTexture": null,
+      "roughnessTexture": null,
+      "metallicTexture": null,
+      "emissionTexture": null,
+      "doubleSided": false,
+      "graph": [
+        [
+          "BSDF_PRINCIPLED",
+          "BSDF",
+          "OUTPUT_MATERIAL",
+          "Surface"
+        ]
+      ]
+    },
+    {
+      "name": "Chateau Bronze dore patine.004",
+      "baseColor": [
+        0.7200000286102295,
+        0.44999998807907104,
+        0.12999999523162842
+      ],
+      "metallic": 0.8299999833106995,
+      "roughness": 0.25999999046325684,
+      "masked": false,
+      "cutoff": 0.5,
+      "alpha": 1.0,
+      "emission": [
+        1.0,
+        1.0,
+        1.0
+      ],
+      "emissionStrength": 0.0,
+      "baseTexture": null,
+      "normalTexture": null,
+      "normalStrength": 0.0,
+      "alphaTexture": null,
+      "roughnessTexture": null,
+      "metallicTexture": null,
+      "emissionTexture": null,
+      "doubleSided": false,
+      "graph": [
+        [
+          "BSDF_PRINCIPLED",
+          "BSDF",
+          "OUTPUT_MATERIAL",
+          "Surface"
+        ]
+      ]
+    },
+    {
+      "name": "Chateau Calcaire de taille.004",
+      "baseColor": [
+        1,
+        1,
+        1
+      ],
+      "metallic": 0.0,
+      "roughness": 0.75,
+      "masked": false,
+      "cutoff": 0.5,
+      "alpha": 1.0,
+      "emission": [
+        1.0,
+        1.0,
+        1.0
+      ],
+      "emissionStrength": 0.0,
+      "baseTexture": "Chateau_Calcaire_de_taille_color.png",
+      "normalTexture": "Chateau_Calcaire_de_taille_normal.png",
+      "normalStrength": 1.0,
+      "alphaTexture": null,
+      "roughnessTexture": null,
+      "metallicTexture": null,
+      "emissionTexture": null,
+      "doubleSided": false,
+      "graph": [
+        [
+          "BSDF_PRINCIPLED",
+          "BSDF",
+          "OUTPUT_MATERIAL",
+          "Surface"
+        ],
+        [
+          "TEX_IMAGE",
+          "Color",
+          "BSDF_PRINCIPLED",
+          "Base Color"
+        ],
+        [
+          "NORMAL_MAP",
+          "Normal",
+          "BSDF_PRINCIPLED",
+          "Normal"
+        ],
+        [
+          "TEX_IMAGE",
+          "Color",
+          "NORMAL_MAP",
+          "Color"
+        ]
+      ]
+    },
+    {
+      "name": "Chateau Chene des portes.001",
+      "baseColor": [
+        1,
+        1,
+        1
+      ],
+      "metallic": 0.0,
+      "roughness": 0.41999998688697815,
+      "masked": false,
+      "cutoff": 0.5,
+      "alpha": 1.0,
+      "emission": [
+        1.0,
+        1.0,
+        1.0
+      ],
+      "emissionStrength": 0.0,
+      "baseTexture": "Chateau_Chene_des_portes_color.001.png",
+      "normalTexture": "Chateau_Chene_des_portes_normal.001.png",
+      "normalStrength": 1.0,
+      "alphaTexture": null,
+      "roughnessTexture": null,
+      "metallicTexture": null,
+      "emissionTexture": null,
+      "doubleSided": false,
+      "graph": [
+        [
+          "BSDF_PRINCIPLED",
+          "BSDF",
+          "OUTPUT_MATERIAL",
+          "Surface"
+        ],
+        [
+          "TEX_IMAGE",
+          "Color",
+          "BSDF_PRINCIPLED",
+          "Base Color"
+        ],
+        [
+          "NORMAL_MAP",
+          "Normal",
+          "BSDF_PRINCIPLED",
+          "Normal"
+        ],
+        [
+          "TEX_IMAGE",
+          "Color",
+          "NORMAL_MAP",
+          "Color"
+        ]
+      ]
+    },
+    {
+      "name": "Chateau Chene des portes.002",
+      "baseColor": [
+        1,
+        1,
+        1
+      ],
+      "metallic": 0.0,
+      "roughness": 0.41999998688697815,
+      "masked": false,
+      "cutoff": 0.5,
+      "alpha": 1.0,
+      "emission": [
+        1.0,
+        1.0,
+        1.0
+      ],
+      "emissionStrength": 0.0,
+      "baseTexture": "Chateau_Chene_des_portes_color.002.png",
+      "normalTexture": "Chateau_Chene_des_portes_normal.002.png",
+      "normalStrength": 1.0,
+      "alphaTexture": null,
+      "roughnessTexture": null,
+      "metallicTexture": null,
+      "emissionTexture": null,
+      "doubleSided": false,
+      "graph": [
+        [
+          "BSDF_PRINCIPLED",
+          "BSDF",
+          "OUTPUT_MATERIAL",
+          "Surface"
+        ],
+        [
+          "TEX_IMAGE",
+          "Color",
+          "BSDF_PRINCIPLED",
+          "Base Color"
+        ],
+        [
+          "NORMAL_MAP",
+          "Normal",
+          "BSDF_PRINCIPLED",
+          "Normal"
+        ],
+        [
+          "TEX_IMAGE",
+          "Color",
+          "NORMAL_MAP",
+          "Color"
+        ]
+      ]
+    },
+    {
+      "name": "Chateau Chene des portes.004",
+      "baseColor": [
+        1,
+        1,
+        1
+      ],
+      "metallic": 0.0,
+      "roughness": 0.41999998688697815,
+      "masked": false,
+      "cutoff": 0.5,
+      "alpha": 1.0,
+      "emission": [
+        1.0,
+        1.0,
+        1.0
+      ],
+      "emissionStrength": 0.0,
+      "baseTexture": "Chateau_Chene_des_portes_color.png",
+      "normalTexture": "Chateau_Chene_des_portes_normal.png",
+      "normalStrength": 1.0,
+      "alphaTexture": null,
+      "roughnessTexture": null,
+      "metallicTexture": null,
+      "emissionTexture": null,
+      "doubleSided": false,
+      "graph": [
+        [
+          "BSDF_PRINCIPLED",
+          "BSDF",
+          "OUTPUT_MATERIAL",
+          "Surface"
+        ],
+        [
+          "TEX_IMAGE",
+          "Color",
+          "BSDF_PRINCIPLED",
+          "Base Color"
+        ],
+        [
+          "NORMAL_MAP",
+          "Normal",
+          "BSDF_PRINCIPLED",
+          "Normal"
+        ],
+        [
+          "TEX_IMAGE",
+          "Color",
+          "NORMAL_MAP",
+          "Color"
+        ]
+      ]
+    },
+    {
+      "name": "Chateau Ferronnerie noire.001",
+      "baseColor": [
+        0.04699999839067459,
+        0.05400000140070915,
+        0.052000001072883606
+      ],
+      "metallic": 0.7200000286102295,
+      "roughness": 0.44999998807907104,
+      "masked": false,
+      "cutoff": 0.5,
+      "alpha": 1.0,
+      "emission": [
+        1.0,
+        1.0,
+        1.0
+      ],
+      "emissionStrength": 0.0,
+      "baseTexture": null,
+      "normalTexture": null,
+      "normalStrength": 0.0,
+      "alphaTexture": null,
+      "roughnessTexture": null,
+      "metallicTexture": null,
+      "emissionTexture": null,
+      "doubleSided": false,
+      "graph": [
+        [
+          "BSDF_PRINCIPLED",
+          "BSDF",
+          "OUTPUT_MATERIAL",
+          "Surface"
+        ]
+      ]
+    },
+    {
+      "name": "Chateau Ferronnerie noire.004",
+      "baseColor": [
+        0.04699999839067459,
+        0.05400000140070915,
+        0.052000001072883606
+      ],
+      "metallic": 0.7200000286102295,
+      "roughness": 0.44999998807907104,
+      "masked": false,
+      "cutoff": 0.5,
+      "alpha": 1.0,
+      "emission": [
+        1.0,
+        1.0,
+        1.0
+      ],
+      "emissionStrength": 0.0,
+      "baseTexture": null,
+      "normalTexture": null,
+      "normalStrength": 0.0,
+      "alphaTexture": null,
+      "roughnessTexture": null,
+      "metallicTexture": null,
+      "emissionTexture": null,
+      "doubleSided": false,
+      "graph": [
+        [
+          "BSDF_PRINCIPLED",
+          "BSDF",
+          "OUTPUT_MATERIAL",
+          "Surface"
+        ]
+      ]
+    },
+    {
+      "name": "Chateau Lin ivoire.004",
+      "baseColor": [
+        0.8299999833106995,
+        0.7900000214576721,
+        0.6800000071525574
+      ],
+      "metallic": 0.0,
+      "roughness": 0.9399999976158142,
+      "masked": false,
+      "cutoff": 0.5,
+      "alpha": 1.0,
+      "emission": [
+        1.0,
+        1.0,
+        1.0
+      ],
+      "emissionStrength": 0.0,
+      "baseTexture": null,
+      "normalTexture": null,
+      "normalStrength": 0.0,
+      "alphaTexture": null,
+      "roughnessTexture": null,
+      "metallicTexture": null,
+      "emissionTexture": null,
+      "doubleSided": false,
+      "graph": [
+        [
+          "BSDF_PRINCIPLED",
+          "BSDF",
+          "OUTPUT_MATERIAL",
+          "Surface"
+        ]
+      ]
+    },
+    {
+      "name": "Chateau Marbre creme veine.004",
+      "baseColor": [
+        1,
+        1,
+        1
+      ],
+      "metallic": 0.0,
+      "roughness": 0.30000001192092896,
+      "masked": false,
+      "cutoff": 0.5,
+      "alpha": 1.0,
+      "emission": [
+        1.0,
+        1.0,
+        1.0
+      ],
+      "emissionStrength": 0.0,
+      "baseTexture": "Chateau_Marbre_creme_veine_color.png",
+      "normalTexture": "Chateau_Marbre_creme_veine_normal.png",
+      "normalStrength": 1.0,
+      "alphaTexture": null,
+      "roughnessTexture": null,
+      "metallicTexture": null,
+      "emissionTexture": null,
+      "doubleSided": false,
+      "graph": [
+        [
+          "BSDF_PRINCIPLED",
+          "BSDF",
+          "OUTPUT_MATERIAL",
+          "Surface"
+        ],
+        [
+          "TEX_IMAGE",
+          "Color",
+          "BSDF_PRINCIPLED",
+          "Base Color"
+        ],
+        [
+          "NORMAL_MAP",
+          "Normal",
+          "BSDF_PRINCIPLED",
+          "Normal"
+        ],
+        [
+          "TEX_IMAGE",
+          "Color",
+          "NORMAL_MAP",
+          "Color"
+        ]
+      ]
+    },
+    {
+      "name": "Chateau Marbre noir.004",
+      "baseColor": [
+        1,
+        1,
+        1
+      ],
+      "metallic": 0.0,
+      "roughness": 0.3199999928474426,
+      "masked": false,
+      "cutoff": 0.5,
+      "alpha": 1.0,
+      "emission": [
+        1.0,
+        1.0,
+        1.0
+      ],
+      "emissionStrength": 0.0,
+      "baseTexture": "Chateau_Marbre_noir_color.png",
+      "normalTexture": "Chateau_Marbre_noir_normal.png",
+      "normalStrength": 1.0,
+      "alphaTexture": null,
+      "roughnessTexture": null,
+      "metallicTexture": null,
+      "emissionTexture": null,
+      "doubleSided": false,
+      "graph": [
+        [
+          "BSDF_PRINCIPLED",
+          "BSDF",
+          "OUTPUT_MATERIAL",
+          "Surface"
+        ],
+        [
+          "TEX_IMAGE",
+          "Color",
+          "BSDF_PRINCIPLED",
+          "Base Color"
+        ],
+        [
+          "NORMAL_MAP",
+          "Normal",
+          "BSDF_PRINCIPLED",
+          "Normal"
+        ],
+        [
+          "TEX_IMAGE",
+          "Color",
+          "NORMAL_MAP",
+          "Color"
+        ]
+      ]
+    },
+    {
+      "name": "Chateau Moulures ivoire.001",
+      "baseColor": [
+        0.8799999952316284,
+        0.8399999737739563,
+        0.7400000095367432
+      ],
+      "metallic": 0.0,
+      "roughness": 0.6499999761581421,
+      "masked": false,
+      "cutoff": 0.5,
+      "alpha": 1.0,
+      "emission": [
+        1.0,
+        1.0,
+        1.0
+      ],
+      "emissionStrength": 0.0,
+      "baseTexture": null,
+      "normalTexture": null,
+      "normalStrength": 0.0,
+      "alphaTexture": null,
+      "roughnessTexture": null,
+      "metallicTexture": null,
+      "emissionTexture": null,
+      "doubleSided": false,
+      "graph": [
+        [
+          "BSDF_PRINCIPLED",
+          "BSDF",
+          "OUTPUT_MATERIAL",
+          "Surface"
+        ]
+      ]
+    },
+    {
+      "name": "Chateau Moulures ivoire.002",
+      "baseColor": [
+        0.8799999952316284,
+        0.8399999737739563,
+        0.7400000095367432
+      ],
+      "metallic": 0.0,
+      "roughness": 0.6499999761581421,
+      "masked": false,
+      "cutoff": 0.5,
+      "alpha": 1.0,
+      "emission": [
+        1.0,
+        1.0,
+        1.0
+      ],
+      "emissionStrength": 0.0,
+      "baseTexture": null,
+      "normalTexture": null,
+      "normalStrength": 0.0,
+      "alphaTexture": null,
+      "roughnessTexture": null,
+      "metallicTexture": null,
+      "emissionTexture": null,
+      "doubleSided": false,
+      "graph": [
+        [
+          "BSDF_PRINCIPLED",
+          "BSDF",
+          "OUTPUT_MATERIAL",
+          "Surface"
+        ]
+      ]
+    },
+    {
+      "name": "Chateau Moulures ivoire.004",
+      "baseColor": [
+        0.8799999952316284,
+        0.8399999737739563,
+        0.7400000095367432
+      ],
+      "metallic": 0.0,
+      "roughness": 0.6499999761581421,
+      "masked": false,
+      "cutoff": 0.5,
+      "alpha": 1.0,
+      "emission": [
+        1.0,
+        1.0,
+        1.0
+      ],
+      "emissionStrength": 0.0,
+      "baseTexture": null,
+      "normalTexture": null,
+      "normalStrength": 0.0,
+      "alphaTexture": null,
+      "roughnessTexture": null,
+      "metallicTexture": null,
+      "emissionTexture": null,
+      "doubleSided": false,
+      "graph": [
+        [
+          "BSDF_PRINCIPLED",
+          "BSDF",
+          "OUTPUT_MATERIAL",
+          "Surface"
+        ]
+      ]
+    },
+    {
+      "name": "Chateau Parquet Versailles.004",
+      "baseColor": [
+        1,
+        1,
+        1
+      ],
+      "metallic": 0.0,
+      "roughness": 0.5199999809265137,
+      "masked": false,
+      "cutoff": 0.5,
+      "alpha": 1.0,
+      "emission": [
+        1.0,
+        1.0,
+        1.0
+      ],
+      "emissionStrength": 0.0,
+      "baseTexture": "Chateau_Parquet_Versailles_color.png",
+      "normalTexture": "Chateau_Parquet_Versailles_normal.png",
+      "normalStrength": 1.0,
+      "alphaTexture": null,
+      "roughnessTexture": null,
+      "metallicTexture": null,
+      "emissionTexture": null,
+      "doubleSided": false,
+      "graph": [
+        [
+          "BSDF_PRINCIPLED",
+          "BSDF",
+          "OUTPUT_MATERIAL",
+          "Surface"
+        ],
+        [
+          "TEX_IMAGE",
+          "Color",
+          "BSDF_PRINCIPLED",
+          "Base Color"
+        ],
+        [
+          "NORMAL_MAP",
+          "Normal",
+          "BSDF_PRINCIPLED",
+          "Normal"
+        ],
+        [
+          "TEX_IMAGE",
+          "Color",
+          "NORMAL_MAP",
+          "Color"
+        ]
+      ]
+    },
+    {
+      "name": "Chateau Porcelaine emaillee.004",
+      "baseColor": [
+        0.9100000262260437,
+        0.9200000166893005,
+        0.8600000143051147
+      ],
+      "metallic": 0.0,
+      "roughness": 0.18000000715255737,
+      "masked": false,
+      "cutoff": 0.5,
+      "alpha": 1.0,
+      "emission": [
+        1.0,
+        1.0,
+        1.0
+      ],
+      "emissionStrength": 0.0,
+      "baseTexture": null,
+      "normalTexture": null,
+      "normalStrength": 0.0,
+      "alphaTexture": null,
+      "roughnessTexture": null,
+      "metallicTexture": null,
+      "emissionTexture": null,
+      "doubleSided": false,
+      "graph": [
+        [
+          "BSDF_PRINCIPLED",
+          "BSDF",
+          "OUTPUT_MATERIAL",
+          "Surface"
+        ]
+      ]
+    },
+    {
+      "name": "Chateau Soie bleu grise.004",
+      "baseColor": [
+        1,
+        1,
+        1
+      ],
+      "metallic": 0.0,
+      "roughness": 0.8600000143051147,
+      "masked": false,
+      "cutoff": 0.5,
+      "alpha": 1.0,
+      "emission": [
+        1.0,
+        1.0,
+        1.0
+      ],
+      "emissionStrength": 0.0,
+      "baseTexture": "Chateau_Soie_bleu_grise_color.png",
+      "normalTexture": "Chateau_Soie_bleu_grise_normal.png",
+      "normalStrength": 1.0,
+      "alphaTexture": null,
+      "roughnessTexture": null,
+      "metallicTexture": null,
+      "emissionTexture": null,
+      "doubleSided": false,
+      "graph": [
+        [
+          "BSDF_PRINCIPLED",
+          "BSDF",
+          "OUTPUT_MATERIAL",
+          "Surface"
+        ],
+        [
+          "TEX_IMAGE",
+          "Color",
+          "BSDF_PRINCIPLED",
+          "Base Color"
+        ],
+        [
+          "NORMAL_MAP",
+          "Normal",
+          "BSDF_PRINCIPLED",
+          "Normal"
+        ],
+        [
+          "TEX_IMAGE",
+          "Color",
+          "NORMAL_MAP",
+          "Color"
+        ]
+      ]
+    },
+    {
+      "name": "Chateau Stuc creme.004",
+      "baseColor": [
+        0.8600000143051147,
+        0.8100000023841858,
+        0.699999988079071
+      ],
+      "metallic": 0.0,
+      "roughness": 0.8500000238418579,
+      "masked": false,
+      "cutoff": 0.5,
+      "alpha": 1.0,
+      "emission": [
+        1.0,
+        1.0,
+        1.0
+      ],
+      "emissionStrength": 0.0,
+      "baseTexture": null,
+      "normalTexture": null,
+      "normalStrength": 0.0,
+      "alphaTexture": null,
+      "roughnessTexture": null,
+      "metallicTexture": null,
+      "emissionTexture": null,
+      "doubleSided": false,
+      "graph": [
+        [
+          "BSDF_PRINCIPLED",
+          "BSDF",
+          "OUTPUT_MATERIAL",
+          "Surface"
+        ]
+      ]
+    },
+    {
+      "name": "Chateau Velours bordeaux.004",
+      "baseColor": [
+        1,
+        1,
+        1
+      ],
+      "metallic": 0.0,
+      "roughness": 0.8799999952316284,
+      "masked": false,
+      "cutoff": 0.5,
+      "alpha": 1.0,
+      "emission": [
+        1.0,
+        1.0,
+        1.0
+      ],
+      "emissionStrength": 0.0,
+      "baseTexture": "Chateau_Velours_bordeaux_color.png",
+      "normalTexture": "Chateau_Velours_bordeaux_normal.png",
+      "normalStrength": 1.0,
+      "alphaTexture": null,
+      "roughnessTexture": null,
+      "metallicTexture": null,
+      "emissionTexture": null,
+      "doubleSided": false,
+      "graph": [
+        [
+          "BSDF_PRINCIPLED",
+          "BSDF",
+          "OUTPUT_MATERIAL",
+          "Surface"
+        ],
+        [
+          "TEX_IMAGE",
+          "Color",
+          "BSDF_PRINCIPLED",
+          "Base Color"
+        ],
+        [
+          "NORMAL_MAP",
+          "Normal",
+          "BSDF_PRINCIPLED",
+          "Normal"
+        ],
+        [
+          "TEX_IMAGE",
+          "Color",
+          "NORMAL_MAP",
+          "Color"
+        ]
+      ]
+    },
+    {
+      "name": "Chateau Verre clair reflets.001",
+      "baseColor": [
+        0.7699999809265137,
+        0.8999999761581421,
+        0.9399999976158142
+      ],
+      "metallic": 0.18000000715255737,
+      "roughness": 0.06499999761581421,
+      "masked": false,
+      "cutoff": 0.5,
+      "alpha": 0.2199999988079071,
+      "emission": [
+        1.0,
+        1.0,
+        1.0
+      ],
+      "emissionStrength": 0.0,
+      "baseTexture": null,
+      "normalTexture": null,
+      "normalStrength": 0.0,
+      "alphaTexture": null,
+      "roughnessTexture": null,
+      "metallicTexture": null,
+      "emissionTexture": null,
+      "doubleSided": true,
+      "graph": [
+        [
+          "BSDF_PRINCIPLED",
+          "BSDF",
+          "OUTPUT_MATERIAL",
+          "Surface"
+        ]
+      ]
+    },
+    {
+      "name": "Chateau Verre clair reflets.004",
+      "baseColor": [
+        0.7699999809265137,
+        0.8999999761581421,
+        0.9399999976158142
+      ],
+      "metallic": 0.18000000715255737,
+      "roughness": 0.06499999761581421,
+      "masked": false,
+      "cutoff": 0.5,
+      "alpha": 0.2199999988079071,
+      "emission": [
+        1.0,
+        1.0,
+        1.0
+      ],
+      "emissionStrength": 0.0,
+      "baseTexture": null,
+      "normalTexture": null,
+      "normalStrength": 0.0,
+      "alphaTexture": null,
+      "roughnessTexture": null,
+      "metallicTexture": null,
+      "emissionTexture": null,
+      "doubleSided": true,
+      "graph": [
+        [
+          "BSDF_PRINCIPLED",
+          "BSDF",
+          "OUTPUT_MATERIAL",
+          "Surface"
+        ]
+      ]
+    },
+    {
+      "name": "Corne des sabots.003",
+      "baseColor": [
+        0.052000001072883606,
+        0.039000000804662704,
+        0.026000000536441803
+      ],
+      "metallic": 0.0,
+      "roughness": 0.6499999761581421,
+      "masked": false,
+      "cutoff": 0.5,
+      "alpha": 1.0,
+      "emission": [
+        1.0,
+        1.0,
+        1.0
+      ],
+      "emissionStrength": 0.0,
+      "baseTexture": null,
+      "normalTexture": null,
+      "normalStrength": 0.0,
+      "alphaTexture": null,
+      "roughnessTexture": null,
+      "metallicTexture": null,
+      "emissionTexture": null,
+      "doubleSided": true,
+      "graph": [
+        [
+          "BSDF_PRINCIPLED",
+          "BSDF",
+          "OUTPUT_MATERIAL",
+          "Surface"
+        ]
+      ]
+    },
+    {
+      "name": "Crins brun noir.003",
+      "baseColor": [
+        0.02199999988079071,
+        0.009999999776482582,
+        0.006000000052154064
+      ],
+      "metallic": 0.0,
+      "roughness": 0.8399999737739563,
+      "masked": false,
+      "cutoff": 0.5,
+      "alpha": 1.0,
+      "emission": [
+        1.0,
+        1.0,
+        1.0
+      ],
+      "emissionStrength": 0.0,
+      "baseTexture": null,
+      "normalTexture": null,
+      "normalStrength": 0.0,
+      "alphaTexture": null,
+      "roughnessTexture": null,
+      "metallicTexture": null,
+      "emissionTexture": null,
+      "doubleSided": true,
+      "graph": [
+        [
+          "BSDF_PRINCIPLED",
+          "BSDF",
+          "OUTPUT_MATERIAL",
+          "Surface"
+        ]
+      ]
+    },
+    {
+      "name": "Cuir noir des harnais.003",
+      "baseColor": [
+        0.017999999225139618,
+        0.012000000104308128,
+        0.008999999612569809
+      ],
+      "metallic": 0.0,
+      "roughness": 0.47999998927116394,
+      "masked": false,
+      "cutoff": 0.5,
+      "alpha": 1.0,
+      "emission": [
+        1.0,
+        1.0,
+        1.0
+      ],
+      "emissionStrength": 0.0,
+      "baseTexture": null,
+      "normalTexture": null,
+      "normalStrength": 0.0,
+      "alphaTexture": null,
+      "roughnessTexture": null,
+      "metallicTexture": null,
+      "emissionTexture": null,
+      "doubleSided": true,
+      "graph": [
+        [
+          "BSDF_PRINCIPLED",
+          "BSDF",
+          "OUTPUT_MATERIAL",
+          "Surface"
+        ]
+      ]
+    },
+    {
+      "name": "Dorure royale a la feuille.001",
+      "baseColor": [
+        0.8299999833106995,
+        0.5199999809265137,
+        0.15000000596046448
+      ],
+      "metallic": 0.8600000143051147,
+      "roughness": 0.25,
+      "masked": false,
+      "cutoff": 0.5,
+      "alpha": 1.0,
+      "emission": [
+        1.0,
+        1.0,
+        1.0
+      ],
+      "emissionStrength": 0.0,
+      "baseTexture": null,
+      "normalTexture": null,
+      "normalStrength": 0.0,
+      "alphaTexture": null,
+      "roughnessTexture": null,
+      "metallicTexture": null,
+      "emissionTexture": null,
+      "doubleSided": true,
+      "graph": [
+        [
+          "BSDF_PRINCIPLED",
+          "BSDF",
+          "OUTPUT_MATERIAL",
+          "Surface"
+        ]
+      ]
+    },
+    {
+      "name": "Dorure royale a la feuille.002",
+      "baseColor": [
+        0.8299999833106995,
+        0.5199999809265137,
+        0.15000000596046448
+      ],
+      "metallic": 0.8600000143051147,
+      "roughness": 0.25,
+      "masked": false,
+      "cutoff": 0.5,
+      "alpha": 1.0,
+      "emission": [
+        1.0,
+        1.0,
+        1.0
+      ],
+      "emissionStrength": 0.0,
+      "baseTexture": null,
+      "normalTexture": null,
+      "normalStrength": 0.0,
+      "alphaTexture": null,
+      "roughnessTexture": null,
+      "metallicTexture": null,
+      "emissionTexture": null,
+      "doubleSided": true,
+      "graph": [
+        [
+          "BSDF_PRINCIPLED",
+          "BSDF",
+          "OUTPUT_MATERIAL",
+          "Surface"
+        ]
+      ]
+    },
+    {
+      "name": "Dorure royale a la feuille.003",
+      "baseColor": [
+        0.8299999833106995,
+        0.5199999809265137,
+        0.15000000596046448
+      ],
+      "metallic": 0.8600000143051147,
+      "roughness": 0.25,
+      "masked": false,
+      "cutoff": 0.5,
+      "alpha": 1.0,
+      "emission": [
+        1.0,
+        1.0,
+        1.0
+      ],
+      "emissionStrength": 0.0,
+      "baseTexture": null,
+      "normalTexture": null,
+      "normalStrength": 0.0,
+      "alphaTexture": null,
+      "roughnessTexture": null,
+      "metallicTexture": null,
+      "emissionTexture": null,
+      "doubleSided": true,
+      "graph": [
+        [
+          "BSDF_PRINCIPLED",
+          "BSDF",
+          "OUTPUT_MATERIAL",
+          "Surface"
+        ]
+      ]
+    },
+    {
+      "name": "Dorure royale a la feuille.005",
+      "baseColor": [
+        0.8299999833106995,
+        0.5199999809265137,
+        0.15000000596046448
+      ],
+      "metallic": 0.8600000143051147,
+      "roughness": 0.25,
+      "masked": false,
+      "cutoff": 0.5,
+      "alpha": 1.0,
+      "emission": [
+        1.0,
+        1.0,
+        1.0
+      ],
+      "emissionStrength": 0.0,
+      "baseTexture": null,
+      "normalTexture": null,
+      "normalStrength": 0.0,
+      "alphaTexture": null,
+      "roughnessTexture": null,
+      "metallicTexture": null,
+      "emissionTexture": null,
+      "doubleSided": true,
+      "graph": [
+        [
+          "BSDF_PRINCIPLED",
+          "BSDF",
+          "OUTPUT_MATERIAL",
+          "Surface"
+        ]
+      ]
+    },
+    {
+      "name": "Ecorce chene.001",
+      "baseColor": [
+        0.1599999964237213,
+        0.07000000029802322,
+        0.026000000536441803
+      ],
+      "metallic": 0.0,
+      "roughness": 0.9399999976158142,
+      "masked": false,
+      "cutoff": 0.5,
+      "alpha": 1.0,
+      "emission": [
+        1.0,
+        1.0,
+        1.0
+      ],
+      "emissionStrength": 0.0,
+      "baseTexture": null,
+      "normalTexture": null,
+      "normalStrength": 0.0,
+      "alphaTexture": null,
+      "roughnessTexture": null,
+      "metallicTexture": null,
+      "emissionTexture": null,
+      "doubleSided": true,
+      "graph": [
+        [
+          "BSDF_PRINCIPLED",
+          "BSDF",
+          "OUTPUT_MATERIAL",
+          "Surface"
+        ]
+      ]
+    },
+    {
+      "name": "Ecorce de chene",
+      "baseColor": [
+        1,
+        1,
+        1
+      ],
+      "metallic": 0.0,
+      "roughness": 1.0,
+      "masked": false,
+      "cutoff": 0.5,
+      "alpha": 1.0,
+      "emission": [
+        1.0,
+        1.0,
+        1.0
+      ],
+      "emissionStrength": 0.0,
+      "baseTexture": "Ecorce_de_chene_texture.png",
+      "normalTexture": null,
+      "normalStrength": 0.0,
+      "alphaTexture": null,
+      "roughnessTexture": null,
+      "metallicTexture": null,
+      "emissionTexture": null,
+      "doubleSided": true,
+      "graph": [
+        [
+          "BSDF_PRINCIPLED",
+          "BSDF",
+          "OUTPUT_MATERIAL",
+          "Surface"
+        ],
+        [
+          "TEX_IMAGE",
+          "Color",
+          "BSDF_PRINCIPLED",
+          "Base Color"
+        ]
+      ]
+    },
+    {
+      "name": "Fer forge noir patine.001",
+      "baseColor": [
+        0.02800000086426735,
+        0.04100000113248825,
+        0.03700000047683716
+      ],
+      "metallic": 0.7799999713897705,
+      "roughness": 0.33000001311302185,
+      "masked": false,
+      "cutoff": 0.5,
+      "alpha": 1.0,
+      "emission": [
+        1.0,
+        1.0,
+        1.0
+      ],
+      "emissionStrength": 0.0,
+      "baseTexture": null,
+      "normalTexture": null,
+      "normalStrength": 0.0,
+      "alphaTexture": null,
+      "roughnessTexture": null,
+      "metallicTexture": null,
+      "emissionTexture": null,
+      "doubleSided": true,
+      "graph": [
+        [
+          "BSDF_PRINCIPLED",
+          "BSDF",
+          "OUTPUT_MATERIAL",
+          "Surface"
+        ]
+      ]
+    },
+    {
+      "name": "Fer forge noir patine.002",
+      "baseColor": [
+        0.02800000086426735,
+        0.04100000113248825,
+        0.03700000047683716
+      ],
+      "metallic": 0.7799999713897705,
+      "roughness": 0.33000001311302185,
+      "masked": false,
+      "cutoff": 0.5,
+      "alpha": 1.0,
+      "emission": [
+        1.0,
+        1.0,
+        1.0
+      ],
+      "emissionStrength": 0.0,
+      "baseTexture": null,
+      "normalTexture": null,
+      "normalStrength": 0.0,
+      "alphaTexture": null,
+      "roughnessTexture": null,
+      "metallicTexture": null,
+      "emissionTexture": null,
+      "doubleSided": true,
+      "graph": [
+        [
+          "BSDF_PRINCIPLED",
+          "BSDF",
+          "OUTPUT_MATERIAL",
+          "Surface"
+        ]
+      ]
+    },
+    {
+      "name": "Fer forge noir patine.003",
+      "baseColor": [
+        0.02800000086426735,
+        0.04100000113248825,
+        0.03700000047683716
+      ],
+      "metallic": 0.7799999713897705,
+      "roughness": 0.33000001311302185,
+      "masked": false,
+      "cutoff": 0.5,
+      "alpha": 1.0,
+      "emission": [
+        1.0,
+        1.0,
+        1.0
+      ],
+      "emissionStrength": 0.0,
+      "baseTexture": null,
+      "normalTexture": null,
+      "normalStrength": 0.0,
+      "alphaTexture": null,
+      "roughnessTexture": null,
+      "metallicTexture": null,
+      "emissionTexture": null,
+      "doubleSided": true,
+      "graph": [
+        [
+          "BSDF_PRINCIPLED",
+          "BSDF",
+          "OUTPUT_MATERIAL",
+          "Surface"
+        ]
+      ]
+    },
+    {
+      "name": "Fer forge noir patine.006",
+      "baseColor": [
+        0.02800000086426735,
+        0.04100000113248825,
+        0.03700000047683716
+      ],
+      "metallic": 0.7799999713897705,
+      "roughness": 0.33000001311302185,
+      "masked": false,
+      "cutoff": 0.5,
+      "alpha": 1.0,
+      "emission": [
+        1.0,
+        1.0,
+        1.0
+      ],
+      "emissionStrength": 0.0,
+      "baseTexture": null,
+      "normalTexture": null,
+      "normalStrength": 0.0,
+      "alphaTexture": null,
+      "roughnessTexture": null,
+      "metallicTexture": null,
+      "emissionTexture": null,
+      "doubleSided": true,
+      "graph": [
+        [
+          "BSDF_PRINCIPLED",
+          "BSDF",
+          "OUTPUT_MATERIAL",
+          "Surface"
+        ]
+      ]
+    },
+    {
+      "name": "Fer forge patine.001",
+      "baseColor": [
+        0.052000001072883606,
+        0.057999998331069946,
+        0.06499999761581421
+      ],
+      "metallic": 0.8299999833106995,
+      "roughness": 0.3799999952316284,
+      "masked": false,
+      "cutoff": 0.5,
+      "alpha": 1.0,
+      "emission": [
+        1.0,
+        1.0,
+        1.0
+      ],
+      "emissionStrength": 0.0,
+      "baseTexture": null,
+      "normalTexture": null,
+      "normalStrength": 0.0,
+      "alphaTexture": null,
+      "roughnessTexture": null,
+      "metallicTexture": null,
+      "emissionTexture": null,
+      "doubleSided": true,
+      "graph": [
+        [
+          "BSDF_PRINCIPLED",
+          "BSDF",
+          "OUTPUT_MATERIAL",
+          "Surface"
+        ]
+      ]
+    },
+    {
+      "name": "Feuilles decoupees de chene 0",
+      "baseColor": [
+        1,
+        1,
+        1
+      ],
+      "metallic": 0.0,
+      "roughness": 1.0,
+      "masked": true,
+      "cutoff": 0.5,
+      "alpha": 1.0,
+      "emission": [
+        1.0,
+        1.0,
+        1.0
+      ],
+      "emissionStrength": 0.0,
+      "baseTexture": "Rameaux_de_chene_alpha_0.png",
+      "normalTexture": null,
+      "normalStrength": 0.0,
+      "alphaTexture": null,
+      "roughnessTexture": null,
+      "metallicTexture": null,
+      "emissionTexture": null,
+      "doubleSided": true,
+      "graph": [
+        [
+          "BSDF_PRINCIPLED",
+          "BSDF",
+          "OUTPUT_MATERIAL",
+          "Surface"
+        ],
+        [
+          "MATH",
+          "Value",
+          "BSDF_PRINCIPLED",
+          "Alpha"
+        ],
+        [
+          "MATH",
+          "Value",
+          "MATH",
+          "Value"
+        ],
+        [
+          "TEX_IMAGE",
+          "Color",
+          "BSDF_PRINCIPLED",
+          "Base Color"
+        ],
+        [
+          "TEX_IMAGE",
+          "Alpha",
+          "MATH",
+          "Value"
+        ]
+      ]
+    },
+    {
+      "name": "Feuilles decoupees de chene 1",
+      "baseColor": [
+        1,
+        1,
+        1
+      ],
+      "metallic": 0.0,
+      "roughness": 1.0,
+      "masked": true,
+      "cutoff": 0.5,
+      "alpha": 1.0,
+      "emission": [
+        1.0,
+        1.0,
+        1.0
+      ],
+      "emissionStrength": 0.0,
+      "baseTexture": "Rameaux_de_chene_alpha_1.png",
+      "normalTexture": null,
+      "normalStrength": 0.0,
+      "alphaTexture": null,
+      "roughnessTexture": null,
+      "metallicTexture": null,
+      "emissionTexture": null,
+      "doubleSided": true,
+      "graph": [
+        [
+          "BSDF_PRINCIPLED",
+          "BSDF",
+          "OUTPUT_MATERIAL",
+          "Surface"
+        ],
+        [
+          "MATH",
+          "Value",
+          "BSDF_PRINCIPLED",
+          "Alpha"
+        ],
+        [
+          "MATH",
+          "Value",
+          "MATH",
+          "Value"
+        ],
+        [
+          "TEX_IMAGE",
+          "Color",
+          "BSDF_PRINCIPLED",
+          "Base Color"
+        ],
+        [
+          "TEX_IMAGE",
+          "Alpha",
+          "MATH",
+          "Value"
+        ]
+      ]
+    },
+    {
+      "name": "Feuilles decoupees de chene 2",
+      "baseColor": [
+        1,
+        1,
+        1
+      ],
+      "metallic": 0.0,
+      "roughness": 1.0,
+      "masked": true,
+      "cutoff": 0.5,
+      "alpha": 1.0,
+      "emission": [
+        1.0,
+        1.0,
+        1.0
+      ],
+      "emissionStrength": 0.0,
+      "baseTexture": "Rameaux_de_chene_alpha_2.png",
+      "normalTexture": null,
+      "normalStrength": 0.0,
+      "alphaTexture": null,
+      "roughnessTexture": null,
+      "metallicTexture": null,
+      "emissionTexture": null,
+      "doubleSided": true,
+      "graph": [
+        [
+          "BSDF_PRINCIPLED",
+          "BSDF",
+          "OUTPUT_MATERIAL",
+          "Surface"
+        ],
+        [
+          "MATH",
+          "Value",
+          "BSDF_PRINCIPLED",
+          "Alpha"
+        ],
+        [
+          "MATH",
+          "Value",
+          "MATH",
+          "Value"
+        ],
+        [
+          "TEX_IMAGE",
+          "Color",
+          "BSDF_PRINCIPLED",
+          "Base Color"
+        ],
+        [
+          "TEX_IMAGE",
+          "Alpha",
+          "MATH",
+          "Value"
+        ]
+      ]
+    },
+    {
+      "name": "Garden Boxwood leaf clusters.003",
+      "baseColor": [
+        1,
+        1,
+        1
+      ],
+      "metallic": 0.0,
+      "roughness": 0.8799999952316284,
+      "masked": false,
+      "cutoff": 0.5,
+      "alpha": 1.0,
+      "emission": [
+        1.0,
+        1.0,
+        1.0
+      ],
+      "emissionStrength": 0.0,
+      "baseTexture": "Couleurs_00.png",
+      "normalTexture": "Couleurs_00_Normal.png",
+      "normalStrength": 1.0,
+      "alphaTexture": null,
+      "roughnessTexture": null,
+      "metallicTexture": null,
+      "emissionTexture": null,
+      "doubleSided": false,
+      "graph": [
+        [
+          "BSDF_PRINCIPLED",
+          "BSDF",
+          "OUTPUT_MATERIAL",
+          "Surface"
+        ],
+        [
+          "TEX_IMAGE",
+          "Color",
+          "BSDF_PRINCIPLED",
+          "Base Color"
+        ],
+        [
+          "TEX_IMAGE",
+          "Color",
+          "NORMAL_MAP",
+          "Color"
+        ],
+        [
+          "NORMAL_MAP",
+          "Normal",
+          "BSDF_PRINCIPLED",
+          "Normal"
+        ]
+      ]
+    },
+    {
+      "name": "Garden Boxwood leaf clusters.004",
+      "baseColor": [
+        1,
+        1,
+        1
+      ],
+      "metallic": 0.0,
+      "roughness": 0.8799999952316284,
+      "masked": false,
+      "cutoff": 0.5,
+      "alpha": 1.0,
+      "emission": [
+        1.0,
+        1.0,
+        1.0
+      ],
+      "emissionStrength": 0.0,
+      "baseTexture": "Couleurs_25.png",
+      "normalTexture": "Couleurs_25_Normal.png",
+      "normalStrength": 1.0,
+      "alphaTexture": null,
+      "roughnessTexture": null,
+      "metallicTexture": null,
+      "emissionTexture": null,
+      "doubleSided": false,
+      "graph": [
+        [
+          "BSDF_PRINCIPLED",
+          "BSDF",
+          "OUTPUT_MATERIAL",
+          "Surface"
+        ],
+        [
+          "TEX_IMAGE",
+          "Color",
+          "BSDF_PRINCIPLED",
+          "Base Color"
+        ],
+        [
+          "TEX_IMAGE",
+          "Color",
+          "NORMAL_MAP",
+          "Color"
+        ],
+        [
+          "NORMAL_MAP",
+          "Normal",
+          "BSDF_PRINCIPLED",
+          "Normal"
+        ]
+      ]
+    },
+    {
+      "name": "Garden Crushed limestone.002",
+      "baseColor": [
+        1,
+        1,
+        1
+      ],
+      "metallic": 0.0,
+      "roughness": 0.8799999952316284,
+      "masked": false,
+      "cutoff": 0.5,
+      "alpha": 1.0,
+      "emission": [
+        1.0,
+        1.0,
+        1.0
+      ],
+      "emissionStrength": 0.0,
+      "baseTexture": "Crushed_limestone_color.001.png",
+      "normalTexture": "Crushed_limestone_normal.001.png",
+      "normalStrength": 1.0,
+      "alphaTexture": null,
+      "roughnessTexture": null,
+      "metallicTexture": null,
+      "emissionTexture": null,
+      "doubleSided": false,
+      "graph": [
+        [
+          "BSDF_PRINCIPLED",
+          "BSDF",
+          "OUTPUT_MATERIAL",
+          "Surface"
+        ],
+        [
+          "TEX_IMAGE",
+          "Color",
+          "BSDF_PRINCIPLED",
+          "Base Color"
+        ],
+        [
+          "NORMAL_MAP",
+          "Normal",
+          "BSDF_PRINCIPLED",
+          "Normal"
+        ],
+        [
+          "TEX_IMAGE",
+          "Color",
+          "NORMAL_MAP",
+          "Color"
+        ]
+      ]
+    },
+    {
+      "name": "Garden Crushed limestone.003",
+      "baseColor": [
+        1,
+        1,
+        1
+      ],
+      "metallic": 0.0,
+      "roughness": 0.8799999952316284,
+      "masked": false,
+      "cutoff": 0.5,
+      "alpha": 1.0,
+      "emission": [
+        1.0,
+        1.0,
+        1.0
+      ],
+      "emissionStrength": 0.0,
+      "baseTexture": "Crushed_limestone_color.002.png",
+      "normalTexture": "Crushed_limestone_normal.002.png",
+      "normalStrength": 1.0,
+      "alphaTexture": null,
+      "roughnessTexture": null,
+      "metallicTexture": null,
+      "emissionTexture": null,
+      "doubleSided": false,
+      "graph": [
+        [
+          "BSDF_PRINCIPLED",
+          "BSDF",
+          "OUTPUT_MATERIAL",
+          "Surface"
+        ],
+        [
+          "TEX_IMAGE",
+          "Color",
+          "BSDF_PRINCIPLED",
+          "Base Color"
+        ],
+        [
+          "NORMAL_MAP",
+          "Normal",
+          "BSDF_PRINCIPLED",
+          "Normal"
+        ],
+        [
+          "TEX_IMAGE",
+          "Color",
+          "NORMAL_MAP",
+          "Color"
+        ]
+      ]
+    },
+    {
+      "name": "Garden Crushed limestone.004",
+      "baseColor": [
+        1,
+        1,
+        1
+      ],
+      "metallic": 0.0,
+      "roughness": 0.8799999952316284,
+      "masked": false,
+      "cutoff": 0.5,
+      "alpha": 1.0,
+      "emission": [
+        1.0,
+        1.0,
+        1.0
+      ],
+      "emissionStrength": 0.0,
+      "baseTexture": "Crushed_limestone_color.003.png",
+      "normalTexture": "Crushed_limestone_normal.003.png",
+      "normalStrength": 1.0,
+      "alphaTexture": null,
+      "roughnessTexture": null,
+      "metallicTexture": null,
+      "emissionTexture": null,
+      "doubleSided": false,
+      "graph": [
+        [
+          "BSDF_PRINCIPLED",
+          "BSDF",
+          "OUTPUT_MATERIAL",
+          "Surface"
+        ],
+        [
+          "TEX_IMAGE",
+          "Color",
+          "BSDF_PRINCIPLED",
+          "Base Color"
+        ],
+        [
+          "NORMAL_MAP",
+          "Normal",
+          "BSDF_PRINCIPLED",
+          "Normal"
+        ],
+        [
+          "TEX_IMAGE",
+          "Color",
+          "NORMAL_MAP",
+          "Color"
+        ]
+      ]
+    },
+    {
+      "name": "Garden Crushed limestone.005",
+      "baseColor": [
+        1,
+        1,
+        1
+      ],
+      "metallic": 0.0,
+      "roughness": 0.8799999952316284,
+      "masked": false,
+      "cutoff": 0.5,
+      "alpha": 1.0,
+      "emission": [
+        1.0,
+        1.0,
+        1.0
+      ],
+      "emissionStrength": 0.0,
+      "baseTexture": "Crushed_limestone_color.006.png",
+      "normalTexture": "Crushed_limestone_normal.006.png",
+      "normalStrength": 1.0,
+      "alphaTexture": null,
+      "roughnessTexture": null,
+      "metallicTexture": null,
+      "emissionTexture": null,
+      "doubleSided": false,
+      "graph": [
+        [
+          "BSDF_PRINCIPLED",
+          "BSDF",
+          "OUTPUT_MATERIAL",
+          "Surface"
+        ],
+        [
+          "TEX_IMAGE",
+          "Color",
+          "BSDF_PRINCIPLED",
+          "Base Color"
+        ],
+        [
+          "NORMAL_MAP",
+          "Normal",
+          "BSDF_PRINCIPLED",
+          "Normal"
+        ],
+        [
+          "TEX_IMAGE",
+          "Color",
+          "NORMAL_MAP",
+          "Color"
+        ]
+      ]
+    },
+    {
+      "name": "Garden Crushed limestone.006",
+      "baseColor": [
+        1,
+        1,
+        1
+      ],
+      "metallic": 0.0,
+      "roughness": 0.8799999952316284,
+      "masked": false,
+      "cutoff": 0.5,
+      "alpha": 1.0,
+      "emission": [
+        1.0,
+        1.0,
+        1.0
+      ],
+      "emissionStrength": 0.0,
+      "baseTexture": "Couleurs_25.png",
+      "normalTexture": "Couleurs_25_Normal.png",
+      "normalStrength": 1.0,
+      "alphaTexture": null,
+      "roughnessTexture": null,
+      "metallicTexture": null,
+      "emissionTexture": null,
+      "doubleSided": false,
+      "graph": [
+        [
+          "BSDF_PRINCIPLED",
+          "BSDF",
+          "OUTPUT_MATERIAL",
+          "Surface"
+        ],
+        [
+          "TEX_IMAGE",
+          "Color",
+          "BSDF_PRINCIPLED",
+          "Base Color"
+        ],
+        [
+          "TEX_IMAGE",
+          "Color",
+          "NORMAL_MAP",
+          "Color"
+        ],
+        [
+          "NORMAL_MAP",
+          "Normal",
+          "BSDF_PRINCIPLED",
+          "Normal"
+        ]
+      ]
+    },
+    {
+      "name": "Garden Crushed limestone.010",
+      "baseColor": [
+        1,
+        1,
+        1
+      ],
+      "metallic": 0.0,
+      "roughness": 0.8799999952316284,
+      "masked": false,
+      "cutoff": 0.5,
+      "alpha": 1.0,
+      "emission": [
+        1.0,
+        1.0,
+        1.0
+      ],
+      "emissionStrength": 0.0,
+      "baseTexture": "Crushed_limestone_color.005.png",
+      "normalTexture": "Crushed_limestone_normal.005.png",
+      "normalStrength": 1.0,
+      "alphaTexture": null,
+      "roughnessTexture": null,
+      "metallicTexture": null,
+      "emissionTexture": null,
+      "doubleSided": false,
+      "graph": [
+        [
+          "BSDF_PRINCIPLED",
+          "BSDF",
+          "OUTPUT_MATERIAL",
+          "Surface"
+        ],
+        [
+          "TEX_IMAGE",
+          "Color",
+          "BSDF_PRINCIPLED",
+          "Base Color"
+        ],
+        [
+          "NORMAL_MAP",
+          "Normal",
+          "BSDF_PRINCIPLED",
+          "Normal"
+        ],
+        [
+          "TEX_IMAGE",
+          "Color",
+          "NORMAL_MAP",
+          "Color"
+        ]
+      ]
+    },
+    {
+      "name": "Garden Crushed limestone.012",
+      "baseColor": [
+        1,
+        1,
+        1
+      ],
+      "metallic": 0.0,
+      "roughness": 0.8799999952316284,
+      "masked": false,
+      "cutoff": 0.5,
+      "alpha": 1.0,
+      "emission": [
+        1.0,
+        1.0,
+        1.0
+      ],
+      "emissionStrength": 0.0,
+      "baseTexture": "Crushed_limestone_color.004.png",
+      "normalTexture": "Crushed_limestone_normal.004.png",
+      "normalStrength": 1.0,
+      "alphaTexture": null,
+      "roughnessTexture": null,
+      "metallicTexture": null,
+      "emissionTexture": null,
+      "doubleSided": false,
+      "graph": [
+        [
+          "BSDF_PRINCIPLED",
+          "BSDF",
+          "OUTPUT_MATERIAL",
+          "Surface"
+        ],
+        [
+          "TEX_IMAGE",
+          "Color",
+          "BSDF_PRINCIPLED",
+          "Base Color"
+        ],
+        [
+          "NORMAL_MAP",
+          "Normal",
+          "BSDF_PRINCIPLED",
+          "Normal"
+        ],
+        [
+          "TEX_IMAGE",
+          "Color",
+          "NORMAL_MAP",
+          "Color"
+        ]
+      ]
+    },
+    {
+      "name": "Garden Cypress bark.002",
+      "baseColor": [
+        1,
+        1,
+        1
+      ],
+      "metallic": 0.0,
+      "roughness": 0.8799999952316284,
+      "masked": false,
+      "cutoff": 0.5,
+      "alpha": 1.0,
+      "emission": [
+        1.0,
+        1.0,
+        1.0
+      ],
+      "emissionStrength": 0.0,
+      "baseTexture": "Couleurs_00.png",
+      "normalTexture": "Couleurs_00_Normal.png",
+      "normalStrength": 1.0,
+      "alphaTexture": null,
+      "roughnessTexture": null,
+      "metallicTexture": null,
+      "emissionTexture": null,
+      "doubleSided": false,
+      "graph": [
+        [
+          "BSDF_PRINCIPLED",
+          "BSDF",
+          "OUTPUT_MATERIAL",
+          "Surface"
+        ],
+        [
+          "TEX_IMAGE",
+          "Color",
+          "BSDF_PRINCIPLED",
+          "Base Color"
+        ],
+        [
+          "TEX_IMAGE",
+          "Color",
+          "NORMAL_MAP",
+          "Color"
+        ],
+        [
+          "NORMAL_MAP",
+          "Normal",
+          "BSDF_PRINCIPLED",
+          "Normal"
+        ]
+      ]
+    },
+    {
+      "name": "Garden Garden loam.002",
+      "baseColor": [
+        1,
+        1,
+        1
+      ],
+      "metallic": 0.0,
+      "roughness": 0.8799999952316284,
+      "masked": false,
+      "cutoff": 0.5,
+      "alpha": 1.0,
+      "emission": [
+        1.0,
+        1.0,
+        1.0
+      ],
+      "emissionStrength": 0.0,
+      "baseTexture": "Couleurs_26.png",
+      "normalTexture": "Couleurs_26_Normal.png",
+      "normalStrength": 1.0,
+      "alphaTexture": null,
+      "roughnessTexture": null,
+      "metallicTexture": null,
+      "emissionTexture": null,
+      "doubleSided": false,
+      "graph": [
+        [
+          "BSDF_PRINCIPLED",
+          "BSDF",
+          "OUTPUT_MATERIAL",
+          "Surface"
+        ],
+        [
+          "TEX_IMAGE",
+          "Color",
+          "BSDF_PRINCIPLED",
+          "Base Color"
+        ],
+        [
+          "TEX_IMAGE",
+          "Color",
+          "NORMAL_MAP",
+          "Color"
+        ],
+        [
+          "NORMAL_MAP",
+          "Normal",
+          "BSDF_PRINCIPLED",
+          "Normal"
+        ]
+      ]
+    },
+    {
+      "name": "Garden Living leaf.004",
+      "baseColor": [
+        1,
+        1,
+        1
+      ],
+      "metallic": 0.0,
+      "roughness": 0.8799999952316284,
+      "masked": false,
+      "cutoff": 0.5,
+      "alpha": 1.0,
+      "emission": [
+        1.0,
+        1.0,
+        1.0
+      ],
+      "emissionStrength": 0.0,
+      "baseTexture": "Couleurs_00.png",
+      "normalTexture": "Couleurs_00_Normal.png",
+      "normalStrength": 1.0,
+      "alphaTexture": null,
+      "roughnessTexture": null,
+      "metallicTexture": null,
+      "emissionTexture": null,
+      "doubleSided": true,
+      "graph": [
+        [
+          "BSDF_PRINCIPLED",
+          "BSDF",
+          "OUTPUT_MATERIAL",
+          "Surface"
+        ],
+        [
+          "TEX_IMAGE",
+          "Color",
+          "BSDF_PRINCIPLED",
+          "Base Color"
+        ],
+        [
+          "TEX_IMAGE",
+          "Color",
+          "NORMAL_MAP",
+          "Color"
+        ],
+        [
+          "NORMAL_MAP",
+          "Normal",
+          "BSDF_PRINCIPLED",
+          "Normal"
+        ]
+      ]
+    },
+    {
+      "name": "Garden Living leaf.005",
+      "baseColor": [
+        1,
+        1,
+        1
+      ],
+      "metallic": 0.0,
+      "roughness": 0.8799999952316284,
+      "masked": false,
+      "cutoff": 0.5,
+      "alpha": 1.0,
+      "emission": [
+        1.0,
+        1.0,
+        1.0
+      ],
+      "emissionStrength": 0.0,
+      "baseTexture": "Couleurs_25.png",
+      "normalTexture": "Couleurs_25_Normal.png",
+      "normalStrength": 1.0,
+      "alphaTexture": null,
+      "roughnessTexture": null,
+      "metallicTexture": null,
+      "emissionTexture": null,
+      "doubleSided": true,
+      "graph": [
+        [
+          "BSDF_PRINCIPLED",
+          "BSDF",
+          "OUTPUT_MATERIAL",
+          "Surface"
+        ],
+        [
+          "TEX_IMAGE",
+          "Color",
+          "BSDF_PRINCIPLED",
+          "Base Color"
+        ],
+        [
+          "TEX_IMAGE",
+          "Color",
+          "NORMAL_MAP",
+          "Color"
+        ],
+        [
+          "NORMAL_MAP",
+          "Normal",
+          "BSDF_PRINCIPLED",
+          "Normal"
+        ]
+      ]
+    },
+    {
+      "name": "Garden Living leaf.006",
+      "baseColor": [
+        1,
+        1,
+        1
+      ],
+      "metallic": 0.0,
+      "roughness": 0.8799999952316284,
+      "masked": false,
+      "cutoff": 0.5,
+      "alpha": 1.0,
+      "emission": [
+        1.0,
+        1.0,
+        1.0
+      ],
+      "emissionStrength": 0.0,
+      "baseTexture": "Couleurs_26.png",
+      "normalTexture": "Couleurs_26_Normal.png",
+      "normalStrength": 1.0,
+      "alphaTexture": null,
+      "roughnessTexture": null,
+      "metallicTexture": null,
+      "emissionTexture": null,
+      "doubleSided": true,
+      "graph": [
+        [
+          "BSDF_PRINCIPLED",
+          "BSDF",
+          "OUTPUT_MATERIAL",
+          "Surface"
+        ],
+        [
+          "TEX_IMAGE",
+          "Color",
+          "BSDF_PRINCIPLED",
+          "Base Color"
+        ],
+        [
+          "TEX_IMAGE",
+          "Color",
+          "NORMAL_MAP",
+          "Color"
+        ],
+        [
+          "NORMAL_MAP",
+          "Normal",
+          "BSDF_PRINCIPLED",
+          "Normal"
+        ]
+      ]
+    },
+    {
+      "name": "Garden Rose petals.003",
+      "baseColor": [
+        1,
+        1,
+        1
+      ],
+      "metallic": 0.0,
+      "roughness": 0.6600000262260437,
+      "masked": false,
+      "cutoff": 0.5,
+      "alpha": 1.0,
+      "emission": [
+        1.0,
+        1.0,
+        1.0
+      ],
+      "emissionStrength": 0.0,
+      "baseTexture": "Couleurs_25.png",
+      "normalTexture": "Couleurs_25_Normal.png",
+      "normalStrength": 1.0,
+      "alphaTexture": null,
+      "roughnessTexture": null,
+      "metallicTexture": null,
+      "emissionTexture": null,
+      "doubleSided": true,
+      "graph": [
+        [
+          "BSDF_PRINCIPLED",
+          "BSDF",
+          "OUTPUT_MATERIAL",
+          "Surface"
+        ],
+        [
+          "TEX_IMAGE",
+          "Color",
+          "BSDF_PRINCIPLED",
+          "Base Color"
+        ],
+        [
+          "TEX_IMAGE",
+          "Color",
+          "NORMAL_MAP",
+          "Color"
+        ],
+        [
+          "NORMAL_MAP",
+          "Normal",
+          "BSDF_PRINCIPLED",
+          "Normal"
+        ]
+      ]
+    },
+    {
+      "name": "Garden Rose petals.004",
+      "baseColor": [
+        1,
+        1,
+        1
+      ],
+      "metallic": 0.0,
+      "roughness": 0.6600000262260437,
+      "masked": false,
+      "cutoff": 0.5,
+      "alpha": 1.0,
+      "emission": [
+        1.0,
+        1.0,
+        1.0
+      ],
+      "emissionStrength": 0.0,
+      "baseTexture": "Couleurs_26.png",
+      "normalTexture": "Couleurs_26_Normal.png",
+      "normalStrength": 1.0,
+      "alphaTexture": null,
+      "roughnessTexture": null,
+      "metallicTexture": null,
+      "emissionTexture": null,
+      "doubleSided": true,
+      "graph": [
+        [
+          "BSDF_PRINCIPLED",
+          "BSDF",
+          "OUTPUT_MATERIAL",
+          "Surface"
+        ],
+        [
+          "TEX_IMAGE",
+          "Color",
+          "BSDF_PRINCIPLED",
+          "Base Color"
+        ],
+        [
+          "TEX_IMAGE",
+          "Color",
+          "NORMAL_MAP",
+          "Color"
+        ],
+        [
+          "NORMAL_MAP",
+          "Normal",
+          "BSDF_PRINCIPLED",
+          "Normal"
+        ]
+      ]
+    },
+    {
+      "name": "Garden Weathered limestone.003",
+      "baseColor": [
+        1,
+        1,
+        1
+      ],
+      "metallic": 0.0,
+      "roughness": 0.8799999952316284,
+      "masked": false,
+      "cutoff": 0.5,
+      "alpha": 1.0,
+      "emission": [
+        1.0,
+        1.0,
+        1.0
+      ],
+      "emissionStrength": 0.0,
+      "baseTexture": "Couleurs_25.png",
+      "normalTexture": "Couleurs_25_Normal.png",
+      "normalStrength": 1.0,
+      "alphaTexture": null,
+      "roughnessTexture": null,
+      "metallicTexture": null,
+      "emissionTexture": null,
+      "doubleSided": false,
+      "graph": [
+        [
+          "BSDF_PRINCIPLED",
+          "BSDF",
+          "OUTPUT_MATERIAL",
+          "Surface"
+        ],
+        [
+          "TEX_IMAGE",
+          "Color",
+          "BSDF_PRINCIPLED",
+          "Base Color"
+        ],
+        [
+          "TEX_IMAGE",
+          "Color",
+          "NORMAL_MAP",
+          "Color"
+        ],
+        [
+          "NORMAL_MAP",
+          "Normal",
+          "BSDF_PRINCIPLED",
+          "Normal"
+        ]
+      ]
+    },
+    {
+      "name": "Garden Weathered limestone.004",
+      "baseColor": [
+        1,
+        1,
+        1
+      ],
+      "metallic": 0.0,
+      "roughness": 0.8799999952316284,
+      "masked": false,
+      "cutoff": 0.5,
+      "alpha": 1.0,
+      "emission": [
+        1.0,
+        1.0,
+        1.0
+      ],
+      "emissionStrength": 0.0,
+      "baseTexture": "Couleurs_26.png",
+      "normalTexture": "Couleurs_26_Normal.png",
+      "normalStrength": 1.0,
+      "alphaTexture": null,
+      "roughnessTexture": null,
+      "metallicTexture": null,
+      "emissionTexture": null,
+      "doubleSided": false,
+      "graph": [
+        [
+          "BSDF_PRINCIPLED",
+          "BSDF",
+          "OUTPUT_MATERIAL",
+          "Surface"
+        ],
+        [
+          "TEX_IMAGE",
+          "Color",
+          "BSDF_PRINCIPLED",
+          "Base Color"
+        ],
+        [
+          "TEX_IMAGE",
+          "Color",
+          "NORMAL_MAP",
+          "Color"
+        ],
+        [
+          "NORMAL_MAP",
+          "Normal",
+          "BSDF_PRINCIPLED",
+          "Normal"
+        ]
+      ]
+    },
+    {
+      "name": "Iris graves dans le marbre.001",
+      "baseColor": [
+        0.4000000059604645,
+        0.3799999952316284,
+        0.3400000035762787
+      ],
+      "metallic": 0.0,
+      "roughness": 0.6499999761581421,
+      "masked": false,
+      "cutoff": 0.5,
+      "alpha": 1.0,
+      "emission": [
+        1.0,
+        1.0,
+        1.0
+      ],
+      "emissionStrength": 0.0,
+      "baseTexture": null,
+      "normalTexture": null,
+      "normalStrength": 0.0,
+      "alphaTexture": null,
+      "roughnessTexture": null,
+      "metallicTexture": null,
+      "emissionTexture": null,
+      "doubleSided": true,
+      "graph": [
+        [
+          "BSDF_PRINCIPLED",
+          "BSDF",
+          "OUTPUT_MATERIAL",
+          "Surface"
+        ]
+      ]
+    },
+    {
+      "name": "Iris graves dans le marbre.002",
+      "baseColor": [
+        0.4000000059604645,
+        0.3799999952316284,
+        0.3400000035762787
+      ],
+      "metallic": 0.0,
+      "roughness": 0.6499999761581421,
+      "masked": false,
+      "cutoff": 0.5,
+      "alpha": 1.0,
+      "emission": [
+        1.0,
+        1.0,
+        1.0
+      ],
+      "emissionStrength": 0.0,
+      "baseTexture": null,
+      "normalTexture": null,
+      "normalStrength": 0.0,
+      "alphaTexture": null,
+      "roughnessTexture": null,
+      "metallicTexture": null,
+      "emissionTexture": null,
+      "doubleSided": true,
+      "graph": [
+        [
+          "BSDF_PRINCIPLED",
+          "BSDF",
+          "OUTPUT_MATERIAL",
+          "Surface"
+        ]
+      ]
+    },
+    {
+      "name": "Iris graves dans le marbre.003",
+      "baseColor": [
+        0.4000000059604645,
+        0.3799999952316284,
+        0.3400000035762787
+      ],
+      "metallic": 0.0,
+      "roughness": 0.6499999761581421,
+      "masked": false,
+      "cutoff": 0.5,
+      "alpha": 1.0,
+      "emission": [
+        1.0,
+        1.0,
+        1.0
+      ],
+      "emissionStrength": 0.0,
+      "baseTexture": null,
+      "normalTexture": null,
+      "normalStrength": 0.0,
+      "alphaTexture": null,
+      "roughnessTexture": null,
+      "metallicTexture": null,
+      "emissionTexture": null,
+      "doubleSided": true,
+      "graph": [
+        [
+          "BSDF_PRINCIPLED",
+          "BSDF",
+          "OUTPUT_MATERIAL",
+          "Surface"
+        ]
+      ]
+    },
+    {
+      "name": "Iris graves dans le marbre.004",
+      "baseColor": [
+        0.4000000059604645,
+        0.3799999952316284,
+        0.3400000035762787
+      ],
+      "metallic": 0.0,
+      "roughness": 0.6499999761581421,
+      "masked": false,
+      "cutoff": 0.5,
+      "alpha": 1.0,
+      "emission": [
+        1.0,
+        1.0,
+        1.0
+      ],
+      "emissionStrength": 0.0,
+      "baseTexture": null,
+      "normalTexture": null,
+      "normalStrength": 0.0,
+      "alphaTexture": null,
+      "roughnessTexture": null,
+      "metallicTexture": null,
+      "emissionTexture": null,
+      "doubleSided": true,
+      "graph": [
+        [
+          "BSDF_PRINCIPLED",
+          "BSDF",
+          "OUTPUT_MATERIAL",
+          "Surface"
+        ]
+      ]
+    },
+    {
+      "name": "Living clipped turf - original garden texture",
+      "baseColor": [
+        1,
+        1,
+        1
+      ],
+      "metallic": 0.0,
+      "roughness": 0.8799999952316284,
+      "masked": false,
+      "cutoff": 0.5,
+      "alpha": 1.0,
+      "emission": [
+        1.0,
+        1.0,
+        1.0
+      ],
+      "emissionStrength": 0.0,
+      "baseTexture": "Clipped_meadow_color.001.png",
+      "normalTexture": "Clipped_meadow_normal.001.png",
+      "normalStrength": 1.0,
+      "alphaTexture": null,
+      "roughnessTexture": null,
+      "metallicTexture": null,
+      "emissionTexture": null,
+      "doubleSided": false,
+      "graph": [
+        [
+          "BSDF_PRINCIPLED",
+          "BSDF",
+          "OUTPUT_MATERIAL",
+          "Surface"
+        ],
+        [
+          "TEX_IMAGE",
+          "Color",
+          "BSDF_PRINCIPLED",
+          "Base Color"
+        ],
+        [
+          "NORMAL_MAP",
+          "Normal",
+          "BSDF_PRINCIPLED",
+          "Normal"
+        ],
+        [
+          "TEX_IMAGE",
+          "Color",
+          "NORMAL_MAP",
+          "Color"
+        ]
+      ]
+    },
+    {
+      "name": "Living clipped turf - original garden texture.003",
+      "baseColor": [
+        1,
+        1,
+        1
+      ],
+      "metallic": 0.0,
+      "roughness": 0.8799999952316284,
+      "masked": false,
+      "cutoff": 0.5,
+      "alpha": 1.0,
+      "emission": [
+        1.0,
+        1.0,
+        1.0
+      ],
+      "emissionStrength": 0.0,
+      "baseTexture": "Clipped_meadow_color.png",
+      "normalTexture": "Clipped_meadow_normal.png",
+      "normalStrength": 1.0,
+      "alphaTexture": null,
+      "roughnessTexture": null,
+      "metallicTexture": null,
+      "emissionTexture": null,
+      "doubleSided": false,
+      "graph": [
+        [
+          "BSDF_PRINCIPLED",
+          "BSDF",
+          "OUTPUT_MATERIAL",
+          "Surface"
+        ],
+        [
+          "TEX_IMAGE",
+          "Color",
+          "BSDF_PRINCIPLED",
+          "Base Color"
+        ],
+        [
+          "NORMAL_MAP",
+          "Normal",
+          "BSDF_PRINCIPLED",
+          "Normal"
+        ],
+        [
+          "TEX_IMAGE",
+          "Color",
+          "NORMAL_MAP",
+          "Color"
+        ]
+      ]
+    },
+    {
+      "name": "Living grass - opaque folded blades.001",
+      "baseColor": [
+        1,
+        1,
+        1
+      ],
+      "metallic": 0.0,
+      "roughness": 0.9399999976158142,
+      "masked": false,
+      "cutoff": 0.5,
+      "alpha": 1.0,
+      "emission": [
+        1.0,
+        1.0,
+        1.0
+      ],
+      "emissionStrength": 0.0,
+      "baseTexture": "Couleurs_01.png",
+      "normalTexture": null,
+      "normalStrength": 0.0,
+      "alphaTexture": null,
+      "roughnessTexture": null,
+      "metallicTexture": null,
+      "emissionTexture": null,
+      "doubleSided": true,
+      "graph": [
+        [
+          "BSDF_PRINCIPLED",
+          "BSDF",
+          "OUTPUT_MATERIAL",
+          "Surface"
+        ],
+        [
+          "TEX_IMAGE",
+          "Color",
+          "BSDF_PRINCIPLED",
+          "Base Color"
+        ]
+      ]
+    },
+    {
+      "name": "Living grass - opaque folded blades.002",
+      "baseColor": [
+        1,
+        1,
+        1
+      ],
+      "metallic": 0.0,
+      "roughness": 0.9399999976158142,
+      "masked": false,
+      "cutoff": 0.5,
+      "alpha": 1.0,
+      "emission": [
+        1.0,
+        1.0,
+        1.0
+      ],
+      "emissionStrength": 0.0,
+      "baseTexture": "Couleurs_02.png",
+      "normalTexture": null,
+      "normalStrength": 0.0,
+      "alphaTexture": null,
+      "roughnessTexture": null,
+      "metallicTexture": null,
+      "emissionTexture": null,
+      "doubleSided": true,
+      "graph": [
+        [
+          "BSDF_PRINCIPLED",
+          "BSDF",
+          "OUTPUT_MATERIAL",
+          "Surface"
+        ],
+        [
+          "TEX_IMAGE",
+          "Color",
+          "BSDF_PRINCIPLED",
+          "Base Color"
+        ]
+      ]
+    },
+    {
+      "name": "Living grass - opaque folded blades.004",
+      "baseColor": [
+        1,
+        1,
+        1
+      ],
+      "metallic": 0.0,
+      "roughness": 0.9399999976158142,
+      "masked": false,
+      "cutoff": 0.5,
+      "alpha": 1.0,
+      "emission": [
+        1.0,
+        1.0,
+        1.0
+      ],
+      "emissionStrength": 0.0,
+      "baseTexture": "Couleurs_03.png",
+      "normalTexture": null,
+      "normalStrength": 0.0,
+      "alphaTexture": null,
+      "roughnessTexture": null,
+      "metallicTexture": null,
+      "emissionTexture": null,
+      "doubleSided": true,
+      "graph": [
+        [
+          "BSDF_PRINCIPLED",
+          "BSDF",
+          "OUTPUT_MATERIAL",
+          "Surface"
+        ],
+        [
+          "TEX_IMAGE",
+          "Color",
+          "BSDF_PRINCIPLED",
+          "Base Color"
+        ]
+      ]
+    },
+    {
+      "name": "Living grass - opaque folded blades.005",
+      "baseColor": [
+        1,
+        1,
+        1
+      ],
+      "metallic": 0.0,
+      "roughness": 0.9399999976158142,
+      "masked": false,
+      "cutoff": 0.5,
+      "alpha": 1.0,
+      "emission": [
+        1.0,
+        1.0,
+        1.0
+      ],
+      "emissionStrength": 0.0,
+      "baseTexture": "Couleurs_04.png",
+      "normalTexture": null,
+      "normalStrength": 0.0,
+      "alphaTexture": null,
+      "roughnessTexture": null,
+      "metallicTexture": null,
+      "emissionTexture": null,
+      "doubleSided": true,
+      "graph": [
+        [
+          "BSDF_PRINCIPLED",
+          "BSDF",
+          "OUTPUT_MATERIAL",
+          "Surface"
+        ],
+        [
+          "TEX_IMAGE",
+          "Color",
+          "BSDF_PRINCIPLED",
+          "Base Color"
+        ]
+      ]
+    },
+    {
+      "name": "Living grass - opaque folded blades.006",
+      "baseColor": [
+        1,
+        1,
+        1
+      ],
+      "metallic": 0.0,
+      "roughness": 0.9399999976158142,
+      "masked": false,
+      "cutoff": 0.5,
+      "alpha": 1.0,
+      "emission": [
+        1.0,
+        1.0,
+        1.0
+      ],
+      "emissionStrength": 0.0,
+      "baseTexture": "Couleurs_05.png",
+      "normalTexture": null,
+      "normalStrength": 0.0,
+      "alphaTexture": null,
+      "roughnessTexture": null,
+      "metallicTexture": null,
+      "emissionTexture": null,
+      "doubleSided": true,
+      "graph": [
+        [
+          "BSDF_PRINCIPLED",
+          "BSDF",
+          "OUTPUT_MATERIAL",
+          "Surface"
+        ],
+        [
+          "TEX_IMAGE",
+          "Color",
+          "BSDF_PRINCIPLED",
+          "Base Color"
+        ]
+      ]
+    },
+    {
+      "name": "Living grass - opaque folded blades.007",
+      "baseColor": [
+        1,
+        1,
+        1
+      ],
+      "metallic": 0.0,
+      "roughness": 0.9399999976158142,
+      "masked": false,
+      "cutoff": 0.5,
+      "alpha": 1.0,
+      "emission": [
+        1.0,
+        1.0,
+        1.0
+      ],
+      "emissionStrength": 0.0,
+      "baseTexture": "Couleurs_06.png",
+      "normalTexture": null,
+      "normalStrength": 0.0,
+      "alphaTexture": null,
+      "roughnessTexture": null,
+      "metallicTexture": null,
+      "emissionTexture": null,
+      "doubleSided": true,
+      "graph": [
+        [
+          "BSDF_PRINCIPLED",
+          "BSDF",
+          "OUTPUT_MATERIAL",
+          "Surface"
+        ],
+        [
+          "TEX_IMAGE",
+          "Color",
+          "BSDF_PRINCIPLED",
+          "Base Color"
+        ]
+      ]
+    },
+    {
+      "name": "Living grass - opaque folded blades.008",
+      "baseColor": [
+        1,
+        1,
+        1
+      ],
+      "metallic": 0.0,
+      "roughness": 0.9399999976158142,
+      "masked": false,
+      "cutoff": 0.5,
+      "alpha": 1.0,
+      "emission": [
+        1.0,
+        1.0,
+        1.0
+      ],
+      "emissionStrength": 0.0,
+      "baseTexture": "Couleurs_07.png",
+      "normalTexture": null,
+      "normalStrength": 0.0,
+      "alphaTexture": null,
+      "roughnessTexture": null,
+      "metallicTexture": null,
+      "emissionTexture": null,
+      "doubleSided": true,
+      "graph": [
+        [
+          "BSDF_PRINCIPLED",
+          "BSDF",
+          "OUTPUT_MATERIAL",
+          "Surface"
+        ],
+        [
+          "TEX_IMAGE",
+          "Color",
+          "BSDF_PRINCIPLED",
+          "Base Color"
+        ]
+      ]
+    },
+    {
+      "name": "Living grass - opaque folded blades.009",
+      "baseColor": [
+        1,
+        1,
+        1
+      ],
+      "metallic": 0.0,
+      "roughness": 0.9399999976158142,
+      "masked": false,
+      "cutoff": 0.5,
+      "alpha": 1.0,
+      "emission": [
+        1.0,
+        1.0,
+        1.0
+      ],
+      "emissionStrength": 0.0,
+      "baseTexture": "Couleurs_08.png",
+      "normalTexture": null,
+      "normalStrength": 0.0,
+      "alphaTexture": null,
+      "roughnessTexture": null,
+      "metallicTexture": null,
+      "emissionTexture": null,
+      "doubleSided": true,
+      "graph": [
+        [
+          "BSDF_PRINCIPLED",
+          "BSDF",
+          "OUTPUT_MATERIAL",
+          "Surface"
+        ],
+        [
+          "TEX_IMAGE",
+          "Color",
+          "BSDF_PRINCIPLED",
+          "Base Color"
+        ]
+      ]
+    },
+    {
+      "name": "Living grass - opaque folded blades.010",
+      "baseColor": [
+        1,
+        1,
+        1
+      ],
+      "metallic": 0.0,
+      "roughness": 0.9399999976158142,
+      "masked": false,
+      "cutoff": 0.5,
+      "alpha": 1.0,
+      "emission": [
+        1.0,
+        1.0,
+        1.0
+      ],
+      "emissionStrength": 0.0,
+      "baseTexture": "Couleurs_09.png",
+      "normalTexture": null,
+      "normalStrength": 0.0,
+      "alphaTexture": null,
+      "roughnessTexture": null,
+      "metallicTexture": null,
+      "emissionTexture": null,
+      "doubleSided": true,
+      "graph": [
+        [
+          "BSDF_PRINCIPLED",
+          "BSDF",
+          "OUTPUT_MATERIAL",
+          "Surface"
+        ],
+        [
+          "TEX_IMAGE",
+          "Color",
+          "BSDF_PRINCIPLED",
+          "Base Color"
+        ]
+      ]
+    },
+    {
+      "name": "Living grass - opaque folded blades.011",
+      "baseColor": [
+        1,
+        1,
+        1
+      ],
+      "metallic": 0.0,
+      "roughness": 0.9399999976158142,
+      "masked": false,
+      "cutoff": 0.5,
+      "alpha": 1.0,
+      "emission": [
+        1.0,
+        1.0,
+        1.0
+      ],
+      "emissionStrength": 0.0,
+      "baseTexture": "Couleurs_10.png",
+      "normalTexture": null,
+      "normalStrength": 0.0,
+      "alphaTexture": null,
+      "roughnessTexture": null,
+      "metallicTexture": null,
+      "emissionTexture": null,
+      "doubleSided": true,
+      "graph": [
+        [
+          "BSDF_PRINCIPLED",
+          "BSDF",
+          "OUTPUT_MATERIAL",
+          "Surface"
+        ],
+        [
+          "TEX_IMAGE",
+          "Color",
+          "BSDF_PRINCIPLED",
+          "Base Color"
+        ]
+      ]
+    },
+    {
+      "name": "Living grass - opaque folded blades.012",
+      "baseColor": [
+        1,
+        1,
+        1
+      ],
+      "metallic": 0.0,
+      "roughness": 0.9399999976158142,
+      "masked": false,
+      "cutoff": 0.5,
+      "alpha": 1.0,
+      "emission": [
+        1.0,
+        1.0,
+        1.0
+      ],
+      "emissionStrength": 0.0,
+      "baseTexture": "Couleurs_11.png",
+      "normalTexture": null,
+      "normalStrength": 0.0,
+      "alphaTexture": null,
+      "roughnessTexture": null,
+      "metallicTexture": null,
+      "emissionTexture": null,
+      "doubleSided": true,
+      "graph": [
+        [
+          "BSDF_PRINCIPLED",
+          "BSDF",
+          "OUTPUT_MATERIAL",
+          "Surface"
+        ],
+        [
+          "TEX_IMAGE",
+          "Color",
+          "BSDF_PRINCIPLED",
+          "Base Color"
+        ]
+      ]
+    },
+    {
+      "name": "Living grass - opaque folded blades.013",
+      "baseColor": [
+        1,
+        1,
+        1
+      ],
+      "metallic": 0.0,
+      "roughness": 0.9399999976158142,
+      "masked": false,
+      "cutoff": 0.5,
+      "alpha": 1.0,
+      "emission": [
+        1.0,
+        1.0,
+        1.0
+      ],
+      "emissionStrength": 0.0,
+      "baseTexture": "Couleurs_12.png",
+      "normalTexture": null,
+      "normalStrength": 0.0,
+      "alphaTexture": null,
+      "roughnessTexture": null,
+      "metallicTexture": null,
+      "emissionTexture": null,
+      "doubleSided": true,
+      "graph": [
+        [
+          "BSDF_PRINCIPLED",
+          "BSDF",
+          "OUTPUT_MATERIAL",
+          "Surface"
+        ],
+        [
+          "TEX_IMAGE",
+          "Color",
+          "BSDF_PRINCIPLED",
+          "Base Color"
+        ]
+      ]
+    },
+    {
+      "name": "Living grass - opaque folded blades.014",
+      "baseColor": [
+        1,
+        1,
+        1
+      ],
+      "metallic": 0.0,
+      "roughness": 0.9399999976158142,
+      "masked": false,
+      "cutoff": 0.5,
+      "alpha": 1.0,
+      "emission": [
+        1.0,
+        1.0,
+        1.0
+      ],
+      "emissionStrength": 0.0,
+      "baseTexture": "Couleurs_13.png",
+      "normalTexture": null,
+      "normalStrength": 0.0,
+      "alphaTexture": null,
+      "roughnessTexture": null,
+      "metallicTexture": null,
+      "emissionTexture": null,
+      "doubleSided": true,
+      "graph": [
+        [
+          "BSDF_PRINCIPLED",
+          "BSDF",
+          "OUTPUT_MATERIAL",
+          "Surface"
+        ],
+        [
+          "TEX_IMAGE",
+          "Color",
+          "BSDF_PRINCIPLED",
+          "Base Color"
+        ]
+      ]
+    },
+    {
+      "name": "Living grass - opaque folded blades.015",
+      "baseColor": [
+        1,
+        1,
+        1
+      ],
+      "metallic": 0.0,
+      "roughness": 0.9399999976158142,
+      "masked": false,
+      "cutoff": 0.5,
+      "alpha": 1.0,
+      "emission": [
+        1.0,
+        1.0,
+        1.0
+      ],
+      "emissionStrength": 0.0,
+      "baseTexture": "Couleurs_14.png",
+      "normalTexture": null,
+      "normalStrength": 0.0,
+      "alphaTexture": null,
+      "roughnessTexture": null,
+      "metallicTexture": null,
+      "emissionTexture": null,
+      "doubleSided": true,
+      "graph": [
+        [
+          "BSDF_PRINCIPLED",
+          "BSDF",
+          "OUTPUT_MATERIAL",
+          "Surface"
+        ],
+        [
+          "TEX_IMAGE",
+          "Color",
+          "BSDF_PRINCIPLED",
+          "Base Color"
+        ]
+      ]
+    },
+    {
+      "name": "Living grass - opaque folded blades.016",
+      "baseColor": [
+        1,
+        1,
+        1
+      ],
+      "metallic": 0.0,
+      "roughness": 0.9399999976158142,
+      "masked": false,
+      "cutoff": 0.5,
+      "alpha": 1.0,
+      "emission": [
+        1.0,
+        1.0,
+        1.0
+      ],
+      "emissionStrength": 0.0,
+      "baseTexture": "Couleurs_15.png",
+      "normalTexture": null,
+      "normalStrength": 0.0,
+      "alphaTexture": null,
+      "roughnessTexture": null,
+      "metallicTexture": null,
+      "emissionTexture": null,
+      "doubleSided": true,
+      "graph": [
+        [
+          "BSDF_PRINCIPLED",
+          "BSDF",
+          "OUTPUT_MATERIAL",
+          "Surface"
+        ],
+        [
+          "TEX_IMAGE",
+          "Color",
+          "BSDF_PRINCIPLED",
+          "Base Color"
+        ]
+      ]
+    },
+    {
+      "name": "Living grass - opaque folded blades.017",
+      "baseColor": [
+        1,
+        1,
+        1
+      ],
+      "metallic": 0.0,
+      "roughness": 0.9399999976158142,
+      "masked": false,
+      "cutoff": 0.5,
+      "alpha": 1.0,
+      "emission": [
+        1.0,
+        1.0,
+        1.0
+      ],
+      "emissionStrength": 0.0,
+      "baseTexture": "Couleurs_16.png",
+      "normalTexture": null,
+      "normalStrength": 0.0,
+      "alphaTexture": null,
+      "roughnessTexture": null,
+      "metallicTexture": null,
+      "emissionTexture": null,
+      "doubleSided": true,
+      "graph": [
+        [
+          "BSDF_PRINCIPLED",
+          "BSDF",
+          "OUTPUT_MATERIAL",
+          "Surface"
+        ],
+        [
+          "TEX_IMAGE",
+          "Color",
+          "BSDF_PRINCIPLED",
+          "Base Color"
+        ]
+      ]
+    },
+    {
+      "name": "Living grass - opaque folded blades.018",
+      "baseColor": [
+        1,
+        1,
+        1
+      ],
+      "metallic": 0.0,
+      "roughness": 0.9399999976158142,
+      "masked": false,
+      "cutoff": 0.5,
+      "alpha": 1.0,
+      "emission": [
+        1.0,
+        1.0,
+        1.0
+      ],
+      "emissionStrength": 0.0,
+      "baseTexture": "Couleurs_17.png",
+      "normalTexture": null,
+      "normalStrength": 0.0,
+      "alphaTexture": null,
+      "roughnessTexture": null,
+      "metallicTexture": null,
+      "emissionTexture": null,
+      "doubleSided": true,
+      "graph": [
+        [
+          "BSDF_PRINCIPLED",
+          "BSDF",
+          "OUTPUT_MATERIAL",
+          "Surface"
+        ],
+        [
+          "TEX_IMAGE",
+          "Color",
+          "BSDF_PRINCIPLED",
+          "Base Color"
+        ]
+      ]
+    },
+    {
+      "name": "Living grass - opaque folded blades.019",
+      "baseColor": [
+        1,
+        1,
+        1
+      ],
+      "metallic": 0.0,
+      "roughness": 0.9399999976158142,
+      "masked": false,
+      "cutoff": 0.5,
+      "alpha": 1.0,
+      "emission": [
+        1.0,
+        1.0,
+        1.0
+      ],
+      "emissionStrength": 0.0,
+      "baseTexture": "Couleurs_18.png",
+      "normalTexture": null,
+      "normalStrength": 0.0,
+      "alphaTexture": null,
+      "roughnessTexture": null,
+      "metallicTexture": null,
+      "emissionTexture": null,
+      "doubleSided": true,
+      "graph": [
+        [
+          "BSDF_PRINCIPLED",
+          "BSDF",
+          "OUTPUT_MATERIAL",
+          "Surface"
+        ],
+        [
+          "TEX_IMAGE",
+          "Color",
+          "BSDF_PRINCIPLED",
+          "Base Color"
+        ]
+      ]
+    },
+    {
+      "name": "Living grass - opaque folded blades.020",
+      "baseColor": [
+        1,
+        1,
+        1
+      ],
+      "metallic": 0.0,
+      "roughness": 0.9399999976158142,
+      "masked": false,
+      "cutoff": 0.5,
+      "alpha": 1.0,
+      "emission": [
+        1.0,
+        1.0,
+        1.0
+      ],
+      "emissionStrength": 0.0,
+      "baseTexture": "Couleurs_19.png",
+      "normalTexture": null,
+      "normalStrength": 0.0,
+      "alphaTexture": null,
+      "roughnessTexture": null,
+      "metallicTexture": null,
+      "emissionTexture": null,
+      "doubleSided": true,
+      "graph": [
+        [
+          "BSDF_PRINCIPLED",
+          "BSDF",
+          "OUTPUT_MATERIAL",
+          "Surface"
+        ],
+        [
+          "TEX_IMAGE",
+          "Color",
+          "BSDF_PRINCIPLED",
+          "Base Color"
+        ]
+      ]
+    },
+    {
+      "name": "Living grass - opaque folded blades.021",
+      "baseColor": [
+        1,
+        1,
+        1
+      ],
+      "metallic": 0.0,
+      "roughness": 0.9399999976158142,
+      "masked": false,
+      "cutoff": 0.5,
+      "alpha": 1.0,
+      "emission": [
+        1.0,
+        1.0,
+        1.0
+      ],
+      "emissionStrength": 0.0,
+      "baseTexture": "Couleurs_20.png",
+      "normalTexture": null,
+      "normalStrength": 0.0,
+      "alphaTexture": null,
+      "roughnessTexture": null,
+      "metallicTexture": null,
+      "emissionTexture": null,
+      "doubleSided": true,
+      "graph": [
+        [
+          "BSDF_PRINCIPLED",
+          "BSDF",
+          "OUTPUT_MATERIAL",
+          "Surface"
+        ],
+        [
+          "TEX_IMAGE",
+          "Color",
+          "BSDF_PRINCIPLED",
+          "Base Color"
+        ]
+      ]
+    },
+    {
+      "name": "Living grass - opaque folded blades.022",
+      "baseColor": [
+        1,
+        1,
+        1
+      ],
+      "metallic": 0.0,
+      "roughness": 0.9399999976158142,
+      "masked": false,
+      "cutoff": 0.5,
+      "alpha": 1.0,
+      "emission": [
+        1.0,
+        1.0,
+        1.0
+      ],
+      "emissionStrength": 0.0,
+      "baseTexture": "Couleurs_21.png",
+      "normalTexture": null,
+      "normalStrength": 0.0,
+      "alphaTexture": null,
+      "roughnessTexture": null,
+      "metallicTexture": null,
+      "emissionTexture": null,
+      "doubleSided": true,
+      "graph": [
+        [
+          "BSDF_PRINCIPLED",
+          "BSDF",
+          "OUTPUT_MATERIAL",
+          "Surface"
+        ],
+        [
+          "TEX_IMAGE",
+          "Color",
+          "BSDF_PRINCIPLED",
+          "Base Color"
+        ]
+      ]
+    },
+    {
+      "name": "Living grass - opaque folded blades.023",
+      "baseColor": [
+        1,
+        1,
+        1
+      ],
+      "metallic": 0.0,
+      "roughness": 0.9399999976158142,
+      "masked": false,
+      "cutoff": 0.5,
+      "alpha": 1.0,
+      "emission": [
+        1.0,
+        1.0,
+        1.0
+      ],
+      "emissionStrength": 0.0,
+      "baseTexture": "Couleurs_22.png",
+      "normalTexture": null,
+      "normalStrength": 0.0,
+      "alphaTexture": null,
+      "roughnessTexture": null,
+      "metallicTexture": null,
+      "emissionTexture": null,
+      "doubleSided": true,
+      "graph": [
+        [
+          "BSDF_PRINCIPLED",
+          "BSDF",
+          "OUTPUT_MATERIAL",
+          "Surface"
+        ],
+        [
+          "TEX_IMAGE",
+          "Color",
+          "BSDF_PRINCIPLED",
+          "Base Color"
+        ]
+      ]
+    },
+    {
+      "name": "Living grass - opaque folded blades.024",
+      "baseColor": [
+        1,
+        1,
+        1
+      ],
+      "metallic": 0.0,
+      "roughness": 0.9399999976158142,
+      "masked": false,
+      "cutoff": 0.5,
+      "alpha": 1.0,
+      "emission": [
+        1.0,
+        1.0,
+        1.0
+      ],
+      "emissionStrength": 0.0,
+      "baseTexture": "Couleurs_23.png",
+      "normalTexture": null,
+      "normalStrength": 0.0,
+      "alphaTexture": null,
+      "roughnessTexture": null,
+      "metallicTexture": null,
+      "emissionTexture": null,
+      "doubleSided": true,
+      "graph": [
+        [
+          "BSDF_PRINCIPLED",
+          "BSDF",
+          "OUTPUT_MATERIAL",
+          "Surface"
+        ],
+        [
+          "TEX_IMAGE",
+          "Color",
+          "BSDF_PRINCIPLED",
+          "Base Color"
+        ]
+      ]
+    },
+    {
+      "name": "Living grass - opaque folded blades.025",
+      "baseColor": [
+        1,
+        1,
+        1
+      ],
+      "metallic": 0.0,
+      "roughness": 0.9399999976158142,
+      "masked": false,
+      "cutoff": 0.5,
+      "alpha": 1.0,
+      "emission": [
+        1.0,
+        1.0,
+        1.0
+      ],
+      "emissionStrength": 0.0,
+      "baseTexture": "Couleurs_24.png",
+      "normalTexture": null,
+      "normalStrength": 0.0,
+      "alphaTexture": null,
+      "roughnessTexture": null,
+      "metallicTexture": null,
+      "emissionTexture": null,
+      "doubleSided": true,
+      "graph": [
+        [
+          "BSDF_PRINCIPLED",
+          "BSDF",
+          "OUTPUT_MATERIAL",
+          "Surface"
+        ],
+        [
+          "TEX_IMAGE",
+          "Color",
+          "BSDF_PRINCIPLED",
+          "Base Color"
+        ]
+      ]
+    },
+    {
+      "name": "Marbre ivoire - anatomie.001",
+      "baseColor": [
+        0.7099999785423279,
+        0.6850000023841858,
+        0.6200000047683716
+      ],
+      "metallic": 0.0,
+      "roughness": 0.47999998927116394,
+      "masked": false,
+      "cutoff": 0.5,
+      "alpha": 1.0,
+      "emission": [
+        1.0,
+        1.0,
+        1.0
+      ],
+      "emissionStrength": 0.0,
+      "baseTexture": null,
+      "normalTexture": null,
+      "normalStrength": 0.0,
+      "alphaTexture": null,
+      "roughnessTexture": null,
+      "metallicTexture": null,
+      "emissionTexture": null,
+      "doubleSided": true,
+      "graph": [
+        [
+          "BSDF_PRINCIPLED",
+          "BSDF",
+          "OUTPUT_MATERIAL",
+          "Surface"
+        ]
+      ]
+    },
+    {
+      "name": "Marbre ivoire - anatomie.002",
+      "baseColor": [
+        0.7099999785423279,
+        0.6850000023841858,
+        0.6200000047683716
+      ],
+      "metallic": 0.0,
+      "roughness": 0.47999998927116394,
+      "masked": false,
+      "cutoff": 0.5,
+      "alpha": 1.0,
+      "emission": [
+        1.0,
+        1.0,
+        1.0
+      ],
+      "emissionStrength": 0.0,
+      "baseTexture": null,
+      "normalTexture": null,
+      "normalStrength": 0.0,
+      "alphaTexture": null,
+      "roughnessTexture": null,
+      "metallicTexture": null,
+      "emissionTexture": null,
+      "doubleSided": true,
+      "graph": [
+        [
+          "BSDF_PRINCIPLED",
+          "BSDF",
+          "OUTPUT_MATERIAL",
+          "Surface"
+        ]
+      ]
+    },
+    {
+      "name": "Marbre ivoire - anatomie.003",
+      "baseColor": [
+        0.7099999785423279,
+        0.6850000023841858,
+        0.6200000047683716
+      ],
+      "metallic": 0.0,
+      "roughness": 0.47999998927116394,
+      "masked": false,
+      "cutoff": 0.5,
+      "alpha": 1.0,
+      "emission": [
+        1.0,
+        1.0,
+        1.0
+      ],
+      "emissionStrength": 0.0,
+      "baseTexture": null,
+      "normalTexture": null,
+      "normalStrength": 0.0,
+      "alphaTexture": null,
+      "roughnessTexture": null,
+      "metallicTexture": null,
+      "emissionTexture": null,
+      "doubleSided": true,
+      "graph": [
+        [
+          "BSDF_PRINCIPLED",
+          "BSDF",
+          "OUTPUT_MATERIAL",
+          "Surface"
+        ]
+      ]
+    },
+    {
+      "name": "Marbre ivoire - anatomie.004",
+      "baseColor": [
+        0.7099999785423279,
+        0.6850000023841858,
+        0.6200000047683716
+      ],
+      "metallic": 0.0,
+      "roughness": 0.47999998927116394,
+      "masked": false,
+      "cutoff": 0.5,
+      "alpha": 1.0,
+      "emission": [
+        1.0,
+        1.0,
+        1.0
+      ],
+      "emissionStrength": 0.0,
+      "baseTexture": null,
+      "normalTexture": null,
+      "normalStrength": 0.0,
+      "alphaTexture": null,
+      "roughnessTexture": null,
+      "metallicTexture": null,
+      "emissionTexture": null,
+      "doubleSided": true,
+      "graph": [
+        [
+          "BSDF_PRINCIPLED",
+          "BSDF",
+          "OUTPUT_MATERIAL",
+          "Surface"
+        ]
+      ]
+    },
+    {
+      "name": "Marbre ivoire - chevelure ciselee.001",
+      "baseColor": [
+        0.6499999761581421,
+        0.6240000128746033,
+        0.5600000023841858
+      ],
+      "metallic": 0.0,
+      "roughness": 0.6000000238418579,
+      "masked": false,
+      "cutoff": 0.5,
+      "alpha": 1.0,
+      "emission": [
+        1.0,
+        1.0,
+        1.0
+      ],
+      "emissionStrength": 0.0,
+      "baseTexture": null,
+      "normalTexture": null,
+      "normalStrength": 0.0,
+      "alphaTexture": null,
+      "roughnessTexture": null,
+      "metallicTexture": null,
+      "emissionTexture": null,
+      "doubleSided": true,
+      "graph": [
+        [
+          "BSDF_PRINCIPLED",
+          "BSDF",
+          "OUTPUT_MATERIAL",
+          "Surface"
+        ]
+      ]
+    },
+    {
+      "name": "Marbre ivoire - chevelure ciselee.002",
+      "baseColor": [
+        0.6499999761581421,
+        0.6240000128746033,
+        0.5600000023841858
+      ],
+      "metallic": 0.0,
+      "roughness": 0.6000000238418579,
+      "masked": false,
+      "cutoff": 0.5,
+      "alpha": 1.0,
+      "emission": [
+        1.0,
+        1.0,
+        1.0
+      ],
+      "emissionStrength": 0.0,
+      "baseTexture": null,
+      "normalTexture": null,
+      "normalStrength": 0.0,
+      "alphaTexture": null,
+      "roughnessTexture": null,
+      "metallicTexture": null,
+      "emissionTexture": null,
+      "doubleSided": true,
+      "graph": [
+        [
+          "BSDF_PRINCIPLED",
+          "BSDF",
+          "OUTPUT_MATERIAL",
+          "Surface"
+        ]
+      ]
+    },
+    {
+      "name": "Marbre ivoire - chevelure ciselee.003",
+      "baseColor": [
+        0.6499999761581421,
+        0.6240000128746033,
+        0.5600000023841858
+      ],
+      "metallic": 0.0,
+      "roughness": 0.6000000238418579,
+      "masked": false,
+      "cutoff": 0.5,
+      "alpha": 1.0,
+      "emission": [
+        1.0,
+        1.0,
+        1.0
+      ],
+      "emissionStrength": 0.0,
+      "baseTexture": null,
+      "normalTexture": null,
+      "normalStrength": 0.0,
+      "alphaTexture": null,
+      "roughnessTexture": null,
+      "metallicTexture": null,
+      "emissionTexture": null,
+      "doubleSided": true,
+      "graph": [
+        [
+          "BSDF_PRINCIPLED",
+          "BSDF",
+          "OUTPUT_MATERIAL",
+          "Surface"
+        ]
+      ]
+    },
+    {
+      "name": "Marbre ivoire - chevelure ciselee.004",
+      "baseColor": [
+        0.6499999761581421,
+        0.6240000128746033,
+        0.5600000023841858
+      ],
+      "metallic": 0.0,
+      "roughness": 0.6000000238418579,
+      "masked": false,
+      "cutoff": 0.5,
+      "alpha": 1.0,
+      "emission": [
+        1.0,
+        1.0,
+        1.0
+      ],
+      "emissionStrength": 0.0,
+      "baseTexture": null,
+      "normalTexture": null,
+      "normalStrength": 0.0,
+      "alphaTexture": null,
+      "roughnessTexture": null,
+      "metallicTexture": null,
+      "emissionTexture": null,
+      "doubleSided": true,
+      "graph": [
+        [
+          "BSDF_PRINCIPLED",
+          "BSDF",
+          "OUTPUT_MATERIAL",
+          "Surface"
+        ]
+      ]
+    },
+    {
+      "name": "Marbre ivoire - drapes.001",
+      "baseColor": [
+        0.6899999976158142,
+        0.6650000214576721,
+        0.6000000238418579
+      ],
+      "metallic": 0.0,
+      "roughness": 0.5699999928474426,
+      "masked": false,
+      "cutoff": 0.5,
+      "alpha": 1.0,
+      "emission": [
+        1.0,
+        1.0,
+        1.0
+      ],
+      "emissionStrength": 0.0,
+      "baseTexture": null,
+      "normalTexture": null,
+      "normalStrength": 0.0,
+      "alphaTexture": null,
+      "roughnessTexture": null,
+      "metallicTexture": null,
+      "emissionTexture": null,
+      "doubleSided": true,
+      "graph": [
+        [
+          "BSDF_PRINCIPLED",
+          "BSDF",
+          "OUTPUT_MATERIAL",
+          "Surface"
+        ]
+      ]
+    },
+    {
+      "name": "Marbre ivoire - drapes.002",
+      "baseColor": [
+        0.6899999976158142,
+        0.6650000214576721,
+        0.6000000238418579
+      ],
+      "metallic": 0.0,
+      "roughness": 0.5699999928474426,
+      "masked": false,
+      "cutoff": 0.5,
+      "alpha": 1.0,
+      "emission": [
+        1.0,
+        1.0,
+        1.0
+      ],
+      "emissionStrength": 0.0,
+      "baseTexture": null,
+      "normalTexture": null,
+      "normalStrength": 0.0,
+      "alphaTexture": null,
+      "roughnessTexture": null,
+      "metallicTexture": null,
+      "emissionTexture": null,
+      "doubleSided": true,
+      "graph": [
+        [
+          "BSDF_PRINCIPLED",
+          "BSDF",
+          "OUTPUT_MATERIAL",
+          "Surface"
+        ]
+      ]
+    },
+    {
+      "name": "Marbre ivoire - drapes.003",
+      "baseColor": [
+        0.6899999976158142,
+        0.6650000214576721,
+        0.6000000238418579
+      ],
+      "metallic": 0.0,
+      "roughness": 0.5699999928474426,
+      "masked": false,
+      "cutoff": 0.5,
+      "alpha": 1.0,
+      "emission": [
+        1.0,
+        1.0,
+        1.0
+      ],
+      "emissionStrength": 0.0,
+      "baseTexture": null,
+      "normalTexture": null,
+      "normalStrength": 0.0,
+      "alphaTexture": null,
+      "roughnessTexture": null,
+      "metallicTexture": null,
+      "emissionTexture": null,
+      "doubleSided": true,
+      "graph": [
+        [
+          "BSDF_PRINCIPLED",
+          "BSDF",
+          "OUTPUT_MATERIAL",
+          "Surface"
+        ]
+      ]
+    },
+    {
+      "name": "Marbre ivoire - drapes.004",
+      "baseColor": [
+        0.6899999976158142,
+        0.6650000214576721,
+        0.6000000238418579
+      ],
+      "metallic": 0.0,
+      "roughness": 0.5699999928474426,
+      "masked": false,
+      "cutoff": 0.5,
+      "alpha": 1.0,
+      "emission": [
+        1.0,
+        1.0,
+        1.0
+      ],
+      "emissionStrength": 0.0,
+      "baseTexture": null,
+      "normalTexture": null,
+      "normalStrength": 0.0,
+      "alphaTexture": null,
+      "roughnessTexture": null,
+      "metallicTexture": null,
+      "emissionTexture": null,
+      "doubleSided": true,
+      "graph": [
+        [
+          "BSDF_PRINCIPLED",
+          "BSDF",
+          "OUTPUT_MATERIAL",
+          "Surface"
+        ]
+      ]
+    },
+    {
+      "name": "Marbre ivoire - ornements polis.001",
+      "baseColor": [
+        0.7599999904632568,
+        0.7300000190734863,
+        0.6600000262260437
+      ],
+      "metallic": 0.0,
+      "roughness": 0.38999998569488525,
+      "masked": false,
+      "cutoff": 0.5,
+      "alpha": 1.0,
+      "emission": [
+        1.0,
+        1.0,
+        1.0
+      ],
+      "emissionStrength": 0.0,
+      "baseTexture": null,
+      "normalTexture": null,
+      "normalStrength": 0.0,
+      "alphaTexture": null,
+      "roughnessTexture": null,
+      "metallicTexture": null,
+      "emissionTexture": null,
+      "doubleSided": true,
+      "graph": [
+        [
+          "BSDF_PRINCIPLED",
+          "BSDF",
+          "OUTPUT_MATERIAL",
+          "Surface"
+        ]
+      ]
+    },
+    {
+      "name": "Marbre ivoire - ornements polis.002",
+      "baseColor": [
+        0.7599999904632568,
+        0.7300000190734863,
+        0.6600000262260437
+      ],
+      "metallic": 0.0,
+      "roughness": 0.38999998569488525,
+      "masked": false,
+      "cutoff": 0.5,
+      "alpha": 1.0,
+      "emission": [
+        1.0,
+        1.0,
+        1.0
+      ],
+      "emissionStrength": 0.0,
+      "baseTexture": null,
+      "normalTexture": null,
+      "normalStrength": 0.0,
+      "alphaTexture": null,
+      "roughnessTexture": null,
+      "metallicTexture": null,
+      "emissionTexture": null,
+      "doubleSided": true,
+      "graph": [
+        [
+          "BSDF_PRINCIPLED",
+          "BSDF",
+          "OUTPUT_MATERIAL",
+          "Surface"
+        ]
+      ]
+    },
+    {
+      "name": "Marbre ivoire - ornements polis.003",
+      "baseColor": [
+        0.7599999904632568,
+        0.7300000190734863,
+        0.6600000262260437
+      ],
+      "metallic": 0.0,
+      "roughness": 0.38999998569488525,
+      "masked": false,
+      "cutoff": 0.5,
+      "alpha": 1.0,
+      "emission": [
+        1.0,
+        1.0,
+        1.0
+      ],
+      "emissionStrength": 0.0,
+      "baseTexture": null,
+      "normalTexture": null,
+      "normalStrength": 0.0,
+      "alphaTexture": null,
+      "roughnessTexture": null,
+      "metallicTexture": null,
+      "emissionTexture": null,
+      "doubleSided": true,
+      "graph": [
+        [
+          "BSDF_PRINCIPLED",
+          "BSDF",
+          "OUTPUT_MATERIAL",
+          "Surface"
+        ]
+      ]
+    },
+    {
+      "name": "Marbre ivoire - ornements polis.004",
+      "baseColor": [
+        0.7599999904632568,
+        0.7300000190734863,
+        0.6600000262260437
+      ],
+      "metallic": 0.0,
+      "roughness": 0.38999998569488525,
+      "masked": false,
+      "cutoff": 0.5,
+      "alpha": 1.0,
+      "emission": [
+        1.0,
+        1.0,
+        1.0
+      ],
+      "emissionStrength": 0.0,
+      "baseTexture": null,
+      "normalTexture": null,
+      "normalStrength": 0.0,
+      "alphaTexture": null,
+      "roughnessTexture": null,
+      "metallicTexture": null,
+      "emissionTexture": null,
+      "doubleSided": true,
+      "graph": [
+        [
+          "BSDF_PRINCIPLED",
+          "BSDF",
+          "OUTPUT_MATERIAL",
+          "Surface"
+        ]
+      ]
+    },
+    {
+      "name": "Noyer sculpte et cire.003",
+      "baseColor": [
+        1,
+        1,
+        1
+      ],
+      "metallic": 0.0,
+      "roughness": 0.41999998688697815,
+      "masked": false,
+      "cutoff": 0.5,
+      "alpha": 1.0,
+      "emission": [
+        1.0,
+        1.0,
+        1.0
+      ],
+      "emissionStrength": 0.0,
+      "baseTexture": "Noyer_-_fibres_fines.png",
+      "normalTexture": null,
+      "normalStrength": 0.0,
+      "alphaTexture": null,
+      "roughnessTexture": null,
+      "metallicTexture": null,
+      "emissionTexture": null,
+      "doubleSided": true,
+      "graph": [
+        [
+          "BSDF_PRINCIPLED",
+          "BSDF",
+          "OUTPUT_MATERIAL",
+          "Surface"
+        ],
+        [
+          "TEX_IMAGE",
+          "Color",
+          "BSDF_PRINCIPLED",
+          "Base Color"
+        ]
+      ]
+    },
+    {
+      "name": "Patinated green cast iron",
+      "baseColor": [
+        0.054999999701976776,
+        0.09000000357627869,
+        0.07400000095367432
+      ],
+      "metallic": 0.699999988079071,
+      "roughness": 0.47999998927116394,
+      "masked": false,
+      "cutoff": 0.5,
+      "alpha": 1.0,
+      "emission": [
+        1.0,
+        1.0,
+        1.0
+      ],
+      "emissionStrength": 0.0,
+      "baseTexture": null,
+      "normalTexture": null,
+      "normalStrength": 0.0,
+      "alphaTexture": null,
+      "roughnessTexture": null,
+      "metallicTexture": null,
+      "emissionTexture": null,
+      "doubleSided": true,
+      "graph": [
+        [
+          "BSDF_PRINCIPLED",
+          "BSDF",
+          "OUTPUT_MATERIAL",
+          "Surface"
+        ]
+      ]
+    },
+    {
+      "name": "Prairie douce",
+      "baseColor": [
+        1,
+        1,
+        1
+      ],
+      "metallic": 0.0,
+      "roughness": 1.0,
+      "masked": false,
+      "cutoff": 0.5,
+      "alpha": 1.0,
+      "emission": [
+        1.0,
+        1.0,
+        1.0
+      ],
+      "emissionStrength": 0.0,
+      "baseTexture": "Prairie_douce_texture.png",
+      "normalTexture": null,
+      "normalStrength": 0.0,
+      "alphaTexture": null,
+      "roughnessTexture": null,
+      "metallicTexture": null,
+      "emissionTexture": null,
+      "doubleSided": true,
+      "graph": [
+        [
+          "BSDF_PRINCIPLED",
+          "BSDF",
+          "OUTPUT_MATERIAL",
+          "Surface"
+        ],
+        [
+          "TEX_IMAGE",
+          "Color",
+          "BSDF_PRINCIPLED",
+          "Base Color"
+        ]
+      ]
+    },
+    {
+      "name": "Robe alezane.003",
+      "baseColor": [
+        0.3199999928474426,
+        0.11999999731779099,
+        0.03999999910593033
+      ],
+      "metallic": 0.0,
+      "roughness": 0.5799999833106995,
+      "masked": false,
+      "cutoff": 0.5,
+      "alpha": 1.0,
+      "emission": [
+        1.0,
+        1.0,
+        1.0
+      ],
+      "emissionStrength": 0.0,
+      "baseTexture": null,
+      "normalTexture": null,
+      "normalStrength": 0.0,
+      "alphaTexture": null,
+      "roughnessTexture": null,
+      "metallicTexture": null,
+      "emissionTexture": null,
+      "doubleSided": true,
+      "graph": [
+        [
+          "BSDF_PRINCIPLED",
+          "BSDF",
+          "OUTPUT_MATERIAL",
+          "Surface"
+        ]
+      ]
+    },
+    {
+      "name": "Robe baie acajou.003",
+      "baseColor": [
+        0.2199999988079071,
+        0.0689999982714653,
+        0.02199999988079071
+      ],
+      "metallic": 0.0,
+      "roughness": 0.5699999928474426,
+      "masked": false,
+      "cutoff": 0.5,
+      "alpha": 1.0,
+      "emission": [
+        1.0,
+        1.0,
+        1.0
+      ],
+      "emissionStrength": 0.0,
+      "baseTexture": null,
+      "normalTexture": null,
+      "normalStrength": 0.0,
+      "alphaTexture": null,
+      "roughnessTexture": null,
+      "metallicTexture": null,
+      "emissionTexture": null,
+      "doubleSided": true,
+      "graph": [
+        [
+          "BSDF_PRINCIPLED",
+          "BSDF",
+          "OUTPUT_MATERIAL",
+          "Surface"
+        ]
+      ]
+    },
+    {
+      "name": "Rose stems and sepals - living green.002",
+      "baseColor": [
+        1,
+        1,
+        1
+      ],
+      "metallic": 0.0,
+      "roughness": 0.8299999833106995,
+      "masked": false,
+      "cutoff": 0.5,
+      "alpha": 1.0,
+      "emission": [
+        1.0,
+        1.0,
+        1.0
+      ],
+      "emissionStrength": 0.0,
+      "baseTexture": "Couleurs_25.png",
+      "normalTexture": "Couleurs_25_Normal.png",
+      "normalStrength": 1.0,
+      "alphaTexture": null,
+      "roughnessTexture": null,
+      "metallicTexture": null,
+      "emissionTexture": null,
+      "doubleSided": true,
+      "graph": [
+        [
+          "BSDF_PRINCIPLED",
+          "BSDF",
+          "OUTPUT_MATERIAL",
+          "Surface"
+        ],
+        [
+          "TEX_IMAGE",
+          "Color",
+          "BSDF_PRINCIPLED",
+          "Base Color"
+        ],
+        [
+          "TEX_IMAGE",
+          "Color",
+          "NORMAL_MAP",
+          "Color"
+        ],
+        [
+          "NORMAL_MAP",
+          "Normal",
+          "BSDF_PRINCIPLED",
+          "Normal"
+        ]
+      ]
+    },
+    {
+      "name": "Rose stems and sepals - living green.003",
+      "baseColor": [
+        1,
+        1,
+        1
+      ],
+      "metallic": 0.0,
+      "roughness": 0.8299999833106995,
+      "masked": false,
+      "cutoff": 0.5,
+      "alpha": 1.0,
+      "emission": [
+        1.0,
+        1.0,
+        1.0
+      ],
+      "emissionStrength": 0.0,
+      "baseTexture": "Couleurs_26.png",
+      "normalTexture": "Couleurs_26_Normal.png",
+      "normalStrength": 1.0,
+      "alphaTexture": null,
+      "roughnessTexture": null,
+      "metallicTexture": null,
+      "emissionTexture": null,
+      "doubleSided": true,
+      "graph": [
+        [
+          "BSDF_PRINCIPLED",
+          "BSDF",
+          "OUTPUT_MATERIAL",
+          "Surface"
+        ],
+        [
+          "TEX_IMAGE",
+          "Color",
+          "BSDF_PRINCIPLED",
+          "Base Color"
+        ],
+        [
+          "TEX_IMAGE",
+          "Color",
+          "NORMAL_MAP",
+          "Color"
+        ],
+        [
+          "NORMAL_MAP",
+          "Normal",
+          "BSDF_PRINCIPLED",
+          "Normal"
+        ]
+      ]
+    },
+    {
+      "name": "Sparkling spray",
+      "baseColor": [
+        0.7200000286102295,
+        0.8600000143051147,
+        0.8299999833106995
+      ],
+      "metallic": 0.11999999731779099,
+      "roughness": 0.2800000011920929,
+      "masked": false,
+      "cutoff": 0.5,
+      "alpha": 1.0,
+      "emission": [
+        1.0,
+        1.0,
+        1.0
+      ],
+      "emissionStrength": 0.0,
+      "baseTexture": null,
+      "normalTexture": null,
+      "normalStrength": 0.0,
+      "alphaTexture": null,
+      "roughnessTexture": null,
+      "metallicTexture": null,
+      "emissionTexture": null,
+      "doubleSided": true,
+      "graph": [
+        [
+          "BSDF_PRINCIPLED",
+          "BSDF",
+          "OUTPUT_MATERIAL",
+          "Surface"
+        ]
+      ]
+    },
+    {
+      "name": "Sparkling spray.001",
+      "baseColor": [
+        0.7200000286102295,
+        0.8600000143051147,
+        0.8299999833106995
+      ],
+      "metallic": 0.11999999731779099,
+      "roughness": 0.2800000011920929,
+      "masked": false,
+      "cutoff": 0.5,
+      "alpha": 1.0,
+      "emission": [
+        1.0,
+        1.0,
+        1.0
+      ],
+      "emissionStrength": 0.0,
+      "baseTexture": null,
+      "normalTexture": null,
+      "normalStrength": 0.0,
+      "alphaTexture": null,
+      "roughnessTexture": null,
+      "metallicTexture": null,
+      "emissionTexture": null,
+      "doubleSided": true,
+      "graph": [
+        [
+          "BSDF_PRINCIPLED",
+          "BSDF",
+          "OUTPUT_MATERIAL",
+          "Surface"
+        ]
+      ]
+    },
+    {
+      "name": "Submerged limestone",
+      "baseColor": [
+        0.18000000715255737,
+        0.25,
+        0.20000000298023224
+      ],
+      "metallic": 0.0,
+      "roughness": 0.6499999761581421,
+      "masked": false,
+      "cutoff": 0.5,
+      "alpha": 1.0,
+      "emission": [
+        1.0,
+        1.0,
+        1.0
+      ],
+      "emissionStrength": 0.0,
+      "baseTexture": null,
+      "normalTexture": null,
+      "normalStrength": 0.0,
+      "alphaTexture": null,
+      "roughnessTexture": null,
+      "metallicTexture": null,
+      "emissionTexture": null,
+      "doubleSided": true,
+      "graph": [
+        [
+          "BSDF_PRINCIPLED",
+          "BSDF",
+          "OUTPUT_MATERIAL",
+          "Surface"
+        ]
+      ]
+    },
+    {
+      "name": "Velours cramoisi.003",
+      "baseColor": [
+        0.23999999463558197,
+        0.012000000104308128,
+        0.02199999988079071
+      ],
+      "metallic": 0.0,
+      "roughness": 0.8600000143051147,
+      "masked": false,
+      "cutoff": 0.5,
+      "alpha": 1.0,
+      "emission": [
+        1.0,
+        1.0,
+        1.0
+      ],
+      "emissionStrength": 0.0,
+      "baseTexture": null,
+      "normalTexture": null,
+      "normalStrength": 0.0,
+      "alphaTexture": null,
+      "roughnessTexture": null,
+      "metallicTexture": null,
+      "emissionTexture": null,
+      "doubleSided": true,
+      "graph": [
+        [
+          "BSDF_PRINCIPLED",
+          "BSDF",
+          "OUTPUT_MATERIAL",
+          "Surface"
+        ]
+      ]
+    },
+    {
+      "name": "Warm limestone",
+      "baseColor": [
+        1,
+        1,
+        1
+      ],
+      "metallic": 0.0,
+      "roughness": 0.699999988079071,
+      "masked": false,
+      "cutoff": 0.5,
+      "alpha": 1.0,
+      "emission": [
+        1.0,
+        1.0,
+        1.0
+      ],
+      "emissionStrength": 0.0,
+      "baseTexture": "Warm_limestone_albedo_512.png",
+      "normalTexture": "Warm_limestone_normal_512.png",
+      "normalStrength": 1.0,
+      "alphaTexture": null,
+      "roughnessTexture": null,
+      "metallicTexture": null,
+      "emissionTexture": null,
+      "doubleSided": true,
+      "graph": [
+        [
+          "BSDF_PRINCIPLED",
+          "BSDF",
+          "OUTPUT_MATERIAL",
+          "Surface"
+        ],
+        [
+          "TEX_IMAGE",
+          "Color",
+          "BSDF_PRINCIPLED",
+          "Base Color"
+        ],
+        [
+          "NORMAL_MAP",
+          "Normal",
+          "BSDF_PRINCIPLED",
+          "Normal"
+        ],
+        [
+          "TEX_IMAGE",
+          "Color",
+          "NORMAL_MAP",
+          "Color"
+        ]
+      ]
+    },
+    {
+      "name": "Weathered oak.001",
+      "baseColor": [
+        1,
+        1,
+        1
+      ],
+      "metallic": 0.0,
+      "roughness": 0.699999988079071,
+      "masked": false,
+      "cutoff": 0.5,
+      "alpha": 1.0,
+      "emission": [
+        1.0,
+        1.0,
+        1.0
+      ],
+      "emissionStrength": 0.0,
+      "baseTexture": "Weathered_oak_albedo_512.png",
+      "normalTexture": "Weathered_oak_normal_512.png",
+      "normalStrength": 1.0,
+      "alphaTexture": null,
+      "roughnessTexture": null,
+      "metallicTexture": null,
+      "emissionTexture": null,
+      "doubleSided": true,
+      "graph": [
+        [
+          "BSDF_PRINCIPLED",
+          "BSDF",
+          "OUTPUT_MATERIAL",
+          "Surface"
+        ],
+        [
+          "TEX_IMAGE",
+          "Color",
+          "BSDF_PRINCIPLED",
+          "Base Color"
+        ],
+        [
+          "NORMAL_MAP",
+          "Normal",
+          "BSDF_PRINCIPLED",
+          "Normal"
+        ],
+        [
+          "TEX_IMAGE",
+          "Color",
+          "NORMAL_MAP",
+          "Color"
+        ]
+      ]
+    },
+    {
+      "name": "Yeux humides.003",
+      "baseColor": [
+        0.00800000037997961,
+        0.006000000052154064,
+        0.004000000189989805
+      ],
+      "metallic": 0.0,
+      "roughness": 0.1599999964237213,
+      "masked": false,
+      "cutoff": 0.5,
+      "alpha": 1.0,
+      "emission": [
+        1.0,
+        1.0,
+        1.0
+      ],
+      "emissionStrength": 0.0,
+      "baseTexture": null,
+      "normalTexture": null,
+      "normalStrength": 0.0,
+      "alphaTexture": null,
+      "roughnessTexture": null,
+      "metallicTexture": null,
+      "emissionTexture": null,
+      "doubleSided": true,
+      "graph": [
+        [
+          "BSDF_PRINCIPLED",
+          "BSDF",
+          "OUTPUT_MATERIAL",
+          "Surface"
+        ]
+      ]
+    },
+    {
+      "name": "coachPortal",
+      "baseColor": [
+        0.7011018991470337,
+        0.47353148460388184,
+        0.13013647496700287
+      ],
+      "metallic": 0.7200000286102295,
+      "roughness": 0.3199999928474426,
+      "masked": false,
+      "cutoff": 0.5,
+      "alpha": 1.0,
+      "emission": [
+        1.0,
+        1.0,
+        1.0
+      ],
+      "emissionStrength": 0.0,
+      "baseTexture": null,
+      "normalTexture": null,
+      "normalStrength": 0.0,
+      "alphaTexture": null,
+      "roughnessTexture": null,
+      "metallicTexture": null,
+      "emissionTexture": null,
+      "doubleSided": true,
+      "graph": [
+        [
+          "BSDF_PRINCIPLED",
+          "BSDF",
+          "OUTPUT_MATERIAL",
+          "Surface"
+        ]
+      ]
+    },
+    {
+      "name": "coachPortal.001",
+      "baseColor": [
+        0.16202937066555023,
+        0.5647115111351013,
+        0.5906188488006592
+      ],
+      "metallic": 0.0,
+      "roughness": 0.5,
+      "masked": false,
+      "cutoff": 0.5,
+      "alpha": 0.20999999344348907,
+      "emission": [
+        0.16202937066555023,
+        0.5647115111351013,
+        0.5906188488006592
+      ],
+      "emissionStrength": 1.0,
+      "baseTexture": null,
+      "normalTexture": null,
+      "normalStrength": 0.0,
+      "alphaTexture": null,
+      "roughnessTexture": null,
+      "metallicTexture": null,
+      "emissionTexture": null,
+      "doubleSided": true,
+      "graph": [
+        [
+          "BSDF_PRINCIPLED",
+          "BSDF",
+          "OUTPUT_MATERIAL",
+          "Surface"
+        ]
+      ]
+    },
+    {
+      "name": "coachPortal.002",
+      "baseColor": [
+        0.7011018991470337,
+        0.47353148460388184,
+        0.13013647496700287
+      ],
+      "metallic": 0.7200000286102295,
+      "roughness": 0.3199999928474426,
+      "masked": false,
+      "cutoff": 0.5,
+      "alpha": 1.0,
+      "emission": [
+        1.0,
+        1.0,
+        1.0
+      ],
+      "emissionStrength": 0.0,
+      "baseTexture": null,
+      "normalTexture": null,
+      "normalStrength": 0.0,
+      "alphaTexture": null,
+      "roughnessTexture": null,
+      "metallicTexture": null,
+      "emissionTexture": null,
+      "doubleSided": true,
+      "graph": [
+        [
+          "BSDF_PRINCIPLED",
+          "BSDF",
+          "OUTPUT_MATERIAL",
+          "Surface"
+        ]
+      ]
+    },
+    {
+      "name": "coachPortal.003",
+      "baseColor": [
+        0.7011018991470337,
+        0.47353148460388184,
+        0.13013647496700287
+      ],
+      "metallic": 0.7200000286102295,
+      "roughness": 0.3199999928474426,
+      "masked": false,
+      "cutoff": 0.5,
+      "alpha": 1.0,
+      "emission": [
+        1.0,
+        1.0,
+        1.0
+      ],
+      "emissionStrength": 0.0,
+      "baseTexture": null,
+      "normalTexture": null,
+      "normalStrength": 0.0,
+      "alphaTexture": null,
+      "roughnessTexture": null,
+      "metallicTexture": null,
+      "emissionTexture": null,
+      "doubleSided": true,
+      "graph": [
+        [
+          "BSDF_PRINCIPLED",
+          "BSDF",
+          "OUTPUT_MATERIAL",
+          "Surface"
+        ]
+      ]
+    },
+    {
+      "name": "coachPortal.004",
+      "baseColor": [
+        0.7011018991470337,
+        0.47353148460388184,
+        0.13013647496700287
+      ],
+      "metallic": 0.7200000286102295,
+      "roughness": 0.3199999928474426,
+      "masked": false,
+      "cutoff": 0.5,
+      "alpha": 1.0,
+      "emission": [
+        1.0,
+        1.0,
+        1.0
+      ],
+      "emissionStrength": 0.0,
+      "baseTexture": null,
+      "normalTexture": null,
+      "normalStrength": 0.0,
+      "alphaTexture": null,
+      "roughnessTexture": null,
+      "metallicTexture": null,
+      "emissionTexture": null,
+      "doubleSided": true,
+      "graph": [
+        [
+          "BSDF_PRINCIPLED",
+          "BSDF",
+          "OUTPUT_MATERIAL",
+          "Surface"
+        ]
+      ]
+    },
+    {
+      "name": "coachPortal.005",
+      "baseColor": [
+        0.16202937066555023,
+        0.5647115111351013,
+        0.5906188488006592
+      ],
+      "metallic": 0.0,
+      "roughness": 0.5,
+      "masked": false,
+      "cutoff": 0.5,
+      "alpha": 0.20999999344348907,
+      "emission": [
+        0.16202937066555023,
+        0.5647115111351013,
+        0.5906188488006592
+      ],
+      "emissionStrength": 1.0,
+      "baseTexture": null,
+      "normalTexture": null,
+      "normalStrength": 0.0,
+      "alphaTexture": null,
+      "roughnessTexture": null,
+      "metallicTexture": null,
+      "emissionTexture": null,
+      "doubleSided": true,
+      "graph": [
+        [
+          "BSDF_PRINCIPLED",
+          "BSDF",
+          "OUTPUT_MATERIAL",
+          "Surface"
+        ]
+      ]
+    },
+    {
+      "name": "coachPortal.006",
+      "baseColor": [
+        0.7011018991470337,
+        0.47353148460388184,
+        0.13013647496700287
+      ],
+      "metallic": 0.7200000286102295,
+      "roughness": 0.3199999928474426,
+      "masked": false,
+      "cutoff": 0.5,
+      "alpha": 1.0,
+      "emission": [
+        1.0,
+        1.0,
+        1.0
+      ],
+      "emissionStrength": 0.0,
+      "baseTexture": null,
+      "normalTexture": null,
+      "normalStrength": 0.0,
+      "alphaTexture": null,
+      "roughnessTexture": null,
+      "metallicTexture": null,
+      "emissionTexture": null,
+      "doubleSided": true,
+      "graph": [
+        [
+          "BSDF_PRINCIPLED",
+          "BSDF",
+          "OUTPUT_MATERIAL",
+          "Surface"
+        ]
+      ]
+    },
+    {
+      "name": "coachPortal.007",
+      "baseColor": [
+        0.7011018991470337,
+        0.47353148460388184,
+        0.13013647496700287
+      ],
+      "metallic": 0.7200000286102295,
+      "roughness": 0.3199999928474426,
+      "masked": false,
+      "cutoff": 0.5,
+      "alpha": 1.0,
+      "emission": [
+        1.0,
+        1.0,
+        1.0
+      ],
+      "emissionStrength": 0.0,
+      "baseTexture": null,
+      "normalTexture": null,
+      "normalStrength": 0.0,
+      "alphaTexture": null,
+      "roughnessTexture": null,
+      "metallicTexture": null,
+      "emissionTexture": null,
+      "doubleSided": true,
+      "graph": [
+        [
+          "BSDF_PRINCIPLED",
+          "BSDF",
+          "OUTPUT_MATERIAL",
+          "Surface"
+        ]
+      ]
+    },
+    {
+      "name": "hearthFire",
+      "baseColor": [
+        1,
+        1,
+        1
+      ],
+      "metallic": 0.0,
+      "roughness": 0.5,
+      "masked": false,
+      "cutoff": 0.5,
+      "alpha": 1.0,
+      "emission": [
+        1.0,
+        0.25,
+        0.02500000037252903
+      ],
+      "emissionStrength": 1.0,
+      "baseTexture": "Flammes_Instantane.png",
+      "normalTexture": null,
+      "normalStrength": 0.0,
+      "alphaTexture": "Flammes_Instantane.png",
+      "roughnessTexture": null,
+      "metallicTexture": null,
+      "emissionTexture": "Flammes_Instantane.png",
+      "doubleSided": true,
+      "graph": [
+        [
+          "BSDF_PRINCIPLED",
+          "BSDF",
+          "OUTPUT_MATERIAL",
+          "Surface"
+        ],
+        [
+          "TEX_IMAGE",
+          "Color",
+          "BSDF_PRINCIPLED",
+          "Base Color"
+        ],
+        [
+          "TEX_IMAGE",
+          "Color",
+          "BSDF_PRINCIPLED",
+          "Emission Color"
+        ],
+        [
+          "TEX_IMAGE",
+          "Alpha",
+          "BSDF_PRINCIPLED",
+          "Alpha"
+        ]
+      ]
+    },
+    {
+      "name": "hearthFire.001",
+      "baseColor": [
+        1,
+        1,
+        1
+      ],
+      "metallic": 0.0,
+      "roughness": 0.5,
+      "masked": false,
+      "cutoff": 0.5,
+      "alpha": 1.0,
+      "emission": [
+        1.0,
+        0.25,
+        0.02500000037252903
+      ],
+      "emissionStrength": 1.0,
+      "baseTexture": "Flammes_Instantane.png",
+      "normalTexture": null,
+      "normalStrength": 0.0,
+      "alphaTexture": "Flammes_Instantane.png",
+      "roughnessTexture": null,
+      "metallicTexture": null,
+      "emissionTexture": "Flammes_Instantane.png",
+      "doubleSided": true,
+      "graph": [
+        [
+          "BSDF_PRINCIPLED",
+          "BSDF",
+          "OUTPUT_MATERIAL",
+          "Surface"
+        ],
+        [
+          "TEX_IMAGE",
+          "Color",
+          "BSDF_PRINCIPLED",
+          "Base Color"
+        ],
+        [
+          "TEX_IMAGE",
+          "Color",
+          "BSDF_PRINCIPLED",
+          "Emission Color"
+        ],
+        [
+          "TEX_IMAGE",
+          "Alpha",
+          "BSDF_PRINCIPLED",
+          "Alpha"
+        ]
+      ]
+    },
+    {
+      "name": "hearthFire.002",
+      "baseColor": [
+        1,
+        1,
+        1
+      ],
+      "metallic": 0.0,
+      "roughness": 0.5,
+      "masked": false,
+      "cutoff": 0.5,
+      "alpha": 1.0,
+      "emission": [
+        1.0,
+        0.25,
+        0.02500000037252903
+      ],
+      "emissionStrength": 1.0,
+      "baseTexture": "Flammes_Instantane.png",
+      "normalTexture": null,
+      "normalStrength": 0.0,
+      "alphaTexture": "Flammes_Instantane.png",
+      "roughnessTexture": null,
+      "metallicTexture": null,
+      "emissionTexture": "Flammes_Instantane.png",
+      "doubleSided": true,
+      "graph": [
+        [
+          "BSDF_PRINCIPLED",
+          "BSDF",
+          "OUTPUT_MATERIAL",
+          "Surface"
+        ],
+        [
+          "TEX_IMAGE",
+          "Color",
+          "BSDF_PRINCIPLED",
+          "Base Color"
+        ],
+        [
+          "TEX_IMAGE",
+          "Color",
+          "BSDF_PRINCIPLED",
+          "Emission Color"
+        ],
+        [
+          "TEX_IMAGE",
+          "Alpha",
+          "BSDF_PRINCIPLED",
+          "Alpha"
+        ]
+      ]
+    },
+    {
+      "name": "hearthFire.003",
+      "baseColor": [
+        1,
+        1,
+        1
+      ],
+      "metallic": 0.0,
+      "roughness": 0.5,
+      "masked": false,
+      "cutoff": 0.5,
+      "alpha": 1.0,
+      "emission": [
+        1.0,
+        0.25,
+        0.02500000037252903
+      ],
+      "emissionStrength": 1.0,
+      "baseTexture": "Flammes_Instantane.png",
+      "normalTexture": null,
+      "normalStrength": 0.0,
+      "alphaTexture": "Flammes_Instantane.png",
+      "roughnessTexture": null,
+      "metallicTexture": null,
+      "emissionTexture": "Flammes_Instantane.png",
+      "doubleSided": true,
+      "graph": [
+        [
+          "BSDF_PRINCIPLED",
+          "BSDF",
+          "OUTPUT_MATERIAL",
+          "Surface"
+        ],
+        [
+          "TEX_IMAGE",
+          "Color",
+          "BSDF_PRINCIPLED",
+          "Base Color"
+        ],
+        [
+          "TEX_IMAGE",
+          "Color",
+          "BSDF_PRINCIPLED",
+          "Emission Color"
+        ],
+        [
+          "TEX_IMAGE",
+          "Alpha",
+          "BSDF_PRINCIPLED",
+          "Alpha"
+        ]
+      ]
+    },
+    {
+      "name": "mirrorOval",
+      "baseColor": [
+        0.5972017645835876,
+        0.637596845626831,
+        0.6514056324958801
+      ],
+      "metallic": 1.0,
+      "roughness": 0.07000000029802322,
+      "masked": false,
+      "cutoff": 0.5,
+      "alpha": 1.0,
+      "emission": [
+        1.0,
+        1.0,
+        1.0
+      ],
+      "emissionStrength": 0.0,
+      "baseTexture": null,
+      "normalTexture": null,
+      "normalStrength": 0.0,
+      "alphaTexture": null,
+      "roughnessTexture": null,
+      "metallicTexture": null,
+      "emissionTexture": null,
+      "doubleSided": true,
+      "graph": [
+        [
+          "BSDF_PRINCIPLED",
+          "BSDF",
+          "OUTPUT_MATERIAL",
+          "Surface"
+        ]
+      ]
+    },
+    {
+      "name": "mirrorOval.001",
+      "baseColor": [
+        0.5972017645835876,
+        0.637596845626831,
+        0.6514056324958801
+      ],
+      "metallic": 1.0,
+      "roughness": 0.07000000029802322,
+      "masked": false,
+      "cutoff": 0.5,
+      "alpha": 1.0,
+      "emission": [
+        1.0,
+        1.0,
+        1.0
+      ],
+      "emissionStrength": 0.0,
+      "baseTexture": null,
+      "normalTexture": null,
+      "normalStrength": 0.0,
+      "alphaTexture": null,
+      "roughnessTexture": null,
+      "metallicTexture": null,
+      "emissionTexture": null,
+      "doubleSided": true,
+      "graph": [
+        [
+          "BSDF_PRINCIPLED",
+          "BSDF",
+          "OUTPUT_MATERIAL",
+          "Surface"
+        ]
+      ]
+    },
+    {
+      "name": "mirrorRectangle",
+      "baseColor": [
+        0.5972017645835876,
+        0.637596845626831,
+        0.6514056324958801
+      ],
+      "metallic": 1.0,
+      "roughness": 0.07000000029802322,
+      "masked": false,
+      "cutoff": 0.5,
+      "alpha": 1.0,
+      "emission": [
+        1.0,
+        1.0,
+        1.0
+      ],
+      "emissionStrength": 0.0,
+      "baseTexture": null,
+      "normalTexture": null,
+      "normalStrength": 0.0,
+      "alphaTexture": null,
+      "roughnessTexture": null,
+      "metallicTexture": null,
+      "emissionTexture": null,
+      "doubleSided": true,
+      "graph": [
+        [
+          "BSDF_PRINCIPLED",
+          "BSDF",
+          "OUTPUT_MATERIAL",
+          "Surface"
+        ]
+      ]
+    },
+    {
+      "name": "mirrorRectangle.001",
+      "baseColor": [
+        0.5972017645835876,
+        0.637596845626831,
+        0.6514056324958801
+      ],
+      "metallic": 1.0,
+      "roughness": 0.07000000029802322,
+      "masked": false,
+      "cutoff": 0.5,
+      "alpha": 1.0,
+      "emission": [
+        1.0,
+        1.0,
+        1.0
+      ],
+      "emissionStrength": 0.0,
+      "baseTexture": null,
+      "normalTexture": null,
+      "normalStrength": 0.0,
+      "alphaTexture": null,
+      "roughnessTexture": null,
+      "metallicTexture": null,
+      "emissionTexture": null,
+      "doubleSided": true,
+      "graph": [
+        [
+          "BSDF_PRINCIPLED",
+          "BSDF",
+          "OUTPUT_MATERIAL",
+          "Surface"
+        ]
+      ]
+    },
+    {
+      "name": "mirrorRectangle.002",
+      "baseColor": [
+        0.5972017645835876,
+        0.637596845626831,
+        0.6514056324958801
+      ],
+      "metallic": 1.0,
+      "roughness": 0.07000000029802322,
+      "masked": false,
+      "cutoff": 0.5,
+      "alpha": 1.0,
+      "emission": [
+        1.0,
+        1.0,
+        1.0
+      ],
+      "emissionStrength": 0.0,
+      "baseTexture": null,
+      "normalTexture": null,
+      "normalStrength": 0.0,
+      "alphaTexture": null,
+      "roughnessTexture": null,
+      "metallicTexture": null,
+      "emissionTexture": null,
+      "doubleSided": true,
+      "graph": [
+        [
+          "BSDF_PRINCIPLED",
+          "BSDF",
+          "OUTPUT_MATERIAL",
+          "Surface"
+        ]
+      ]
+    },
+    {
+      "name": "mirrorRectangle.003",
+      "baseColor": [
+        0.5972017645835876,
+        0.637596845626831,
+        0.6514056324958801
+      ],
+      "metallic": 1.0,
+      "roughness": 0.07000000029802322,
+      "masked": false,
+      "cutoff": 0.5,
+      "alpha": 1.0,
+      "emission": [
+        1.0,
+        1.0,
+        1.0
+      ],
+      "emissionStrength": 0.0,
+      "baseTexture": null,
+      "normalTexture": null,
+      "normalStrength": 0.0,
+      "alphaTexture": null,
+      "roughnessTexture": null,
+      "metallicTexture": null,
+      "emissionTexture": null,
+      "doubleSided": true,
+      "graph": [
+        [
+          "BSDF_PRINCIPLED",
+          "BSDF",
+          "OUTPUT_MATERIAL",
+          "Surface"
+        ]
+      ]
+    }
+  ]
+}
