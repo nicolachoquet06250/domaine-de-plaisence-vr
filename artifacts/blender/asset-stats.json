@@ -1,0 +1,32 @@
+{
+  "bench": {
+    "triangles": 2952,
+    "bytes": 811028,
+    "objects": 1,
+    "materials": 3
+  },
+  "basin": {
+    "triangles": 7136,
+    "bytes": 932112,
+    "objects": 1,
+    "materials": 3
+  },
+  "water": {
+    "triangles": 3840,
+    "bytes": 463300,
+    "objects": 1,
+    "materials": 1
+  },
+  "lateralJet": {
+    "triangles": 672,
+    "bytes": 102304,
+    "objects": 2,
+    "materials": 2
+  },
+  "centralJet": {
+    "triangles": 1872,
+    "bytes": 243492,
+    "objects": 2,
+    "materials": 2
+  }
+}

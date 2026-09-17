@@ -1,0 +1,65 @@
+{
+  "bench": {
+    "bytes": 811028,
+    "triangles": 2952,
+    "drawCalls": 3,
+    "animation": []
+  },
+  "basin": {
+    "bytes": 932112,
+    "triangles": 7136,
+    "drawCalls": 3,
+    "animation": []
+  },
+  "water": {
+    "bytes": 463300,
+    "triangles": 3840,
+    "drawCalls": 1,
+    "animation": [
+      {
+        "mesh": "Basin_Water_Surface",
+        "duration": 4,
+        "morphTargets": 8,
+        "samples": 97
+      }
+    ]
+  },
+  "lateralJet": {
+    "bytes": 102304,
+    "triangles": 672,
+    "drawCalls": 2,
+    "animation": [
+      {
+        "mesh": "lateralJet_spray",
+        "duration": 4,
+        "morphTargets": 12,
+        "samples": 97
+      },
+      {
+        "mesh": "lateralJet_stream",
+        "duration": 4,
+        "morphTargets": 8,
+        "samples": 97
+      }
+    ]
+  },
+  "centralJet": {
+    "bytes": 243492,
+    "triangles": 1872,
+    "drawCalls": 2,
+    "animation": [
+      {
+        "mesh": "centralJet_spray",
+        "duration": 4,
+        "morphTargets": 12,
+        "samples": 97
+      },
+      {
+        "mesh": "centralJet_stream",
+        "duration": 4,
+        "morphTargets": 8,
+        "samples": 97
+      }
+    ]
+  }
+}
