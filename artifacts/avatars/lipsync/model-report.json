@@ -1,0 +1,46 @@
+{
+  "courtMale": {
+    "bytes": 1973972,
+    "faceVertices": 3360,
+    "mouthBoundaryVertices": 28,
+    "visemes": [
+      "sil",
+      "PP",
+      "FF",
+      "TH",
+      "DD",
+      "kk",
+      "CH",
+      "SS",
+      "nn",
+      "RR",
+      "aa",
+      "E",
+      "I",
+      "O",
+      "U"
+    ]
+  },
+  "courtFemale": {
+    "bytes": 1801400,
+    "faceVertices": 3419,
+    "mouthBoundaryVertices": 34,
+    "visemes": [
+      "sil",
+      "PP",
+      "FF",
+      "TH",
+      "DD",
+      "kk",
+      "CH",
+      "SS",
+      "nn",
+      "RR",
+      "aa",
+      "E",
+      "I",
+      "O",
+      "U"
+    ]
+  }
+}

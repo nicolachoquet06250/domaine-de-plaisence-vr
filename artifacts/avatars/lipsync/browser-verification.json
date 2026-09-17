@@ -1,0 +1,41 @@
+{
+  "status": "passed",
+  "localVisemes": [
+    4,
+    11,
+    2,
+    8,
+    1,
+    7,
+    3,
+    12,
+    5,
+    9,
+    6,
+    13,
+    10,
+    0
+  ],
+  "remoteVisemes": [
+    1,
+    0,
+    5,
+    4,
+    2,
+    11,
+    7,
+    8,
+    12,
+    3,
+    9,
+    13,
+    10
+  ],
+  "frames": 533,
+  "mutedMouthClosed": true,
+  "muteToClosedMs": 317,
+  "syntheticFrench": true,
+  "transport": "WebRTC",
+  "device": "IWER emulated XR; desktop Chromium",
+  "physicalQuestTested": false
+}

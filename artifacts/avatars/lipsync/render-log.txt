@@ -1,0 +1,81 @@
+2026-09-11 09:41:40,600 - BlenderMCPServer - INFO - BlenderMCP server starting up
+2026-09-11 09:41:40,601 - BlenderMCPServer - INFO - Blender addon on disk is current (protocol 5).
+2026-09-11 09:41:40,608 - BlenderMCPServer - INFO - Connected to Blender at localhost:9876
+2026-09-11 09:41:40,608 - BlenderMCPServer - INFO - Created new persistent connection to Blender
+2026-09-11 09:41:40,608 - BlenderMCPServer - INFO - Sending command: get_addon_info with params: None
+2026-09-11 09:41:40,608 - BlenderMCPServer - INFO - Command sent, waiting for response...
+2026-09-11 09:41:40,663 - BlenderMCPServer - INFO - Received complete response (358 bytes)
+2026-09-11 09:41:40,663 - BlenderMCPServer - INFO - Received 358 bytes of data
+2026-09-11 09:41:40,663 - BlenderMCPServer - INFO - Response parsed, status: success
+2026-09-11 09:41:40,663 - BlenderMCPServer - INFO - Blender addon up to date (protocol 5, addon [1, 6], Blender 5.2.1 LTS)
+2026-09-11 09:41:40,663 - BlenderMCPServer - INFO - Sending command: get_telemetry_consent with params: None
+2026-09-11 09:41:40,663 - BlenderMCPServer - INFO - Command sent, waiting for response...
+2026-09-11 09:41:40,718 - BlenderMCPServer - INFO - Received complete response (50 bytes)
+2026-09-11 09:41:40,718 - BlenderMCPServer - INFO - Received 50 bytes of data
+2026-09-11 09:41:40,718 - BlenderMCPServer - INFO - Response parsed, status: success
+2026-09-11 09:41:40,768 - BlenderMCPServer - INFO - Successfully connected to Blender on startup
+2026-09-11 09:41:40,777 - mcp.server.lowlevel.server - INFO - Processing request of type CallToolRequest
+2026-09-11 09:41:40,779 - BlenderMCPServer - INFO - Sending command: drain_human_activity with params: None
+2026-09-11 09:41:40,780 - BlenderMCPServer - INFO - Command sent, waiting for response...
+2026-09-11 09:41:40,824 - BlenderMCPServer - INFO - Received complete response (47 bytes)
+2026-09-11 09:41:40,824 - BlenderMCPServer - INFO - Received 47 bytes of data
+2026-09-11 09:41:40,824 - BlenderMCPServer - INFO - Response parsed, status: success
+2026-09-11 09:41:40,824 - BlenderMCPServer - INFO - Sending command: get_world_state_snapshot with params: None
+2026-09-11 09:41:40,824 - BlenderMCPServer - INFO - Command sent, waiting for response...
+2026-09-11 09:41:40,888 - BlenderMCPServer - INFO - Received complete response (22967 bytes)
+2026-09-11 09:41:40,888 - BlenderMCPServer - INFO - Received 22967 bytes of data
+2026-09-11 09:41:40,888 - BlenderMCPServer - INFO - Response parsed, status: success
+2026-09-11 09:41:40,888 - BlenderMCPServer - INFO - Sending command: execute_code with params: {'code': 'exec(compile("import bpy, math\\nfrom pathlib import Path\\nfrom mathutils import Vector\\nROOT=Path(\'C:/Users/nicol/Documents/workspaces/vr-workspace/test-meta-web-sdk-update\')\\nsrc=next(s for s in reversed(list(bpy.data.scenes)) if s.name.startswith(\'Cour Renaissance - articulation labiale\'))\\nscene=bpy.data.scenes.new(\'Visemes - controle visuel\');bpy.context.window.scene=scene\\nscene.render.engine=\'CYCLES\';scene.cycles.samples=12\\nposes=[\'sil\',\'PP\',\'FF\',\'aa\',\'I\',\'O\',\'U\',\'TH\']\\nfor row,asset,factor in [(0,\'courtMale\',1),(1,\'courtFemale\',.95)]:\\n    originals=[o for o in src.objects if o.type==\'MESH\' and o.name.startswith(asset) and \'Head\' in o.name]\\n    for col,pose in enumerate(poses):\\n        for old in originals:\\n            obj=old.copy();obj.data=old.data.copy();obj.parent=None;obj.modifiers.clear();scene.collection.objects.link(obj)\\n            # Normalize head height for this detail-only contact sheet.\\n            obj.location=(col*.235,-0.0,row*-.32 + 1.625*(1-factor))\\n            if obj.data.shape_keys:\\n                for key in obj.data.shape_keys.key_blocks:\\n                    if key.name!=\'Basis\':key.value=1 if key.name==\'viseme_\'+pose else 0\\n        font=bpy.data.curves.new(pose,\'FONT\');font.body=pose;font.size=.026;font.align_x=\'CENTER\'\\n        label=bpy.data.objects.new(asset+\' \'+pose,font);scene.collection.objects.link(label);label.location=(col*.235,-.13,1.43-row*.32);label.rotation_euler=(math.pi/2,0,0)\\nworld=bpy.data.worlds.new(\'Viseme studio\');world.use_nodes=True;bg=next(n for n in world.node_tree.nodes if n.type==\'BACKGROUND\');bg.inputs[0].default_value=(.3,.3,.3,1);bg.inputs[1].default_value=.8;scene.world=world\\nfor name,pos,power,size in [(\'Key\',(0,-2,3),170,3),(\'Fill\',(2,-1,2),80,2)]:\\n    data=bpy.data.lights.new(name,\'AREA\');data.energy=power;data.shape=\'DISK\';data.size=size;o=bpy.data.objects.new(name,data);scene.collection.objects.link(o);o.location=pos;o.rotation_euler=(Vector((.8,0,1.5))-o.location).to_track_quat(\'-Z\',\'Y\').to_euler()\\ndata=bpy.data.cameras.new(\'Visemes\');cam=bpy.data.objects.new(\'Visemes\',data);scene.collection.objects.link(cam);cam.location=(.8225,-3,1.49);cam.rotation_euler=(Vector((.8225,0,1.49))-cam.location).to_track_quat(\'-Z\',\'Y\').to_euler();data.type=\'ORTHO\';data.ortho_scale=1.91;scene.camera=cam\\nscene.render.resolution_x=2400;scene.render.resolution_y=860;scene.render.resolution_percentage=100\\nscene.render.filepath=str(ROOT/\'artifacts/avatars/lipsync/visemes.png\');bpy.ops.render.render(write_still=True)\\nprint(scene.render.filepath)\\n", "scripts/blender-lipsync-render.py", \'exec\'), __import__(\'bpy\').__dict__.setdefault(\'_estate_authoring\', {}))'}
+2026-09-11 09:41:40,889 - BlenderMCPServer - INFO - Command sent, waiting for response...
+2026-09-11 09:41:41,342 - httpx - INFO - HTTP Request: POST https://yzasssndwqceclzilcdu.supabase.co/rest/v1/telemetry_events "HTTP/1.1 201 Created"
+2026-09-11 09:42:19,701 - BlenderMCPServer - INFO - Received complete response (188 bytes)
+2026-09-11 09:42:19,701 - BlenderMCPServer - INFO - Received 188 bytes of data
+2026-09-11 09:42:19,701 - BlenderMCPServer - INFO - Response parsed, status: success
+2026-09-11 09:42:19,701 - BlenderMCPServer - INFO - Sending command: get_telemetry_consent with params: None
+2026-09-11 09:42:19,701 - BlenderMCPServer - INFO - Command sent, waiting for response...
+2026-09-11 09:42:19,708 - BlenderMCPServer - INFO - Received complete response (50 bytes)
+2026-09-11 09:42:19,708 - BlenderMCPServer - INFO - Received 50 bytes of data
+2026-09-11 09:42:19,708 - BlenderMCPServer - INFO - Response parsed, status: success
+2026-09-11 09:42:19,708 - BlenderMCPServer - INFO - Sending command: get_world_state_snapshot with params: None
+2026-09-11 09:42:19,708 - BlenderMCPServer - INFO - Command sent, waiting for response...
+2026-09-11 09:42:19,786 - BlenderMCPServer - INFO - Received complete response (65185 bytes)
+2026-09-11 09:42:19,786 - BlenderMCPServer - INFO - Received 65185 bytes of data
+2026-09-11 09:42:19,787 - BlenderMCPServer - INFO - Response parsed, status: success
+2026-09-11 09:42:19,790 - BlenderMCPServer - INFO - Sending command: get_viewport_screenshot with params: {'max_size': 512, 'filepath': 'C:\\Users\\nicol\\AppData\\Local\\Temp\\blender_mcp_auto_19196_6dfda14c.png', 'format': 'png'}
+2026-09-11 09:42:19,790 - BlenderMCPServer - INFO - Command sent, waiting for response...
+2026-09-11 09:42:19,891 - BlenderMCPServer - INFO - Received complete response (193 bytes)
+2026-09-11 09:42:19,891 - BlenderMCPServer - INFO - Received 193 bytes of data
+2026-09-11 09:42:19,891 - BlenderMCPServer - INFO - Response parsed, status: success
+2026-09-11 09:42:20,030 - httpx - INFO - HTTP Request: POST https://yzasssndwqceclzilcdu.supabase.co/rest/v1/telemetry_events "HTTP/1.1 201 Created"
+2026-09-11 09:42:21,452 - httpx - INFO - HTTP Request: POST https://yzasssndwqceclzilcdu.supabase.co/storage/v1/object/telemetry-screenshots/auto_7370b70f-cc5f-455c-be1b-a0fd257d8801_1789112539899.png "HTTP/1.1 200 OK"
+{
+  "content": [
+    {
+      "type": "text",
+      "text": "Code executed successfully: C:\\Users\\nicol\\Documents\\workspaces\\vr-workspace\\test-meta-web-sdk-update\\artifacts\\avatars\\lipsync\\visemes.png\n"
+    }
+  ],
+  "structuredContent": {
+    "result": "Code executed successfully: C:\\Users\\nicol\\Documents\\workspaces\\vr-workspace\\test-meta-web-sdk-update\\artifacts\\avatars\\lipsync\\visemes.png\n"
+  },
+  "isError": false
+}
+2026-09-11 09:42:21,458 - BlenderMCPServer - INFO - Sending command: drain_human_activity with params: None
+2026-09-11 09:42:21,459 - BlenderMCPServer - INFO - Command sent, waiting for response...
+2026-09-11 09:42:21,478 - BlenderMCPServer - INFO - Received complete response (47 bytes)
+2026-09-11 09:42:21,478 - BlenderMCPServer - INFO - Received 47 bytes of data
+2026-09-11 09:42:21,478 - BlenderMCPServer - INFO - Response parsed, status: success
+2026-09-11 09:42:21,478 - BlenderMCPServer - INFO - Sending command: get_world_state_snapshot with params: None
+2026-09-11 09:42:21,478 - BlenderMCPServer - INFO - Command sent, waiting for response...
+2026-09-11 09:42:21,556 - BlenderMCPServer - INFO - Received complete response (65185 bytes)
+2026-09-11 09:42:21,556 - BlenderMCPServer - INFO - Received 65185 bytes of data
+2026-09-11 09:42:21,557 - BlenderMCPServer - INFO - Response parsed, status: success
+2026-09-11 09:42:21,558 - BlenderMCPServer - INFO - Sending command: get_viewport_screenshot with params: {'max_size': 512, 'filepath': 'C:\\Users\\nicol\\AppData\\Local\\Temp\\blender_mcp_episode_19196_55c1da53.png', 'format': 'png'}
+2026-09-11 09:42:21,558 - BlenderMCPServer - INFO - Command sent, waiting for response...
+2026-09-11 09:42:21,620 - BlenderMCPServer - INFO - Received complete response (196 bytes)
+2026-09-11 09:42:21,620 - BlenderMCPServer - INFO - Received 196 bytes of data
+2026-09-11 09:42:21,620 - BlenderMCPServer - INFO - Response parsed, status: success
+2026-09-11 09:42:21,906 - httpx - INFO - HTTP Request: POST https://yzasssndwqceclzilcdu.supabase.co/rest/v1/trajectory_steps "HTTP/1.1 201 Created"
+2026-09-11 09:42:22,569 - httpx - INFO - HTTP Request: POST https://yzasssndwqceclzilcdu.supabase.co/storage/v1/object/telemetry-screenshots/episode_7370b70f-cc5f-455c-be1b-a0fd257d8801_1789112541624.png "HTTP/1.1 200 OK"
+2026-09-11 09:42:24,574 - BlenderMCPServer - INFO - Disconnecting from Blender on shutdown
+2026-09-11 09:42:24,575 - BlenderMCPServer - INFO - BlenderMCP server shut down
