@@ -1,0 +1,35 @@
+{
+  "before": {
+    "triangles": 291568,
+    "calls": 260
+  },
+  "after": {
+    "triangles": 251024,
+    "calls": 206
+  },
+  "source": "sha256:6c5f8a73d5bb35301ee288f15febffe1a08554f1ab0d4f115912adf1cd668774",
+  "runtime": "sha256:8779cab6ad27f621de3a2b069b5eafdf91356b39d5d2ffc826fcd571596b8a02",
+  "camera": {
+    "viewId": "hero",
+    "position": [
+      0,
+      9,
+      33
+    ],
+    "lookAt": [
+      0,
+      4,
+      -12
+    ],
+    "fov": 58
+  },
+  "notes": "Native editor view comparison. Not headset FPS. Runtime verified temporarily loading plaisance; original arrival entry restored.",
+  "standingDiff": {
+    "content": [
+      {
+        "type": "text",
+        "text": "{\n  \"from\": \"garden-standing-before\",\n  \"to\": \"garden-standing-after\",\n  \"frameDelta\": 35,\n  \"timeDelta\": 783.5,\n  \"entities\": [\n    {\n      \"entityIndex\": 116,\n      \"name\": \"jet-central\",\n      \"status\": \"changed\",\n      \"components\": [\n        {\n          \"componentId\": \"WaterJet\",\n          \"status\": \"changed\",\n          \"fields\": [\n            {\n              \"field\": \"elapsed\",\n              \"from\": 3.493000030517578,\n              \"to\": 0.315000057220459\n            }\n          ]\n        }\n      ]\n    },\n    {\n      \"entityIndex\": 117,\n      \"name\": \"jet-lateral-1\",\n      \"status\": \"changed\",\n      \"components\": [\n        {\n          \"componentId\": \"WaterJet\",\n          \"status\": \"changed\",\n          \"fields\": [\n            {\n              \"field\": \"elapsed\",\n              \"from\": 3.493000030517578,\n              \"to\": 0.315000057220459\n            }\n          ]\n        }\n      ]\n    },\n    {\n      \"entityIndex\": 118,\n      \"name\": \"jet-lateral-2\",\n      \"status\": \"changed\",\n      \"components\": [\n        {\n          \"componentId\": \"WaterJet\",\n          \"status\": \"changed\",\n          \"fields\": [\n            {\n              \"field\": \"elapsed\",\n              \"from\": 3.493000030517578,\n              \"to\": 0.315000057220459\n            }\n          ]\n        }\n      ]\n    },\n    {\n      \"entityIndex\": 119,\n      \"name\": \"jet-lateral-3\",\n      \"status\": \"changed\",\n      \"components\": [\n        {\n          \"componentId\": \"WaterJet\",\n          \"status\": \"changed\",\n          \"fields\": [\n            {\n              \"field\": \"elapsed\",\n              \"from\": 3.493000030517578,\n              \"to\": 0.315000057220459\n            }\n          ]\n        }\n      ]\n    },\n    {\n      \"entityIndex\": 120,\n      \"name\": \"jet-lateral-4\",\n      \"status\": \"changed\",\n      \"components\": [\n        {\n          \"componentId\": \"WaterJet\",\n          \"status\": \"changed\",\n          \"fields\": [\n            {\n              \"field\": \"elapsed\",\n              \"from\": 3.493000030517578,\n              \"to\": 0.315000057220459\n            }\n          ]\n        }\n      ]\n    },\n    {\n      \"entityIndex\": 121,\n      \"name\": \"jet-lateral-5\",\n      \"status\": \"changed\",\n      \"components\": [\n        {\n          \"componentId\": \"WaterJet\",\n          \"status\": \"changed\",\n          \"fields\": [\n            {\n              \"field\": \"elapsed\",\n              \"from\": 3.493000030517578,\n              \"to\": 0.315000057220459\n            }\n          ]\n        }\n      ]\n    },\n    {\n      \"entityIndex\": 122,\n      \"name\": \"jet-lateral-6\",\n      \"status\": \"changed\",\n      \"components\": [\n        {\n          \"componentId\": \"WaterJet\",\n          \"status\": \"changed\",\n          \"fields\": [\n            {\n              \"field\": \"elapsed\",\n              \"from\": 3.493000030517578,\n              \"to\": 0.315000057220459\n            }\n          ]\n        }\n      ]\n    }\n  ],\n  \"summary\": {\n    \"added\": 0,\n    \"removed\": 0,\n    \"changed\": 7\n  },\n  \"_tab\": {\n    \"id\": \"tab-mtrgsma3-zx8xml\",\n    \"generation\": 2\n  }\n}"
+      }
+    ]
+  }
+}

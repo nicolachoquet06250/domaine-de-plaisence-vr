@@ -1,0 +1,694 @@
+{
+  "camera": {
+    "fov": 58,
+    "lookAt": [
+      0,
+      4,
+      -12
+    ],
+    "position": [
+      0,
+      9,
+      33
+    ],
+    "projection": "perspective",
+    "view": "custom",
+    "viewId": "hero"
+  },
+  "composedDocumentHash": "sha256:6c5f8a73d5bb35301ee288f15febffe1a08554f1ab0d4f115912adf1cd668774",
+  "dependencies": [],
+  "diagnostics": [],
+  "height": 1600,
+  "mimeType": "image/png",
+  "path": "public/scenes/plaisance.iwsdk.scene.json",
+  "renderStats": {
+    "available": true,
+    "calls": 208,
+    "frameTimeSamplesMs": [
+      3.5,
+      4.2,
+      3.1,
+      2.4,
+      2.7,
+      3.5,
+      5.5,
+      3.3,
+      2.8,
+      3.5,
+      2.9,
+      3.1,
+      4.3,
+      3.2,
+      2.8,
+      4.5,
+      5,
+      3.1,
+      2.6,
+      2.6,
+      2.7,
+      3.5,
+      4.7,
+      3,
+      2.4,
+      3.9,
+      2.3,
+      3.6,
+      4,
+      2.7,
+      2.5,
+      4.6,
+      4,
+      2.5,
+      2.9,
+      3.5,
+      3.3,
+      3.7,
+      3.3,
+      3.7,
+      2.7,
+      3.6,
+      3.3,
+      3,
+      3.8,
+      3.5,
+      1.7,
+      1.9,
+      2,
+      2.4,
+      1.7,
+      1.5,
+      2,
+      2,
+      2.4,
+      2.6,
+      2.4,
+      3,
+      2,
+      2.3,
+      3.4,
+      1.9,
+      2.6,
+      3.7,
+      4.2,
+      4,
+      3.6,
+      2.7,
+      3.4,
+      3.3,
+      3.4,
+      3.5,
+      2.7,
+      3.9,
+      3,
+      3.1,
+      2.5,
+      3.6,
+      1.6,
+      2.3,
+      3,
+      4,
+      2,
+      3.1,
+      4.6,
+      2.3,
+      3.2,
+      2.8,
+      4.1,
+      2.1,
+      2.5,
+      4.8,
+      2.5,
+      2.9,
+      2.3,
+      2.5,
+      3.4,
+      2,
+      2.6,
+      3.3,
+      3.5,
+      2.9,
+      2.8,
+      3.5,
+      3,
+      3.1,
+      2.5,
+      3.1,
+      3.3,
+      3.3,
+      4.2,
+      3.2,
+      2.8,
+      2.9,
+      2.8,
+      3.6,
+      2.2,
+      3.3,
+      2.4,
+      2.2
+    ],
+    "lines": 0,
+    "environment": {
+      "browser": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/153.0.0.0 Safari/537.36",
+      "devicePixelRatio": 2,
+      "emulatedUserAgent": "Mozilla/5.0 (X11; Linux x86_64; Quest 3) AppleWebKit/537.36 (KHTML, like Gecko) OculusBrowser/33.0.0.x.x.x Chrome/126.0.6478.122 VR Safari/537.36",
+      "emulationProfile": {
+        "active": true,
+        "device": "metaQuest3",
+        "runtime": "IWER"
+      },
+      "gpu": "ANGLE (Intel, Intel(R) Iris(R) Xe Graphics (0x0000A7A0) Direct3D11 vs_5_0 ps_5_0, D3D11)",
+      "hostPlatform": "Windows",
+      "hostUserAgent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/153.0.0.0 Safari/537.36",
+      "renderer": "IWSDK WebGL",
+      "visibility": {
+        "method": "threejs-first-hit-sampling-v1",
+        "occlusion": "conservative-cpu-first-hit",
+        "sampleGrid": "3x3-projected-bounds+overhead-lower-frame",
+        "uncertainObjectsIncluded": false
+      }
+    },
+    "geometryCount": 58,
+    "points": 0,
+    "programs": 28,
+    "materialCount": 44,
+    "meshCount": 270,
+    "nodeCount": 111,
+    "objectCount": 419,
+    "shadowCasters": 175,
+    "sceneAssets": [
+      {
+        "id": "estate-panel",
+        "meshCount": 1
+      },
+      {
+        "id": "palace",
+        "meshCount": 88
+      },
+      {
+        "id": "palaceCollision",
+        "meshCount": 1
+      },
+      {
+        "id": "ground",
+        "meshCount": 2
+      },
+      {
+        "id": "groundCollision",
+        "meshCount": 1
+      },
+      {
+        "id": "parterre",
+        "meshCount": 6
+      },
+      {
+        "id": "parterreCollision",
+        "meshCount": 1
+      },
+      {
+        "id": "parterre",
+        "meshCount": 6
+      },
+      {
+        "id": "parterreCollision",
+        "meshCount": 1
+      },
+      {
+        "id": "parterre",
+        "meshCount": 6
+      },
+      {
+        "id": "parterreCollision",
+        "meshCount": 1
+      },
+      {
+        "id": "parterre",
+        "meshCount": 6
+      },
+      {
+        "id": "parterreCollision",
+        "meshCount": 1
+      },
+      {
+        "id": "pathLong",
+        "meshCount": 2
+      },
+      {
+        "id": "pathCollision",
+        "meshCount": 1
+      },
+      {
+        "id": "pathCross",
+        "meshCount": 2
+      },
+      {
+        "id": "pathCollision",
+        "meshCount": 1
+      },
+      {
+        "id": "pathTerrace",
+        "meshCount": 2
+      },
+      {
+        "id": "pathCollision",
+        "meshCount": 1
+      },
+      {
+        "id": "pathTerrace",
+        "meshCount": 2
+      },
+      {
+        "id": "pathCollision",
+        "meshCount": 1
+      },
+      {
+        "id": "cypress",
+        "meshCount": 4
+      },
+      {
+        "id": "cypressCollision",
+        "meshCount": 1
+      },
+      {
+        "id": "cypress",
+        "meshCount": 4
+      },
+      {
+        "id": "cypressCollision",
+        "meshCount": 1
+      },
+      {
+        "id": "cypress",
+        "meshCount": 4
+      },
+      {
+        "id": "cypressCollision",
+        "meshCount": 1
+      },
+      {
+        "id": "cypress",
+        "meshCount": 4
+      },
+      {
+        "id": "cypressCollision",
+        "meshCount": 1
+      },
+      {
+        "id": "cypress",
+        "meshCount": 4
+      },
+      {
+        "id": "cypressCollision",
+        "meshCount": 1
+      },
+      {
+        "id": "cypress",
+        "meshCount": 4
+      },
+      {
+        "id": "cypressCollision",
+        "meshCount": 1
+      },
+      {
+        "id": "cypress",
+        "meshCount": 4
+      },
+      {
+        "id": "cypressCollision",
+        "meshCount": 1
+      },
+      {
+        "id": "cypress",
+        "meshCount": 4
+      },
+      {
+        "id": "cypressCollision",
+        "meshCount": 1
+      },
+      {
+        "id": "cypress",
+        "meshCount": 4
+      },
+      {
+        "id": "cypressCollision",
+        "meshCount": 1
+      },
+      {
+        "id": "cypress",
+        "meshCount": 4
+      },
+      {
+        "id": "cypressCollision",
+        "meshCount": 1
+      },
+      {
+        "id": "cypress",
+        "meshCount": 4
+      },
+      {
+        "id": "cypressCollision",
+        "meshCount": 1
+      },
+      {
+        "id": "cypress",
+        "meshCount": 4
+      },
+      {
+        "id": "cypressCollision",
+        "meshCount": 1
+      },
+      {
+        "id": "cypress",
+        "meshCount": 4
+      },
+      {
+        "id": "cypressCollision",
+        "meshCount": 1
+      },
+      {
+        "id": "cypress",
+        "meshCount": 4
+      },
+      {
+        "id": "cypressCollision",
+        "meshCount": 1
+      },
+      {
+        "id": "cypress",
+        "meshCount": 4
+      },
+      {
+        "id": "cypressCollision",
+        "meshCount": 1
+      },
+      {
+        "id": "cypress",
+        "meshCount": 4
+      },
+      {
+        "id": "cypressCollision",
+        "meshCount": 1
+      },
+      {
+        "id": "urn",
+        "meshCount": 5
+      },
+      {
+        "id": "urnCollision",
+        "meshCount": 1
+      },
+      {
+        "id": "urn",
+        "meshCount": 5
+      },
+      {
+        "id": "urnCollision",
+        "meshCount": 1
+      },
+      {
+        "id": "urn",
+        "meshCount": 5
+      },
+      {
+        "id": "urnCollision",
+        "meshCount": 1
+      },
+      {
+        "id": "urn",
+        "meshCount": 5
+      },
+      {
+        "id": "urnCollision",
+        "meshCount": 1
+      },
+      {
+        "id": "bench",
+        "meshCount": 4
+      },
+      {
+        "id": "benchCollision",
+        "meshCount": 1
+      },
+      {
+        "id": "bench",
+        "meshCount": 4
+      },
+      {
+        "id": "benchCollision",
+        "meshCount": 1
+      },
+      {
+        "id": "bench",
+        "meshCount": 4
+      },
+      {
+        "id": "benchCollision",
+        "meshCount": 1
+      },
+      {
+        "id": "bench",
+        "meshCount": 4
+      },
+      {
+        "id": "benchCollision",
+        "meshCount": 1
+      },
+      {
+        "id": "gardenBorder",
+        "meshCount": 2
+      },
+      {
+        "id": "gardenBorderCollision",
+        "meshCount": 1
+      },
+      {
+        "id": "gardenBorder",
+        "meshCount": 2
+      },
+      {
+        "id": "gardenBorderCollision",
+        "meshCount": 1
+      },
+      {
+        "id": "gardenBorder",
+        "meshCount": 2
+      },
+      {
+        "id": "gardenBorderCollision",
+        "meshCount": 1
+      },
+      {
+        "id": "gardenBorder",
+        "meshCount": 2
+      },
+      {
+        "id": "gardenBorderCollision",
+        "meshCount": 1
+      },
+      {
+        "id": "gardenBorder",
+        "meshCount": 2
+      },
+      {
+        "id": "gardenBorderCollision",
+        "meshCount": 1
+      },
+      {
+        "id": "gardenBorder",
+        "meshCount": 2
+      },
+      {
+        "id": "gardenBorderCollision",
+        "meshCount": 1
+      },
+      {
+        "id": "gardenBorder",
+        "meshCount": 2
+      },
+      {
+        "id": "gardenBorderCollision",
+        "meshCount": 1
+      },
+      {
+        "id": "gardenBorder",
+        "meshCount": 2
+      },
+      {
+        "id": "gardenBorderCollision",
+        "meshCount": 1
+      },
+      {
+        "id": "gardenBorder",
+        "meshCount": 2
+      },
+      {
+        "id": "gardenBorderCollision",
+        "meshCount": 1
+      },
+      {
+        "id": "gardenBorder",
+        "meshCount": 2
+      },
+      {
+        "id": "gardenBorderCollision",
+        "meshCount": 1
+      },
+      {
+        "id": "gardenBorder",
+        "meshCount": 2
+      },
+      {
+        "id": "gardenBorderCollision",
+        "meshCount": 1
+      },
+      {
+        "id": "gardenBorder",
+        "meshCount": 2
+      },
+      {
+        "id": "gardenBorderCollision",
+        "meshCount": 1
+      },
+      {
+        "id": "gardenBorder",
+        "meshCount": 2
+      },
+      {
+        "id": "gardenBorderCollision",
+        "meshCount": 1
+      },
+      {
+        "id": "gardenBorder",
+        "meshCount": 2
+      },
+      {
+        "id": "gardenBorderCollision",
+        "meshCount": 1
+      },
+      {
+        "id": "basin",
+        "meshCount": 4
+      },
+      {
+        "id": "basinCollision",
+        "meshCount": 1
+      },
+      {
+        "id": "water",
+        "meshCount": 1
+      },
+      {
+        "id": "centralJet",
+        "meshCount": 2
+      },
+      {
+        "id": "lateralJet",
+        "meshCount": 2
+      },
+      {
+        "id": "lateralJet",
+        "meshCount": 2
+      },
+      {
+        "id": "lateralJet",
+        "meshCount": 2
+      },
+      {
+        "id": "lateralJet",
+        "meshCount": 2
+      },
+      {
+        "id": "lateralJet",
+        "meshCount": 2
+      },
+      {
+        "id": "lateralJet",
+        "meshCount": 2
+      }
+    ],
+    "textures": 45,
+    "triangles": 256744,
+    "visibleNodeIds": [
+      "castle",
+      "castle/palace",
+      "estate-panel",
+      "fountain",
+      "fountain/jet-central",
+      "fountain/jet-lateral-5",
+      "fountain/water",
+      "gardens",
+      "gardens/allee-centrale",
+      "gardens/allee-transversale",
+      "gardens/balustrade--30-0",
+      "gardens/balustrade--30-1",
+      "gardens/balustrade--30-2",
+      "gardens/balustrade--30-3",
+      "gardens/balustrade-30-0",
+      "gardens/balustrade-30-1",
+      "gardens/balustrade-30-2",
+      "gardens/balustrade-30-3",
+      "gardens/banc--6.2--4.5",
+      "gardens/banc--6.2-4.5",
+      "gardens/banc-6.2--4.5",
+      "gardens/banc-6.2-4.5",
+      "gardens/cypres--23-0",
+      "gardens/cypres--23-1",
+      "gardens/cypres--23-2",
+      "gardens/cypres--23-3",
+      "gardens/cypres--23-4",
+      "gardens/cypres-23-0",
+      "gardens/cypres-23-1",
+      "gardens/cypres-23-2",
+      "gardens/cypres-23-3",
+      "gardens/cypres-23-4",
+      "gardens/ground",
+      "gardens/parterre-east-north",
+      "gardens/parterre-east-south",
+      "gardens/parterre-west-north",
+      "gardens/parterre-west-south",
+      "gardens/vasque--7--19",
+      "gardens/vasque--7-20",
+      "gardens/vasque-7--19",
+      "gardens/vasque-7-20",
+      "sun"
+    ],
+    "framingBounds": {
+      "max": [
+        30.365,
+        37.8438,
+        30.245
+      ],
+      "min": [
+        -30.365,
+        -33.2402,
+        -40.245
+      ],
+      "size": [
+        60.73,
+        71.084,
+        70.49
+      ]
+    },
+    "worldBounds": {
+      "max": [
+        35,
+        40.2342,
+        39
+      ],
+      "min": [
+        -35,
+        -33.2402,
+        -51
+      ],
+      "size": [
+        70,
+        73.4744,
+        90
+      ]
+    }
+  },
+  "runtimeHash": "sha256:8779cab6ad27f621de3a2b069b5eafdf91356b39d5d2ffc826fcd571596b8a02",
+  "screenshotSha256": "sha256:986a0f610a3472396b6730ee7d72eebc36250c8d018773875ceb67318f14858f",
+  "sourceDocumentHash": "sha256:6c5f8a73d5bb35301ee288f15febffe1a08554f1ab0d4f115912adf1cd668774",
+  "valid": true,
+  "width": 2400
+}

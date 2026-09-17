@@ -1,0 +1,47 @@
+{
+  "ground": {
+    "triangles": 12,
+    "bytes": 265720,
+    "materials": 1
+  },
+  "path": {
+    "triangles": 12,
+    "bytes": 137728,
+    "materials": 1
+  },
+  "pathLong": {
+    "triangles": 12,
+    "bytes": 137732,
+    "materials": 1
+  },
+  "pathCross": {
+    "triangles": 12,
+    "bytes": 137732,
+    "materials": 1
+  },
+  "pathTerrace": {
+    "triangles": 12,
+    "bytes": 137736,
+    "materials": 1
+  },
+  "gardenBorder": {
+    "triangles": 2860,
+    "bytes": 292616,
+    "materials": 1
+  },
+  "urn": {
+    "triangles": 4364,
+    "bytes": 304208,
+    "materials": 4
+  },
+  "parterre": {
+    "triangles": 26508,
+    "bytes": 1652480,
+    "materials": 5
+  },
+  "cypress": {
+    "triangles": 4980,
+    "bytes": 405672,
+    "materials": 3
+  }
+}

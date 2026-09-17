@@ -1,0 +1,79 @@
+                                                 
+▄▄▄▄▄▄  ▄▄      ▄▄   ▄▄▄▄    ▄▄▄▄▄     ▄▄   ▄▄▄ 
+▀▀██▀▀  ██      ██ ▄█▀▀▀▀█   ██▀▀▀██   ██  ██▀  
+  ██    ▀█▄ ██ ▄█▀ ██▄       ██    ██  ██▄██    
+  ██     ██ ██ ██   ▀████▄   ██    ██  █████    
+  ██     ███▀▀███       ▀██  ██    ██  ██  ██▄  
+▄▄██▄▄   ███  ███  █▄▄▄▄▄█▀  ██▄▄▄██   ██   ██▄ 
+▀▀▀▀▀▀   ▀▀▀  ▀▀▀   ▀▀▀▀▀    ▀▀▀▀▀     ▀▀    ▀▀                                                
+===============================================
+Immersive Web SDK v0.5.3
+Three.js r181
+EliCS v3.4.2
+✔ first-person head stays available to mirrors while hidden from both direct eye cameras (9.7172ms)
+✔ desktop reflection-only view survives loading and restores the VR body layers on repeated switches (4.04ms)
+✔ local body follows the desktop camera and remains reflected across XR entry and exit (71.3986ms)
+✔ independent mixers blend Idle/Walking, then return to rest without mutating other avatars (4.4532ms)
+✔ strafing follows local anatomical left/right and preserves the body yaw (4.4624ms)
+✔ changing identity during load and leaving before completion cannot resurrect obsolete avatars (2.6341ms)
+✔ mouth morphs are independent per visitor and combine with walking and reflection layers (2.0979ms)
+                                                 
+▄▄▄▄▄▄  ▄▄      ▄▄   ▄▄▄▄    ▄▄▄▄▄     ▄▄   ▄▄▄ 
+▀▀██▀▀  ██      ██ ▄█▀▀▀▀█   ██▀▀▀██   ██  ██▀  
+  ██    ▀█▄ ██ ▄█▀ ██▄       ██    ██  ██▄██    
+  ██     ██ ██ ██   ▀████▄   ██    ██  █████    
+  ██     ███▀▀███       ▀██  ██    ██  ██  ██▄  
+▄▄██▄▄   ███  ███  █▄▄▄▄▄█▀  ██▄▄▄██   ██   ██▄ 
+▀▀▀▀▀▀   ▀▀▀  ▀▀▀   ▀▀▀▀▀    ▀▀▀▀▀     ▀▀    ▀▀                                                
+===============================================
+Immersive Web SDK v0.5.3
+Three.js r181
+EliCS v3.4.2
+✔ mirror portal fills the texture, preserves eye separation and clips the rear room (5.6994ms)
+✔ independent eye targets restore renderer and mirror state even when rendering throws (4.4028ms)
+✔ mirror captures finish before the XR draw pass and never interrupt flame or glass drawing (37.7965ms)
+✔ voice bands reject malformed network input and preserve legacy poses (2.5963ms)
+✔ simultaneous speakers broadcast independent bands to every participant and return to silence (210.7142ms)
+✔ nicknames are normalized and included in welcome, join and late arrivals (36.1876ms)
+✔ avatar identity survives join, late arrival and reconnect, with validated floor poses (45.8587ms)
+✔ nickname normalization bounds length and removes invisible control characters (0.3144ms)
+✔ two visitors exchange head and hand poses; another room stays isolated (147.9772ms)
+✔ leave removes membership; reconnect snapshots active peers and last poses (48.9868ms)
+✔ invalid poses and malformed JSON close the sender without broadcasting (18.4368ms)
+✔ room capacity returns a specific close reason and frees departed slots (11.7671ms)
+✔ clock replies echo timestamp; oversized packets are rejected (31.6136ms)
+✔ heartbeat removes unresponsive visitors and empty rooms (109.7798ms)
+✔ voice descriptions and ICE are targeted, sender-authenticated and room-isolated (108.9231ms)
+✔ invalid voice signals never reach peers; voice burst does not consume pose quota (36.0528ms)
+✔ microphone is never requested automatically; mute stops capture and removes sender tracks (9.2311ms)
+✔ permission denial retains listening and supports a retry (2.2738ms)
+✔ one gesture resumes listening after the browser suspends audio (1.515ms)
+✔ pending permission cannot reopen the mic after cancel (1.3709ms)
+✔ pending permission cannot reopen the mic after disconnect (0.9778ms)
+✔ pending permission cannot reopen the mic after dispose (0.9628ms)
+✔ ICE waits for SDP; only one peer offers, and stale peers cannot send after disconnect (2.4792ms)
+✔ remote stream is spatialized once, follows listener/head and becomes silent beyond 25 m (5.0956ms)
+✔ distance curve has full near volume and a continuous fade to silence (1.3433ms)
+                                                 
+▄▄▄▄▄▄  ▄▄      ▄▄   ▄▄▄▄    ▄▄▄▄▄     ▄▄   ▄▄▄ 
+▀▀██▀▀  ██      ██ ▄█▀▀▀▀█   ██▀▀▀██   ██  ██▀  
+  ██    ▀█▄ ██ ▄█▀ ██▄       ██    ██  ██▄██    
+  ██     ██ ██ ██   ▀████▄   ██    ██  █████    
+  ██     ███▀▀███       ▀██  ██    ██  ██  ██▄  
+▄▄██▄▄   ███  ███  █▄▄▄▄▄█▀  ██▄▄▄██   ██   ██▄ 
+▀▀▀▀▀▀   ▀▀▀  ▀▀▀   ▀▀▀▀▀    ▀▀▀▀▀     ▀▀    ▀▀                                                
+===============================================
+Immersive Web SDK v0.5.3
+Three.js r181
+EliCS v3.4.2
+✔ FFT bins distinguish low, mid and high voice frequencies at both common sample rates (2.2434ms)
+✔ microphone silence, suspension and disposal zero transmitted activity without audio output (1.4053ms)
+✔ nametag borders animate independently, fade stale packets and retain the text texture (35.297ms)
+ℹ tests 35
+ℹ suites 0
+ℹ pass 35
+ℹ fail 0
+ℹ cancelled 0
+ℹ skipped 0
+ℹ todo 0
+ℹ duration_ms 4335.8643

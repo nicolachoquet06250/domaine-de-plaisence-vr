@@ -1,0 +1,26 @@
+{
+  "checks": "spawn, path and three hedge profiles supported; outward top faces",
+  "proxies": {
+    "bench": {
+      "triangles": 72
+    },
+    "cypress": {
+      "triangles": 152
+    },
+    "gardenBorder": {
+      "triangles": 60
+    },
+    "ground": {
+      "triangles": 12
+    },
+    "parterre": {
+      "triangles": 2172
+    },
+    "path": {
+      "triangles": 12
+    },
+    "urn": {
+      "triangles": 60
+    }
+  }
+}
