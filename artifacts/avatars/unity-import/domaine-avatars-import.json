@@ -1,0 +1,88 @@
+{
+    "success": true,
+    "error": "",
+    "avatars": [
+        {
+            "name": "courtMale",
+            "prefab": "Assets/DomaineAvatars/courtMale/courtMale-VRChat.prefab",
+            "face": "courtMale Visage anatomique Head final",
+            "lipSync": "VisemeBlendShape",
+            "humanoid": true,
+            "valid": true,
+            "allVisemesDeform": true,
+            "shouldersMapped": true,
+            "triangles": 93203,
+            "renderers": 20,
+            "materials": 25,
+            "viewpoint": {
+                "x": 3.725290298461914e-9,
+                "y": 1.599562406539917,
+                "z": 0.11252004653215409
+            },
+            "visemes": [
+                "viseme_sil",
+                "viseme_PP",
+                "viseme_FF",
+                "viseme_TH",
+                "viseme_DD",
+                "viseme_kk",
+                "viseme_CH",
+                "viseme_SS",
+                "viseme_nn",
+                "viseme_RR",
+                "viseme_aa",
+                "viseme_E",
+                "viseme_I",
+                "viseme_O",
+                "viseme_U"
+            ],
+            "clips": [
+                "Idle",
+                "Walking",
+                "StrafeLeft",
+                "StrafeRight"
+            ]
+        },
+        {
+            "name": "courtFemale",
+            "prefab": "Assets/DomaineAvatars/courtFemale/courtFemale-VRChat.prefab",
+            "face": "courtFemale Visage anatomique Head.037",
+            "lipSync": "VisemeBlendShape",
+            "humanoid": true,
+            "valid": true,
+            "allVisemesDeform": true,
+            "shouldersMapped": true,
+            "triangles": 97303,
+            "renderers": 23,
+            "materials": 25,
+            "viewpoint": {
+                "x": 3.725290298461914e-9,
+                "y": 1.5195592641830445,
+                "z": 0.10689160972833634
+            },
+            "visemes": [
+                "viseme_sil",
+                "viseme_PP",
+                "viseme_FF",
+                "viseme_TH",
+                "viseme_DD",
+                "viseme_kk",
+                "viseme_CH",
+                "viseme_SS",
+                "viseme_nn",
+                "viseme_RR",
+                "viseme_aa",
+                "viseme_E",
+                "viseme_I",
+                "viseme_O",
+                "viseme_U"
+            ],
+            "clips": [
+                "Idle",
+                "Walking",
+                "StrafeLeft",
+                "StrafeRight"
+            ]
+        }
+    ]
+}

@@ -1,0 +1,1 @@
+PASS: both saved prefabs; humanoid anatomy and shoulder hierarchy; 15 serialized visemes per avatar; actual skinned vertex deformation for every viseme; materials and texture references; no missing scripts; no blueprint IDs.
