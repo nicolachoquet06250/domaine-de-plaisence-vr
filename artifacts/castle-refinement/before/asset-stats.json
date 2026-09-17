@@ -1,0 +1,18 @@
+{
+  "palace": {
+    "bytes": 4003084,
+    "triangles": 78730
+  },
+  "palaceInterior": {
+    "bytes": 1759160,
+    "triangles": 31168
+  },
+  "palaceGlass": {
+    "bytes": 298060,
+    "triangles": 5280
+  },
+  "palaceDoor": {
+    "bytes": 88404,
+    "triangles": 1240
+  }
+}

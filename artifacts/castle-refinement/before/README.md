@@ -1,0 +1,17 @@
+# Château de Plaisance — Blender
+
+Le modèle remplace le château procédural sous l'identifiant `palace`. La façade comporte des ouvertures réelles, encadrements cintrés, claveaux, colonnes ioniques, volutes, moulures, fronton héraldique doré, balustres, lucarnes, cheminées et toitures à la Mansart. L'intérieur comprend un vestibule, un escalier à trois volées, un palier, une galerie, des salons avec plafonds à caissons, parquets, lambris, cheminées, mobilier et lustres.
+
+`chateau-plaisance.blend` est le fichier éditable. Les quatre GLB autonomes sont dans `../../public/gltf/castle/` : façade, intérieur, vitrages et paire de portes réutilisée cinq fois. Total : 6 148 708 octets. La façade représente 78 730 triangles, l'intérieur 31 168, les vitrages 5 280 et chaque paire de portes 1 240. Géométries groupées par matériau, textures JPEG intégrées, collisions dédiées simplifiées, éclairages intérieurs sans ombres supplémentaires.
+
+Les vitres utilisent une transparence alpha avec une faible rugosité et les reflets de l'environnement et des lumières. Ce choix évite une passe coûteuse de réfraction en VR. Les ornements métalliques utilisent des matériaux PBR dorés. Les miroirs décoratifs utilisent également l'environnement : ils ne reflètent pas dynamiquement les visiteurs.
+
+Les rotations des charnières sont animées dans Blender sur 105°. Le système `PalaceDoorSystem` lit ces animations dans les deux sens. Les portes s'ouvrent à l'approche ; un clic ou une pression de gâchette les maintient ouvertes. La fermeture automatique attend deux secondes après le départ. Le volume bloquant est retiré après dégagement des vantaux et rétabli à fermeture complète. Les passages, fenêtres, planchers et escaliers possèdent des collisions séparées des moulures.
+
+Vérifications réussies : `npx tsc --noEmit`, `node scripts/verify-castle.mjs`, `npm run build`. Le test contrôle les GLB, les deux rotations, 63 échantillons sur les escaliers, les ouvertures, les fenêtres et les planchers. Il fait aussi parcourir l'escalier et le virage du palier à la capsule réelle de `@iwsdk/locomotor`, jusqu'au salon de l'étage (y≈5,05 m). Les données du jardin, la fontaine et le point de départ d'origine sont conservés.
+
+Dans le navigateur en XR émulée : ouverture à la gâchette, progression de l'animation, suppression du blocage, fermeture et rétablissement du blocage vérifiés ; entrée et première volée parcourues avec les commandes. La scène finale a aussi été chargée avec son empreinte runtime `sha256:0579ecb2d66f3b156ca1699ef1e3bf4d41e460691ecf91d7cb6170235a09cf2c`. Les déplacements de test temporaires ont été restaurés, ainsi que la scène d'accueil dans la configuration.
+
+La compilation conserve des avertissements de taille des bundles et d'annotations Zod, sans erreur. Les rendus de l'éditeur et l'émulation ne constituent pas une mesure de FPS sur un casque physique. Sur la vue `hero` à 1000×720 CSS pixels : 361 912 triangles et 178 appels de dessin pour la scène complète, intérieur compris.
+
+Régénération via le MCP Blender local : exécuter dans l'ordre `blender-castle-base.py`, `blender-castle-architecture.py`, `blender-castle-interior.py`, `blender-castle-doors-export.py` puis `blender-castle-finalize.py`, avec `node scripts/blender-mcp.mjs execute_blender_code scripts/<fichier> scripts/blender-castle-prompt.json`. Ne pas réexécuter l'intégration de composition sur des modifications ultérieures de l'utilisateur sans les préserver.
