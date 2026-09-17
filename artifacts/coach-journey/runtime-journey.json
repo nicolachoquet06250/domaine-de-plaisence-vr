@@ -1,0 +1,1602 @@
+[
+  {
+    "timestamp": 1789160842155,
+    "level": "log",
+    "message": "[IWSDK-MCP-TRACE] client_open {\"tabId\":\"tab-mtxg654i-l6y3gp\",\"tabGeneration\":1}",
+    "args": [
+      "[IWSDK-MCP-TRACE] client_open {\"tabId\":\"tab-mtxg654i-l6y3gp\",\"tabGeneration\":1}"
+    ]
+  },
+  {
+    "timestamp": 1789160842155,
+    "level": "log",
+    "message": "[IWSDK-MCP-TRACE] client_hello_sent {\"tabId\":\"tab-mtxg654i-l6y3gp\",\"tabGeneration\":1}",
+    "args": [
+      "[IWSDK-MCP-TRACE] client_hello_sent {\"tabId\":\"tab-mtxg654i-l6y3gp\",\"tabGeneration\":1}"
+    ]
+  },
+  {
+    "timestamp": 1789160842829,
+    "level": "log",
+    "message": "                                                 \n▄▄▄▄▄▄  ▄▄      ▄▄   ▄▄▄▄    ▄▄▄▄▄     ▄▄   ▄▄▄ \n▀▀██▀▀  ██      ██ ▄█▀▀▀▀█   ██▀▀▀██   ██  ██▀  \n  ██    ▀█▄ ██ ▄█▀ ██▄       ██    ██  ██▄██    \n  ██     ██ ██ ██   ▀████▄   ██    ██  █████    \n  ██     ███▀▀███       ▀██  ██    ██  ██  ██▄  \n▄▄██▄▄   ███  ███  █▄▄▄▄▄█▀  ██▄▄▄██   ██   ██▄ \n▀▀▀▀▀▀   ▀▀▀  ▀▀▀   ▀▀▀▀▀    ▀▀▀▀▀     ▀▀    ▀▀                                                \n===============================================\nImmersive Web SDK v0.5.3\nThree.js r181\nEliCS v3.4.2",
+    "args": [
+      "                                                 \n▄▄▄▄▄▄  ▄▄      ▄▄   ▄▄▄▄    ▄▄▄▄▄     ▄▄   ▄▄▄ \n▀▀██▀▀  ██      ██ ▄█▀▀▀▀█   ██▀▀▀██   ██  ██▀  \n  ██    ▀█▄ ██ ▄█▀ ██▄       ██    ██  ██▄██    \n  ██     ██ ██ ██   ▀████▄   ██    ██  █████    \n  ██     ███▀▀███       ▀██  ██    ██  ██  ██▄  \n▄▄██▄▄   ███  ███  █▄▄▄▄▄█▀  ██▄▄▄██   ██   ██▄ \n▀▀▀▀▀▀   ▀▀▀  ▀▀▀   ▀▀▀▀▀    ▀▀▀▀▀     ▀▀    ▀▀                                                \n===============================================\nImmersive Web SDK v0.5.3\nThree.js r181\nEliCS v3.4.2"
+    ]
+  },
+  {
+    "timestamp": 1789160843010,
+    "level": "log",
+    "message": "[IWSDK-MCP-TRACE] client_command_ready_sent {\"tabId\":\"tab-mtxg654i-l6y3gp\",\"tabGeneration\":1}",
+    "args": [
+      "[IWSDK-MCP-TRACE] client_command_ready_sent {\"tabId\":\"tab-mtxg654i-l6y3gp\",\"tabGeneration\":1}"
+    ]
+  },
+  {
+    "timestamp": 1789160843339,
+    "level": "log",
+    "message": "[IWSDK Dev] Configuration: {device: metaQuest3, activation: localhost, verbose: true, sem: null, ai: null}",
+    "args": [
+      "[IWSDK Dev] Configuration: {device: metaQuest3, activation: localhost, verbose: true, sem: null, ai: null}"
+    ]
+  },
+  {
+    "timestamp": 1789160843339,
+    "level": "log",
+    "message": "[IWSDK Dev] 🎯 Activating IWER runtime...",
+    "args": [
+      "[IWSDK Dev] 🎯 Activating IWER runtime..."
+    ]
+  },
+  {
+    "timestamp": 1789160843340,
+    "level": "log",
+    "message": "[IWSDK Dev] 📱 Using device configuration: metaQuest3",
+    "args": [
+      "[IWSDK Dev] 📱 Using device configuration: metaQuest3"
+    ]
+  },
+  {
+    "timestamp": 1789160843364,
+    "level": "log",
+    "message": "[IWSDK Dev] 🔌 Initializing MCP client...",
+    "args": [
+      "[IWSDK Dev] 🔌 Initializing MCP client..."
+    ]
+  },
+  {
+    "timestamp": 1789160843364,
+    "level": "log",
+    "message": "[IWSDK-MCP] Connecting to: wss://localhost:8081/__iwer_mcp",
+    "args": [
+      "[IWSDK-MCP] Connecting to: wss://localhost:8081/__iwer_mcp"
+    ]
+  },
+  {
+    "timestamp": 1789160843365,
+    "level": "log",
+    "message": "[IWSDK-MCP-TRACE] client_connect_start {\"wsUrl\":\"wss://localhost:8081/__iwer_mcp\",\"reconnectAttempts\":0,\"tabId\":\"tab-mtxg663o-lwpedj\",\"tabGeneration\":1}",
+    "args": [
+      "[IWSDK-MCP-TRACE] client_connect_start {\"wsUrl\":\"wss://localhost:8081/__iwer_mcp\",\"reconnectAttempts\":0,\"tabId\":\"tab-mtxg663o-lwpedj\",\"tabGeneration\":1}"
+    ]
+  },
+  {
+    "timestamp": 1789160843365,
+    "level": "log",
+    "message": "[IWSDK Dev] ✅ MCP client initialized",
+    "args": [
+      "[IWSDK Dev] ✅ MCP client initialized"
+    ]
+  },
+  {
+    "timestamp": 1789160843366,
+    "level": "log",
+    "message": "[IWSDK Dev] ✅ Runtime activated successfully!",
+    "args": [
+      "[IWSDK Dev] ✅ Runtime activated successfully!"
+    ]
+  },
+  {
+    "timestamp": 1789160843387,
+    "level": "log",
+    "message": "[IWSDK-MCP] Connected",
+    "args": [
+      "[IWSDK-MCP] Connected"
+    ]
+  },
+  {
+    "timestamp": 1789160843387,
+    "level": "log",
+    "message": "[IWSDK-MCP-TRACE] client_open {\"tabId\":\"tab-mtxg663o-lwpedj\",\"tabGeneration\":1}",
+    "args": [
+      "[IWSDK-MCP-TRACE] client_open {\"tabId\":\"tab-mtxg663o-lwpedj\",\"tabGeneration\":1}"
+    ]
+  },
+  {
+    "timestamp": 1789160843388,
+    "level": "log",
+    "message": "[IWSDK-MCP-TRACE] client_hello_sent {\"tabId\":\"tab-mtxg663o-lwpedj\",\"tabGeneration\":1}",
+    "args": [
+      "[IWSDK-MCP-TRACE] client_hello_sent {\"tabId\":\"tab-mtxg663o-lwpedj\",\"tabGeneration\":1}"
+    ]
+  },
+  {
+    "timestamp": 1789160843672,
+    "level": "log",
+    "message": "                                                 \n▄▄▄▄▄▄  ▄▄      ▄▄   ▄▄▄▄    ▄▄▄▄▄     ▄▄   ▄▄▄ \n▀▀██▀▀  ██      ██ ▄█▀▀▀▀█   ██▀▀▀██   ██  ██▀  \n  ██    ▀█▄ ██ ▄█▀ ██▄       ██    ██  ██▄██    \n  ██     ██ ██ ██   ▀████▄   ██    ██  █████    \n  ██     ███▀▀███       ▀██  ██    ██  ██  ██▄  \n▄▄██▄▄   ███  ███  █▄▄▄▄▄█▀  ██▄▄▄██   ██   ██▄ \n▀▀▀▀▀▀   ▀▀▀  ▀▀▀   ▀▀▀▀▀    ▀▀▀▀▀     ▀▀    ▀▀                                                \n===============================================\nImmersive Web SDK v0.5.3\nThree.js r181\nEliCS v3.4.2",
+    "args": [
+      "                                                 \n▄▄▄▄▄▄  ▄▄      ▄▄   ▄▄▄▄    ▄▄▄▄▄     ▄▄   ▄▄▄ \n▀▀██▀▀  ██      ██ ▄█▀▀▀▀█   ██▀▀▀██   ██  ██▀  \n  ██    ▀█▄ ██ ▄█▀ ██▄       ██    ██  ██▄██    \n  ██     ██ ██ ██   ▀████▄   ██    ██  █████    \n  ██     ███▀▀███       ▀██  ██    ██  ██  ██▄  \n▄▄██▄▄   ███  ███  █▄▄▄▄▄█▀  ██▄▄▄██   ██   ██▄ \n▀▀▀▀▀▀   ▀▀▀  ▀▀▀   ▀▀▀▀▀    ▀▀▀▀▀     ▀▀    ▀▀                                                \n===============================================\nImmersive Web SDK v0.5.3\nThree.js r181\nEliCS v3.4.2"
+    ]
+  },
+  {
+    "timestamp": 1789160843867,
+    "level": "log",
+    "message": "[IWSDK-MCP-TRACE] client_command_ready_sent {\"tabId\":\"tab-mtxg663o-lwpedj\",\"tabGeneration\":1}",
+    "args": [
+      "[IWSDK-MCP-TRACE] client_command_ready_sent {\"tabId\":\"tab-mtxg663o-lwpedj\",\"tabGeneration\":1}"
+    ]
+  },
+  {
+    "timestamp": 1789160846631,
+    "level": "warn",
+    "message": "THREE.WebGLProgram: Program Info Log: (221,81-129): warning X4122: sum of 0.996094 and -2.98545e-017 cannot be represented accurately in double precision\n(220,37-61): warning X4122: sum of 1 and -1.49272e-017 cannot be represented accurately in double precision\n(221,82-106): warning X4122: sum of 1 and -1.49272e-017 cannot be represented accurately in double precision\n(220,37-61): warning X4122: sum of 1 and -1.66644e-018 cannot be represented accurately in double precision\n(221,82-106): warning X4122: sum of 1 and -1.66644e-018 cannot be represented accurately in double precision\n(207,10-67): warning X4008: floating point division by zero\n(207,10-67): warning X4008: floating point division by zero\n(207,10-67): warning X4008: floating point division by zero",
+    "args": [
+      "THREE.WebGLProgram: Program Info Log: (221,81-129): warning X4122: sum of 0.996094 and -2.98545e-017 cannot be represented accurately in double precision\n(220,37-61): warning X4122: sum of 1 and -1.49272e-017 cannot be represented accurately in double precision\n(221,82-106): warning X4122: sum of 1 and -1.49272e-017 cannot be represented accurately in double precision\n(220,37-61): warning X4122: sum of 1 and -1.66644e-018 cannot be represented accurately in double precision\n(221,82-106): warning X4122: sum of 1 and -1.66644e-018 cannot be represented accurately in double precision\n(207,10-67): warning X4008: floating point division by zero\n(207,10-67): warning X4008: floating point division by zero\n(207,10-67): warning X4008: floating point division by zero"
+    ]
+  },
+  {
+    "timestamp": 1789160874979,
+    "level": "log",
+    "message": "[IWSDK Dev] Configuration: {device: metaQuest3, activation: localhost, verbose: true, sem: null, ai: null}",
+    "args": [
+      "[IWSDK Dev] Configuration: {device: metaQuest3, activation: localhost, verbose: true, sem: null, ai: null}"
+    ]
+  },
+  {
+    "timestamp": 1789160874980,
+    "level": "log",
+    "message": "[IWSDK Dev] 🎯 Activating IWER runtime...",
+    "args": [
+      "[IWSDK Dev] 🎯 Activating IWER runtime..."
+    ]
+  },
+  {
+    "timestamp": 1789160874983,
+    "level": "log",
+    "message": "[IWSDK Dev] 📱 Using device configuration: metaQuest3",
+    "args": [
+      "[IWSDK Dev] 📱 Using device configuration: metaQuest3"
+    ]
+  },
+  {
+    "timestamp": 1789160875035,
+    "level": "log",
+    "message": "[IWSDK Dev] 🔌 Initializing MCP client...",
+    "args": [
+      "[IWSDK Dev] 🔌 Initializing MCP client..."
+    ]
+  },
+  {
+    "timestamp": 1789160875038,
+    "level": "log",
+    "message": "[IWSDK-MCP] Connecting to: wss://localhost:8081/__iwer_mcp",
+    "args": [
+      "[IWSDK-MCP] Connecting to: wss://localhost:8081/__iwer_mcp"
+    ]
+  },
+  {
+    "timestamp": 1789160875040,
+    "level": "log",
+    "message": "[IWSDK-MCP-TRACE] client_connect_start {\"wsUrl\":\"wss://localhost:8081/__iwer_mcp\",\"reconnectAttempts\":0,\"tabId\":\"tab-mtxg654i-l6y3gp\",\"tabGeneration\":2}",
+    "args": [
+      "[IWSDK-MCP-TRACE] client_connect_start {\"wsUrl\":\"wss://localhost:8081/__iwer_mcp\",\"reconnectAttempts\":0,\"tabId\":\"tab-mtxg654i-l6y3gp\",\"tabGeneration\":2}"
+    ]
+  },
+  {
+    "timestamp": 1789160875040,
+    "level": "log",
+    "message": "[IWSDK Dev] ✅ MCP client initialized",
+    "args": [
+      "[IWSDK Dev] ✅ MCP client initialized"
+    ]
+  },
+  {
+    "timestamp": 1789160875041,
+    "level": "log",
+    "message": "[IWSDK Dev] ✅ Runtime activated successfully!",
+    "args": [
+      "[IWSDK Dev] ✅ Runtime activated successfully!"
+    ]
+  },
+  {
+    "timestamp": 1789160875109,
+    "level": "log",
+    "message": "[IWSDK-MCP] Connected",
+    "args": [
+      "[IWSDK-MCP] Connected"
+    ]
+  },
+  {
+    "timestamp": 1789160875110,
+    "level": "log",
+    "message": "[IWSDK-MCP-TRACE] client_open {\"tabId\":\"tab-mtxg654i-l6y3gp\",\"tabGeneration\":2}",
+    "args": [
+      "[IWSDK-MCP-TRACE] client_open {\"tabId\":\"tab-mtxg654i-l6y3gp\",\"tabGeneration\":2}"
+    ]
+  },
+  {
+    "timestamp": 1789160875110,
+    "level": "log",
+    "message": "[IWSDK-MCP-TRACE] client_hello_sent {\"tabId\":\"tab-mtxg654i-l6y3gp\",\"tabGeneration\":2}",
+    "args": [
+      "[IWSDK-MCP-TRACE] client_hello_sent {\"tabId\":\"tab-mtxg654i-l6y3gp\",\"tabGeneration\":2}"
+    ]
+  },
+  {
+    "timestamp": 1789160876144,
+    "level": "log",
+    "message": "                                                 \n▄▄▄▄▄▄  ▄▄      ▄▄   ▄▄▄▄    ▄▄▄▄▄     ▄▄   ▄▄▄ \n▀▀██▀▀  ██      ██ ▄█▀▀▀▀█   ██▀▀▀██   ██  ██▀  \n  ██    ▀█▄ ██ ▄█▀ ██▄       ██    ██  ██▄██    \n  ██     ██ ██ ██   ▀████▄   ██    ██  █████    \n  ██     ███▀▀███       ▀██  ██    ██  ██  ██▄  \n▄▄██▄▄   ███  ███  █▄▄▄▄▄█▀  ██▄▄▄██   ██   ██▄ \n▀▀▀▀▀▀   ▀▀▀  ▀▀▀   ▀▀▀▀▀    ▀▀▀▀▀     ▀▀    ▀▀                                                \n===============================================\nImmersive Web SDK v0.5.3\nThree.js r181\nEliCS v3.4.2",
+    "args": [
+      "                                                 \n▄▄▄▄▄▄  ▄▄      ▄▄   ▄▄▄▄    ▄▄▄▄▄     ▄▄   ▄▄▄ \n▀▀██▀▀  ██      ██ ▄█▀▀▀▀█   ██▀▀▀██   ██  ██▀  \n  ██    ▀█▄ ██ ▄█▀ ██▄       ██    ██  ██▄██    \n  ██     ██ ██ ██   ▀████▄   ██    ██  █████    \n  ██     ███▀▀███       ▀██  ██    ██  ██  ██▄  \n▄▄██▄▄   ███  ███  █▄▄▄▄▄█▀  ██▄▄▄██   ██   ██▄ \n▀▀▀▀▀▀   ▀▀▀  ▀▀▀   ▀▀▀▀▀    ▀▀▀▀▀     ▀▀    ▀▀                                                \n===============================================\nImmersive Web SDK v0.5.3\nThree.js r181\nEliCS v3.4.2"
+    ]
+  },
+  {
+    "timestamp": 1789160876298,
+    "level": "log",
+    "message": "[IWSDK-MCP-TRACE] client_command_ready_sent {\"tabId\":\"tab-mtxg654i-l6y3gp\",\"tabGeneration\":2}",
+    "args": [
+      "[IWSDK-MCP-TRACE] client_command_ready_sent {\"tabId\":\"tab-mtxg654i-l6y3gp\",\"tabGeneration\":2}"
+    ]
+  },
+  {
+    "timestamp": 1789160876643,
+    "level": "log",
+    "message": "[IWSDK Dev] Configuration: {device: metaQuest3, activation: localhost, verbose: true, sem: null, ai: null}",
+    "args": [
+      "[IWSDK Dev] Configuration: {device: metaQuest3, activation: localhost, verbose: true, sem: null, ai: null}"
+    ]
+  },
+  {
+    "timestamp": 1789160876644,
+    "level": "log",
+    "message": "[IWSDK Dev] 🎯 Activating IWER runtime...",
+    "args": [
+      "[IWSDK Dev] 🎯 Activating IWER runtime..."
+    ]
+  },
+  {
+    "timestamp": 1789160876646,
+    "level": "log",
+    "message": "[IWSDK Dev] 📱 Using device configuration: metaQuest3",
+    "args": [
+      "[IWSDK Dev] 📱 Using device configuration: metaQuest3"
+    ]
+  },
+  {
+    "timestamp": 1789160876685,
+    "level": "log",
+    "message": "[IWSDK Dev] 🔌 Initializing MCP client...",
+    "args": [
+      "[IWSDK Dev] 🔌 Initializing MCP client..."
+    ]
+  },
+  {
+    "timestamp": 1789160876686,
+    "level": "log",
+    "message": "[IWSDK-MCP] Connecting to: wss://localhost:8081/__iwer_mcp",
+    "args": [
+      "[IWSDK-MCP] Connecting to: wss://localhost:8081/__iwer_mcp"
+    ]
+  },
+  {
+    "timestamp": 1789160876687,
+    "level": "log",
+    "message": "[IWSDK-MCP-TRACE] client_connect_start {\"wsUrl\":\"wss://localhost:8081/__iwer_mcp\",\"reconnectAttempts\":0,\"tabId\":\"tab-mtxg663o-lwpedj\",\"tabGeneration\":2}",
+    "args": [
+      "[IWSDK-MCP-TRACE] client_connect_start {\"wsUrl\":\"wss://localhost:8081/__iwer_mcp\",\"reconnectAttempts\":0,\"tabId\":\"tab-mtxg663o-lwpedj\",\"tabGeneration\":2}"
+    ]
+  },
+  {
+    "timestamp": 1789160876688,
+    "level": "log",
+    "message": "[IWSDK Dev] ✅ MCP client initialized",
+    "args": [
+      "[IWSDK Dev] ✅ MCP client initialized"
+    ]
+  },
+  {
+    "timestamp": 1789160876689,
+    "level": "log",
+    "message": "[IWSDK Dev] ✅ Runtime activated successfully!",
+    "args": [
+      "[IWSDK Dev] ✅ Runtime activated successfully!"
+    ]
+  },
+  {
+    "timestamp": 1789160876722,
+    "level": "log",
+    "message": "[IWSDK-MCP] Connected",
+    "args": [
+      "[IWSDK-MCP] Connected"
+    ]
+  },
+  {
+    "timestamp": 1789160876723,
+    "level": "log",
+    "message": "[IWSDK-MCP-TRACE] client_open {\"tabId\":\"tab-mtxg663o-lwpedj\",\"tabGeneration\":2}",
+    "args": [
+      "[IWSDK-MCP-TRACE] client_open {\"tabId\":\"tab-mtxg663o-lwpedj\",\"tabGeneration\":2}"
+    ]
+  },
+  {
+    "timestamp": 1789160876728,
+    "level": "log",
+    "message": "[IWSDK-MCP-TRACE] client_hello_sent {\"tabId\":\"tab-mtxg663o-lwpedj\",\"tabGeneration\":2}",
+    "args": [
+      "[IWSDK-MCP-TRACE] client_hello_sent {\"tabId\":\"tab-mtxg663o-lwpedj\",\"tabGeneration\":2}"
+    ]
+  },
+  {
+    "timestamp": 1789160877222,
+    "level": "log",
+    "message": "                                                 \n▄▄▄▄▄▄  ▄▄      ▄▄   ▄▄▄▄    ▄▄▄▄▄     ▄▄   ▄▄▄ \n▀▀██▀▀  ██      ██ ▄█▀▀▀▀█   ██▀▀▀██   ██  ██▀  \n  ██    ▀█▄ ██ ▄█▀ ██▄       ██    ██  ██▄██    \n  ██     ██ ██ ██   ▀████▄   ██    ██  █████    \n  ██     ███▀▀███       ▀██  ██    ██  ██  ██▄  \n▄▄██▄▄   ███  ███  █▄▄▄▄▄█▀  ██▄▄▄██   ██   ██▄ \n▀▀▀▀▀▀   ▀▀▀  ▀▀▀   ▀▀▀▀▀    ▀▀▀▀▀     ▀▀    ▀▀                                                \n===============================================\nImmersive Web SDK v0.5.3\nThree.js r181\nEliCS v3.4.2",
+    "args": [
+      "                                                 \n▄▄▄▄▄▄  ▄▄      ▄▄   ▄▄▄▄    ▄▄▄▄▄     ▄▄   ▄▄▄ \n▀▀██▀▀  ██      ██ ▄█▀▀▀▀█   ██▀▀▀██   ██  ██▀  \n  ██    ▀█▄ ██ ▄█▀ ██▄       ██    ██  ██▄██    \n  ██     ██ ██ ██   ▀████▄   ██    ██  █████    \n  ██     ███▀▀███       ▀██  ██    ██  ██  ██▄  \n▄▄██▄▄   ███  ███  █▄▄▄▄▄█▀  ██▄▄▄██   ██   ██▄ \n▀▀▀▀▀▀   ▀▀▀  ▀▀▀   ▀▀▀▀▀    ▀▀▀▀▀     ▀▀    ▀▀                                                \n===============================================\nImmersive Web SDK v0.5.3\nThree.js r181\nEliCS v3.4.2"
+    ]
+  },
+  {
+    "timestamp": 1789160877581,
+    "level": "log",
+    "message": "[IWSDK-MCP-TRACE] client_command_ready_sent {\"tabId\":\"tab-mtxg663o-lwpedj\",\"tabGeneration\":2}",
+    "args": [
+      "[IWSDK-MCP-TRACE] client_command_ready_sent {\"tabId\":\"tab-mtxg663o-lwpedj\",\"tabGeneration\":2}"
+    ]
+  },
+  {
+    "timestamp": 1789160879185,
+    "level": "log",
+    "message": "[IWSDK Dev] Configuration: {device: metaQuest3, activation: localhost, verbose: true, sem: null, ai: null}",
+    "args": [
+      "[IWSDK Dev] Configuration: {device: metaQuest3, activation: localhost, verbose: true, sem: null, ai: null}"
+    ]
+  },
+  {
+    "timestamp": 1789160879199,
+    "level": "log",
+    "message": "[IWSDK Dev] 🎯 Activating IWER runtime...",
+    "args": [
+      "[IWSDK Dev] 🎯 Activating IWER runtime..."
+    ]
+  },
+  {
+    "timestamp": 1789160879200,
+    "level": "log",
+    "message": "[IWSDK Dev] 📱 Using device configuration: metaQuest3",
+    "args": [
+      "[IWSDK Dev] 📱 Using device configuration: metaQuest3"
+    ]
+  },
+  {
+    "timestamp": 1789160879224,
+    "level": "log",
+    "message": "[IWSDK Dev] 🔌 Initializing MCP client...",
+    "args": [
+      "[IWSDK Dev] 🔌 Initializing MCP client..."
+    ]
+  },
+  {
+    "timestamp": 1789160879225,
+    "level": "log",
+    "message": "[IWSDK-MCP] Connecting to: wss://localhost:8081/__iwer_mcp",
+    "args": [
+      "[IWSDK-MCP] Connecting to: wss://localhost:8081/__iwer_mcp"
+    ]
+  },
+  {
+    "timestamp": 1789160879225,
+    "level": "log",
+    "message": "[IWSDK-MCP-TRACE] client_connect_start {\"wsUrl\":\"wss://localhost:8081/__iwer_mcp\",\"reconnectAttempts\":0,\"tabId\":\"tab-mtxg654i-l6y3gp\",\"tabGeneration\":3}",
+    "args": [
+      "[IWSDK-MCP-TRACE] client_connect_start {\"wsUrl\":\"wss://localhost:8081/__iwer_mcp\",\"reconnectAttempts\":0,\"tabId\":\"tab-mtxg654i-l6y3gp\",\"tabGeneration\":3}"
+    ]
+  },
+  {
+    "timestamp": 1789160879232,
+    "level": "log",
+    "message": "[IWSDK Dev] ✅ MCP client initialized",
+    "args": [
+      "[IWSDK Dev] ✅ MCP client initialized"
+    ]
+  },
+  {
+    "timestamp": 1789160879233,
+    "level": "log",
+    "message": "[IWSDK Dev] ✅ Runtime activated successfully!",
+    "args": [
+      "[IWSDK Dev] ✅ Runtime activated successfully!"
+    ]
+  },
+  {
+    "timestamp": 1789160879291,
+    "level": "log",
+    "message": "[IWSDK-MCP] Connected",
+    "args": [
+      "[IWSDK-MCP] Connected"
+    ]
+  },
+  {
+    "timestamp": 1789160879291,
+    "level": "log",
+    "message": "[IWSDK-MCP-TRACE] client_open {\"tabId\":\"tab-mtxg654i-l6y3gp\",\"tabGeneration\":3}",
+    "args": [
+      "[IWSDK-MCP-TRACE] client_open {\"tabId\":\"tab-mtxg654i-l6y3gp\",\"tabGeneration\":3}"
+    ]
+  },
+  {
+    "timestamp": 1789160879291,
+    "level": "log",
+    "message": "[IWSDK-MCP-TRACE] client_hello_sent {\"tabId\":\"tab-mtxg654i-l6y3gp\",\"tabGeneration\":3}",
+    "args": [
+      "[IWSDK-MCP-TRACE] client_hello_sent {\"tabId\":\"tab-mtxg654i-l6y3gp\",\"tabGeneration\":3}"
+    ]
+  },
+  {
+    "timestamp": 1789160879823,
+    "level": "log",
+    "message": "                                                 \n▄▄▄▄▄▄  ▄▄      ▄▄   ▄▄▄▄    ▄▄▄▄▄     ▄▄   ▄▄▄ \n▀▀██▀▀  ██      ██ ▄█▀▀▀▀█   ██▀▀▀██   ██  ██▀  \n  ██    ▀█▄ ██ ▄█▀ ██▄       ██    ██  ██▄██    \n  ██     ██ ██ ██   ▀████▄   ██    ██  █████    \n  ██     ███▀▀███       ▀██  ██    ██  ██  ██▄  \n▄▄██▄▄   ███  ███  █▄▄▄▄▄█▀  ██▄▄▄██   ██   ██▄ \n▀▀▀▀▀▀   ▀▀▀  ▀▀▀   ▀▀▀▀▀    ▀▀▀▀▀     ▀▀    ▀▀                                                \n===============================================\nImmersive Web SDK v0.5.3\nThree.js r181\nEliCS v3.4.2",
+    "args": [
+      "                                                 \n▄▄▄▄▄▄  ▄▄      ▄▄   ▄▄▄▄    ▄▄▄▄▄     ▄▄   ▄▄▄ \n▀▀██▀▀  ██      ██ ▄█▀▀▀▀█   ██▀▀▀██   ██  ██▀  \n  ██    ▀█▄ ██ ▄█▀ ██▄       ██    ██  ██▄██    \n  ██     ██ ██ ██   ▀████▄   ██    ██  █████    \n  ██     ███▀▀███       ▀██  ██    ██  ██  ██▄  \n▄▄██▄▄   ███  ███  █▄▄▄▄▄█▀  ██▄▄▄██   ██   ██▄ \n▀▀▀▀▀▀   ▀▀▀  ▀▀▀   ▀▀▀▀▀    ▀▀▀▀▀     ▀▀    ▀▀                                                \n===============================================\nImmersive Web SDK v0.5.3\nThree.js r181\nEliCS v3.4.2"
+    ]
+  },
+  {
+    "timestamp": 1789160879944,
+    "level": "log",
+    "message": "[IWSDK-MCP-TRACE] client_command_ready_sent {\"tabId\":\"tab-mtxg654i-l6y3gp\",\"tabGeneration\":3}",
+    "args": [
+      "[IWSDK-MCP-TRACE] client_command_ready_sent {\"tabId\":\"tab-mtxg654i-l6y3gp\",\"tabGeneration\":3}"
+    ]
+  },
+  {
+    "timestamp": 1789160880062,
+    "level": "log",
+    "message": "[IWSDK Dev] Configuration: {device: metaQuest3, activation: localhost, verbose: true, sem: null, ai: null}",
+    "args": [
+      "[IWSDK Dev] Configuration: {device: metaQuest3, activation: localhost, verbose: true, sem: null, ai: null}"
+    ]
+  },
+  {
+    "timestamp": 1789160880062,
+    "level": "log",
+    "message": "[IWSDK Dev] 🎯 Activating IWER runtime...",
+    "args": [
+      "[IWSDK Dev] 🎯 Activating IWER runtime..."
+    ]
+  },
+  {
+    "timestamp": 1789160880063,
+    "level": "log",
+    "message": "[IWSDK Dev] 📱 Using device configuration: metaQuest3",
+    "args": [
+      "[IWSDK Dev] 📱 Using device configuration: metaQuest3"
+    ]
+  },
+  {
+    "timestamp": 1789160880088,
+    "level": "log",
+    "message": "[IWSDK Dev] 🔌 Initializing MCP client...",
+    "args": [
+      "[IWSDK Dev] 🔌 Initializing MCP client..."
+    ]
+  },
+  {
+    "timestamp": 1789160880089,
+    "level": "log",
+    "message": "[IWSDK-MCP] Connecting to: wss://localhost:8081/__iwer_mcp",
+    "args": [
+      "[IWSDK-MCP] Connecting to: wss://localhost:8081/__iwer_mcp"
+    ]
+  },
+  {
+    "timestamp": 1789160880089,
+    "level": "log",
+    "message": "[IWSDK-MCP-TRACE] client_connect_start {\"wsUrl\":\"wss://localhost:8081/__iwer_mcp\",\"reconnectAttempts\":0,\"tabId\":\"tab-mtxg663o-lwpedj\",\"tabGeneration\":3}",
+    "args": [
+      "[IWSDK-MCP-TRACE] client_connect_start {\"wsUrl\":\"wss://localhost:8081/__iwer_mcp\",\"reconnectAttempts\":0,\"tabId\":\"tab-mtxg663o-lwpedj\",\"tabGeneration\":3}"
+    ]
+  },
+  {
+    "timestamp": 1789160880090,
+    "level": "log",
+    "message": "[IWSDK Dev] ✅ MCP client initialized",
+    "args": [
+      "[IWSDK Dev] ✅ MCP client initialized"
+    ]
+  },
+  {
+    "timestamp": 1789160880090,
+    "level": "log",
+    "message": "[IWSDK Dev] ✅ Runtime activated successfully!",
+    "args": [
+      "[IWSDK Dev] ✅ Runtime activated successfully!"
+    ]
+  },
+  {
+    "timestamp": 1789160880186,
+    "level": "log",
+    "message": "[IWSDK-MCP] Connected",
+    "args": [
+      "[IWSDK-MCP] Connected"
+    ]
+  },
+  {
+    "timestamp": 1789160880186,
+    "level": "log",
+    "message": "[IWSDK-MCP-TRACE] client_open {\"tabId\":\"tab-mtxg663o-lwpedj\",\"tabGeneration\":3}",
+    "args": [
+      "[IWSDK-MCP-TRACE] client_open {\"tabId\":\"tab-mtxg663o-lwpedj\",\"tabGeneration\":3}"
+    ]
+  },
+  {
+    "timestamp": 1789160880186,
+    "level": "log",
+    "message": "[IWSDK-MCP-TRACE] client_hello_sent {\"tabId\":\"tab-mtxg663o-lwpedj\",\"tabGeneration\":3}",
+    "args": [
+      "[IWSDK-MCP-TRACE] client_hello_sent {\"tabId\":\"tab-mtxg663o-lwpedj\",\"tabGeneration\":3}"
+    ]
+  },
+  {
+    "timestamp": 1789160880700,
+    "level": "log",
+    "message": "                                                 \n▄▄▄▄▄▄  ▄▄      ▄▄   ▄▄▄▄    ▄▄▄▄▄     ▄▄   ▄▄▄ \n▀▀██▀▀  ██      ██ ▄█▀▀▀▀█   ██▀▀▀██   ██  ██▀  \n  ██    ▀█▄ ██ ▄█▀ ██▄       ██    ██  ██▄██    \n  ██     ██ ██ ██   ▀████▄   ██    ██  █████    \n  ██     ███▀▀███       ▀██  ██    ██  ██  ██▄  \n▄▄██▄▄   ███  ███  █▄▄▄▄▄█▀  ██▄▄▄██   ██   ██▄ \n▀▀▀▀▀▀   ▀▀▀  ▀▀▀   ▀▀▀▀▀    ▀▀▀▀▀     ▀▀    ▀▀                                                \n===============================================\nImmersive Web SDK v0.5.3\nThree.js r181\nEliCS v3.4.2",
+    "args": [
+      "                                                 \n▄▄▄▄▄▄  ▄▄      ▄▄   ▄▄▄▄    ▄▄▄▄▄     ▄▄   ▄▄▄ \n▀▀██▀▀  ██      ██ ▄█▀▀▀▀█   ██▀▀▀██   ██  ██▀  \n  ██    ▀█▄ ██ ▄█▀ ██▄       ██    ██  ██▄██    \n  ██     ██ ██ ██   ▀████▄   ██    ██  █████    \n  ██     ███▀▀███       ▀██  ██    ██  ██  ██▄  \n▄▄██▄▄   ███  ███  █▄▄▄▄▄█▀  ██▄▄▄██   ██   ██▄ \n▀▀▀▀▀▀   ▀▀▀  ▀▀▀   ▀▀▀▀▀    ▀▀▀▀▀     ▀▀    ▀▀                                                \n===============================================\nImmersive Web SDK v0.5.3\nThree.js r181\nEliCS v3.4.2"
+    ]
+  },
+  {
+    "timestamp": 1789160881068,
+    "level": "log",
+    "message": "[IWSDK-MCP-TRACE] client_command_ready_sent {\"tabId\":\"tab-mtxg663o-lwpedj\",\"tabGeneration\":3}",
+    "args": [
+      "[IWSDK-MCP-TRACE] client_command_ready_sent {\"tabId\":\"tab-mtxg663o-lwpedj\",\"tabGeneration\":3}"
+    ]
+  },
+  {
+    "timestamp": 1789160908054,
+    "level": "log",
+    "message": "[IWSDK-MCP-TRACE] client_request_received {\"id\":\"1789160908040-721254a88b895\",\"method\":\"ecs_find_entities\",\"tabId\":\"tab-mtxg663o-lwpedj\",\"tabGeneration\":3}",
+    "args": [
+      "[IWSDK-MCP-TRACE] client_request_received {\"id\":\"1789160908040-721254a88b895\",\"method\":\"ecs_find_entities\",\"tabId\":\"tab-mtxg663o-lwpedj\",\"tabGeneration\":3}"
+    ]
+  },
+  {
+    "timestamp": 1789160908056,
+    "level": "log",
+    "message": "[IWSDK-MCP-TRACE] client_response_sent {\"id\":\"1789160908040-721254a88b895\",\"hasError\":false,\"tabId\":\"tab-mtxg663o-lwpedj\",\"tabGeneration\":3}",
+    "args": [
+      "[IWSDK-MCP-TRACE] client_response_sent {\"id\":\"1789160908040-721254a88b895\",\"hasError\":false,\"tabId\":\"tab-mtxg663o-lwpedj\",\"tabGeneration\":3}"
+    ]
+  },
+  {
+    "timestamp": 1789160908694,
+    "level": "log",
+    "message": "[IWSDK-MCP-TRACE] client_request_received {\"id\":\"1789160908681-da356aa2d9d708\",\"method\":\"scene_get_state\",\"tabId\":\"tab-mtxg654i-l6y3gp\",\"tabGeneration\":3}",
+    "args": [
+      "[IWSDK-MCP-TRACE] client_request_received {\"id\":\"1789160908681-da356aa2d9d708\",\"method\":\"scene_get_state\",\"tabId\":\"tab-mtxg654i-l6y3gp\",\"tabGeneration\":3}"
+    ]
+  },
+  {
+    "timestamp": 1789160908695,
+    "level": "log",
+    "message": "[IWSDK-MCP-TRACE] client_response_sent {\"id\":\"1789160908681-da356aa2d9d708\",\"hasError\":false,\"tabId\":\"tab-mtxg654i-l6y3gp\",\"tabGeneration\":3}",
+    "args": [
+      "[IWSDK-MCP-TRACE] client_response_sent {\"id\":\"1789160908681-da356aa2d9d708\",\"hasError\":false,\"tabId\":\"tab-mtxg654i-l6y3gp\",\"tabGeneration\":3}"
+    ]
+  },
+  {
+    "timestamp": 1789161029218,
+    "level": "log",
+    "message": "[IWSDK Dev] Configuration: {device: metaQuest3, activation: localhost, verbose: true, sem: null, ai: null}",
+    "args": [
+      "[IWSDK Dev] Configuration: {device: metaQuest3, activation: localhost, verbose: true, sem: null, ai: null}"
+    ]
+  },
+  {
+    "timestamp": 1789161029219,
+    "level": "log",
+    "message": "[IWSDK Dev] 🎯 Activating IWER runtime...",
+    "args": [
+      "[IWSDK Dev] 🎯 Activating IWER runtime..."
+    ]
+  },
+  {
+    "timestamp": 1789161029219,
+    "level": "log",
+    "message": "[IWSDK Dev] 📱 Using device configuration: metaQuest3",
+    "args": [
+      "[IWSDK Dev] 📱 Using device configuration: metaQuest3"
+    ]
+  },
+  {
+    "timestamp": 1789161029251,
+    "level": "log",
+    "message": "[IWSDK Dev] 🔌 Initializing MCP client...",
+    "args": [
+      "[IWSDK Dev] 🔌 Initializing MCP client..."
+    ]
+  },
+  {
+    "timestamp": 1789161029251,
+    "level": "log",
+    "message": "[IWSDK-MCP] Connecting to: wss://localhost:8081/__iwer_mcp",
+    "args": [
+      "[IWSDK-MCP] Connecting to: wss://localhost:8081/__iwer_mcp"
+    ]
+  },
+  {
+    "timestamp": 1789161029252,
+    "level": "log",
+    "message": "[IWSDK-MCP-TRACE] client_connect_start {\"wsUrl\":\"wss://localhost:8081/__iwer_mcp\",\"reconnectAttempts\":0,\"tabId\":\"tab-mtxg654i-l6y3gp\",\"tabGeneration\":4}",
+    "args": [
+      "[IWSDK-MCP-TRACE] client_connect_start {\"wsUrl\":\"wss://localhost:8081/__iwer_mcp\",\"reconnectAttempts\":0,\"tabId\":\"tab-mtxg654i-l6y3gp\",\"tabGeneration\":4}"
+    ]
+  },
+  {
+    "timestamp": 1789161029252,
+    "level": "log",
+    "message": "[IWSDK Dev] ✅ MCP client initialized",
+    "args": [
+      "[IWSDK Dev] ✅ MCP client initialized"
+    ]
+  },
+  {
+    "timestamp": 1789161029253,
+    "level": "log",
+    "message": "[IWSDK Dev] ✅ Runtime activated successfully!",
+    "args": [
+      "[IWSDK Dev] ✅ Runtime activated successfully!"
+    ]
+  },
+  {
+    "timestamp": 1789161029309,
+    "level": "log",
+    "message": "[IWSDK-MCP] Connected",
+    "args": [
+      "[IWSDK-MCP] Connected"
+    ]
+  },
+  {
+    "timestamp": 1789161029310,
+    "level": "log",
+    "message": "[IWSDK-MCP-TRACE] client_open {\"tabId\":\"tab-mtxg654i-l6y3gp\",\"tabGeneration\":4}",
+    "args": [
+      "[IWSDK-MCP-TRACE] client_open {\"tabId\":\"tab-mtxg654i-l6y3gp\",\"tabGeneration\":4}"
+    ]
+  },
+  {
+    "timestamp": 1789161029310,
+    "level": "log",
+    "message": "[IWSDK-MCP-TRACE] client_hello_sent {\"tabId\":\"tab-mtxg654i-l6y3gp\",\"tabGeneration\":4}",
+    "args": [
+      "[IWSDK-MCP-TRACE] client_hello_sent {\"tabId\":\"tab-mtxg654i-l6y3gp\",\"tabGeneration\":4}"
+    ]
+  },
+  {
+    "timestamp": 1789161029340,
+    "level": "log",
+    "message": "[IWSDK-MCP-TRACE] client_request_received {\"id\":\"1789161029323-a5d8ec540a2418\",\"method\":\"scene_render_file\",\"tabId\":\"tab-mtxg654i-l6y3gp\",\"tabGeneration\":4}",
+    "args": [
+      "[IWSDK-MCP-TRACE] client_request_received {\"id\":\"1789161029323-a5d8ec540a2418\",\"method\":\"scene_render_file\",\"tabId\":\"tab-mtxg654i-l6y3gp\",\"tabGeneration\":4}"
+    ]
+  },
+  {
+    "timestamp": 1789161030324,
+    "level": "log",
+    "message": "                                                 \n▄▄▄▄▄▄  ▄▄      ▄▄   ▄▄▄▄    ▄▄▄▄▄     ▄▄   ▄▄▄ \n▀▀██▀▀  ██      ██ ▄█▀▀▀▀█   ██▀▀▀██   ██  ██▀  \n  ██    ▀█▄ ██ ▄█▀ ██▄       ██    ██  ██▄██    \n  ██     ██ ██ ██   ▀████▄   ██    ██  █████    \n  ██     ███▀▀███       ▀██  ██    ██  ██  ██▄  \n▄▄██▄▄   ███  ███  █▄▄▄▄▄█▀  ██▄▄▄██   ██   ██▄ \n▀▀▀▀▀▀   ▀▀▀  ▀▀▀   ▀▀▀▀▀    ▀▀▀▀▀     ▀▀    ▀▀                                                \n===============================================\nImmersive Web SDK v0.5.3\nThree.js r181\nEliCS v3.4.2",
+    "args": [
+      "                                                 \n▄▄▄▄▄▄  ▄▄      ▄▄   ▄▄▄▄    ▄▄▄▄▄     ▄▄   ▄▄▄ \n▀▀██▀▀  ██      ██ ▄█▀▀▀▀█   ██▀▀▀██   ██  ██▀  \n  ██    ▀█▄ ██ ▄█▀ ██▄       ██    ██  ██▄██    \n  ██     ██ ██ ██   ▀████▄   ██    ██  █████    \n  ██     ███▀▀███       ▀██  ██    ██  ██  ██▄  \n▄▄██▄▄   ███  ███  █▄▄▄▄▄█▀  ██▄▄▄██   ██   ██▄ \n▀▀▀▀▀▀   ▀▀▀  ▀▀▀   ▀▀▀▀▀    ▀▀▀▀▀     ▀▀    ▀▀                                                \n===============================================\nImmersive Web SDK v0.5.3\nThree.js r181\nEliCS v3.4.2"
+    ]
+  },
+  {
+    "timestamp": 1789161030464,
+    "level": "log",
+    "message": "[IWSDK-MCP-TRACE] client_command_ready_sent {\"tabId\":\"tab-mtxg654i-l6y3gp\",\"tabGeneration\":4}",
+    "args": [
+      "[IWSDK-MCP-TRACE] client_command_ready_sent {\"tabId\":\"tab-mtxg654i-l6y3gp\",\"tabGeneration\":4}"
+    ]
+  },
+  {
+    "timestamp": 1789161030730,
+    "level": "log",
+    "message": "[IWSDK Dev] Configuration: {device: metaQuest3, activation: localhost, verbose: true, sem: null, ai: null}",
+    "args": [
+      "[IWSDK Dev] Configuration: {device: metaQuest3, activation: localhost, verbose: true, sem: null, ai: null}"
+    ]
+  },
+  {
+    "timestamp": 1789161030731,
+    "level": "log",
+    "message": "[IWSDK Dev] 🎯 Activating IWER runtime...",
+    "args": [
+      "[IWSDK Dev] 🎯 Activating IWER runtime..."
+    ]
+  },
+  {
+    "timestamp": 1789161030732,
+    "level": "log",
+    "message": "[IWSDK Dev] 📱 Using device configuration: metaQuest3",
+    "args": [
+      "[IWSDK Dev] 📱 Using device configuration: metaQuest3"
+    ]
+  },
+  {
+    "timestamp": 1789161030755,
+    "level": "log",
+    "message": "[IWSDK Dev] 🔌 Initializing MCP client...",
+    "args": [
+      "[IWSDK Dev] 🔌 Initializing MCP client..."
+    ]
+  },
+  {
+    "timestamp": 1789161030756,
+    "level": "log",
+    "message": "[IWSDK-MCP] Connecting to: wss://localhost:8081/__iwer_mcp",
+    "args": [
+      "[IWSDK-MCP] Connecting to: wss://localhost:8081/__iwer_mcp"
+    ]
+  },
+  {
+    "timestamp": 1789161030756,
+    "level": "log",
+    "message": "[IWSDK-MCP-TRACE] client_connect_start {\"wsUrl\":\"wss://localhost:8081/__iwer_mcp\",\"reconnectAttempts\":0,\"tabId\":\"tab-mtxg663o-lwpedj\",\"tabGeneration\":4}",
+    "args": [
+      "[IWSDK-MCP-TRACE] client_connect_start {\"wsUrl\":\"wss://localhost:8081/__iwer_mcp\",\"reconnectAttempts\":0,\"tabId\":\"tab-mtxg663o-lwpedj\",\"tabGeneration\":4}"
+    ]
+  },
+  {
+    "timestamp": 1789161030756,
+    "level": "log",
+    "message": "[IWSDK Dev] ✅ MCP client initialized",
+    "args": [
+      "[IWSDK Dev] ✅ MCP client initialized"
+    ]
+  },
+  {
+    "timestamp": 1789161030757,
+    "level": "log",
+    "message": "[IWSDK Dev] ✅ Runtime activated successfully!",
+    "args": [
+      "[IWSDK Dev] ✅ Runtime activated successfully!"
+    ]
+  },
+  {
+    "timestamp": 1789161030783,
+    "level": "log",
+    "message": "[IWSDK-MCP] Connected",
+    "args": [
+      "[IWSDK-MCP] Connected"
+    ]
+  },
+  {
+    "timestamp": 1789161030783,
+    "level": "log",
+    "message": "[IWSDK-MCP-TRACE] client_open {\"tabId\":\"tab-mtxg663o-lwpedj\",\"tabGeneration\":4}",
+    "args": [
+      "[IWSDK-MCP-TRACE] client_open {\"tabId\":\"tab-mtxg663o-lwpedj\",\"tabGeneration\":4}"
+    ]
+  },
+  {
+    "timestamp": 1789161030786,
+    "level": "log",
+    "message": "[IWSDK-MCP-TRACE] client_hello_sent {\"tabId\":\"tab-mtxg663o-lwpedj\",\"tabGeneration\":4}",
+    "args": [
+      "[IWSDK-MCP-TRACE] client_hello_sent {\"tabId\":\"tab-mtxg663o-lwpedj\",\"tabGeneration\":4}"
+    ]
+  },
+  {
+    "timestamp": 1789161031023,
+    "level": "log",
+    "message": "                                                 \n▄▄▄▄▄▄  ▄▄      ▄▄   ▄▄▄▄    ▄▄▄▄▄     ▄▄   ▄▄▄ \n▀▀██▀▀  ██      ██ ▄█▀▀▀▀█   ██▀▀▀██   ██  ██▀  \n  ██    ▀█▄ ██ ▄█▀ ██▄       ██    ██  ██▄██    \n  ██     ██ ██ ██   ▀████▄   ██    ██  █████    \n  ██     ███▀▀███       ▀██  ██    ██  ██  ██▄  \n▄▄██▄▄   ███  ███  █▄▄▄▄▄█▀  ██▄▄▄██   ██   ██▄ \n▀▀▀▀▀▀   ▀▀▀  ▀▀▀   ▀▀▀▀▀    ▀▀▀▀▀     ▀▀    ▀▀                                                \n===============================================\nImmersive Web SDK v0.5.3\nThree.js r181\nEliCS v3.4.2",
+    "args": [
+      "                                                 \n▄▄▄▄▄▄  ▄▄      ▄▄   ▄▄▄▄    ▄▄▄▄▄     ▄▄   ▄▄▄ \n▀▀██▀▀  ██      ██ ▄█▀▀▀▀█   ██▀▀▀██   ██  ██▀  \n  ██    ▀█▄ ██ ▄█▀ ██▄       ██    ██  ██▄██    \n  ██     ██ ██ ██   ▀████▄   ██    ██  █████    \n  ██     ███▀▀███       ▀██  ██    ██  ██  ██▄  \n▄▄██▄▄   ███  ███  █▄▄▄▄▄█▀  ██▄▄▄██   ██   ██▄ \n▀▀▀▀▀▀   ▀▀▀  ▀▀▀   ▀▀▀▀▀    ▀▀▀▀▀     ▀▀    ▀▀                                                \n===============================================\nImmersive Web SDK v0.5.3\nThree.js r181\nEliCS v3.4.2"
+    ]
+  },
+  {
+    "timestamp": 1789161031400,
+    "level": "log",
+    "message": "[IWSDK-MCP-TRACE] client_command_ready_sent {\"tabId\":\"tab-mtxg663o-lwpedj\",\"tabGeneration\":4}",
+    "args": [
+      "[IWSDK-MCP-TRACE] client_command_ready_sent {\"tabId\":\"tab-mtxg663o-lwpedj\",\"tabGeneration\":4}"
+    ]
+  },
+  {
+    "timestamp": 1789161039340,
+    "level": "log",
+    "message": "[IWSDK-MCP-TRACE] client_response_sent {\"id\":\"1789161029323-a5d8ec540a2418\",\"hasError\":true,\"tabId\":\"tab-mtxg654i-l6y3gp\",\"tabGeneration\":4}",
+    "args": [
+      "[IWSDK-MCP-TRACE] client_response_sent {\"id\":\"1789161029323-a5d8ec540a2418\",\"hasError\":true,\"tabId\":\"tab-mtxg654i-l6y3gp\",\"tabGeneration\":4}"
+    ]
+  },
+  {
+    "timestamp": 1789161166604,
+    "level": "log",
+    "message": "[IWSDK Dev] Configuration: {device: metaQuest3, activation: localhost, verbose: true, sem: null, ai: null}",
+    "args": [
+      "[IWSDK Dev] Configuration: {device: metaQuest3, activation: localhost, verbose: true, sem: null, ai: null}"
+    ]
+  },
+  {
+    "timestamp": 1789161166672,
+    "level": "log",
+    "message": "[IWSDK Dev] 🎯 Activating IWER runtime...",
+    "args": [
+      "[IWSDK Dev] 🎯 Activating IWER runtime..."
+    ]
+  },
+  {
+    "timestamp": 1789161166678,
+    "level": "log",
+    "message": "[IWSDK Dev] 📱 Using device configuration: metaQuest3",
+    "args": [
+      "[IWSDK Dev] 📱 Using device configuration: metaQuest3"
+    ]
+  },
+  {
+    "timestamp": 1789161166711,
+    "level": "log",
+    "message": "[IWSDK Dev] 🔌 Initializing MCP client...",
+    "args": [
+      "[IWSDK Dev] 🔌 Initializing MCP client..."
+    ]
+  },
+  {
+    "timestamp": 1789161166714,
+    "level": "log",
+    "message": "[IWSDK-MCP] Connecting to: wss://localhost:8081/__iwer_mcp",
+    "args": [
+      "[IWSDK-MCP] Connecting to: wss://localhost:8081/__iwer_mcp"
+    ]
+  },
+  {
+    "timestamp": 1789161166715,
+    "level": "log",
+    "message": "[IWSDK-MCP-TRACE] client_connect_start {\"wsUrl\":\"wss://localhost:8081/__iwer_mcp\",\"reconnectAttempts\":0,\"tabId\":\"tab-mtxg654i-l6y3gp\",\"tabGeneration\":5}",
+    "args": [
+      "[IWSDK-MCP-TRACE] client_connect_start {\"wsUrl\":\"wss://localhost:8081/__iwer_mcp\",\"reconnectAttempts\":0,\"tabId\":\"tab-mtxg654i-l6y3gp\",\"tabGeneration\":5}"
+    ]
+  },
+  {
+    "timestamp": 1789161166718,
+    "level": "log",
+    "message": "[IWSDK Dev] ✅ MCP client initialized",
+    "args": [
+      "[IWSDK Dev] ✅ MCP client initialized"
+    ]
+  },
+  {
+    "timestamp": 1789161166719,
+    "level": "log",
+    "message": "[IWSDK Dev] ✅ Runtime activated successfully!",
+    "args": [
+      "[IWSDK Dev] ✅ Runtime activated successfully!"
+    ]
+  },
+  {
+    "timestamp": 1789161166742,
+    "level": "log",
+    "message": "[IWSDK-MCP] Connected",
+    "args": [
+      "[IWSDK-MCP] Connected"
+    ]
+  },
+  {
+    "timestamp": 1789161166742,
+    "level": "log",
+    "message": "[IWSDK-MCP-TRACE] client_open {\"tabId\":\"tab-mtxg654i-l6y3gp\",\"tabGeneration\":5}",
+    "args": [
+      "[IWSDK-MCP-TRACE] client_open {\"tabId\":\"tab-mtxg654i-l6y3gp\",\"tabGeneration\":5}"
+    ]
+  },
+  {
+    "timestamp": 1789161166743,
+    "level": "log",
+    "message": "[IWSDK-MCP-TRACE] client_hello_sent {\"tabId\":\"tab-mtxg654i-l6y3gp\",\"tabGeneration\":5}",
+    "args": [
+      "[IWSDK-MCP-TRACE] client_hello_sent {\"tabId\":\"tab-mtxg654i-l6y3gp\",\"tabGeneration\":5}"
+    ]
+  },
+  {
+    "timestamp": 1789161167534,
+    "level": "log",
+    "message": "                                                 \n▄▄▄▄▄▄  ▄▄      ▄▄   ▄▄▄▄    ▄▄▄▄▄     ▄▄   ▄▄▄ \n▀▀██▀▀  ██      ██ ▄█▀▀▀▀█   ██▀▀▀██   ██  ██▀  \n  ██    ▀█▄ ██ ▄█▀ ██▄       ██    ██  ██▄██    \n  ██     ██ ██ ██   ▀████▄   ██    ██  █████    \n  ██     ███▀▀███       ▀██  ██    ██  ██  ██▄  \n▄▄██▄▄   ███  ███  █▄▄▄▄▄█▀  ██▄▄▄██   ██   ██▄ \n▀▀▀▀▀▀   ▀▀▀  ▀▀▀   ▀▀▀▀▀    ▀▀▀▀▀     ▀▀    ▀▀                                                \n===============================================\nImmersive Web SDK v0.5.3\nThree.js r181\nEliCS v3.4.2",
+    "args": [
+      "                                                 \n▄▄▄▄▄▄  ▄▄      ▄▄   ▄▄▄▄    ▄▄▄▄▄     ▄▄   ▄▄▄ \n▀▀██▀▀  ██      ██ ▄█▀▀▀▀█   ██▀▀▀██   ██  ██▀  \n  ██    ▀█▄ ██ ▄█▀ ██▄       ██    ██  ██▄██    \n  ██     ██ ██ ██   ▀████▄   ██    ██  █████    \n  ██     ███▀▀███       ▀██  ██    ██  ██  ██▄  \n▄▄██▄▄   ███  ███  █▄▄▄▄▄█▀  ██▄▄▄██   ██   ██▄ \n▀▀▀▀▀▀   ▀▀▀  ▀▀▀   ▀▀▀▀▀    ▀▀▀▀▀     ▀▀    ▀▀                                                \n===============================================\nImmersive Web SDK v0.5.3\nThree.js r181\nEliCS v3.4.2"
+    ]
+  },
+  {
+    "timestamp": 1789161168060,
+    "level": "log",
+    "message": "[IWSDK-MCP-TRACE] client_command_ready_sent {\"tabId\":\"tab-mtxg654i-l6y3gp\",\"tabGeneration\":5}",
+    "args": [
+      "[IWSDK-MCP-TRACE] client_command_ready_sent {\"tabId\":\"tab-mtxg654i-l6y3gp\",\"tabGeneration\":5}"
+    ]
+  },
+  {
+    "timestamp": 1789161168530,
+    "level": "log",
+    "message": "[IWSDK Dev] Configuration: {device: metaQuest3, activation: localhost, verbose: true, sem: null, ai: null}",
+    "args": [
+      "[IWSDK Dev] Configuration: {device: metaQuest3, activation: localhost, verbose: true, sem: null, ai: null}"
+    ]
+  },
+  {
+    "timestamp": 1789161168533,
+    "level": "log",
+    "message": "[IWSDK Dev] 🎯 Activating IWER runtime...",
+    "args": [
+      "[IWSDK Dev] 🎯 Activating IWER runtime..."
+    ]
+  },
+  {
+    "timestamp": 1789161168536,
+    "level": "log",
+    "message": "[IWSDK Dev] 📱 Using device configuration: metaQuest3",
+    "args": [
+      "[IWSDK Dev] 📱 Using device configuration: metaQuest3"
+    ]
+  },
+  {
+    "timestamp": 1789161168562,
+    "level": "log",
+    "message": "[IWSDK Dev] 🔌 Initializing MCP client...",
+    "args": [
+      "[IWSDK Dev] 🔌 Initializing MCP client..."
+    ]
+  },
+  {
+    "timestamp": 1789161168563,
+    "level": "log",
+    "message": "[IWSDK-MCP] Connecting to: wss://localhost:8081/__iwer_mcp",
+    "args": [
+      "[IWSDK-MCP] Connecting to: wss://localhost:8081/__iwer_mcp"
+    ]
+  },
+  {
+    "timestamp": 1789161168564,
+    "level": "log",
+    "message": "[IWSDK-MCP-TRACE] client_connect_start {\"wsUrl\":\"wss://localhost:8081/__iwer_mcp\",\"reconnectAttempts\":0,\"tabId\":\"tab-mtxg663o-lwpedj\",\"tabGeneration\":5}",
+    "args": [
+      "[IWSDK-MCP-TRACE] client_connect_start {\"wsUrl\":\"wss://localhost:8081/__iwer_mcp\",\"reconnectAttempts\":0,\"tabId\":\"tab-mtxg663o-lwpedj\",\"tabGeneration\":5}"
+    ]
+  },
+  {
+    "timestamp": 1789161168564,
+    "level": "log",
+    "message": "[IWSDK Dev] ✅ MCP client initialized",
+    "args": [
+      "[IWSDK Dev] ✅ MCP client initialized"
+    ]
+  },
+  {
+    "timestamp": 1789161168566,
+    "level": "log",
+    "message": "[IWSDK Dev] ✅ Runtime activated successfully!",
+    "args": [
+      "[IWSDK Dev] ✅ Runtime activated successfully!"
+    ]
+  },
+  {
+    "timestamp": 1789161168603,
+    "level": "log",
+    "message": "[IWSDK-MCP] Connected",
+    "args": [
+      "[IWSDK-MCP] Connected"
+    ]
+  },
+  {
+    "timestamp": 1789161168604,
+    "level": "log",
+    "message": "[IWSDK-MCP-TRACE] client_open {\"tabId\":\"tab-mtxg663o-lwpedj\",\"tabGeneration\":5}",
+    "args": [
+      "[IWSDK-MCP-TRACE] client_open {\"tabId\":\"tab-mtxg663o-lwpedj\",\"tabGeneration\":5}"
+    ]
+  },
+  {
+    "timestamp": 1789161168604,
+    "level": "log",
+    "message": "[IWSDK-MCP-TRACE] client_hello_sent {\"tabId\":\"tab-mtxg663o-lwpedj\",\"tabGeneration\":5}",
+    "args": [
+      "[IWSDK-MCP-TRACE] client_hello_sent {\"tabId\":\"tab-mtxg663o-lwpedj\",\"tabGeneration\":5}"
+    ]
+  },
+  {
+    "timestamp": 1789161168950,
+    "level": "log",
+    "message": "                                                 \n▄▄▄▄▄▄  ▄▄      ▄▄   ▄▄▄▄    ▄▄▄▄▄     ▄▄   ▄▄▄ \n▀▀██▀▀  ██      ██ ▄█▀▀▀▀█   ██▀▀▀██   ██  ██▀  \n  ██    ▀█▄ ██ ▄█▀ ██▄       ██    ██  ██▄██    \n  ██     ██ ██ ██   ▀████▄   ██    ██  █████    \n  ██     ███▀▀███       ▀██  ██    ██  ██  ██▄  \n▄▄██▄▄   ███  ███  █▄▄▄▄▄█▀  ██▄▄▄██   ██   ██▄ \n▀▀▀▀▀▀   ▀▀▀  ▀▀▀   ▀▀▀▀▀    ▀▀▀▀▀     ▀▀    ▀▀                                                \n===============================================\nImmersive Web SDK v0.5.3\nThree.js r181\nEliCS v3.4.2",
+    "args": [
+      "                                                 \n▄▄▄▄▄▄  ▄▄      ▄▄   ▄▄▄▄    ▄▄▄▄▄     ▄▄   ▄▄▄ \n▀▀██▀▀  ██      ██ ▄█▀▀▀▀█   ██▀▀▀██   ██  ██▀  \n  ██    ▀█▄ ██ ▄█▀ ██▄       ██    ██  ██▄██    \n  ██     ██ ██ ██   ▀████▄   ██    ██  █████    \n  ██     ███▀▀███       ▀██  ██    ██  ██  ██▄  \n▄▄██▄▄   ███  ███  █▄▄▄▄▄█▀  ██▄▄▄██   ██   ██▄ \n▀▀▀▀▀▀   ▀▀▀  ▀▀▀   ▀▀▀▀▀    ▀▀▀▀▀     ▀▀    ▀▀                                                \n===============================================\nImmersive Web SDK v0.5.3\nThree.js r181\nEliCS v3.4.2"
+    ]
+  },
+  {
+    "timestamp": 1789161169384,
+    "level": "log",
+    "message": "[IWSDK-MCP-TRACE] client_command_ready_sent {\"tabId\":\"tab-mtxg663o-lwpedj\",\"tabGeneration\":5}",
+    "args": [
+      "[IWSDK-MCP-TRACE] client_command_ready_sent {\"tabId\":\"tab-mtxg663o-lwpedj\",\"tabGeneration\":5}"
+    ]
+  },
+  {
+    "timestamp": 1789161222276,
+    "level": "log",
+    "message": "[IWSDK-MCP-TRACE] client_request_received {\"id\":\"1789161222251-21f810b65616d\",\"method\":\"scene_render_file\",\"tabId\":\"tab-mtxg654i-l6y3gp\",\"tabGeneration\":5}",
+    "args": [
+      "[IWSDK-MCP-TRACE] client_request_received {\"id\":\"1789161222251-21f810b65616d\",\"method\":\"scene_render_file\",\"tabId\":\"tab-mtxg654i-l6y3gp\",\"tabGeneration\":5}"
+    ]
+  },
+  {
+    "timestamp": 1789161222618,
+    "level": "log",
+    "message": "[IWSDK-MCP-TRACE] client_command_ready_sent {\"tabId\":\"tab-mtxg654i-l6y3gp\",\"tabGeneration\":5}",
+    "args": [
+      "[IWSDK-MCP-TRACE] client_command_ready_sent {\"tabId\":\"tab-mtxg654i-l6y3gp\",\"tabGeneration\":5}"
+    ]
+  },
+  {
+    "timestamp": 1789161225032,
+    "level": "log",
+    "message": "[IWSDK-MCP-TRACE] client_response_sent {\"id\":\"1789161222251-21f810b65616d\",\"hasError\":false,\"tabId\":\"tab-mtxg654i-l6y3gp\",\"tabGeneration\":5}",
+    "args": [
+      "[IWSDK-MCP-TRACE] client_response_sent {\"id\":\"1789161222251-21f810b65616d\",\"hasError\":false,\"tabId\":\"tab-mtxg654i-l6y3gp\",\"tabGeneration\":5}"
+    ]
+  },
+  {
+    "timestamp": 1789161316618,
+    "level": "log",
+    "message": "[IWSDK Dev] Configuration: {device: metaQuest3, activation: localhost, verbose: true, sem: null, ai: null}",
+    "args": [
+      "[IWSDK Dev] Configuration: {device: metaQuest3, activation: localhost, verbose: true, sem: null, ai: null}"
+    ]
+  },
+  {
+    "timestamp": 1789161316619,
+    "level": "log",
+    "message": "[IWSDK Dev] 🎯 Activating IWER runtime...",
+    "args": [
+      "[IWSDK Dev] 🎯 Activating IWER runtime..."
+    ]
+  },
+  {
+    "timestamp": 1789161316620,
+    "level": "log",
+    "message": "[IWSDK Dev] 📱 Using device configuration: metaQuest3",
+    "args": [
+      "[IWSDK Dev] 📱 Using device configuration: metaQuest3"
+    ]
+  },
+  {
+    "timestamp": 1789161316653,
+    "level": "log",
+    "message": "[IWSDK Dev] 🔌 Initializing MCP client...",
+    "args": [
+      "[IWSDK Dev] 🔌 Initializing MCP client..."
+    ]
+  },
+  {
+    "timestamp": 1789161316654,
+    "level": "log",
+    "message": "[IWSDK-MCP] Connecting to: wss://localhost:8081/__iwer_mcp",
+    "args": [
+      "[IWSDK-MCP] Connecting to: wss://localhost:8081/__iwer_mcp"
+    ]
+  },
+  {
+    "timestamp": 1789161316654,
+    "level": "log",
+    "message": "[IWSDK-MCP-TRACE] client_connect_start {\"wsUrl\":\"wss://localhost:8081/__iwer_mcp\",\"reconnectAttempts\":0,\"tabId\":\"tab-mtxg654i-l6y3gp\",\"tabGeneration\":6}",
+    "args": [
+      "[IWSDK-MCP-TRACE] client_connect_start {\"wsUrl\":\"wss://localhost:8081/__iwer_mcp\",\"reconnectAttempts\":0,\"tabId\":\"tab-mtxg654i-l6y3gp\",\"tabGeneration\":6}"
+    ]
+  },
+  {
+    "timestamp": 1789161316655,
+    "level": "log",
+    "message": "[IWSDK Dev] ✅ MCP client initialized",
+    "args": [
+      "[IWSDK Dev] ✅ MCP client initialized"
+    ]
+  },
+  {
+    "timestamp": 1789161316656,
+    "level": "log",
+    "message": "[IWSDK Dev] ✅ Runtime activated successfully!",
+    "args": [
+      "[IWSDK Dev] ✅ Runtime activated successfully!"
+    ]
+  },
+  {
+    "timestamp": 1789161316731,
+    "level": "log",
+    "message": "[IWSDK-MCP] Connected",
+    "args": [
+      "[IWSDK-MCP] Connected"
+    ]
+  },
+  {
+    "timestamp": 1789161316732,
+    "level": "log",
+    "message": "[IWSDK-MCP-TRACE] client_open {\"tabId\":\"tab-mtxg654i-l6y3gp\",\"tabGeneration\":6}",
+    "args": [
+      "[IWSDK-MCP-TRACE] client_open {\"tabId\":\"tab-mtxg654i-l6y3gp\",\"tabGeneration\":6}"
+    ]
+  },
+  {
+    "timestamp": 1789161316732,
+    "level": "log",
+    "message": "[IWSDK-MCP-TRACE] client_hello_sent {\"tabId\":\"tab-mtxg654i-l6y3gp\",\"tabGeneration\":6}",
+    "args": [
+      "[IWSDK-MCP-TRACE] client_hello_sent {\"tabId\":\"tab-mtxg654i-l6y3gp\",\"tabGeneration\":6}"
+    ]
+  },
+  {
+    "timestamp": 1789161317825,
+    "level": "log",
+    "message": "                                                 \n▄▄▄▄▄▄  ▄▄      ▄▄   ▄▄▄▄    ▄▄▄▄▄     ▄▄   ▄▄▄ \n▀▀██▀▀  ██      ██ ▄█▀▀▀▀█   ██▀▀▀██   ██  ██▀  \n  ██    ▀█▄ ██ ▄█▀ ██▄       ██    ██  ██▄██    \n  ██     ██ ██ ██   ▀████▄   ██    ██  █████    \n  ██     ███▀▀███       ▀██  ██    ██  ██  ██▄  \n▄▄██▄▄   ███  ███  █▄▄▄▄▄█▀  ██▄▄▄██   ██   ██▄ \n▀▀▀▀▀▀   ▀▀▀  ▀▀▀   ▀▀▀▀▀    ▀▀▀▀▀     ▀▀    ▀▀                                                \n===============================================\nImmersive Web SDK v0.5.3\nThree.js r181\nEliCS v3.4.2",
+    "args": [
+      "                                                 \n▄▄▄▄▄▄  ▄▄      ▄▄   ▄▄▄▄    ▄▄▄▄▄     ▄▄   ▄▄▄ \n▀▀██▀▀  ██      ██ ▄█▀▀▀▀█   ██▀▀▀██   ██  ██▀  \n  ██    ▀█▄ ██ ▄█▀ ██▄       ██    ██  ██▄██    \n  ██     ██ ██ ██   ▀████▄   ██    ██  █████    \n  ██     ███▀▀███       ▀██  ██    ██  ██  ██▄  \n▄▄██▄▄   ███  ███  █▄▄▄▄▄█▀  ██▄▄▄██   ██   ██▄ \n▀▀▀▀▀▀   ▀▀▀  ▀▀▀   ▀▀▀▀▀    ▀▀▀▀▀     ▀▀    ▀▀                                                \n===============================================\nImmersive Web SDK v0.5.3\nThree.js r181\nEliCS v3.4.2"
+    ]
+  },
+  {
+    "timestamp": 1789161318002,
+    "level": "log",
+    "message": "[IWSDK-MCP-TRACE] client_command_ready_sent {\"tabId\":\"tab-mtxg654i-l6y3gp\",\"tabGeneration\":6}",
+    "args": [
+      "[IWSDK-MCP-TRACE] client_command_ready_sent {\"tabId\":\"tab-mtxg654i-l6y3gp\",\"tabGeneration\":6}"
+    ]
+  },
+  {
+    "timestamp": 1789161318379,
+    "level": "log",
+    "message": "[IWSDK Dev] Configuration: {device: metaQuest3, activation: localhost, verbose: true, sem: null, ai: null}",
+    "args": [
+      "[IWSDK Dev] Configuration: {device: metaQuest3, activation: localhost, verbose: true, sem: null, ai: null}"
+    ]
+  },
+  {
+    "timestamp": 1789161318379,
+    "level": "log",
+    "message": "[IWSDK Dev] 🎯 Activating IWER runtime...",
+    "args": [
+      "[IWSDK Dev] 🎯 Activating IWER runtime..."
+    ]
+  },
+  {
+    "timestamp": 1789161318380,
+    "level": "log",
+    "message": "[IWSDK Dev] 📱 Using device configuration: metaQuest3",
+    "args": [
+      "[IWSDK Dev] 📱 Using device configuration: metaQuest3"
+    ]
+  },
+  {
+    "timestamp": 1789161318411,
+    "level": "log",
+    "message": "[IWSDK Dev] 🔌 Initializing MCP client...",
+    "args": [
+      "[IWSDK Dev] 🔌 Initializing MCP client..."
+    ]
+  },
+  {
+    "timestamp": 1789161318411,
+    "level": "log",
+    "message": "[IWSDK-MCP] Connecting to: wss://localhost:8081/__iwer_mcp",
+    "args": [
+      "[IWSDK-MCP] Connecting to: wss://localhost:8081/__iwer_mcp"
+    ]
+  },
+  {
+    "timestamp": 1789161318412,
+    "level": "log",
+    "message": "[IWSDK-MCP-TRACE] client_connect_start {\"wsUrl\":\"wss://localhost:8081/__iwer_mcp\",\"reconnectAttempts\":0,\"tabId\":\"tab-mtxg663o-lwpedj\",\"tabGeneration\":6}",
+    "args": [
+      "[IWSDK-MCP-TRACE] client_connect_start {\"wsUrl\":\"wss://localhost:8081/__iwer_mcp\",\"reconnectAttempts\":0,\"tabId\":\"tab-mtxg663o-lwpedj\",\"tabGeneration\":6}"
+    ]
+  },
+  {
+    "timestamp": 1789161318413,
+    "level": "log",
+    "message": "[IWSDK Dev] ✅ MCP client initialized",
+    "args": [
+      "[IWSDK Dev] ✅ MCP client initialized"
+    ]
+  },
+  {
+    "timestamp": 1789161318414,
+    "level": "log",
+    "message": "[IWSDK Dev] ✅ Runtime activated successfully!",
+    "args": [
+      "[IWSDK Dev] ✅ Runtime activated successfully!"
+    ]
+  },
+  {
+    "timestamp": 1789161318452,
+    "level": "log",
+    "message": "[IWSDK-MCP] Connected",
+    "args": [
+      "[IWSDK-MCP] Connected"
+    ]
+  },
+  {
+    "timestamp": 1789161318455,
+    "level": "log",
+    "message": "[IWSDK-MCP-TRACE] client_open {\"tabId\":\"tab-mtxg663o-lwpedj\",\"tabGeneration\":6}",
+    "args": [
+      "[IWSDK-MCP-TRACE] client_open {\"tabId\":\"tab-mtxg663o-lwpedj\",\"tabGeneration\":6}"
+    ]
+  },
+  {
+    "timestamp": 1789161318456,
+    "level": "log",
+    "message": "[IWSDK-MCP-TRACE] client_hello_sent {\"tabId\":\"tab-mtxg663o-lwpedj\",\"tabGeneration\":6}",
+    "args": [
+      "[IWSDK-MCP-TRACE] client_hello_sent {\"tabId\":\"tab-mtxg663o-lwpedj\",\"tabGeneration\":6}"
+    ]
+  },
+  {
+    "timestamp": 1789161318915,
+    "level": "log",
+    "message": "                                                 \n▄▄▄▄▄▄  ▄▄      ▄▄   ▄▄▄▄    ▄▄▄▄▄     ▄▄   ▄▄▄ \n▀▀██▀▀  ██      ██ ▄█▀▀▀▀█   ██▀▀▀██   ██  ██▀  \n  ██    ▀█▄ ██ ▄█▀ ██▄       ██    ██  ██▄██    \n  ██     ██ ██ ██   ▀████▄   ██    ██  █████    \n  ██     ███▀▀███       ▀██  ██    ██  ██  ██▄  \n▄▄██▄▄   ███  ███  █▄▄▄▄▄█▀  ██▄▄▄██   ██   ██▄ \n▀▀▀▀▀▀   ▀▀▀  ▀▀▀   ▀▀▀▀▀    ▀▀▀▀▀     ▀▀    ▀▀                                                \n===============================================\nImmersive Web SDK v0.5.3\nThree.js r181\nEliCS v3.4.2",
+    "args": [
+      "                                                 \n▄▄▄▄▄▄  ▄▄      ▄▄   ▄▄▄▄    ▄▄▄▄▄     ▄▄   ▄▄▄ \n▀▀██▀▀  ██      ██ ▄█▀▀▀▀█   ██▀▀▀██   ██  ██▀  \n  ██    ▀█▄ ██ ▄█▀ ██▄       ██    ██  ██▄██    \n  ██     ██ ██ ██   ▀████▄   ██    ██  █████    \n  ██     ███▀▀███       ▀██  ██    ██  ██  ██▄  \n▄▄██▄▄   ███  ███  █▄▄▄▄▄█▀  ██▄▄▄██   ██   ██▄ \n▀▀▀▀▀▀   ▀▀▀  ▀▀▀   ▀▀▀▀▀    ▀▀▀▀▀     ▀▀    ▀▀                                                \n===============================================\nImmersive Web SDK v0.5.3\nThree.js r181\nEliCS v3.4.2"
+    ]
+  },
+  {
+    "timestamp": 1789161319363,
+    "level": "log",
+    "message": "[IWSDK-MCP-TRACE] client_command_ready_sent {\"tabId\":\"tab-mtxg663o-lwpedj\",\"tabGeneration\":6}",
+    "args": [
+      "[IWSDK-MCP-TRACE] client_command_ready_sent {\"tabId\":\"tab-mtxg663o-lwpedj\",\"tabGeneration\":6}"
+    ]
+  },
+  {
+    "timestamp": 1789161321501,
+    "level": "info",
+    "message": "COACH_QA {\"phase\":\"arrival\",\"progress\":0,\"connected\":false,\"participant\":false,\"effects\":false,\"domain\":false,\"eye\":[4.085005398903832e-18,1.652938659535721,2]}",
+    "args": [
+      "COACH_QA {\"phase\":\"arrival\",\"progress\":0,\"connected\":false,\"participant\":false,\"effects\":false,\"domain\":false,\"eye\":[4.085005398903832e-18,1.652938659535721,2]}"
+    ]
+  },
+  {
+    "timestamp": 1789161334021,
+    "level": "info",
+    "message": "COACH_QA {\"phase\":\"outbound\",\"progress\":0.000009340004908153787,\"connected\":false,\"participant\":false,\"effects\":false,\"domain\":false,\"eye\":[11.944920539855957,2.235996723175049,0.36845406889915466]}",
+    "args": [
+      "COACH_QA {\"phase\":\"outbound\",\"progress\":0.000009340004908153787,\"connected\":false,\"participant\":false,\"effects\":false,\"domain\":false,\"eye\":[11.944920539855957,2.235996723175049,0.36845406889915466]}"
+    ]
+  },
+  {
+    "timestamp": 1789161372612,
+    "level": "info",
+    "message": "COACH_QA {\"phase\":\"outbound\",\"progress\":0.5025159120559692,\"connected\":true,\"participant\":false,\"effects\":false,\"domain\":true,\"eye\":[58.943294525146484,2.128000020980835,-25.419843673706055]}",
+    "args": [
+      "COACH_QA {\"phase\":\"outbound\",\"progress\":0.5025159120559692,\"connected\":true,\"participant\":false,\"effects\":false,\"domain\":true,\"eye\":[58.943294525146484,2.128000020980835,-25.419843673706055]}"
+    ]
+  },
+  {
+    "timestamp": 1789161385744,
+    "level": "log",
+    "message": "[IWSDK Dev] Configuration: {device: metaQuest3, activation: localhost, verbose: true, sem: null, ai: null}",
+    "args": [
+      "[IWSDK Dev] Configuration: {device: metaQuest3, activation: localhost, verbose: true, sem: null, ai: null}"
+    ]
+  },
+  {
+    "timestamp": 1789161385745,
+    "level": "log",
+    "message": "[IWSDK Dev] 🎯 Activating IWER runtime...",
+    "args": [
+      "[IWSDK Dev] 🎯 Activating IWER runtime..."
+    ]
+  },
+  {
+    "timestamp": 1789161385745,
+    "level": "log",
+    "message": "[IWSDK Dev] 📱 Using device configuration: metaQuest3",
+    "args": [
+      "[IWSDK Dev] 📱 Using device configuration: metaQuest3"
+    ]
+  },
+  {
+    "timestamp": 1789161385779,
+    "level": "log",
+    "message": "[IWSDK Dev] 🔌 Initializing MCP client...",
+    "args": [
+      "[IWSDK Dev] 🔌 Initializing MCP client..."
+    ]
+  },
+  {
+    "timestamp": 1789161385779,
+    "level": "log",
+    "message": "[IWSDK-MCP] Connecting to: wss://localhost:8081/__iwer_mcp",
+    "args": [
+      "[IWSDK-MCP] Connecting to: wss://localhost:8081/__iwer_mcp"
+    ]
+  },
+  {
+    "timestamp": 1789161385779,
+    "level": "log",
+    "message": "[IWSDK-MCP-TRACE] client_connect_start {\"wsUrl\":\"wss://localhost:8081/__iwer_mcp\",\"reconnectAttempts\":0,\"tabId\":\"tab-mtxg654i-l6y3gp\",\"tabGeneration\":7}",
+    "args": [
+      "[IWSDK-MCP-TRACE] client_connect_start {\"wsUrl\":\"wss://localhost:8081/__iwer_mcp\",\"reconnectAttempts\":0,\"tabId\":\"tab-mtxg654i-l6y3gp\",\"tabGeneration\":7}"
+    ]
+  },
+  {
+    "timestamp": 1789161385780,
+    "level": "log",
+    "message": "[IWSDK Dev] ✅ MCP client initialized",
+    "args": [
+      "[IWSDK Dev] ✅ MCP client initialized"
+    ]
+  },
+  {
+    "timestamp": 1789161385783,
+    "level": "log",
+    "message": "[IWSDK Dev] ✅ Runtime activated successfully!",
+    "args": [
+      "[IWSDK Dev] ✅ Runtime activated successfully!"
+    ]
+  },
+  {
+    "timestamp": 1789161385844,
+    "level": "log",
+    "message": "[IWSDK-MCP] Connected",
+    "args": [
+      "[IWSDK-MCP] Connected"
+    ]
+  },
+  {
+    "timestamp": 1789161385844,
+    "level": "log",
+    "message": "[IWSDK-MCP-TRACE] client_open {\"tabId\":\"tab-mtxg654i-l6y3gp\",\"tabGeneration\":7}",
+    "args": [
+      "[IWSDK-MCP-TRACE] client_open {\"tabId\":\"tab-mtxg654i-l6y3gp\",\"tabGeneration\":7}"
+    ]
+  },
+  {
+    "timestamp": 1789161385845,
+    "level": "log",
+    "message": "[IWSDK-MCP-TRACE] client_hello_sent {\"tabId\":\"tab-mtxg654i-l6y3gp\",\"tabGeneration\":7}",
+    "args": [
+      "[IWSDK-MCP-TRACE] client_hello_sent {\"tabId\":\"tab-mtxg654i-l6y3gp\",\"tabGeneration\":7}"
+    ]
+  },
+  {
+    "timestamp": 1789161386771,
+    "level": "log",
+    "message": "                                                 \n▄▄▄▄▄▄  ▄▄      ▄▄   ▄▄▄▄    ▄▄▄▄▄     ▄▄   ▄▄▄ \n▀▀██▀▀  ██      ██ ▄█▀▀▀▀█   ██▀▀▀██   ██  ██▀  \n  ██    ▀█▄ ██ ▄█▀ ██▄       ██    ██  ██▄██    \n  ██     ██ ██ ██   ▀████▄   ██    ██  █████    \n  ██     ███▀▀███       ▀██  ██    ██  ██  ██▄  \n▄▄██▄▄   ███  ███  █▄▄▄▄▄█▀  ██▄▄▄██   ██   ██▄ \n▀▀▀▀▀▀   ▀▀▀  ▀▀▀   ▀▀▀▀▀    ▀▀▀▀▀     ▀▀    ▀▀                                                \n===============================================\nImmersive Web SDK v0.5.3\nThree.js r181\nEliCS v3.4.2",
+    "args": [
+      "                                                 \n▄▄▄▄▄▄  ▄▄      ▄▄   ▄▄▄▄    ▄▄▄▄▄     ▄▄   ▄▄▄ \n▀▀██▀▀  ██      ██ ▄█▀▀▀▀█   ██▀▀▀██   ██  ██▀  \n  ██    ▀█▄ ██ ▄█▀ ██▄       ██    ██  ██▄██    \n  ██     ██ ██ ██   ▀████▄   ██    ██  █████    \n  ██     ███▀▀███       ▀██  ██    ██  ██  ██▄  \n▄▄██▄▄   ███  ███  █▄▄▄▄▄█▀  ██▄▄▄██   ██   ██▄ \n▀▀▀▀▀▀   ▀▀▀  ▀▀▀   ▀▀▀▀▀    ▀▀▀▀▀     ▀▀    ▀▀                                                \n===============================================\nImmersive Web SDK v0.5.3\nThree.js r181\nEliCS v3.4.2"
+    ]
+  },
+  {
+    "timestamp": 1789161386934,
+    "level": "log",
+    "message": "[IWSDK-MCP-TRACE] client_command_ready_sent {\"tabId\":\"tab-mtxg654i-l6y3gp\",\"tabGeneration\":7}",
+    "args": [
+      "[IWSDK-MCP-TRACE] client_command_ready_sent {\"tabId\":\"tab-mtxg654i-l6y3gp\",\"tabGeneration\":7}"
+    ]
+  },
+  {
+    "timestamp": 1789161387247,
+    "level": "log",
+    "message": "[IWSDK Dev] Configuration: {device: metaQuest3, activation: localhost, verbose: true, sem: null, ai: null}",
+    "args": [
+      "[IWSDK Dev] Configuration: {device: metaQuest3, activation: localhost, verbose: true, sem: null, ai: null}"
+    ]
+  },
+  {
+    "timestamp": 1789161387247,
+    "level": "log",
+    "message": "[IWSDK Dev] 🎯 Activating IWER runtime...",
+    "args": [
+      "[IWSDK Dev] 🎯 Activating IWER runtime..."
+    ]
+  },
+  {
+    "timestamp": 1789161387249,
+    "level": "log",
+    "message": "[IWSDK Dev] 📱 Using device configuration: metaQuest3",
+    "args": [
+      "[IWSDK Dev] 📱 Using device configuration: metaQuest3"
+    ]
+  },
+  {
+    "timestamp": 1789161387276,
+    "level": "log",
+    "message": "[IWSDK Dev] 🔌 Initializing MCP client...",
+    "args": [
+      "[IWSDK Dev] 🔌 Initializing MCP client..."
+    ]
+  },
+  {
+    "timestamp": 1789161387277,
+    "level": "log",
+    "message": "[IWSDK-MCP] Connecting to: wss://localhost:8081/__iwer_mcp",
+    "args": [
+      "[IWSDK-MCP] Connecting to: wss://localhost:8081/__iwer_mcp"
+    ]
+  },
+  {
+    "timestamp": 1789161387277,
+    "level": "log",
+    "message": "[IWSDK-MCP-TRACE] client_connect_start {\"wsUrl\":\"wss://localhost:8081/__iwer_mcp\",\"reconnectAttempts\":0,\"tabId\":\"tab-mtxg663o-lwpedj\",\"tabGeneration\":7}",
+    "args": [
+      "[IWSDK-MCP-TRACE] client_connect_start {\"wsUrl\":\"wss://localhost:8081/__iwer_mcp\",\"reconnectAttempts\":0,\"tabId\":\"tab-mtxg663o-lwpedj\",\"tabGeneration\":7}"
+    ]
+  },
+  {
+    "timestamp": 1789161387278,
+    "level": "log",
+    "message": "[IWSDK Dev] ✅ MCP client initialized",
+    "args": [
+      "[IWSDK Dev] ✅ MCP client initialized"
+    ]
+  },
+  {
+    "timestamp": 1789161387278,
+    "level": "log",
+    "message": "[IWSDK Dev] ✅ Runtime activated successfully!",
+    "args": [
+      "[IWSDK Dev] ✅ Runtime activated successfully!"
+    ]
+  },
+  {
+    "timestamp": 1789161387303,
+    "level": "log",
+    "message": "[IWSDK-MCP] Connected",
+    "args": [
+      "[IWSDK-MCP] Connected"
+    ]
+  },
+  {
+    "timestamp": 1789161387303,
+    "level": "log",
+    "message": "[IWSDK-MCP-TRACE] client_open {\"tabId\":\"tab-mtxg663o-lwpedj\",\"tabGeneration\":7}",
+    "args": [
+      "[IWSDK-MCP-TRACE] client_open {\"tabId\":\"tab-mtxg663o-lwpedj\",\"tabGeneration\":7}"
+    ]
+  },
+  {
+    "timestamp": 1789161387303,
+    "level": "log",
+    "message": "[IWSDK-MCP-TRACE] client_hello_sent {\"tabId\":\"tab-mtxg663o-lwpedj\",\"tabGeneration\":7}",
+    "args": [
+      "[IWSDK-MCP-TRACE] client_hello_sent {\"tabId\":\"tab-mtxg663o-lwpedj\",\"tabGeneration\":7}"
+    ]
+  },
+  {
+    "timestamp": 1789161387688,
+    "level": "log",
+    "message": "                                                 \n▄▄▄▄▄▄  ▄▄      ▄▄   ▄▄▄▄    ▄▄▄▄▄     ▄▄   ▄▄▄ \n▀▀██▀▀  ██      ██ ▄█▀▀▀▀█   ██▀▀▀██   ██  ██▀  \n  ██    ▀█▄ ██ ▄█▀ ██▄       ██    ██  ██▄██    \n  ██     ██ ██ ██   ▀████▄   ██    ██  █████    \n  ██     ███▀▀███       ▀██  ██    ██  ██  ██▄  \n▄▄██▄▄   ███  ███  █▄▄▄▄▄█▀  ██▄▄▄██   ██   ██▄ \n▀▀▀▀▀▀   ▀▀▀  ▀▀▀   ▀▀▀▀▀    ▀▀▀▀▀     ▀▀    ▀▀                                                \n===============================================\nImmersive Web SDK v0.5.3\nThree.js r181\nEliCS v3.4.2",
+    "args": [
+      "                                                 \n▄▄▄▄▄▄  ▄▄      ▄▄   ▄▄▄▄    ▄▄▄▄▄     ▄▄   ▄▄▄ \n▀▀██▀▀  ██      ██ ▄█▀▀▀▀█   ██▀▀▀██   ██  ██▀  \n  ██    ▀█▄ ██ ▄█▀ ██▄       ██    ██  ██▄██    \n  ██     ██ ██ ██   ▀████▄   ██    ██  █████    \n  ██     ███▀▀███       ▀██  ██    ██  ██  ██▄  \n▄▄██▄▄   ███  ███  █▄▄▄▄▄█▀  ██▄▄▄██   ██   ██▄ \n▀▀▀▀▀▀   ▀▀▀  ▀▀▀   ▀▀▀▀▀    ▀▀▀▀▀     ▀▀    ▀▀                                                \n===============================================\nImmersive Web SDK v0.5.3\nThree.js r181\nEliCS v3.4.2"
+    ]
+  },
+  {
+    "timestamp": 1789161388129,
+    "level": "log",
+    "message": "[IWSDK-MCP-TRACE] client_command_ready_sent {\"tabId\":\"tab-mtxg663o-lwpedj\",\"tabGeneration\":7}",
+    "args": [
+      "[IWSDK-MCP-TRACE] client_command_ready_sent {\"tabId\":\"tab-mtxg663o-lwpedj\",\"tabGeneration\":7}"
+    ]
+  },
+  {
+    "timestamp": 1789161390410,
+    "level": "info",
+    "message": "COACH_QA {\"phase\":\"arrival\",\"progress\":0,\"connected\":false,\"participant\":false,\"effects\":false,\"domain\":false,\"eye\":[4.085005398903832e-18,1.6533532906323671,2]}",
+    "args": [
+      "COACH_QA {\"phase\":\"arrival\",\"progress\":0,\"connected\":false,\"participant\":false,\"effects\":false,\"domain\":false,\"eye\":[4.085005398903832e-18,1.6533532906323671,2]}"
+    ]
+  },
+  {
+    "timestamp": 1789161402262,
+    "level": "info",
+    "message": "COACH_QA {\"phase\":\"outbound\",\"progress\":0.000009340004908153787,\"connected\":false,\"participant\":false,\"effects\":false,\"domain\":false,\"eye\":[11.944920539855957,2.235996723175049,0.36845406889915466]}",
+    "args": [
+      "COACH_QA {\"phase\":\"outbound\",\"progress\":0.000009340004908153787,\"connected\":false,\"participant\":false,\"effects\":false,\"domain\":false,\"eye\":[11.944920539855957,2.235996723175049,0.36845406889915466]}"
+    ]
+  },
+  {
+    "timestamp": 1789161436501,
+    "level": "info",
+    "message": "COACH_QA {\"phase\":\"outbound\",\"progress\":0.5030372738838196,\"connected\":true,\"participant\":false,\"effects\":false,\"domain\":true,\"eye\":[59.002281188964844,2.128000020980835,-25.3983097076416]}",
+    "args": [
+      "COACH_QA {\"phase\":\"outbound\",\"progress\":0.5030372738838196,\"connected\":true,\"participant\":false,\"effects\":false,\"domain\":true,\"eye\":[59.002281188964844,2.128000020980835,-25.3983097076416]}"
+    ]
+  },
+  {
+    "timestamp": 1789161455676,
+    "level": "log",
+    "message": "[IWSDK-MCP-TRACE] client_request_received {\"id\":\"1789161455660-14e3243cbb5fe\",\"method\":\"ecs_query_entity\",\"tabId\":\"tab-mtxg663o-lwpedj\",\"tabGeneration\":7}",
+    "args": [
+      "[IWSDK-MCP-TRACE] client_request_received {\"id\":\"1789161455660-14e3243cbb5fe\",\"method\":\"ecs_query_entity\",\"tabId\":\"tab-mtxg663o-lwpedj\",\"tabGeneration\":7}"
+    ]
+  },
+  {
+    "timestamp": 1789161455677,
+    "level": "log",
+    "message": "[IWSDK-MCP-TRACE] client_response_sent {\"id\":\"1789161455660-14e3243cbb5fe\",\"hasError\":false,\"tabId\":\"tab-mtxg663o-lwpedj\",\"tabGeneration\":7}",
+    "args": [
+      "[IWSDK-MCP-TRACE] client_response_sent {\"id\":\"1789161455660-14e3243cbb5fe\",\"hasError\":false,\"tabId\":\"tab-mtxg663o-lwpedj\",\"tabGeneration\":7}"
+    ]
+  },
+  {
+    "timestamp": 1789161460120,
+    "level": "log",
+    "message": "[IWSDK-MCP-TRACE] client_request_received {\"id\":\"1789161460096-38ed1b7640e57\",\"method\":\"ui_render_preview\",\"tabId\":\"tab-mtxg654i-l6y3gp\",\"tabGeneration\":7}",
+    "args": [
+      "[IWSDK-MCP-TRACE] client_request_received {\"id\":\"1789161460096-38ed1b7640e57\",\"method\":\"ui_render_preview\",\"tabId\":\"tab-mtxg654i-l6y3gp\",\"tabGeneration\":7}"
+    ]
+  },
+  {
+    "timestamp": 1789161460128,
+    "level": "log",
+    "message": "[IWSDK-MCP-TRACE] client_response_sent {\"id\":\"1789161460096-38ed1b7640e57\",\"hasError\":true,\"tabId\":\"tab-mtxg654i-l6y3gp\",\"tabGeneration\":7}",
+    "args": [
+      "[IWSDK-MCP-TRACE] client_response_sent {\"id\":\"1789161460096-38ed1b7640e57\",\"hasError\":true,\"tabId\":\"tab-mtxg654i-l6y3gp\",\"tabGeneration\":7}"
+    ]
+  },
+  {
+    "timestamp": 1789161469749,
+    "level": "info",
+    "message": "COACH_QA {\"phase\":\"visiting\",\"progress\":0.9999193549156189,\"connected\":true,\"participant\":true,\"effects\":true,\"domain\":true,\"eye\":[100,1.7492419108748436,-70]}",
+    "args": [
+      "COACH_QA {\"phase\":\"visiting\",\"progress\":0.9999193549156189,\"connected\":true,\"participant\":true,\"effects\":true,\"domain\":true,\"eye\":[100,1.7492419108748436,-70]}"
+    ]
+  },
+  {
+    "timestamp": 1789161489998,
+    "level": "info",
+    "message": "COACH_QA {\"phase\":\"returning\",\"progress\":0.00010059004125650972,\"connected\":true,\"participant\":false,\"effects\":false,\"domain\":true,\"eye\":[99.96568298339844,2.128000020980835,-56.91504669189453]}",
+    "args": [
+      "COACH_QA {\"phase\":\"returning\",\"progress\":0.00010059004125650972,\"connected\":true,\"participant\":false,\"effects\":false,\"domain\":true,\"eye\":[99.96568298339844,2.128000020980835,-56.91504669189453]}"
+    ]
+  },
+  {
+    "timestamp": 1789161528000,
+    "level": "info",
+    "message": "COACH_QA {\"phase\":\"returning\",\"progress\":0.5019091963768005,\"connected\":false,\"participant\":false,\"effects\":false,\"domain\":true,\"eye\":[68.7037124633789,2.128000020980835,-22.769428253173828]}",
+    "args": [
+      "COACH_QA {\"phase\":\"returning\",\"progress\":0.5019091963768005,\"connected\":false,\"participant\":false,\"effects\":false,\"domain\":true,\"eye\":[68.7037124633789,2.128000020980835,-22.769428253173828]}"
+    ]
+  },
+  {
+    "timestamp": 1789161565304,
+    "level": "info",
+    "message": "COACH_QA {\"phase\":\"arrival\",\"progress\":0,\"connected\":false,\"participant\":false,\"effects\":false,\"domain\":true,\"eye\":[5.400000095367432,1.6587732369080186,-3.941710751448692e-24]}",
+    "args": [
+      "COACH_QA {\"phase\":\"arrival\",\"progress\":0,\"connected\":false,\"participant\":false,\"effects\":false,\"domain\":true,\"eye\":[5.400000095367432,1.6587732369080186,-3.941710751448692e-24]}"
+    ]
+  },
+  {
+    "timestamp": 1789161565304,
+    "level": "info",
+    "message": "COACH_QA_DONE {\"success\":true,\"elapsed\":175304.59999999404}",
+    "args": [
+      "COACH_QA_DONE {\"success\":true,\"elapsed\":175304.59999999404}"
+    ]
+  },
+  {
+    "timestamp": 1789161569977,
+    "level": "log",
+    "message": "[IWSDK-MCP-TRACE] client_request_received {\"id\":\"1789161569962-2acef084c725a8\",\"method\":\"get_session_status\",\"tabId\":\"tab-mtxg663o-lwpedj\",\"tabGeneration\":7}",
+    "args": [
+      "[IWSDK-MCP-TRACE] client_request_received {\"id\":\"1789161569962-2acef084c725a8\",\"method\":\"get_session_status\",\"tabId\":\"tab-mtxg663o-lwpedj\",\"tabGeneration\":7}"
+    ]
+  },
+  {
+    "timestamp": 1789161569978,
+    "level": "log",
+    "message": "[IWSDK-MCP-TRACE] client_response_sent {\"id\":\"1789161569962-2acef084c725a8\",\"hasError\":false,\"tabId\":\"tab-mtxg663o-lwpedj\",\"tabGeneration\":7}",
+    "args": [
+      "[IWSDK-MCP-TRACE] client_response_sent {\"id\":\"1789161569962-2acef084c725a8\",\"hasError\":false,\"tabId\":\"tab-mtxg663o-lwpedj\",\"tabGeneration\":7}"
+    ]
+  }
+]

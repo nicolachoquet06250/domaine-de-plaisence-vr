@@ -1,0 +1,18 @@
+{
+  "ok": true,
+  "data": {
+    "workspaceRoot": "C:\\Users\\nicol\\Documents\\workspaces\\vr-workspace\\test-meta-web-sdk-update",
+    "operation": "scene.open",
+    "result": {
+      "composedDocumentHash": "sha256:729774e2335c8bdcfa4b9e9656c91ea23b9536b697692486d7f98aad7d523508",
+      "dependencies": [],
+      "path": "public/scenes/arrival.iwsdk.scene.json",
+      "revision": "sha256:e93f8d26f2d03ce89d5a80fd2a1f61270a11e9bfeb20e2daa379b4ff642ee446",
+      "reloading": false,
+      "runtimeHash": "sha256:196723ea4cf7a5c47ed7f3c4d432f525ee91f4100b53af12b66d28e39e649d2c",
+      "sceneSessionId": "scene-c0y9de2wvir",
+      "sourceDocumentHash": "sha256:729774e2335c8bdcfa4b9e9656c91ea23b9536b697692486d7f98aad7d523508",
+      "ready": true
+    }
+  }
+}

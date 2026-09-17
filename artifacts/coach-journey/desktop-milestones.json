@@ -1,0 +1,46 @@
+[
+  {
+    "timestamp": 1789161321501,
+    "message": "COACH_QA {\"phase\":\"arrival\",\"progress\":0,\"connected\":false,\"participant\":false,\"effects\":false,\"domain\":false,\"eye\":[4.085005398903832e-18,1.652938659535721,2]}"
+  },
+  {
+    "timestamp": 1789161334021,
+    "message": "COACH_QA {\"phase\":\"outbound\",\"progress\":0.000009340004908153787,\"connected\":false,\"participant\":false,\"effects\":false,\"domain\":false,\"eye\":[11.944920539855957,2.235996723175049,0.36845406889915466]}"
+  },
+  {
+    "timestamp": 1789161372612,
+    "message": "COACH_QA {\"phase\":\"outbound\",\"progress\":0.5025159120559692,\"connected\":true,\"participant\":false,\"effects\":false,\"domain\":true,\"eye\":[58.943294525146484,2.128000020980835,-25.419843673706055]}"
+  },
+  {
+    "timestamp": 1789161390410,
+    "message": "COACH_QA {\"phase\":\"arrival\",\"progress\":0,\"connected\":false,\"participant\":false,\"effects\":false,\"domain\":false,\"eye\":[4.085005398903832e-18,1.6533532906323671,2]}"
+  },
+  {
+    "timestamp": 1789161402262,
+    "message": "COACH_QA {\"phase\":\"outbound\",\"progress\":0.000009340004908153787,\"connected\":false,\"participant\":false,\"effects\":false,\"domain\":false,\"eye\":[11.944920539855957,2.235996723175049,0.36845406889915466]}"
+  },
+  {
+    "timestamp": 1789161436501,
+    "message": "COACH_QA {\"phase\":\"outbound\",\"progress\":0.5030372738838196,\"connected\":true,\"participant\":false,\"effects\":false,\"domain\":true,\"eye\":[59.002281188964844,2.128000020980835,-25.3983097076416]}"
+  },
+  {
+    "timestamp": 1789161469749,
+    "message": "COACH_QA {\"phase\":\"visiting\",\"progress\":0.9999193549156189,\"connected\":true,\"participant\":true,\"effects\":true,\"domain\":true,\"eye\":[100,1.7492419108748436,-70]}"
+  },
+  {
+    "timestamp": 1789161489998,
+    "message": "COACH_QA {\"phase\":\"returning\",\"progress\":0.00010059004125650972,\"connected\":true,\"participant\":false,\"effects\":false,\"domain\":true,\"eye\":[99.96568298339844,2.128000020980835,-56.91504669189453]}"
+  },
+  {
+    "timestamp": 1789161528000,
+    "message": "COACH_QA {\"phase\":\"returning\",\"progress\":0.5019091963768005,\"connected\":false,\"participant\":false,\"effects\":false,\"domain\":true,\"eye\":[68.7037124633789,2.128000020980835,-22.769428253173828]}"
+  },
+  {
+    "timestamp": 1789161565304,
+    "message": "COACH_QA {\"phase\":\"arrival\",\"progress\":0,\"connected\":false,\"participant\":false,\"effects\":false,\"domain\":true,\"eye\":[5.400000095367432,1.6587732369080186,-3.941710751448692e-24]}"
+  },
+  {
+    "timestamp": 1789161565304,
+    "message": "COACH_QA_DONE {\"success\":true,\"elapsed\":175304.59999999404}"
+  }
+]

@@ -1,0 +1,122 @@
+{
+  "ok": true,
+  "data": {
+    "workspaceRoot": "C:\\Users\\nicol\\Documents\\workspaces\\vr-workspace\\test-meta-web-sdk-update",
+    "operation": "scene.render-file",
+    "result": {
+      "camera": {
+        "fov": 78,
+        "lookAt": [
+          7,
+          2.08,
+          0
+        ],
+        "position": [
+          -0.6,
+          2.08,
+          0
+        ],
+        "projection": "perspective",
+        "view": "custom",
+        "viewId": "passenger"
+      },
+      "composedDocumentHash": "sha256:f5f5c6df504cabdd46b241bc3a2e6780b7cb6adfa9a8c4810c932e567294dc31",
+      "dependencies": [],
+      "diagnostics": [],
+      "height": 1200,
+      "mimeType": "image/png",
+      "path": "public/scenes/review-coach-journey.iwsdk.scene.json",
+      "renderStats": {
+        "available": true,
+        "calls": 24,
+        "frameTimeSamplesMs": [
+          53.1,
+          473.2,
+          6,
+          1.2,
+          0.7
+        ],
+        "lines": 0,
+        "environment": {
+          "browser": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/153.0.0.0 Safari/537.36",
+          "devicePixelRatio": 2,
+          "emulatedUserAgent": "Mozilla/5.0 (X11; Linux x86_64; Quest 3) AppleWebKit/537.36 (KHTML, like Gecko) OculusBrowser/33.0.0.x.x.x Chrome/126.0.6478.122 VR Safari/537.36",
+          "emulationProfile": {
+            "active": true,
+            "device": "metaQuest3",
+            "runtime": "IWER"
+          },
+          "gpu": "ANGLE (Intel, Intel(R) Iris(R) Xe Graphics (0x0000A7A0) Direct3D11 vs_5_0 ps_5_0, D3D11)",
+          "hostPlatform": "Windows",
+          "hostUserAgent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/153.0.0.0 Safari/537.36",
+          "renderer": "IWSDK WebGL",
+          "visibility": {
+            "method": "threejs-first-hit-sampling-v1",
+            "occlusion": "conservative-cpu-first-hit",
+            "sampleGrid": "3x3-projected-bounds+overhead-lower-frame",
+            "uncertainObjectsIncluded": false
+          }
+        },
+        "geometryCount": 29,
+        "points": 0,
+        "programs": 11,
+        "materialCount": 11,
+        "meshCount": 29,
+        "nodeCount": 1,
+        "objectCount": 79,
+        "shadowCasters": 0,
+        "sceneAssets": [
+          {
+            "id": "royalCoachAnimated",
+            "meshCount": 29
+          }
+        ],
+        "textures": 31,
+        "triangles": 59940,
+        "visibleNodeIds": [
+          "animated-coach"
+        ],
+        "framingBounds": {
+          "max": [
+            5.5651,
+            3.355,
+            1.225
+          ],
+          "min": [
+            -2.032,
+            -0.022,
+            -1.225
+          ],
+          "size": [
+            7.5971,
+            3.377,
+            2.45
+          ]
+        },
+        "worldBounds": {
+          "max": [
+            5.5651,
+            3.355,
+            1.225
+          ],
+          "min": [
+            -2.032,
+            -0.022,
+            -1.225
+          ],
+          "size": [
+            7.5971,
+            3.377,
+            2.45
+          ]
+        }
+      },
+      "runtimeHash": "sha256:6dd1109c1eb9d55a858161d2b1aaad20e1a5ac801a4795537df7ad5b9d6eef61",
+      "screenshotSha256": "sha256:e7a72f8802de3d8b4416d76e4852da47e133abd58a06db1d69113f1dc24283e1",
+      "sourceDocumentHash": "sha256:f5f5c6df504cabdd46b241bc3a2e6780b7cb6adfa9a8c4810c932e567294dc31",
+      "valid": true,
+      "width": 1800
+    },
+    "screenshotPath": "artifacts/coach-journey/passenger.png"
+  }
+}
