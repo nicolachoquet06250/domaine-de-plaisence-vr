@@ -1,0 +1,2454 @@
+{
+  "version": "5.2.1 LTS",
+  "objects": [
+    {
+      "name": "courtMale Organic Rig.009",
+      "type": "ARMATURE",
+      "parent": null,
+      "location": [
+        -0.20000000298023224,
+        0.0,
+        0.0
+      ],
+      "scale": [
+        1.0,
+        1.0,
+        1.0
+      ],
+      "bones": [
+        "Root",
+        "Hips",
+        "Spine",
+        "Chest",
+        "Neck",
+        "Head",
+        "UpperArm.L",
+        "Forearm.L",
+        "Hand.L",
+        "UpperArm.R",
+        "Forearm.R",
+        "Hand.R",
+        "Thigh.L",
+        "Shin.L",
+        "Foot.L",
+        "Thigh.R",
+        "Shin.R",
+        "Foot.R"
+      ],
+      "tracks": [
+        "Idle",
+        "Walking",
+        "StrafeLeft",
+        "StrafeRight"
+      ]
+    },
+    {
+      "name": "courtMale Costume Ongles naturels satines.004",
+      "type": "MESH",
+      "parent": "courtMale Organic Rig.009",
+      "location": [
+        0.0,
+        0.0,
+        0.0
+      ],
+      "scale": [
+        1.0,
+        1.0,
+        1.0
+      ],
+      "vertices": 526,
+      "particles": 0,
+      "modifiers": [
+        "ARMATURE"
+      ],
+      "materials": [
+        "Ongles naturels satines.005"
+      ],
+      "uv": [],
+      "colors": [],
+      "keys": []
+    },
+    {
+      "name": "courtMale Costume Peau.002",
+      "type": "MESH",
+      "parent": "courtMale Organic Rig.009",
+      "location": [
+        0.0,
+        0.0,
+        0.0
+      ],
+      "scale": [
+        1.0,
+        1.0,
+        1.0
+      ],
+      "vertices": 3504,
+      "particles": 0,
+      "modifiers": [
+        "ARMATURE"
+      ],
+      "materials": [
+        "Peau.005"
+      ],
+      "uv": [],
+      "colors": [],
+      "keys": []
+    },
+    {
+      "name": "courtMale Head Atelier - blanc des yeux.012",
+      "type": "MESH",
+      "parent": "courtMale Organic Rig.009",
+      "location": [
+        0.0,
+        0.0,
+        0.0
+      ],
+      "scale": [
+        1.0,
+        1.0,
+        1.0
+      ],
+      "vertices": 676,
+      "particles": 0,
+      "modifiers": [
+        "ARMATURE"
+      ],
+      "materials": [
+        "Atelier - blanc des yeux.012"
+      ],
+      "uv": [],
+      "colors": [],
+      "keys": []
+    },
+    {
+      "name": "courtMale Head Atelier - pupille et cils.013",
+      "type": "MESH",
+      "parent": "courtMale Organic Rig.009",
+      "location": [
+        0.0,
+        0.0,
+        0.0
+      ],
+      "scale": [
+        1.0,
+        1.0,
+        1.0
+      ],
+      "vertices": 240,
+      "particles": 0,
+      "modifiers": [
+        "ARMATURE"
+      ],
+      "materials": [
+        "Atelier - pupille et cils.013",
+        "Iris marron 1.004",
+        "Iris marron 2.004"
+      ],
+      "uv": [],
+      "colors": [],
+      "keys": []
+    },
+    {
+      "name": "courtMale Head Atelier - chatain profond.012",
+      "type": "MESH",
+      "parent": "courtMale Organic Rig.009",
+      "location": [
+        0.0,
+        0.0,
+        0.0
+      ],
+      "scale": [
+        1.0,
+        1.0,
+        1.0
+      ],
+      "vertices": 118,
+      "particles": 0,
+      "modifiers": [
+        "ARMATURE"
+      ],
+      "materials": [
+        "Atelier - chatain profond.012"
+      ],
+      "uv": [],
+      "colors": [],
+      "keys": []
+    },
+    {
+      "name": "courtMale Head Atelier - pupille et cils.002",
+      "type": "MESH",
+      "parent": "courtMale Organic Rig.009",
+      "location": [
+        0.0,
+        0.0,
+        0.0
+      ],
+      "scale": [
+        1.0,
+        1.0,
+        1.0
+      ],
+      "vertices": 240,
+      "particles": 0,
+      "modifiers": [
+        "ARMATURE"
+      ],
+      "materials": [
+        "Atelier - pupille et cils.013",
+        "Iris marron 1.005",
+        "Iris marron 2.005"
+      ],
+      "uv": [],
+      "colors": [],
+      "keys": []
+    },
+    {
+      "name": "courtMale Head courtMale Chevelure microfibres",
+      "type": "MESH",
+      "parent": "courtMale Organic Rig.009",
+      "location": [
+        0.0,
+        0.0,
+        0.0
+      ],
+      "scale": [
+        1.0,
+        1.0,
+        1.0
+      ],
+      "vertices": 4800,
+      "particles": 0,
+      "modifiers": [
+        "ARMATURE"
+      ],
+      "materials": [
+        "courtMale Chevelure microfibres"
+      ],
+      "uv": [
+        "GroomUV"
+      ],
+      "colors": [],
+      "keys": []
+    },
+    {
+      "name": "courtMale Particules Tour oreille dense.001",
+      "type": "MESH",
+      "parent": "courtMale Organic Rig.009",
+      "location": [
+        0.0,
+        0.0,
+        0.0
+      ],
+      "scale": [
+        1.0,
+        1.0,
+        1.0
+      ],
+      "vertices": 4800,
+      "particles": 1,
+      "modifiers": [
+        "ARMATURE",
+        "PARTICLE_SYSTEM"
+      ],
+      "materials": [
+        "courtMale Chevelure microfibres"
+      ],
+      "uv": [
+        "GroomUV"
+      ],
+      "colors": [],
+      "keys": []
+    },
+    {
+      "name": "courtMale Coiffure dense en meches Head.003",
+      "type": "MESH",
+      "parent": "courtMale Organic Rig.009",
+      "location": [
+        0.0,
+        0.0,
+        0.0
+      ],
+      "scale": [
+        1.0,
+        1.0,
+        1.0
+      ],
+      "vertices": 16560,
+      "particles": 0,
+      "modifiers": [
+        "ARMATURE"
+      ],
+      "materials": [
+        "Atelier - fibres capillaires denses courtMale.004"
+      ],
+      "uv": [],
+      "colors": [
+        "FiberTint"
+      ],
+      "keys": []
+    },
+    {
+      "name": "courtMale Head Atelier - velours grenat.012",
+      "type": "MESH",
+      "parent": "courtMale Organic Rig.009",
+      "location": [
+        0.0,
+        0.0,
+        0.0
+      ],
+      "scale": [
+        1.0,
+        1.0,
+        1.0
+      ],
+      "vertices": 253,
+      "particles": 0,
+      "modifiers": [
+        "ARMATURE"
+      ],
+      "materials": [
+        "Atelier - velours grenat.012"
+      ],
+      "uv": [],
+      "colors": [],
+      "keys": []
+    },
+    {
+      "name": "courtMale Particules Barbe continue Francois Ier",
+      "type": "MESH",
+      "parent": "courtMale Organic Rig.009",
+      "location": [
+        0.0,
+        0.0,
+        0.0
+      ],
+      "scale": [
+        1.0,
+        1.0,
+        1.0
+      ],
+      "vertices": 2082,
+      "particles": 1,
+      "modifiers": [
+        "ARMATURE",
+        "PARTICLE_SYSTEM"
+      ],
+      "materials": [
+        "Atelier - chatain profond.012"
+      ],
+      "uv": [],
+      "colors": [],
+      "keys": []
+    },
+    {
+      "name": "courtMale Costume Atelier - velours grenat.012",
+      "type": "MESH",
+      "parent": "courtMale Organic Rig.009",
+      "location": [
+        0.0,
+        0.0,
+        0.0
+      ],
+      "scale": [
+        1.0,
+        1.0,
+        1.0
+      ],
+      "vertices": 2976,
+      "particles": 0,
+      "modifiers": [
+        "ARMATURE"
+      ],
+      "materials": [
+        "Atelier - velours grenat.012"
+      ],
+      "uv": [],
+      "colors": [],
+      "keys": []
+    },
+    {
+      "name": "courtMale Head Atelier - lin ivoire.012",
+      "type": "MESH",
+      "parent": "courtMale Organic Rig.009",
+      "location": [
+        0.0,
+        0.0,
+        0.0
+      ],
+      "scale": [
+        1.0,
+        1.0,
+        1.0
+      ],
+      "vertices": 251,
+      "particles": 0,
+      "modifiers": [
+        "ARMATURE"
+      ],
+      "materials": [
+        "Atelier - lin ivoire.012"
+      ],
+      "uv": [],
+      "colors": [],
+      "keys": []
+    },
+    {
+      "name": "courtMale Costume Atelier - broderie or vieilli.012",
+      "type": "MESH",
+      "parent": "courtMale Organic Rig.009",
+      "location": [
+        0.0,
+        0.0,
+        0.0
+      ],
+      "scale": [
+        1.0,
+        1.0,
+        1.0
+      ],
+      "vertices": 1226,
+      "particles": 0,
+      "modifiers": [
+        "ARMATURE"
+      ],
+      "materials": [
+        "Atelier - broderie or vieilli.012"
+      ],
+      "uv": [],
+      "colors": [],
+      "keys": []
+    },
+    {
+      "name": "courtMale Costume Atelier - lin ivoire.012",
+      "type": "MESH",
+      "parent": "courtMale Organic Rig.009",
+      "location": [
+        0.0,
+        0.0,
+        0.0
+      ],
+      "scale": [
+        1.0,
+        1.0,
+        1.0
+      ],
+      "vertices": 724,
+      "particles": 0,
+      "modifiers": [
+        "ARMATURE"
+      ],
+      "materials": [
+        "Atelier - lin ivoire.012"
+      ],
+      "uv": [],
+      "colors": [],
+      "keys": []
+    },
+    {
+      "name": "courtMale Costume Atelier - semelle cuir courtMaleL.002",
+      "type": "MESH",
+      "parent": "courtMale Organic Rig.009",
+      "location": [
+        0.0,
+        0.0,
+        0.0
+      ],
+      "scale": [
+        1.0,
+        1.0,
+        1.0
+      ],
+      "vertices": 246,
+      "particles": 0,
+      "modifiers": [
+        "ARMATURE"
+      ],
+      "materials": [
+        "Atelier - semelle cuir courtMaleL.002"
+      ],
+      "uv": [],
+      "colors": [],
+      "keys": []
+    },
+    {
+      "name": "courtMale Costume Atelier - cuir espresso L.002",
+      "type": "MESH",
+      "parent": "courtMale Organic Rig.009",
+      "location": [
+        0.0,
+        0.0,
+        0.0
+      ],
+      "scale": [
+        1.0,
+        1.0,
+        1.0
+      ],
+      "vertices": 993,
+      "particles": 0,
+      "modifiers": [
+        "ARMATURE"
+      ],
+      "materials": [
+        "Atelier - cuir espresso L.002"
+      ],
+      "uv": [],
+      "colors": [],
+      "keys": []
+    },
+    {
+      "name": "courtMale Costume Atelier - couture cuir courtMaleL.002",
+      "type": "MESH",
+      "parent": "courtMale Organic Rig.009",
+      "location": [
+        0.0,
+        0.0,
+        0.0
+      ],
+      "scale": [
+        1.0,
+        1.0,
+        1.0
+      ],
+      "vertices": 171,
+      "particles": 0,
+      "modifiers": [
+        "ARMATURE"
+      ],
+      "materials": [
+        "Atelier - couture cuir courtMaleL.002"
+      ],
+      "uv": [],
+      "colors": [],
+      "keys": []
+    },
+    {
+      "name": "courtMale Costume Atelier - semelle cuir courtMaleR.002",
+      "type": "MESH",
+      "parent": "courtMale Organic Rig.009",
+      "location": [
+        0.0,
+        0.0,
+        0.0
+      ],
+      "scale": [
+        1.0,
+        1.0,
+        1.0
+      ],
+      "vertices": 246,
+      "particles": 0,
+      "modifiers": [
+        "ARMATURE"
+      ],
+      "materials": [
+        "Atelier - semelle cuir courtMaleR.002"
+      ],
+      "uv": [],
+      "colors": [],
+      "keys": []
+    },
+    {
+      "name": "courtMale Costume Atelier - cuir espresso R.002",
+      "type": "MESH",
+      "parent": "courtMale Organic Rig.009",
+      "location": [
+        0.0,
+        0.0,
+        0.0
+      ],
+      "scale": [
+        1.0,
+        1.0,
+        1.0
+      ],
+      "vertices": 997,
+      "particles": 0,
+      "modifiers": [
+        "ARMATURE"
+      ],
+      "materials": [
+        "Atelier - cuir espresso R.002"
+      ],
+      "uv": [],
+      "colors": [],
+      "keys": []
+    },
+    {
+      "name": "courtMale Costume Atelier - couture cuir courtMaleR.002",
+      "type": "MESH",
+      "parent": "courtMale Organic Rig.009",
+      "location": [
+        0.0,
+        0.0,
+        0.0
+      ],
+      "scale": [
+        1.0,
+        1.0,
+        1.0
+      ],
+      "vertices": 171,
+      "particles": 0,
+      "modifiers": [
+        "ARMATURE"
+      ],
+      "materials": [
+        "Atelier - couture cuir courtMaleR.002"
+      ],
+      "uv": [],
+      "colors": [],
+      "keys": []
+    },
+    {
+      "name": "courtFemale Organic Rig.008",
+      "type": "ARMATURE",
+      "parent": null,
+      "location": [
+        0.20000000298023224,
+        0.0,
+        0.0
+      ],
+      "scale": [
+        1.0,
+        1.0,
+        1.0
+      ],
+      "bones": [
+        "Root",
+        "Hips",
+        "Spine",
+        "Chest",
+        "Neck",
+        "Head",
+        "UpperArm.L",
+        "Forearm.L",
+        "Hand.L",
+        "UpperArm.R",
+        "Forearm.R",
+        "Hand.R",
+        "Thigh.L",
+        "Shin.L",
+        "Foot.L",
+        "Thigh.R",
+        "Shin.R",
+        "Foot.R"
+      ],
+      "tracks": [
+        "Idle",
+        "Walking",
+        "StrafeLeft",
+        "StrafeRight"
+      ]
+    },
+    {
+      "name": "courtFemale Costume Ongles naturels satines.004",
+      "type": "MESH",
+      "parent": "courtFemale Organic Rig.008",
+      "location": [
+        0.0,
+        0.0,
+        0.0
+      ],
+      "scale": [
+        1.0,
+        1.0,
+        1.0
+      ],
+      "vertices": 526,
+      "particles": 0,
+      "modifiers": [
+        "ARMATURE"
+      ],
+      "materials": [
+        "Ongles naturels satines.005"
+      ],
+      "uv": [],
+      "colors": [],
+      "keys": []
+    },
+    {
+      "name": "courtFemale Costume Peau.002",
+      "type": "MESH",
+      "parent": "courtFemale Organic Rig.008",
+      "location": [
+        0.0,
+        0.0,
+        0.0
+      ],
+      "scale": [
+        1.0,
+        1.0,
+        1.0
+      ],
+      "vertices": 3504,
+      "particles": 0,
+      "modifiers": [
+        "ARMATURE"
+      ],
+      "materials": [
+        "Peau.005"
+      ],
+      "uv": [],
+      "colors": [],
+      "keys": []
+    },
+    {
+      "name": "courtFemale Visage anatomique Head.037",
+      "type": "MESH",
+      "parent": "courtFemale Organic Rig.008",
+      "location": [
+        0.0,
+        0.0,
+        0.0
+      ],
+      "scale": [
+        1.0,
+        1.0,
+        1.0
+      ],
+      "vertices": 18554,
+      "particles": 0,
+      "modifiers": [
+        "ARMATURE"
+      ],
+      "materials": [
+        "Atelier - peau nuancee.013",
+        "Atelier - levres naturelles.012",
+        "Atelier - interieur buccal.012",
+        "Atelier - email ivoire.012",
+        "Atelier - muqueuse.012"
+      ],
+      "uv": [],
+      "colors": [
+        "Complexion"
+      ],
+      "keys": [
+        "Basis",
+        "viseme_sil",
+        "viseme_PP",
+        "viseme_FF",
+        "viseme_TH",
+        "viseme_DD",
+        "viseme_kk",
+        "viseme_CH",
+        "viseme_SS",
+        "viseme_nn",
+        "viseme_RR",
+        "viseme_aa",
+        "viseme_E",
+        "viseme_I",
+        "viseme_O",
+        "viseme_U"
+      ]
+    },
+    {
+      "name": "courtFemale Head Atelier - blanc des yeux.012",
+      "type": "MESH",
+      "parent": "courtFemale Organic Rig.008",
+      "location": [
+        0.0,
+        0.0,
+        0.0
+      ],
+      "scale": [
+        1.0,
+        1.0,
+        1.0
+      ],
+      "vertices": 676,
+      "particles": 0,
+      "modifiers": [
+        "ARMATURE"
+      ],
+      "materials": [
+        "Atelier - blanc des yeux.012"
+      ],
+      "uv": [],
+      "colors": [],
+      "keys": []
+    },
+    {
+      "name": "courtFemale Head Atelier - pupille et cils.013",
+      "type": "MESH",
+      "parent": "courtFemale Organic Rig.008",
+      "location": [
+        0.0,
+        0.0,
+        0.0
+      ],
+      "scale": [
+        1.0,
+        1.0,
+        1.0
+      ],
+      "vertices": 240,
+      "particles": 0,
+      "modifiers": [
+        "ARMATURE"
+      ],
+      "materials": [
+        "Atelier - pupille et cils.013",
+        "Iris vert 1.004",
+        "Iris vert 2.004"
+      ],
+      "uv": [],
+      "colors": [],
+      "keys": []
+    },
+    {
+      "name": "courtFemale Head Atelier - chatain profond.012",
+      "type": "MESH",
+      "parent": "courtFemale Organic Rig.008",
+      "location": [
+        0.0,
+        0.0,
+        0.0
+      ],
+      "scale": [
+        1.0,
+        1.0,
+        1.0
+      ],
+      "vertices": 676,
+      "particles": 0,
+      "modifiers": [
+        "ARMATURE"
+      ],
+      "materials": [
+        "Atelier - chatain profond.012"
+      ],
+      "uv": [],
+      "colors": [],
+      "keys": []
+    },
+    {
+      "name": "courtFemale Head Atelier - pupille et cils.002",
+      "type": "MESH",
+      "parent": "courtFemale Organic Rig.008",
+      "location": [
+        0.0,
+        0.0,
+        0.0
+      ],
+      "scale": [
+        1.0,
+        1.0,
+        1.0
+      ],
+      "vertices": 240,
+      "particles": 0,
+      "modifiers": [
+        "ARMATURE"
+      ],
+      "materials": [
+        "Atelier - pupille et cils.013",
+        "Iris vert 1.005",
+        "Iris vert 2.005"
+      ],
+      "uv": [],
+      "colors": [],
+      "keys": []
+    },
+    {
+      "name": "courtFemale Head courtFemale Chevelure microfibres",
+      "type": "MESH",
+      "parent": "courtFemale Organic Rig.008",
+      "location": [
+        0.0,
+        0.0,
+        0.0
+      ],
+      "scale": [
+        1.0,
+        1.0,
+        1.0
+      ],
+      "vertices": 4800,
+      "particles": 0,
+      "modifiers": [
+        "ARMATURE"
+      ],
+      "materials": [
+        "courtFemale Chevelure microfibres"
+      ],
+      "uv": [
+        "GroomUV"
+      ],
+      "colors": [],
+      "keys": []
+    },
+    {
+      "name": "courtFemale Particules Tour oreille dense",
+      "type": "MESH",
+      "parent": "courtFemale Organic Rig.008",
+      "location": [
+        0.0,
+        0.0,
+        0.0
+      ],
+      "scale": [
+        1.0,
+        1.0,
+        1.0
+      ],
+      "vertices": 4800,
+      "particles": 1,
+      "modifiers": [
+        "ARMATURE",
+        "PARTICLE_SYSTEM"
+      ],
+      "materials": [
+        "courtFemale Chevelure microfibres"
+      ],
+      "uv": [
+        "GroomUV"
+      ],
+      "colors": [],
+      "keys": []
+    },
+    {
+      "name": "courtFemale Head Atelier - fibres capillaires denses courtFemale.003",
+      "type": "MESH",
+      "parent": "courtFemale Organic Rig.008",
+      "location": [
+        0.0,
+        0.0,
+        0.0
+      ],
+      "scale": [
+        1.0,
+        1.0,
+        1.0
+      ],
+      "vertices": 16560,
+      "particles": 0,
+      "modifiers": [
+        "ARMATURE"
+      ],
+      "materials": [
+        "Atelier - fibres capillaires denses courtFemale.003"
+      ],
+      "uv": [],
+      "colors": [
+        "FiberTint"
+      ],
+      "keys": []
+    },
+    {
+      "name": "courtFemale Head Atelier - reflets chatains.012",
+      "type": "MESH",
+      "parent": "courtFemale Organic Rig.008",
+      "location": [
+        0.0,
+        0.0,
+        0.0
+      ],
+      "scale": [
+        1.0,
+        1.0,
+        1.0
+      ],
+      "vertices": 4080,
+      "particles": 0,
+      "modifiers": [
+        "ARMATURE"
+      ],
+      "materials": [
+        "Atelier - reflets chatains.012"
+      ],
+      "uv": [],
+      "colors": [],
+      "keys": []
+    },
+    {
+      "name": "courtFemale Head Atelier - broderie or vieilli.012",
+      "type": "MESH",
+      "parent": "courtFemale Organic Rig.008",
+      "location": [
+        0.0,
+        0.0,
+        0.0
+      ],
+      "scale": [
+        1.0,
+        1.0,
+        1.0
+      ],
+      "vertices": 161,
+      "particles": 0,
+      "modifiers": [
+        "ARMATURE"
+      ],
+      "materials": [
+        "Atelier - broderie or vieilli.012"
+      ],
+      "uv": [],
+      "colors": [],
+      "keys": []
+    },
+    {
+      "name": "courtFemale Petites meches nuque dynamiques Head",
+      "type": "MESH",
+      "parent": "courtFemale Organic Rig.008",
+      "location": [
+        0.0,
+        0.0,
+        0.0
+      ],
+      "scale": [
+        1.0,
+        1.0,
+        1.0
+      ],
+      "vertices": 648,
+      "particles": 0,
+      "modifiers": [
+        "ARMATURE"
+      ],
+      "materials": [
+        "Atelier - chatain profond.012"
+      ],
+      "uv": [],
+      "colors": [],
+      "keys": []
+    },
+    {
+      "name": "courtFemale Costume Atelier - velours bleu petrole.012",
+      "type": "MESH",
+      "parent": "courtFemale Organic Rig.008",
+      "location": [
+        0.0,
+        0.0,
+        0.0
+      ],
+      "scale": [
+        1.0,
+        1.0,
+        1.0
+      ],
+      "vertices": 1926,
+      "particles": 0,
+      "modifiers": [
+        "ARMATURE"
+      ],
+      "materials": [
+        "Atelier - velours bleu petrole.012"
+      ],
+      "uv": [],
+      "colors": [],
+      "keys": []
+    },
+    {
+      "name": "courtFemale Head Atelier - lin ivoire.012",
+      "type": "MESH",
+      "parent": "courtFemale Organic Rig.008",
+      "location": [
+        0.0,
+        0.0,
+        0.0
+      ],
+      "scale": [
+        1.0,
+        1.0,
+        1.0
+      ],
+      "vertices": 251,
+      "particles": 0,
+      "modifiers": [
+        "ARMATURE"
+      ],
+      "materials": [
+        "Atelier - lin ivoire.012"
+      ],
+      "uv": [],
+      "colors": [],
+      "keys": []
+    },
+    {
+      "name": "courtFemale Costume Atelier - broderie or vieilli.012",
+      "type": "MESH",
+      "parent": "courtFemale Organic Rig.008",
+      "location": [
+        0.0,
+        0.0,
+        0.0
+      ],
+      "scale": [
+        1.0,
+        1.0,
+        1.0
+      ],
+      "vertices": 1549,
+      "particles": 0,
+      "modifiers": [
+        "ARMATURE"
+      ],
+      "materials": [
+        "Atelier - broderie or vieilli.012"
+      ],
+      "uv": [],
+      "colors": [],
+      "keys": []
+    },
+    {
+      "name": "courtFemale Costume Atelier - lin ivoire.012",
+      "type": "MESH",
+      "parent": "courtFemale Organic Rig.008",
+      "location": [
+        0.0,
+        0.0,
+        0.0
+      ],
+      "scale": [
+        1.0,
+        1.0,
+        1.0
+      ],
+      "vertices": 724,
+      "particles": 0,
+      "modifiers": [
+        "ARMATURE"
+      ],
+      "materials": [
+        "Atelier - lin ivoire.012"
+      ],
+      "uv": [],
+      "colors": [],
+      "keys": []
+    },
+    {
+      "name": "courtFemale Costume Atelier - velours bleu petrole.002",
+      "type": "MESH",
+      "parent": "courtFemale Organic Rig.008",
+      "location": [
+        0.0,
+        0.0,
+        0.0
+      ],
+      "scale": [
+        1.0,
+        1.0,
+        1.0
+      ],
+      "vertices": 1782,
+      "particles": 0,
+      "modifiers": [
+        "ARMATURE"
+      ],
+      "materials": [
+        "Atelier - velours bleu petrole.012",
+        "Atelier - damas champagne.012"
+      ],
+      "uv": [],
+      "colors": [],
+      "keys": []
+    },
+    {
+      "name": "courtFemale Costume Atelier - semelle cuir courtFemaleL.002",
+      "type": "MESH",
+      "parent": "courtFemale Organic Rig.008",
+      "location": [
+        0.0,
+        0.0,
+        0.0
+      ],
+      "scale": [
+        1.0,
+        1.0,
+        1.0
+      ],
+      "vertices": 246,
+      "particles": 0,
+      "modifiers": [
+        "ARMATURE"
+      ],
+      "materials": [
+        "Atelier - semelle cuir courtFemaleL.002"
+      ],
+      "uv": [],
+      "colors": [],
+      "keys": []
+    },
+    {
+      "name": "courtFemale Costume Atelier - cuir prune L.002",
+      "type": "MESH",
+      "parent": "courtFemale Organic Rig.008",
+      "location": [
+        0.0,
+        0.0,
+        0.0
+      ],
+      "scale": [
+        1.0,
+        1.0,
+        1.0
+      ],
+      "vertices": 994,
+      "particles": 0,
+      "modifiers": [
+        "ARMATURE"
+      ],
+      "materials": [
+        "Atelier - cuir prune L.002"
+      ],
+      "uv": [],
+      "colors": [],
+      "keys": []
+    },
+    {
+      "name": "courtFemale Costume Atelier - couture cuir courtFemaleL.002",
+      "type": "MESH",
+      "parent": "courtFemale Organic Rig.008",
+      "location": [
+        0.0,
+        0.0,
+        0.0
+      ],
+      "scale": [
+        1.0,
+        1.0,
+        1.0
+      ],
+      "vertices": 174,
+      "particles": 0,
+      "modifiers": [
+        "ARMATURE"
+      ],
+      "materials": [
+        "Atelier - couture cuir courtFemaleL.002"
+      ],
+      "uv": [],
+      "colors": [],
+      "keys": []
+    },
+    {
+      "name": "courtFemale Costume Atelier - semelle cuir courtFemaleR.002",
+      "type": "MESH",
+      "parent": "courtFemale Organic Rig.008",
+      "location": [
+        0.0,
+        0.0,
+        0.0
+      ],
+      "scale": [
+        1.0,
+        1.0,
+        1.0
+      ],
+      "vertices": 246,
+      "particles": 0,
+      "modifiers": [
+        "ARMATURE"
+      ],
+      "materials": [
+        "Atelier - semelle cuir courtFemaleR.002"
+      ],
+      "uv": [],
+      "colors": [],
+      "keys": []
+    },
+    {
+      "name": "courtFemale Costume Atelier - cuir prune R.002",
+      "type": "MESH",
+      "parent": "courtFemale Organic Rig.008",
+      "location": [
+        0.0,
+        0.0,
+        0.0
+      ],
+      "scale": [
+        1.0,
+        1.0,
+        1.0
+      ],
+      "vertices": 994,
+      "particles": 0,
+      "modifiers": [
+        "ARMATURE"
+      ],
+      "materials": [
+        "Atelier - cuir prune R.002"
+      ],
+      "uv": [],
+      "colors": [],
+      "keys": []
+    },
+    {
+      "name": "courtFemale Costume Atelier - couture cuir courtFemaleR.002",
+      "type": "MESH",
+      "parent": "courtFemale Organic Rig.008",
+      "location": [
+        0.0,
+        0.0,
+        0.0
+      ],
+      "scale": [
+        1.0,
+        1.0,
+        1.0
+      ],
+      "vertices": 174,
+      "particles": 0,
+      "modifiers": [
+        "ARMATURE"
+      ],
+      "materials": [
+        "Atelier - couture cuir courtFemaleR.002"
+      ],
+      "uv": [],
+      "colors": [],
+      "keys": []
+    },
+    {
+      "name": "courtMale Visage anatomique Head final",
+      "type": "MESH",
+      "parent": "courtMale Organic Rig.009",
+      "location": [
+        0.0,
+        0.0,
+        0.0
+      ],
+      "scale": [
+        1.0,
+        1.0,
+        1.0
+      ],
+      "vertices": 23954,
+      "particles": 0,
+      "modifiers": [
+        "ARMATURE"
+      ],
+      "materials": [
+        "Atelier - peau nuancee.014",
+        "Atelier - levres naturelles.013",
+        "Atelier - interieur buccal.013",
+        "Barbe mate continue Francois Ier.001",
+        "Atelier - email ivoire.013",
+        "Atelier - muqueuse.013",
+        "Atelier - chatain profond.013"
+      ],
+      "uv": [],
+      "colors": [
+        "Complexion"
+      ],
+      "keys": [
+        "Basis",
+        "viseme_sil",
+        "viseme_PP",
+        "viseme_FF",
+        "viseme_TH",
+        "viseme_DD",
+        "viseme_kk",
+        "viseme_CH",
+        "viseme_SS",
+        "viseme_nn",
+        "viseme_RR",
+        "viseme_aa",
+        "viseme_E",
+        "viseme_I",
+        "viseme_O",
+        "viseme_U"
+      ]
+    }
+  ],
+  "materials": [
+    {
+      "name": "Atelier - blanc des yeux.012",
+      "nodes": [
+        {
+          "type": "BSDF_PRINCIPLED",
+          "image": null
+        },
+        {
+          "type": "OUTPUT_MATERIAL",
+          "image": null
+        }
+      ],
+      "links": [
+        [
+          "BSDF_PRINCIPLED",
+          "BSDF",
+          "OUTPUT_MATERIAL",
+          "Surface"
+        ]
+      ]
+    },
+    {
+      "name": "Atelier - broderie or vieilli.012",
+      "nodes": [
+        {
+          "type": "BSDF_PRINCIPLED",
+          "image": null
+        },
+        {
+          "type": "OUTPUT_MATERIAL",
+          "image": null
+        }
+      ],
+      "links": [
+        [
+          "BSDF_PRINCIPLED",
+          "BSDF",
+          "OUTPUT_MATERIAL",
+          "Surface"
+        ]
+      ]
+    },
+    {
+      "name": "Atelier - chatain profond.012",
+      "nodes": [
+        {
+          "type": "BSDF_PRINCIPLED",
+          "image": null
+        },
+        {
+          "type": "OUTPUT_MATERIAL",
+          "image": null
+        }
+      ],
+      "links": [
+        [
+          "BSDF_PRINCIPLED",
+          "BSDF",
+          "OUTPUT_MATERIAL",
+          "Surface"
+        ]
+      ]
+    },
+    {
+      "name": "Atelier - chatain profond.013",
+      "nodes": [
+        {
+          "type": "BSDF_PRINCIPLED",
+          "image": null
+        },
+        {
+          "type": "OUTPUT_MATERIAL",
+          "image": null
+        }
+      ],
+      "links": [
+        [
+          "BSDF_PRINCIPLED",
+          "BSDF",
+          "OUTPUT_MATERIAL",
+          "Surface"
+        ]
+      ]
+    },
+    {
+      "name": "Atelier - couture cuir courtFemaleL.002",
+      "nodes": [
+        {
+          "type": "BSDF_PRINCIPLED",
+          "image": null
+        },
+        {
+          "type": "OUTPUT_MATERIAL",
+          "image": null
+        }
+      ],
+      "links": [
+        [
+          "BSDF_PRINCIPLED",
+          "BSDF",
+          "OUTPUT_MATERIAL",
+          "Surface"
+        ]
+      ]
+    },
+    {
+      "name": "Atelier - couture cuir courtFemaleR.002",
+      "nodes": [
+        {
+          "type": "BSDF_PRINCIPLED",
+          "image": null
+        },
+        {
+          "type": "OUTPUT_MATERIAL",
+          "image": null
+        }
+      ],
+      "links": [
+        [
+          "BSDF_PRINCIPLED",
+          "BSDF",
+          "OUTPUT_MATERIAL",
+          "Surface"
+        ]
+      ]
+    },
+    {
+      "name": "Atelier - couture cuir courtMaleL.002",
+      "nodes": [
+        {
+          "type": "BSDF_PRINCIPLED",
+          "image": null
+        },
+        {
+          "type": "OUTPUT_MATERIAL",
+          "image": null
+        }
+      ],
+      "links": [
+        [
+          "BSDF_PRINCIPLED",
+          "BSDF",
+          "OUTPUT_MATERIAL",
+          "Surface"
+        ]
+      ]
+    },
+    {
+      "name": "Atelier - couture cuir courtMaleR.002",
+      "nodes": [
+        {
+          "type": "BSDF_PRINCIPLED",
+          "image": null
+        },
+        {
+          "type": "OUTPUT_MATERIAL",
+          "image": null
+        }
+      ],
+      "links": [
+        [
+          "BSDF_PRINCIPLED",
+          "BSDF",
+          "OUTPUT_MATERIAL",
+          "Surface"
+        ]
+      ]
+    },
+    {
+      "name": "Atelier - cuir espresso L.002",
+      "nodes": [
+        {
+          "type": "BSDF_PRINCIPLED",
+          "image": null
+        },
+        {
+          "type": "OUTPUT_MATERIAL",
+          "image": null
+        }
+      ],
+      "links": [
+        [
+          "BSDF_PRINCIPLED",
+          "BSDF",
+          "OUTPUT_MATERIAL",
+          "Surface"
+        ]
+      ]
+    },
+    {
+      "name": "Atelier - cuir espresso R.002",
+      "nodes": [
+        {
+          "type": "BSDF_PRINCIPLED",
+          "image": null
+        },
+        {
+          "type": "OUTPUT_MATERIAL",
+          "image": null
+        }
+      ],
+      "links": [
+        [
+          "BSDF_PRINCIPLED",
+          "BSDF",
+          "OUTPUT_MATERIAL",
+          "Surface"
+        ]
+      ]
+    },
+    {
+      "name": "Atelier - cuir prune L.002",
+      "nodes": [
+        {
+          "type": "BSDF_PRINCIPLED",
+          "image": null
+        },
+        {
+          "type": "OUTPUT_MATERIAL",
+          "image": null
+        }
+      ],
+      "links": [
+        [
+          "BSDF_PRINCIPLED",
+          "BSDF",
+          "OUTPUT_MATERIAL",
+          "Surface"
+        ]
+      ]
+    },
+    {
+      "name": "Atelier - cuir prune R.002",
+      "nodes": [
+        {
+          "type": "BSDF_PRINCIPLED",
+          "image": null
+        },
+        {
+          "type": "OUTPUT_MATERIAL",
+          "image": null
+        }
+      ],
+      "links": [
+        [
+          "BSDF_PRINCIPLED",
+          "BSDF",
+          "OUTPUT_MATERIAL",
+          "Surface"
+        ]
+      ]
+    },
+    {
+      "name": "Atelier - damas champagne.012",
+      "nodes": [
+        {
+          "type": "BSDF_PRINCIPLED",
+          "image": null
+        },
+        {
+          "type": "OUTPUT_MATERIAL",
+          "image": null
+        }
+      ],
+      "links": [
+        [
+          "BSDF_PRINCIPLED",
+          "BSDF",
+          "OUTPUT_MATERIAL",
+          "Surface"
+        ]
+      ]
+    },
+    {
+      "name": "Atelier - email ivoire.012",
+      "nodes": [
+        {
+          "type": "BSDF_PRINCIPLED",
+          "image": null
+        },
+        {
+          "type": "OUTPUT_MATERIAL",
+          "image": null
+        }
+      ],
+      "links": [
+        [
+          "BSDF_PRINCIPLED",
+          "BSDF",
+          "OUTPUT_MATERIAL",
+          "Surface"
+        ]
+      ]
+    },
+    {
+      "name": "Atelier - email ivoire.013",
+      "nodes": [
+        {
+          "type": "BSDF_PRINCIPLED",
+          "image": null
+        },
+        {
+          "type": "OUTPUT_MATERIAL",
+          "image": null
+        }
+      ],
+      "links": [
+        [
+          "BSDF_PRINCIPLED",
+          "BSDF",
+          "OUTPUT_MATERIAL",
+          "Surface"
+        ]
+      ]
+    },
+    {
+      "name": "Atelier - fibres capillaires denses courtFemale.003",
+      "nodes": [
+        {
+          "type": "BSDF_PRINCIPLED",
+          "image": null
+        },
+        {
+          "type": "OUTPUT_MATERIAL",
+          "image": null
+        },
+        {
+          "type": "VERTEX_COLOR",
+          "image": null
+        }
+      ],
+      "links": [
+        [
+          "BSDF_PRINCIPLED",
+          "BSDF",
+          "OUTPUT_MATERIAL",
+          "Surface"
+        ],
+        [
+          "VERTEX_COLOR",
+          "Color",
+          "BSDF_PRINCIPLED",
+          "Base Color"
+        ]
+      ]
+    },
+    {
+      "name": "Atelier - fibres capillaires denses courtMale.004",
+      "nodes": [
+        {
+          "type": "BSDF_PRINCIPLED",
+          "image": null
+        },
+        {
+          "type": "OUTPUT_MATERIAL",
+          "image": null
+        },
+        {
+          "type": "VERTEX_COLOR",
+          "image": null
+        }
+      ],
+      "links": [
+        [
+          "BSDF_PRINCIPLED",
+          "BSDF",
+          "OUTPUT_MATERIAL",
+          "Surface"
+        ],
+        [
+          "VERTEX_COLOR",
+          "Color",
+          "BSDF_PRINCIPLED",
+          "Base Color"
+        ]
+      ]
+    },
+    {
+      "name": "Atelier - interieur buccal.012",
+      "nodes": [
+        {
+          "type": "BSDF_PRINCIPLED",
+          "image": null
+        },
+        {
+          "type": "OUTPUT_MATERIAL",
+          "image": null
+        }
+      ],
+      "links": [
+        [
+          "BSDF_PRINCIPLED",
+          "BSDF",
+          "OUTPUT_MATERIAL",
+          "Surface"
+        ]
+      ]
+    },
+    {
+      "name": "Atelier - interieur buccal.013",
+      "nodes": [
+        {
+          "type": "BSDF_PRINCIPLED",
+          "image": null
+        },
+        {
+          "type": "OUTPUT_MATERIAL",
+          "image": null
+        }
+      ],
+      "links": [
+        [
+          "BSDF_PRINCIPLED",
+          "BSDF",
+          "OUTPUT_MATERIAL",
+          "Surface"
+        ]
+      ]
+    },
+    {
+      "name": "Atelier - levres naturelles.012",
+      "nodes": [
+        {
+          "type": "BSDF_PRINCIPLED",
+          "image": null
+        },
+        {
+          "type": "OUTPUT_MATERIAL",
+          "image": null
+        }
+      ],
+      "links": [
+        [
+          "BSDF_PRINCIPLED",
+          "BSDF",
+          "OUTPUT_MATERIAL",
+          "Surface"
+        ]
+      ]
+    },
+    {
+      "name": "Atelier - levres naturelles.013",
+      "nodes": [
+        {
+          "type": "BSDF_PRINCIPLED",
+          "image": null
+        },
+        {
+          "type": "OUTPUT_MATERIAL",
+          "image": null
+        }
+      ],
+      "links": [
+        [
+          "BSDF_PRINCIPLED",
+          "BSDF",
+          "OUTPUT_MATERIAL",
+          "Surface"
+        ]
+      ]
+    },
+    {
+      "name": "Atelier - lin ivoire.012",
+      "nodes": [
+        {
+          "type": "BSDF_PRINCIPLED",
+          "image": null
+        },
+        {
+          "type": "OUTPUT_MATERIAL",
+          "image": null
+        }
+      ],
+      "links": [
+        [
+          "BSDF_PRINCIPLED",
+          "BSDF",
+          "OUTPUT_MATERIAL",
+          "Surface"
+        ]
+      ]
+    },
+    {
+      "name": "Atelier - muqueuse.012",
+      "nodes": [
+        {
+          "type": "BSDF_PRINCIPLED",
+          "image": null
+        },
+        {
+          "type": "OUTPUT_MATERIAL",
+          "image": null
+        }
+      ],
+      "links": [
+        [
+          "BSDF_PRINCIPLED",
+          "BSDF",
+          "OUTPUT_MATERIAL",
+          "Surface"
+        ]
+      ]
+    },
+    {
+      "name": "Atelier - muqueuse.013",
+      "nodes": [
+        {
+          "type": "BSDF_PRINCIPLED",
+          "image": null
+        },
+        {
+          "type": "OUTPUT_MATERIAL",
+          "image": null
+        }
+      ],
+      "links": [
+        [
+          "BSDF_PRINCIPLED",
+          "BSDF",
+          "OUTPUT_MATERIAL",
+          "Surface"
+        ]
+      ]
+    },
+    {
+      "name": "Atelier - peau nuancee.013",
+      "nodes": [
+        {
+          "type": "BSDF_PRINCIPLED",
+          "image": null
+        },
+        {
+          "type": "OUTPUT_MATERIAL",
+          "image": null
+        },
+        {
+          "type": "VERTEX_COLOR",
+          "image": null
+        }
+      ],
+      "links": [
+        [
+          "BSDF_PRINCIPLED",
+          "BSDF",
+          "OUTPUT_MATERIAL",
+          "Surface"
+        ],
+        [
+          "VERTEX_COLOR",
+          "Color",
+          "BSDF_PRINCIPLED",
+          "Base Color"
+        ]
+      ]
+    },
+    {
+      "name": "Atelier - peau nuancee.014",
+      "nodes": [
+        {
+          "type": "BSDF_PRINCIPLED",
+          "image": null
+        },
+        {
+          "type": "OUTPUT_MATERIAL",
+          "image": null
+        },
+        {
+          "type": "VERTEX_COLOR",
+          "image": null
+        }
+      ],
+      "links": [
+        [
+          "BSDF_PRINCIPLED",
+          "BSDF",
+          "OUTPUT_MATERIAL",
+          "Surface"
+        ],
+        [
+          "VERTEX_COLOR",
+          "Color",
+          "BSDF_PRINCIPLED",
+          "Base Color"
+        ]
+      ]
+    },
+    {
+      "name": "Atelier - pupille et cils.013",
+      "nodes": [
+        {
+          "type": "BSDF_PRINCIPLED",
+          "image": null
+        },
+        {
+          "type": "OUTPUT_MATERIAL",
+          "image": null
+        }
+      ],
+      "links": [
+        [
+          "BSDF_PRINCIPLED",
+          "BSDF",
+          "OUTPUT_MATERIAL",
+          "Surface"
+        ]
+      ]
+    },
+    {
+      "name": "Atelier - reflets chatains.012",
+      "nodes": [
+        {
+          "type": "BSDF_PRINCIPLED",
+          "image": null
+        },
+        {
+          "type": "OUTPUT_MATERIAL",
+          "image": null
+        }
+      ],
+      "links": [
+        [
+          "BSDF_PRINCIPLED",
+          "BSDF",
+          "OUTPUT_MATERIAL",
+          "Surface"
+        ]
+      ]
+    },
+    {
+      "name": "Atelier - semelle cuir courtFemaleL.002",
+      "nodes": [
+        {
+          "type": "BSDF_PRINCIPLED",
+          "image": null
+        },
+        {
+          "type": "OUTPUT_MATERIAL",
+          "image": null
+        }
+      ],
+      "links": [
+        [
+          "BSDF_PRINCIPLED",
+          "BSDF",
+          "OUTPUT_MATERIAL",
+          "Surface"
+        ]
+      ]
+    },
+    {
+      "name": "Atelier - semelle cuir courtFemaleR.002",
+      "nodes": [
+        {
+          "type": "BSDF_PRINCIPLED",
+          "image": null
+        },
+        {
+          "type": "OUTPUT_MATERIAL",
+          "image": null
+        }
+      ],
+      "links": [
+        [
+          "BSDF_PRINCIPLED",
+          "BSDF",
+          "OUTPUT_MATERIAL",
+          "Surface"
+        ]
+      ]
+    },
+    {
+      "name": "Atelier - semelle cuir courtMaleL.002",
+      "nodes": [
+        {
+          "type": "BSDF_PRINCIPLED",
+          "image": null
+        },
+        {
+          "type": "OUTPUT_MATERIAL",
+          "image": null
+        }
+      ],
+      "links": [
+        [
+          "BSDF_PRINCIPLED",
+          "BSDF",
+          "OUTPUT_MATERIAL",
+          "Surface"
+        ]
+      ]
+    },
+    {
+      "name": "Atelier - semelle cuir courtMaleR.002",
+      "nodes": [
+        {
+          "type": "BSDF_PRINCIPLED",
+          "image": null
+        },
+        {
+          "type": "OUTPUT_MATERIAL",
+          "image": null
+        }
+      ],
+      "links": [
+        [
+          "BSDF_PRINCIPLED",
+          "BSDF",
+          "OUTPUT_MATERIAL",
+          "Surface"
+        ]
+      ]
+    },
+    {
+      "name": "Atelier - velours bleu petrole.012",
+      "nodes": [
+        {
+          "type": "BSDF_PRINCIPLED",
+          "image": null
+        },
+        {
+          "type": "OUTPUT_MATERIAL",
+          "image": null
+        }
+      ],
+      "links": [
+        [
+          "BSDF_PRINCIPLED",
+          "BSDF",
+          "OUTPUT_MATERIAL",
+          "Surface"
+        ]
+      ]
+    },
+    {
+      "name": "Atelier - velours grenat.012",
+      "nodes": [
+        {
+          "type": "BSDF_PRINCIPLED",
+          "image": null
+        },
+        {
+          "type": "OUTPUT_MATERIAL",
+          "image": null
+        }
+      ],
+      "links": [
+        [
+          "BSDF_PRINCIPLED",
+          "BSDF",
+          "OUTPUT_MATERIAL",
+          "Surface"
+        ]
+      ]
+    },
+    {
+      "name": "Barbe mate continue Francois Ier.001",
+      "nodes": [
+        {
+          "type": "BSDF_PRINCIPLED",
+          "image": null
+        },
+        {
+          "type": "OUTPUT_MATERIAL",
+          "image": null
+        },
+        {
+          "type": "VERTEX_COLOR",
+          "image": null
+        }
+      ],
+      "links": [
+        [
+          "BSDF_PRINCIPLED",
+          "BSDF",
+          "OUTPUT_MATERIAL",
+          "Surface"
+        ],
+        [
+          "VERTEX_COLOR",
+          "Color",
+          "BSDF_PRINCIPLED",
+          "Base Color"
+        ]
+      ]
+    },
+    {
+      "name": "courtFemale Chevelure microfibres",
+      "nodes": [
+        {
+          "type": "BSDF_PRINCIPLED",
+          "image": null
+        },
+        {
+          "type": "OUTPUT_MATERIAL",
+          "image": null
+        },
+        {
+          "type": "TEX_IMAGE",
+          "image": "courtFemale-hair-color.png"
+        },
+        {
+          "type": "TEX_IMAGE",
+          "image": "courtFemale-hair-normal.png"
+        },
+        {
+          "type": "NORMAL_MAP",
+          "image": null
+        }
+      ],
+      "links": [
+        [
+          "BSDF_PRINCIPLED",
+          "BSDF",
+          "OUTPUT_MATERIAL",
+          "Surface"
+        ],
+        [
+          "TEX_IMAGE",
+          "Color",
+          "BSDF_PRINCIPLED",
+          "Base Color"
+        ],
+        [
+          "TEX_IMAGE",
+          "Color",
+          "NORMAL_MAP",
+          "Color"
+        ],
+        [
+          "NORMAL_MAP",
+          "Normal",
+          "BSDF_PRINCIPLED",
+          "Normal"
+        ]
+      ]
+    },
+    {
+      "name": "courtMale Chevelure microfibres",
+      "nodes": [
+        {
+          "type": "BSDF_PRINCIPLED",
+          "image": null
+        },
+        {
+          "type": "OUTPUT_MATERIAL",
+          "image": null
+        },
+        {
+          "type": "TEX_IMAGE",
+          "image": "courtMale-hair-color.png"
+        },
+        {
+          "type": "TEX_IMAGE",
+          "image": "courtMale-hair-normal.png"
+        },
+        {
+          "type": "NORMAL_MAP",
+          "image": null
+        }
+      ],
+      "links": [
+        [
+          "BSDF_PRINCIPLED",
+          "BSDF",
+          "OUTPUT_MATERIAL",
+          "Surface"
+        ],
+        [
+          "TEX_IMAGE",
+          "Color",
+          "BSDF_PRINCIPLED",
+          "Base Color"
+        ],
+        [
+          "TEX_IMAGE",
+          "Color",
+          "NORMAL_MAP",
+          "Color"
+        ],
+        [
+          "NORMAL_MAP",
+          "Normal",
+          "BSDF_PRINCIPLED",
+          "Normal"
+        ]
+      ]
+    },
+    {
+      "name": "Iris marron 1.004",
+      "nodes": [
+        {
+          "type": "BSDF_PRINCIPLED",
+          "image": null
+        },
+        {
+          "type": "OUTPUT_MATERIAL",
+          "image": null
+        }
+      ],
+      "links": [
+        [
+          "BSDF_PRINCIPLED",
+          "BSDF",
+          "OUTPUT_MATERIAL",
+          "Surface"
+        ]
+      ]
+    },
+    {
+      "name": "Iris marron 1.005",
+      "nodes": [
+        {
+          "type": "BSDF_PRINCIPLED",
+          "image": null
+        },
+        {
+          "type": "OUTPUT_MATERIAL",
+          "image": null
+        }
+      ],
+      "links": [
+        [
+          "BSDF_PRINCIPLED",
+          "BSDF",
+          "OUTPUT_MATERIAL",
+          "Surface"
+        ]
+      ]
+    },
+    {
+      "name": "Iris marron 2.004",
+      "nodes": [
+        {
+          "type": "BSDF_PRINCIPLED",
+          "image": null
+        },
+        {
+          "type": "OUTPUT_MATERIAL",
+          "image": null
+        }
+      ],
+      "links": [
+        [
+          "BSDF_PRINCIPLED",
+          "BSDF",
+          "OUTPUT_MATERIAL",
+          "Surface"
+        ]
+      ]
+    },
+    {
+      "name": "Iris marron 2.005",
+      "nodes": [
+        {
+          "type": "BSDF_PRINCIPLED",
+          "image": null
+        },
+        {
+          "type": "OUTPUT_MATERIAL",
+          "image": null
+        }
+      ],
+      "links": [
+        [
+          "BSDF_PRINCIPLED",
+          "BSDF",
+          "OUTPUT_MATERIAL",
+          "Surface"
+        ]
+      ]
+    },
+    {
+      "name": "Iris vert 1.004",
+      "nodes": [
+        {
+          "type": "BSDF_PRINCIPLED",
+          "image": null
+        },
+        {
+          "type": "OUTPUT_MATERIAL",
+          "image": null
+        }
+      ],
+      "links": [
+        [
+          "BSDF_PRINCIPLED",
+          "BSDF",
+          "OUTPUT_MATERIAL",
+          "Surface"
+        ]
+      ]
+    },
+    {
+      "name": "Iris vert 1.005",
+      "nodes": [
+        {
+          "type": "BSDF_PRINCIPLED",
+          "image": null
+        },
+        {
+          "type": "OUTPUT_MATERIAL",
+          "image": null
+        }
+      ],
+      "links": [
+        [
+          "BSDF_PRINCIPLED",
+          "BSDF",
+          "OUTPUT_MATERIAL",
+          "Surface"
+        ]
+      ]
+    },
+    {
+      "name": "Iris vert 2.004",
+      "nodes": [
+        {
+          "type": "BSDF_PRINCIPLED",
+          "image": null
+        },
+        {
+          "type": "OUTPUT_MATERIAL",
+          "image": null
+        }
+      ],
+      "links": [
+        [
+          "BSDF_PRINCIPLED",
+          "BSDF",
+          "OUTPUT_MATERIAL",
+          "Surface"
+        ]
+      ]
+    },
+    {
+      "name": "Iris vert 2.005",
+      "nodes": [
+        {
+          "type": "BSDF_PRINCIPLED",
+          "image": null
+        },
+        {
+          "type": "OUTPUT_MATERIAL",
+          "image": null
+        }
+      ],
+      "links": [
+        [
+          "BSDF_PRINCIPLED",
+          "BSDF",
+          "OUTPUT_MATERIAL",
+          "Surface"
+        ]
+      ]
+    },
+    {
+      "name": "Ongles naturels satines.005",
+      "nodes": [
+        {
+          "type": "BSDF_PRINCIPLED",
+          "image": null
+        },
+        {
+          "type": "OUTPUT_MATERIAL",
+          "image": null
+        }
+      ],
+      "links": [
+        [
+          "BSDF_PRINCIPLED",
+          "BSDF",
+          "OUTPUT_MATERIAL",
+          "Surface"
+        ]
+      ]
+    },
+    {
+      "name": "Peau.005",
+      "nodes": [
+        {
+          "type": "BSDF_PRINCIPLED",
+          "image": null
+        },
+        {
+          "type": "OUTPUT_MATERIAL",
+          "image": null
+        }
+      ],
+      "links": [
+        [
+          "BSDF_PRINCIPLED",
+          "BSDF",
+          "OUTPUT_MATERIAL",
+          "Surface"
+        ]
+      ]
+    }
+  ]
+}

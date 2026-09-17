@@ -1,0 +1,525 @@
+{
+  "source": "artifacts\\avatars\\moustache\\renaissance-moustache.blend",
+  "sourceSha256": "bde448c4c1cb5fad198f4fea54d2f15ab246c7b317209e9ffd7629b600226103",
+  "blender": "5.2.1 LTS",
+  "avatars": {
+    "courtMale": {
+      "source": {
+        "meshes": 20,
+        "vertices": 58872,
+        "triangles": 93339,
+        "bones": [
+          "Root",
+          "Hips",
+          "Spine",
+          "Chest",
+          "Neck",
+          "Head",
+          "UpperArm.L",
+          "Forearm.L",
+          "Hand.L",
+          "UpperArm.R",
+          "Forearm.R",
+          "Hand.R",
+          "Thigh.L",
+          "Shin.L",
+          "Foot.L",
+          "Thigh.R",
+          "Shin.R",
+          "Foot.R"
+        ],
+        "shapeKeys": {
+          "courtMale Visage anatomique Head final": [
+            "viseme_sil",
+            "viseme_PP",
+            "viseme_FF",
+            "viseme_TH",
+            "viseme_DD",
+            "viseme_kk",
+            "viseme_CH",
+            "viseme_SS",
+            "viseme_nn",
+            "viseme_RR",
+            "viseme_aa",
+            "viseme_E",
+            "viseme_I",
+            "viseme_O",
+            "viseme_U"
+          ]
+        },
+        "bounds": {
+          "min": [
+            -0.36396464705467224,
+            -0.19321925938129425,
+            0.002977970987558365
+          ],
+          "max": [
+            0.3640846312046051,
+            0.15088577568531036,
+            1.7692471742630005
+          ]
+        },
+        "skinnedMeshes": 20
+      },
+      "bakedColorMeshes": [
+        {
+          "mesh": "courtMale Coiffure dense en meches Head.003",
+          "texture": "C:\\Users\\nicol\\Documents\\workspaces\\vr-workspace\\test-meta-web-sdk-update\\artifacts\\avatars\\fbx\\courtMale\\Textures\\courtMale-color-07.png"
+        },
+        {
+          "mesh": "courtMale Visage anatomique Head final",
+          "texture": "C:\\Users\\nicol\\Documents\\workspaces\\vr-workspace\\test-meta-web-sdk-update\\artifacts\\avatars\\fbx\\courtMale\\Textures\\courtMale-color-19.png"
+        }
+      ],
+      "materials": [
+        {
+          "name": "Atelier - blanc des yeux.012",
+          "metallic": 0.0,
+          "roughness": 0.23999999463558197,
+          "textures": []
+        },
+        {
+          "name": "Atelier - broderie or vieilli.012",
+          "metallic": 0.6700000166893005,
+          "roughness": 0.4000000059604645,
+          "textures": []
+        },
+        {
+          "name": "Atelier - chatain profond.001",
+          "metallic": 0.0,
+          "roughness": 0.7699999809265137,
+          "textures": [
+            "Textures/courtMale-color-19.png"
+          ]
+        },
+        {
+          "name": "Atelier - chatain profond.012",
+          "metallic": 0.0,
+          "roughness": 0.7699999809265137,
+          "textures": []
+        },
+        {
+          "name": "Atelier - couture cuir courtMaleL.002",
+          "metallic": 0.0,
+          "roughness": 0.6399999856948853,
+          "textures": []
+        },
+        {
+          "name": "Atelier - couture cuir courtMaleR.002",
+          "metallic": 0.0,
+          "roughness": 0.6399999856948853,
+          "textures": []
+        },
+        {
+          "name": "Atelier - cuir espresso L.002",
+          "metallic": 0.0,
+          "roughness": 0.3799999952316284,
+          "textures": []
+        },
+        {
+          "name": "Atelier - cuir espresso R.002",
+          "metallic": 0.0,
+          "roughness": 0.3799999952316284,
+          "textures": []
+        },
+        {
+          "name": "Atelier - email ivoire.001",
+          "metallic": 0.0,
+          "roughness": 0.30000001192092896,
+          "textures": [
+            "Textures/courtMale-color-19.png"
+          ]
+        },
+        {
+          "name": "Atelier - fibres capillaires denses courtMale.001",
+          "metallic": 0.0,
+          "roughness": 0.7599999904632568,
+          "textures": [
+            "Textures/courtMale-color-07.png"
+          ]
+        },
+        {
+          "name": "Atelier - interieur buccal.001",
+          "metallic": 0.0,
+          "roughness": 0.8600000143051147,
+          "textures": [
+            "Textures/courtMale-color-19.png"
+          ]
+        },
+        {
+          "name": "Atelier - levres naturelles.001",
+          "metallic": 0.0,
+          "roughness": 0.46000000834465027,
+          "textures": [
+            "Textures/courtMale-color-19.png"
+          ]
+        },
+        {
+          "name": "Atelier - lin ivoire.012",
+          "metallic": 0.0,
+          "roughness": 0.9100000262260437,
+          "textures": []
+        },
+        {
+          "name": "Atelier - muqueuse.001",
+          "metallic": 0.0,
+          "roughness": 0.550000011920929,
+          "textures": [
+            "Textures/courtMale-color-19.png"
+          ]
+        },
+        {
+          "name": "Atelier - peau nuancee.001",
+          "metallic": 0.0,
+          "roughness": 0.5299999713897705,
+          "textures": [
+            "Textures/courtMale-color-19.png"
+          ]
+        },
+        {
+          "name": "Atelier - pupille et cils.013",
+          "metallic": 0.0,
+          "roughness": 0.3400000035762787,
+          "textures": []
+        },
+        {
+          "name": "Atelier - semelle cuir courtMaleL.002",
+          "metallic": 0.0,
+          "roughness": 0.7200000286102295,
+          "textures": []
+        },
+        {
+          "name": "Atelier - semelle cuir courtMaleR.002",
+          "metallic": 0.0,
+          "roughness": 0.7200000286102295,
+          "textures": []
+        },
+        {
+          "name": "Atelier - velours grenat.012",
+          "metallic": 0.0,
+          "roughness": 0.7799999713897705,
+          "textures": []
+        },
+        {
+          "name": "Barbe mate continue Francois Ier.002",
+          "metallic": 0.0,
+          "roughness": 0.8999999761581421,
+          "textures": [
+            "Textures/courtMale-color-19.png"
+          ]
+        },
+        {
+          "name": "Iris marron 1.004",
+          "metallic": 0.0,
+          "roughness": 0.27000001072883606,
+          "textures": []
+        },
+        {
+          "name": "Iris marron 1.005",
+          "metallic": 0.0,
+          "roughness": 0.27000001072883606,
+          "textures": []
+        },
+        {
+          "name": "Iris marron 2.004",
+          "metallic": 0.0,
+          "roughness": 0.28999999165534973,
+          "textures": []
+        },
+        {
+          "name": "Iris marron 2.005",
+          "metallic": 0.0,
+          "roughness": 0.28999999165534973,
+          "textures": []
+        },
+        {
+          "name": "Ongles naturels satines.005",
+          "metallic": 0.0,
+          "roughness": 0.41999998688697815,
+          "textures": []
+        },
+        {
+          "name": "Peau.005",
+          "metallic": 0.0,
+          "roughness": 0.699999988079071,
+          "textures": []
+        },
+        {
+          "name": "courtMale Chevelure microfibres",
+          "metallic": 0.0,
+          "roughness": 0.6200000047683716,
+          "textures": [
+            "Textures/courtMale-hair-color.png",
+            "Textures/courtMale-hair-normal.png"
+          ]
+        }
+      ],
+      "clips": [
+        "Idle",
+        "Walking",
+        "StrafeLeft",
+        "StrafeRight"
+      ],
+      "file": "courtMale\\courtMale.fbx",
+      "bytes": 10702236,
+      "sha256": "10562f6ce03ec1cc0cd7adfdb1c743d04925fc136f6c0a71ad35dccd360dc040"
+    },
+    "courtFemale": {
+      "source": {
+        "meshes": 23,
+        "vertices": 59725,
+        "triangles": 97439,
+        "bones": [
+          "Root",
+          "Hips",
+          "Spine",
+          "Chest",
+          "Neck",
+          "Head",
+          "UpperArm.L",
+          "Forearm.L",
+          "Hand.L",
+          "UpperArm.R",
+          "Forearm.R",
+          "Hand.R",
+          "Thigh.L",
+          "Shin.L",
+          "Foot.L",
+          "Thigh.R",
+          "Shin.R",
+          "Foot.R"
+        ],
+        "shapeKeys": {
+          "courtFemale Visage anatomique Head.037": [
+            "viseme_sil",
+            "viseme_PP",
+            "viseme_FF",
+            "viseme_TH",
+            "viseme_DD",
+            "viseme_kk",
+            "viseme_CH",
+            "viseme_SS",
+            "viseme_nn",
+            "viseme_RR",
+            "viseme_aa",
+            "viseme_E",
+            "viseme_I",
+            "viseme_O",
+            "viseme_U"
+          ]
+        },
+        "bounds": {
+          "min": [
+            -0.40113359689712524,
+            -0.3129514455795288,
+            0.002228047465905547
+          ],
+          "max": [
+            0.3976987600326538,
+            0.3123638331890106,
+            1.7575403451919556
+          ]
+        },
+        "skinnedMeshes": 23
+      },
+      "bakedColorMeshes": [
+        {
+          "mesh": "courtFemale Visage anatomique Head.037",
+          "texture": "C:\\Users\\nicol\\Documents\\workspaces\\vr-workspace\\test-meta-web-sdk-update\\artifacts\\avatars\\fbx\\courtFemale\\Textures\\courtFemale-color-02.png"
+        },
+        {
+          "mesh": "courtFemale Head Atelier - fibres capillaires denses courtFemale.003",
+          "texture": "C:\\Users\\nicol\\Documents\\workspaces\\vr-workspace\\test-meta-web-sdk-update\\artifacts\\avatars\\fbx\\courtFemale\\Textures\\courtFemale-color-08.png"
+        }
+      ],
+      "materials": [
+        {
+          "name": "Atelier - blanc des yeux.012",
+          "metallic": 0.0,
+          "roughness": 0.23999999463558197,
+          "textures": []
+        },
+        {
+          "name": "Atelier - broderie or vieilli.012",
+          "metallic": 0.6700000166893005,
+          "roughness": 0.4000000059604645,
+          "textures": []
+        },
+        {
+          "name": "Atelier - chatain profond.012",
+          "metallic": 0.0,
+          "roughness": 0.7699999809265137,
+          "textures": []
+        },
+        {
+          "name": "Atelier - couture cuir courtFemaleL.002",
+          "metallic": 0.0,
+          "roughness": 0.6399999856948853,
+          "textures": []
+        },
+        {
+          "name": "Atelier - couture cuir courtFemaleR.002",
+          "metallic": 0.0,
+          "roughness": 0.6399999856948853,
+          "textures": []
+        },
+        {
+          "name": "Atelier - cuir prune L.002",
+          "metallic": 0.0,
+          "roughness": 0.3799999952316284,
+          "textures": []
+        },
+        {
+          "name": "Atelier - cuir prune R.002",
+          "metallic": 0.0,
+          "roughness": 0.3799999952316284,
+          "textures": []
+        },
+        {
+          "name": "Atelier - damas champagne.012",
+          "metallic": 0.0,
+          "roughness": 0.5699999928474426,
+          "textures": []
+        },
+        {
+          "name": "Atelier - email ivoire.001",
+          "metallic": 0.0,
+          "roughness": 0.30000001192092896,
+          "textures": [
+            "Textures/courtFemale-color-02.png"
+          ]
+        },
+        {
+          "name": "Atelier - fibres capillaires denses courtFemale.001",
+          "metallic": 0.0,
+          "roughness": 0.7599999904632568,
+          "textures": [
+            "Textures/courtFemale-color-08.png"
+          ]
+        },
+        {
+          "name": "Atelier - interieur buccal.001",
+          "metallic": 0.0,
+          "roughness": 0.8600000143051147,
+          "textures": [
+            "Textures/courtFemale-color-02.png"
+          ]
+        },
+        {
+          "name": "Atelier - levres naturelles.001",
+          "metallic": 0.0,
+          "roughness": 0.46000000834465027,
+          "textures": [
+            "Textures/courtFemale-color-02.png"
+          ]
+        },
+        {
+          "name": "Atelier - lin ivoire.012",
+          "metallic": 0.0,
+          "roughness": 0.9100000262260437,
+          "textures": []
+        },
+        {
+          "name": "Atelier - muqueuse.001",
+          "metallic": 0.0,
+          "roughness": 0.550000011920929,
+          "textures": [
+            "Textures/courtFemale-color-02.png"
+          ]
+        },
+        {
+          "name": "Atelier - peau nuancee.001",
+          "metallic": 0.0,
+          "roughness": 0.5299999713897705,
+          "textures": [
+            "Textures/courtFemale-color-02.png"
+          ]
+        },
+        {
+          "name": "Atelier - pupille et cils.013",
+          "metallic": 0.0,
+          "roughness": 0.3400000035762787,
+          "textures": []
+        },
+        {
+          "name": "Atelier - reflets chatains.012",
+          "metallic": 0.0,
+          "roughness": 0.6800000071525574,
+          "textures": []
+        },
+        {
+          "name": "Atelier - semelle cuir courtFemaleL.002",
+          "metallic": 0.0,
+          "roughness": 0.7200000286102295,
+          "textures": []
+        },
+        {
+          "name": "Atelier - semelle cuir courtFemaleR.002",
+          "metallic": 0.0,
+          "roughness": 0.7200000286102295,
+          "textures": []
+        },
+        {
+          "name": "Atelier - velours bleu petrole.012",
+          "metallic": 0.0,
+          "roughness": 0.7699999809265137,
+          "textures": []
+        },
+        {
+          "name": "Iris vert 1.004",
+          "metallic": 0.0,
+          "roughness": 0.27000001072883606,
+          "textures": []
+        },
+        {
+          "name": "Iris vert 1.005",
+          "metallic": 0.0,
+          "roughness": 0.27000001072883606,
+          "textures": []
+        },
+        {
+          "name": "Iris vert 2.004",
+          "metallic": 0.0,
+          "roughness": 0.28999999165534973,
+          "textures": []
+        },
+        {
+          "name": "Iris vert 2.005",
+          "metallic": 0.0,
+          "roughness": 0.28999999165534973,
+          "textures": []
+        },
+        {
+          "name": "Ongles naturels satines.005",
+          "metallic": 0.0,
+          "roughness": 0.41999998688697815,
+          "textures": []
+        },
+        {
+          "name": "Peau.005",
+          "metallic": 0.0,
+          "roughness": 0.699999988079071,
+          "textures": []
+        },
+        {
+          "name": "courtFemale Chevelure microfibres",
+          "metallic": 0.0,
+          "roughness": 0.6200000047683716,
+          "textures": [
+            "Textures/courtFemale-hair-color.png",
+            "Textures/courtFemale-hair-normal.png"
+          ]
+        }
+      ],
+      "clips": [
+        "Idle",
+        "Walking",
+        "StrafeLeft",
+        "StrafeRight"
+      ],
+      "file": "courtFemale\\courtFemale.fbx",
+      "bytes": 9014588,
+      "sha256": "9baab5886735c1ad29b8c8d352af7271de46af3b295724b7562971e550547148"
+    }
+  }
+}

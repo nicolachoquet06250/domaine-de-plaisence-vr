@@ -1,0 +1,84 @@
+{
+  "courtMale": {
+    "passed": true,
+    "bones": 18,
+    "meshes": 20,
+    "triangles": 93339,
+    "heightMeters": 1.766269096173346,
+    "visemeMaxDisplacementMeters": {
+      "viseme_sil": 4.900991916656494e-05,
+      "viseme_PP": 0.0015997887057447927,
+      "viseme_FF": 0.006120299419183319,
+      "viseme_TH": 0.01729294921493353,
+      "viseme_DD": 0.009372197650632835,
+      "viseme_kk": 0.013037156667962894,
+      "viseme_CH": 0.01028707686539618,
+      "viseme_SS": 0.0052050352519740625,
+      "viseme_nn": 0.007254958253648079,
+      "viseme_RR": 0.009372097891156537,
+      "viseme_aa": 0.02222670933959036,
+      "viseme_E": 0.010287276496363965,
+      "viseme_I": 0.004204988526927578,
+      "viseme_O": 0.017631045458200316,
+      "viseme_U": 0.010067155478101384
+    },
+    "unweightedVertices": 0,
+    "animationClips": [
+      "courtMale|Idle",
+      "courtMale|StrafeLeft",
+      "courtMale|StrafeRight",
+      "courtMale|Walking",
+      "Key|Idle",
+      "Key|StrafeLeft",
+      "Key|StrafeRight",
+      "Key|Walking"
+    ],
+    "loadedImages": [
+      "courtMale-color-07",
+      "courtMale-color-19",
+      "courtMale-hair-color.png",
+      "courtMale-hair-normal.png"
+    ]
+  },
+  "courtFemale": {
+    "passed": true,
+    "bones": 18,
+    "meshes": 23,
+    "triangles": 97439,
+    "heightMeters": 1.7553121878299862,
+    "visemeMaxDisplacementMeters": {
+      "viseme_sil": 4.6551380355123044e-05,
+      "viseme_PP": 0.0015198105260694717,
+      "viseme_FF": 0.0058142698112037495,
+      "viseme_TH": 0.016428315648799163,
+      "viseme_DD": 0.008839845474083277,
+      "viseme_kk": 0.011698843768085566,
+      "viseme_CH": 0.009199574298439171,
+      "viseme_SS": 0.004944801238601669,
+      "viseme_nn": 0.006892323509421305,
+      "viseme_RR": 0.008371802161745677,
+      "viseme_aa": 0.020181151595492563,
+      "viseme_E": 0.009199735937524368,
+      "viseme_I": 0.003994822528816117,
+      "viseme_O": 0.015913411889449936,
+      "viseme_U": 0.009564851679247324
+    },
+    "unweightedVertices": 0,
+    "animationClips": [
+      "courtFemale|Idle",
+      "courtFemale|StrafeLeft",
+      "courtFemale|StrafeRight",
+      "courtFemale|Walking",
+      "Key|Idle",
+      "Key|StrafeLeft",
+      "Key|StrafeRight",
+      "Key|Walking"
+    ],
+    "loadedImages": [
+      "courtFemale-color-02",
+      "courtFemale-color-08",
+      "courtFemale-hair-color.png",
+      "courtFemale-hair-normal.png"
+    ]
+  }
+}
