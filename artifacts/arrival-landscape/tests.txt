@@ -1,0 +1,104 @@
+                                                 
+▄▄▄▄▄▄  ▄▄      ▄▄   ▄▄▄▄    ▄▄▄▄▄     ▄▄   ▄▄▄ 
+▀▀██▀▀  ██      ██ ▄█▀▀▀▀█   ██▀▀▀██   ██  ██▀  
+  ██    ▀█▄ ██ ▄█▀ ██▄       ██    ██  ██▄██    
+  ██     ██ ██ ██   ▀████▄   ██    ██  █████    
+  ██     ███▀▀███       ▀██  ██    ██  ██  ██▄  
+▄▄██▄▄   ███  ███  █▄▄▄▄▄█▀  ██▄▄▄██   ██   ██▄ 
+▀▀▀▀▀▀   ▀▀▀  ▀▀▀   ▀▀▀▀▀    ▀▀▀▀▀     ▀▀    ▀▀                                                
+===============================================
+Immersive Web SDK v0.5.3
+Three.js r181
+EliCS v3.4.2
+✔ arrival wall blocks all 360 degrees, including segment seams, without rendering (62.8094ms)
+✔ recovery compensates room-scale headset offset and stays inactive inside the place (18.1716ms)
+✔ arrival keeps every existing placement, UI and spawn; original palace stays intact (17.6696ms)
+✔ distant estate includes exterior placements only and keeps the approved offset (3.1689ms)
+✔ forest and connecting path leave the plaza, avenue and estate clear (8.5784ms)
+✖ all new GLBs are embedded and leaf materials use alpha cutout without blending (16.4833ms)
+✔ every path stays solo without an invitation; both invitation formats work; disconnect returns to root (8.5695ms)
+✔ solo at / keeps the map and URL until explicit creation (305.8286ms)
+✔ solo at /maps/plaisance?other=1#garden keeps the map and URL until explicit creation (164.2381ms)
+✔ solo at /app/maps/plaisance/ keeps the map and URL until explicit creation (131.8768ms)
+✔ nickname field preserves spaces while typing, persists and reaches the connection without entering invite URLs (315.353ms)
+✔ the reported invitation prompts for a nickname despite a legacy automatic visitor name (254.0881ms)
+✔ blank identity cannot enter, while deliberately chosen visitor-style names remain valid (432.3851ms)
+✔ roomId invitation without a saved nickname waits in solo then joins the exact invited room (121.4876ms)
+✔ room invitation without a saved nickname waits in solo then joins the exact invited room (79.9902ms)
+✔ blank or inaccessible nickname storage still requires personalisation, and load failure retains the invitation (143.3242ms)
+✔ direct invitation with saved nickname joins; leaving releases voice, socket and avatars without retry (59.1271ms)
+✔ gender choice is required alongside nickname, persists, and is shared without changing invitation URLs (177.8708ms)
+                                                 
+▄▄▄▄▄▄  ▄▄      ▄▄   ▄▄▄▄    ▄▄▄▄▄     ▄▄   ▄▄▄ 
+▀▀██▀▀  ██      ██ ▄█▀▀▀▀█   ██▀▀▀██   ██  ██▀  
+  ██    ▀█▄ ██ ▄█▀ ██▄       ██    ██  ██▄██    
+  ██     ██ ██ ██   ▀████▄   ██    ██  █████    
+  ██     ███▀▀███       ▀██  ██    ██  ██  ██▄  
+▄▄██▄▄   ███  ███  █▄▄▄▄▄█▀  ██▄▄▄██   ██   ██▄ 
+▀▀▀▀▀▀   ▀▀▀  ▀▀▀   ▀▀▀▀▀    ▀▀▀▀▀     ▀▀    ▀▀                                                
+===============================================
+Immersive Web SDK v0.5.3
+Three.js r181
+EliCS v3.4.2
+✔ expands translated, rotated, scaled instances and mixed indexed/non-indexed geometry (4.8618ms)
+✔ every solid prototype retains all triangles and its exact geometry bounds (20.1516ms)
+ℹ palace: 17050 collision triangles
+ℹ ground: 12 collision triangles
+ℹ path: 12 collision triangles
+ℹ parterre: 54364 collision triangles
+ℹ cypress: 452 collision triangles
+ℹ bench: 180 collision triangles
+ℹ urn: 3492 collision triangles
+ℹ gardenBorder: 96 collision triangles
+ℹ basin: 6624 collision triangles
+✖ each solid scene placement has one inherited collision child; fluids and UI remain traversable (1.379ms)
+✔ deferred activation captures ancestor translation, rotation and scale before registering with Locomotor (23.5363ms)
+✔ actual Locomotor climbs the palace stairs, then stops at the closed entrance (68.872ms)
+✔ actual Locomotor cannot pass through the instanced palace balustrade (19.9441ms)
+✔ actual Locomotor stops at cypress (8.7632ms)
+✔ actual Locomotor stops at bench (3.9749ms)
+✔ actual Locomotor stops at gardenBorder (4.1385ms)
+✔ rounded urn deflects the player around its solid body (12.054ms)
+✔ low parterre surfaces support the player when climbed (59.9278ms)
+✔ low basin surfaces support the player when climbed (11.5648ms)
+ℹ tests 30
+ℹ suites 0
+ℹ pass 28
+ℹ fail 2
+ℹ cancelled 0
+ℹ skipped 0
+ℹ todo 0
+ℹ duration_ms 6424.5355
+
+✖ failing tests:
+
+test at tests\arrival-landscape.test.mjs:27:1
+✖ all new GLBs are embedded and leaf materials use alpha cutout without blending (16.4833ms)
+  TypeError: Cannot read properties of undefined (reading 'every')
+      at TestContext.<anonymous> (file:///C:/Users/nicol/Documents/workspaces/vr-workspace/test-meta-web-sdk-update/tests/arrival-landscape.test.mjs:32:96)
+      at Test.runInAsyncScope (node:async_hooks:226:14)
+      at Test.run (node:internal/test_runner/test:1402:25)
+      at Test.processPendingSubtests (node:internal/test_runner/test:974:18)
+      at Test.postRun (node:internal/test_runner/test:1542:19)
+      at Test.run (node:internal/test_runner/test:1467:12)
+      at async Test.processPendingSubtests (node:internal/test_runner/test:974:7)
+
+test at tests\static-collision.test.mjs:90:1
+✖ each solid scene placement has one inherited collision child; fluids and UI remain traversable (1.379ms)
+  AssertionError [ERR_ASSERTION]: Uncovered solid: palaceInterior
+      at visit (file:///C:/Users/nicol/Documents/workspaces/vr-workspace/test-meta-web-sdk-update/tests/static-collision.test.mjs:102:16)
+      at visit (file:///C:/Users/nicol/Documents/workspaces/vr-workspace/test-meta-web-sdk-update/tests/static-collision.test.mjs:110:7)
+      at TestContext.<anonymous> (file:///C:/Users/nicol/Documents/workspaces/vr-workspace/test-meta-web-sdk-update/tests/static-collision.test.mjs:113:3)
+      at Test.runInAsyncScope (node:async_hooks:226:14)
+      at Test.run (node:internal/test_runner/test:1402:25)
+      at Test.processPendingSubtests (node:internal/test_runner/test:974:18)
+      at Test.postRun (node:internal/test_runner/test:1542:19)
+      at Test.run (node:internal/test_runner/test:1467:12)
+      at async Test.processPendingSubtests (node:internal/test_runner/test:974:7) {
+    generatedMessage: false,
+    code: 'ERR_ASSERTION',
+    actual: undefined,
+    expected: true,
+    operator: '==',
+    diff: 'simple'
+  }

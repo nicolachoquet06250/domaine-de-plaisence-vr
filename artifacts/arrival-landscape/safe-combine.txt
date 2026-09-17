@@ -1,0 +1,37 @@
+2026-09-11 13:43:30,809 - BlenderMCPServer - INFO - BlenderMCP server starting up
+2026-09-11 13:43:30,811 - BlenderMCPServer - INFO - Blender addon on disk is current (protocol 5).
+2026-09-11 13:43:30,813 - blender-mcp-telemetry - WARNING - Telemetry disabled via environment variable
+2026-09-11 13:43:30,819 - BlenderMCPServer - INFO - Connected to Blender at localhost:9876
+2026-09-11 13:43:30,819 - BlenderMCPServer - INFO - Created new persistent connection to Blender
+2026-09-11 13:43:30,819 - BlenderMCPServer - INFO - Sending command: get_addon_info with params: None
+2026-09-11 13:43:30,819 - BlenderMCPServer - INFO - Command sent, waiting for response...
+2026-09-11 13:43:30,857 - BlenderMCPServer - INFO - Received complete response (358 bytes)
+2026-09-11 13:43:30,857 - BlenderMCPServer - INFO - Received 358 bytes of data
+2026-09-11 13:43:30,857 - BlenderMCPServer - INFO - Response parsed, status: success
+2026-09-11 13:43:30,857 - BlenderMCPServer - INFO - Blender addon up to date (protocol 5, addon [1, 6], Blender 5.2.1 LTS)
+2026-09-11 13:43:30,857 - BlenderMCPServer - INFO - Successfully connected to Blender on startup
+2026-09-11 13:43:30,870 - mcp.server.lowlevel.server - INFO - Processing request of type CallToolRequest
+2026-09-11 13:43:30,873 - BlenderMCPServer - INFO - Sending command: execute_code with params: {'code': 'exec(compile("def combine(objects,name):\\n # Merge explicitly: avoid the Blender operator joining linked mesh instances.\\n verts=[];faces=[];material_ids=[];uvs=[];materials=[]\\n for obj in objects:\\n  data=obj.data;offset=len(verts);world=obj.matrix_world.copy()\\n  verts.extend(tuple(world@v.co) for v in data.vertices)\\n  mapping=[]\\n  for mat in data.materials:\\n   if mat not in materials:materials.append(mat)\\n   mapping.append(materials.index(mat))\\n  uv=data.uv_layers.active\\n  for poly in data.polygons:\\n   faces.append(tuple(offset+i for i in poly.vertices))\\n   material_ids.append(mapping[poly.material_index] if mapping else 0)\\n   uvs.extend(tuple(uv.data[i].uv) if uv else (0,0) for i in poly.loop_indices)\\n data=bpy.data.meshes.new(name);data.from_pydata(verts,[],faces)\\n for mat in materials:data.materials.append(mat)\\n for poly,mat in zip(data.polygons,material_ids):poly.material_index=mat;poly.use_smooth=True\\n uv=data.uv_layers.new(name=\'UVMap\');uv.data.foreach_set(\'uv\',[v for pair in uvs for v in pair]);data.update()\\n obj=bpy.data.objects.new(name,data);scene.collection.objects.link(obj)\\n for old in objects:bpy.data.objects.remove(old,do_unlink=True)\\n return obj\\n\\nprint(\'Safe linked geometry merge installed\')\\n", "scripts/blender-landscape-safe-combine.py", \'exec\'), __import__(\'bpy\').__dict__.setdefault(\'_estate_authoring\', {}))'}
+2026-09-11 13:43:30,873 - BlenderMCPServer - INFO - Command sent, waiting for response...
+2026-09-11 13:43:30,909 - BlenderMCPServer - INFO - Received complete response (103 bytes)
+2026-09-11 13:43:30,909 - BlenderMCPServer - INFO - Received 103 bytes of data
+2026-09-11 13:43:30,909 - BlenderMCPServer - INFO - Response parsed, status: success
+2026-09-11 13:43:30,909 - BlenderMCPServer - INFO - Sending command: get_telemetry_consent with params: None
+2026-09-11 13:43:30,909 - BlenderMCPServer - INFO - Command sent, waiting for response...
+2026-09-11 13:43:30,959 - BlenderMCPServer - INFO - Received complete response (50 bytes)
+2026-09-11 13:43:30,960 - BlenderMCPServer - INFO - Received 50 bytes of data
+2026-09-11 13:43:30,960 - BlenderMCPServer - INFO - Response parsed, status: success
+{
+  "content": [
+    {
+      "type": "text",
+      "text": "Code executed successfully: Safe linked geometry merge installed\n"
+    }
+  ],
+  "structuredContent": {
+    "result": "Code executed successfully: Safe linked geometry merge installed\n"
+  },
+  "isError": false
+}
+2026-09-11 13:43:30,965 - BlenderMCPServer - INFO - Disconnecting from Blender on shutdown
+2026-09-11 13:43:30,965 - BlenderMCPServer - INFO - BlenderMCP server shut down

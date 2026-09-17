@@ -1,0 +1,39 @@
+                                                 
+▄▄▄▄▄▄  ▄▄      ▄▄   ▄▄▄▄    ▄▄▄▄▄     ▄▄   ▄▄▄ 
+▀▀██▀▀  ██      ██ ▄█▀▀▀▀█   ██▀▀▀██   ██  ██▀  
+  ██    ▀█▄ ██ ▄█▀ ██▄       ██    ██  ██▄██    
+  ██     ██ ██ ██   ▀████▄   ██    ██  █████    
+  ██     ███▀▀███       ▀██  ██    ██  ██  ██▄  
+▄▄██▄▄   ███  ███  █▄▄▄▄▄█▀  ██▄▄▄██   ██   ██▄ 
+▀▀▀▀▀▀   ▀▀▀  ▀▀▀   ▀▀▀▀▀    ▀▀▀▀▀     ▀▀    ▀▀                                                
+===============================================
+Immersive Web SDK v0.5.3
+Three.js r181
+EliCS v3.4.2
+✔ arrival wall blocks all 360 degrees, including segment seams, without rendering (54.1617ms)
+✔ recovery compensates room-scale headset offset and stays inactive inside the place (13.3446ms)
+✔ actual Locomotor is stopped by the invisible wall in sixteen directions (85.6425ms)
+✔ arrival keeps every existing placement, UI and spawn; original palace stays intact (5.7707ms)
+✔ distant estate includes exterior placements only and keeps the approved offset (1.3609ms)
+✔ forest and connecting path leave the plaza, avenue and estate clear (2.8676ms)
+✔ all new GLBs are embedded and leaf materials use alpha cutout without blending (9.6965ms)
+✔ every path stays solo without an invitation; both invitation formats work; disconnect returns to root (1.0269ms)
+✔ solo at / keeps the map and URL until explicit creation (89.3489ms)
+✔ solo at /maps/plaisance?other=1#garden keeps the map and URL until explicit creation (46.0957ms)
+✔ solo at /app/maps/plaisance/ keeps the map and URL until explicit creation (37.8088ms)
+✔ nickname field preserves spaces while typing, persists and reaches the connection without entering invite URLs (70.5339ms)
+✔ the reported invitation prompts for a nickname despite a legacy automatic visitor name (59.464ms)
+✔ blank identity cannot enter, while deliberately chosen visitor-style names remain valid (122.0258ms)
+✔ roomId invitation without a saved nickname waits in solo then joins the exact invited room (30.3186ms)
+✔ room invitation without a saved nickname waits in solo then joins the exact invited room (28.6501ms)
+✔ blank or inaccessible nickname storage still requires personalisation, and load failure retains the invitation (57.2639ms)
+✔ direct invitation with saved nickname joins; leaving releases voice, socket and avatars without retry (25.969ms)
+✔ gender choice is required alongside nickname, persists, and is shared without changing invitation URLs (74.2969ms)
+ℹ tests 19
+ℹ suites 0
+ℹ pass 19
+ℹ fail 0
+ℹ cancelled 0
+ℹ skipped 0
+ℹ todo 0
+ℹ duration_ms 2863.8872

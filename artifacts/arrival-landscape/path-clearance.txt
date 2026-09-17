@@ -1,0 +1,37 @@
+2026-09-11 14:10:08,735 - BlenderMCPServer - INFO - BlenderMCP server starting up
+2026-09-11 14:10:08,736 - BlenderMCPServer - INFO - Blender addon on disk is current (protocol 5).
+2026-09-11 14:10:08,738 - blender-mcp-telemetry - WARNING - Telemetry disabled via environment variable
+2026-09-11 14:10:08,743 - BlenderMCPServer - INFO - Connected to Blender at localhost:9876
+2026-09-11 14:10:08,743 - BlenderMCPServer - INFO - Created new persistent connection to Blender
+2026-09-11 14:10:08,743 - BlenderMCPServer - INFO - Sending command: get_addon_info with params: None
+2026-09-11 14:10:08,744 - BlenderMCPServer - INFO - Command sent, waiting for response...
+2026-09-11 14:10:08,776 - BlenderMCPServer - INFO - Received complete response (358 bytes)
+2026-09-11 14:10:08,776 - BlenderMCPServer - INFO - Received 358 bytes of data
+2026-09-11 14:10:08,776 - BlenderMCPServer - INFO - Response parsed, status: success
+2026-09-11 14:10:08,776 - BlenderMCPServer - INFO - Blender addon up to date (protocol 5, addon [1, 6], Blender 5.2.1 LTS)
+2026-09-11 14:10:08,776 - BlenderMCPServer - INFO - Successfully connected to Blender on startup
+2026-09-11 14:10:08,788 - mcp.server.lowlevel.server - INFO - Processing request of type CallToolRequest
+2026-09-11 14:10:08,790 - BlenderMCPServer - INFO - Sending command: execute_code with params: {'code': 'exec(compile("# Clear grass at the new gateway connection on the distant copy only.\\nbm=bmesh.new();bm.from_mesh(estate.data)\\nremove=[]\\nfor face in bm.faces:\\n center=face.calc_center_median()\\n if abs(center.x)<3.6 and -31.1<center.y<-26.9 and -.2<center.z<.4:remove.append(face)\\nbmesh.ops.delete(bm,geom=remove,context=\'FACES\');bm.to_mesh(estate.data);bm.free();estate.data.validate();estate.data.update()\\nestate.location-=Vector((100,95,0));export(\'estateExterior\',[estate]);estate.location+=Vector((100,95,0))\\nbpy.data.libraries.write(str(EVID/\'accueil-paysage.blend\'),{scene},fake_user=True,compress=True)\\n(EVID/\'asset-stats.json\').write_text(json.dumps({\'assets\':stats,\'trees\':len(placements),\'estateOffset\':spec[\'offset\'],\'sourcePlacements\':len(spec[\'placements\'])},indent=2))\\nprint(\'Grass cleared at the gateway:\',len(remove))\\n", "scripts/blender-landscape-path-clearance.py", \'exec\'), __import__(\'bpy\').__dict__.setdefault(\'_estate_authoring\', {}))'}
+2026-09-11 14:10:08,790 - BlenderMCPServer - INFO - Command sent, waiting for response...
+2026-09-11 14:10:09,355 - BlenderMCPServer - INFO - Received complete response (326 bytes)
+2026-09-11 14:10:09,355 - BlenderMCPServer - INFO - Received 326 bytes of data
+2026-09-11 14:10:09,355 - BlenderMCPServer - INFO - Response parsed, status: success
+2026-09-11 14:10:09,355 - BlenderMCPServer - INFO - Sending command: get_telemetry_consent with params: None
+2026-09-11 14:10:09,355 - BlenderMCPServer - INFO - Command sent, waiting for response...
+2026-09-11 14:10:09,361 - BlenderMCPServer - INFO - Received complete response (50 bytes)
+2026-09-11 14:10:09,361 - BlenderMCPServer - INFO - Received 50 bytes of data
+2026-09-11 14:10:09,361 - BlenderMCPServer - INFO - Response parsed, status: success
+{
+  "content": [
+    {
+      "type": "text",
+      "text": "Code executed successfully: 14:10:09 | INFO: Starting glTF 2.0 export\n14:10:09 | INFO: Extracting primitive: Domaine - exterieurs uniquement\n14:10:09 | INFO: Primitives created: 34\n14:10:09 | INFO: Finished glTF 2.0 export in 0.28506922721862793 s\n\nGrass cleared at the gateway: 180\n"
+    }
+  ],
+  "structuredContent": {
+    "result": "Code executed successfully: 14:10:09 | INFO: Starting glTF 2.0 export\n14:10:09 | INFO: Extracting primitive: Domaine - exterieurs uniquement\n14:10:09 | INFO: Primitives created: 34\n14:10:09 | INFO: Finished glTF 2.0 export in 0.28506922721862793 s\n\nGrass cleared at the gateway: 180\n"
+  },
+  "isError": false
+}
+2026-09-11 14:10:09,366 - BlenderMCPServer - INFO - Disconnecting from Blender on shutdown
+2026-09-11 14:10:09,366 - BlenderMCPServer - INFO - BlenderMCP server shut down
