@@ -1,0 +1,93 @@
+✔ GLB verifier accepts actual skeletal deformation and rejects corrupt weights, missing clips and broken loops (33786.6397ms)
+                                                 
+▄▄▄▄▄▄  ▄▄      ▄▄   ▄▄▄▄    ▄▄▄▄▄     ▄▄   ▄▄▄ 
+▀▀██▀▀  ██      ██ ▄█▀▀▀▀█   ██▀▀▀██   ██  ██▀  
+  ██    ▀█▄ ██ ▄█▀ ██▄       ██    ██  ██▄██    
+  ██     ██ ██ ██   ▀████▄   ██    ██  █████    
+  ██     ███▀▀███       ▀██  ██    ██  ██  ██▄  
+▄▄██▄▄   ███  ███  █▄▄▄▄▄█▀  ██▄▄▄██   ██   ██▄ 
+▀▀▀▀▀▀   ▀▀▀  ▀▀▀   ▀▀▀▀▀    ▀▀▀▀▀     ▀▀    ▀▀                                                
+===============================================
+Immersive Web SDK v0.5.3
+Three.js r181
+EliCS v3.4.2
+✔ anatomical side is determined by geometry, with independent tracked arms (7.8833ms)
+✔ reachable world targets preserve limb lengths under translated, yawed and scaled roots (1.607ms)
+✔ unreachable targets clamp extension, folding, shoulder swing and wrist rotation (3.4166ms)
+✔ both exported Blender rigs accept world grip targets without stretching (37.9426ms)
+✔ exported bind frames match WebXR grip thumb and finger axes for both hands and body yaws (1947.1409ms)
+✔ exported arms preserve measured lengths and anatomical bend limits for extreme controller poses (181.63ms)
+✔ real skinned fingertip vertices match the WebXR grip frame after XR posing (481.3064ms)
+✔ enlarged hands retain proportions and centre the grip inside the palm, not at the wrist (83.285ms)
+✔ Blender Walking swings opposite arms with bent elbows; sidestep clips have no arm swing (28.4194ms)
+                                                 
+▄▄▄▄▄▄  ▄▄      ▄▄   ▄▄▄▄    ▄▄▄▄▄     ▄▄   ▄▄▄ 
+▀▀██▀▀  ██      ██ ▄█▀▀▀▀█   ██▀▀▀██   ██  ██▀  
+  ██    ▀█▄ ██ ▄█▀ ██▄       ██    ██  ██▄██    
+  ██     ██ ██ ██   ▀████▄   ██    ██  █████    
+  ██     ███▀▀███       ▀██  ██    ██  ██  ██▄  
+▄▄██▄▄   ███  ███  █▄▄▄▄▄█▀  ██▄▄▄██   ██   ██▄ 
+▀▀▀▀▀▀   ▀▀▀  ▀▀▀   ▀▀▀▀▀    ▀▀▀▀▀     ▀▀    ▀▀                                                
+===============================================
+Immersive Web SDK v0.5.3
+Three.js r181
+EliCS v3.4.2
+✔ first-person head stays available to mirrors while hidden from both direct eye cameras (57.0242ms)
+✔ desktop reflection-only view survives loading and restores the VR body layers on repeated switches (11.8807ms)
+✔ local body follows the desktop camera and remains reflected across XR entry and exit (449.3073ms)
+✔ independent mixers blend Idle/Walking, then return to rest without mutating other avatars (9.0877ms)
+✔ strafing follows local anatomical left/right and preserves the body yaw (13.7466ms)
+✔ changing identity during load and leaving before completion cannot resurrect obsolete avatars (4.2952ms)
+✔ mouth morphs are independent per visitor and combine with walking and reflection layers (3.6649ms)
+                                                 
+▄▄▄▄▄▄  ▄▄      ▄▄   ▄▄▄▄    ▄▄▄▄▄     ▄▄   ▄▄▄ 
+▀▀██▀▀  ██      ██ ▄█▀▀▀▀█   ██▀▀▀██   ██  ██▀  
+  ██    ▀█▄ ██ ▄█▀ ██▄       ██    ██  ██▄██    
+  ██     ██ ██ ██   ▀████▄   ██    ██  █████    
+  ██     ███▀▀███       ▀██  ██    ██  ██  ██▄  
+▄▄██▄▄   ███  ███  █▄▄▄▄▄█▀  ██▄▄▄██   ██   ██▄ 
+▀▀▀▀▀▀   ▀▀▀  ▀▀▀   ▀▀▀▀▀    ▀▀▀▀▀     ▀▀    ▀▀                                                
+===============================================
+Immersive Web SDK v0.5.3
+Three.js r181
+EliCS v3.4.2
+✔ gravity sags free particles, roots remain pinned and segment lengths stay bounded (157.7837ms)
+✔ fixed substeps agree across frame rates, and world gravity survives head rotation (72.0747ms)
+✔ head motion produces inertia, teleport resets safely, avatars do not share particle state (2.8146ms)
+✔ particles are projected out of the head collider (3.0145ms)
+✔ rendered strand vertices follow physics; clones own their geometry and dispose safely (94.2353ms)
+✔ acoustic model contains finite prototypes for the 15 articulations (3.1156ms)
+✔ worklet recognizes viseme zero, blends sounds and closes on silence, stale audio and pause (2.5817ms)
+✔ disconnect while loading cannot resurrect a microphone or attach a worklet (1.6622ms)
+✔ microphone is never requested automatically; mute stops capture and removes sender tracks (6.7282ms)
+✔ permission denial retains listening and supports a retry (1.7502ms)
+✔ one gesture resumes listening after the browser suspends audio (1.8506ms)
+✔ pending permission cannot reopen the mic after cancel (2.1056ms)
+✔ pending permission cannot reopen the mic after disconnect (1.4705ms)
+✔ pending permission cannot reopen the mic after dispose (1.697ms)
+✔ ICE waits for SDP; only one peer offers, and stale peers cannot send after disconnect (5.123ms)
+✔ remote stream is spatialized once, follows listener/head and becomes silent beyond 25 m (2.1531ms)
+✔ distance curve has full near volume and a continuous fade to silence (1.2979ms)
+                                                 
+▄▄▄▄▄▄  ▄▄      ▄▄   ▄▄▄▄    ▄▄▄▄▄     ▄▄   ▄▄▄ 
+▀▀██▀▀  ██      ██ ▄█▀▀▀▀█   ██▀▀▀██   ██  ██▀  
+  ██    ▀█▄ ██ ▄█▀ ██▄       ██    ██  ██▄██    
+  ██     ██ ██ ██   ▀████▄   ██    ██  █████    
+  ██     ███▀▀███       ▀██  ██    ██  ██  ██▄  
+▄▄██▄▄   ███  ███  █▄▄▄▄▄█▀  ██▄▄▄██   ██   ██▄ 
+▀▀▀▀▀▀   ▀▀▀  ▀▀▀   ▀▀▀▀▀    ▀▀▀▀▀     ▀▀    ▀▀                                                
+===============================================
+Immersive Web SDK v0.5.3
+Three.js r181
+EliCS v3.4.2
+✔ FFT bins distinguish low, mid and high voice frequencies at both common sample rates (3.0302ms)
+✔ microphone silence, suspension and disposal zero transmitted activity without audio output (1.5677ms)
+✔ nametag borders animate independently, fade stale packets and retain the text texture (100.1393ms)
+ℹ tests 37
+ℹ suites 0
+ℹ pass 37
+ℹ fail 0
+ℹ cancelled 0
+ℹ skipped 0
+ℹ todo 0
+ℹ duration_ms 33906.7871

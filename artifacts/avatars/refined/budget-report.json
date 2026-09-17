@@ -1,0 +1,23 @@
+{
+  "courtMale": {
+    "triangles": 95705,
+    "meshes": 19,
+    "necklaceClearanceMm": [
+      3.299996256828308,
+      3.300003707408905
+    ],
+    "headAdvanceMm": 45,
+    "hairGuidePoints": 2700,
+    "bytes": 10860304
+  },
+  "courtFemale": {
+    "triangles": 100241,
+    "meshes": 22,
+    "necklaceClearanceMm": [
+      3.2999954725566667,
+      3.3000033152730843
+    ],
+    "headAdvanceMm": 45,
+    "hairGuidePoints": 180
+  }
+}

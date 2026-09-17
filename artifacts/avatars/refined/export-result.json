@@ -1,0 +1,12 @@
+{
+  "content": [
+    {
+      "type": "text",
+      "text": "Error executing code: Communication error with Blender: Code execution error: Budget exceeded courtFemale: 100241"
+    }
+  ],
+  "structuredContent": {
+    "result": "Error executing code: Communication error with Blender: Code execution error: Budget exceeded courtFemale: 100241"
+  },
+  "isError": false
+}

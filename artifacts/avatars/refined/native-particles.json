@@ -1,0 +1,20 @@
+[
+  {
+    "name": "courtMale Particules Barbe taillee.006",
+    "parents": 600,
+    "settingsCount": 600,
+    "dynamics": true
+  },
+  {
+    "name": "courtFemale Particules Coiffure dense.001",
+    "parents": 300,
+    "settingsCount": 300,
+    "dynamics": true
+  },
+  {
+    "name": "courtMale Particules Coiffure dense finale",
+    "parents": 300,
+    "settingsCount": 300,
+    "dynamics": true
+  }
+]
