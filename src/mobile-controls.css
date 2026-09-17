@@ -1,0 +1,20 @@
+#mobile-controls { position: fixed; inset: 0; z-index: 40; pointer-events: none; font: 13px/1.4 system-ui; color: #f5efe0; }
+#mobile-controls[hidden] { display: none; }
+#mobile-controls button { min-height: 44px; padding: 10px 14px; border: 1px solid #b9a673; border-radius: 12px; background: #233e34ed; color: #fff6de; font: 600 13px system-ui; pointer-events: auto; touch-action: manipulation; }
+#mobile-controls button:focus-visible { outline: 3px solid #fff6de; outline-offset: 3px; }
+.mobile-toolbar { position: absolute; top: max(48px, env(safe-area-inset-top)); left: max(12px, env(safe-area-inset-left)); right: max(12px, env(safe-area-inset-right)); display: flex; justify-content: space-between; gap: 8px; }
+.mobile-pad { position: absolute; bottom: max(22px, env(safe-area-inset-bottom)); pointer-events: auto; touch-action: none; user-select: none; -webkit-user-select: none; }
+.mobile-stick { left: max(20px, env(safe-area-inset-left)); width: clamp(108px, 28vw, 140px); aspect-ratio: 1; border: 2px solid #f5efe080; border-radius: 50%; background: #233e3466; box-shadow: inset 0 0 30px #0002; }
+.mobile-stick-knob { position: absolute; width: 46px; height: 46px; top: calc(50% - 23px); left: calc(50% - 23px); border: 1px solid #f5efe0; border-radius: 50%; background: #f5efe099; box-sizing: border-box; pointer-events: none; }
+.mobile-stick-label { position: absolute; top: -25px; width: 100%; text-align: center; text-shadow: 0 1px 4px #000; }
+.mobile-look { right: max(16px, env(safe-area-inset-right)); width: 42vw; height: min(36vh, 210px); border: 1px dashed #f5efe060; border-radius: 28px; background: #233e3414; display: flex; justify-content: center; align-items: end; padding-bottom: 12px; box-sizing: border-box; text-shadow: 0 1px 4px #000; }
+#mobile-controls[data-blocked="true"] .mobile-pad { visibility: hidden; pointer-events: none; }
+#mobile-controls[data-traveling="true"] .mobile-stick { visibility: hidden; pointer-events: none; }
+body.coach-travel #friends-room { display: none; }
+body.mobile-visit #friends-room { display: none; top: max(104px, calc(env(safe-area-inset-top) + 60px)) !important; bottom: auto !important; right: 12px !important; left: 12px; max-height: calc(100dvh - 125px); overflow: auto; box-sizing: border-box; }
+body.mobile-visit.mobile-friends-open #friends-room { display: block; }
+@media (orientation: landscape) and (max-height: 500px) {
+  .mobile-stick { width: 100px; }
+  .mobile-look { width: 30vw; height: 42vh; }
+  .mobile-pad { bottom: max(12px, env(safe-area-inset-bottom)); }
+}

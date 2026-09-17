@@ -1,0 +1,50 @@
+import { createComponent, Types } from '@iwsdk/core';
+
+/** Connection diagnostics, updated on network events instead of render frames. */
+export const RoomConnection = createComponent('RoomConnection', {
+  roomId: { type: Types.String, default: '' },
+  nickname: { type: Types.String, default: '' },
+  avatar: { type: Types.String, default: '' },
+  status: { type: Types.String, default: 'connecting' },
+  visitorCount: { type: Types.Int16, default: 0 },
+  serverTime: { type: Types.Float64, default: 0 },
+  microphone: { type: Types.String, default: 'off' },
+  listening: { type: Types.Boolean, default: false },
+  voicePeers: { type: Types.Int16, default: 0 },
+  voiceError: { type: Types.String, default: '' },
+  bodyVisible: { type: Types.Boolean, default: false },
+  animation: { type: Types.String, default: 'Idle' },
+  leftTracked: { type: Types.Boolean, default: false },
+  rightTracked: { type: Types.Boolean, default: false },
+  leftWrist: { type: Types.Vec3, default: [0, 0, 0] },
+  rightWrist: { type: Types.Vec3, default: [0, 0, 0] },
+  leftTarget: { type: Types.Vec3, default: [0, 0, 0] },
+  rightTarget: { type: Types.Vec3, default: [0, 0, 0] },
+  leftReachError: { type: Types.Float32, default: 0 },
+  rightReachError: { type: Types.Float32, default: 0 },
+  leftElbowFlex: { type: Types.Float32, default: 0 },
+  rightElbowFlex: { type: Types.Float32, default: 0 },
+});
+
+/** Runtime visitor targets; declarations stay safe for the editor realm. */
+export const RemoteVisitor = createComponent('RemoteVisitor', {
+  peerId: { type: Types.String, default: '' },
+  nickname: { type: Types.String, default: '' },
+  avatar: { type: Types.String, default: 'male' },
+  feetPosition: { type: Types.Vec3, default: [0, 0, 0] },
+  headPosition: { type: Types.Vec3, default: [0, 0, 0] },
+  headRotation: { type: Types.Vec4, default: [0, 0, 0, 1] },
+  leftPosition: { type: Types.Vec3, default: [0, 0, 0] },
+  leftRotation: { type: Types.Vec4, default: [0, 0, 0, 1] },
+  rightPosition: { type: Types.Vec3, default: [0, 0, 0] },
+  rightRotation: { type: Types.Vec4, default: [0, 0, 0, 1] },
+  leftVisible: { type: Types.Boolean, default: false },
+  rightVisible: { type: Types.Boolean, default: false },
+  voiceConnected: { type: Types.Boolean, default: false },
+  voiceGain: { type: Types.Float32, default: 0 },
+  voiceBands: { type: Types.Vec3, default: [0, 0, 0] },
+  voiceReceivedAt: { type: Types.Float64, default: 0 },
+  animation: { type: Types.String, default: 'Idle' },
+  leftReachError: { type: Types.Float32, default: 0 },
+  rightReachError: { type: Types.Float32, default: 0 },
+});
