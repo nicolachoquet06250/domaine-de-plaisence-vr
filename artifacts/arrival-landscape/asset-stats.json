@@ -1,0 +1,66 @@
+{
+  "assets": {
+    "oak1": {
+      "triangles": 786,
+      "meshes": 2,
+      "bytes": 277120
+    },
+    "oak1Far": {
+      "triangles": 618,
+      "meshes": 2,
+      "bytes": 261720
+    },
+    "oak2": {
+      "triangles": 786,
+      "meshes": 2,
+      "bytes": 278764
+    },
+    "oak2Far": {
+      "triangles": 618,
+      "meshes": 2,
+      "bytes": 263360
+    },
+    "oak3": {
+      "triangles": 786,
+      "meshes": 2,
+      "bytes": 279548
+    },
+    "oak3Far": {
+      "triangles": 618,
+      "meshes": 2,
+      "bytes": 264148
+    },
+    "forest": {
+      "triangles": 84432,
+      "meshes": 16,
+      "bytes": 4722076
+    },
+    "terrain": {
+      "triangles": 28800,
+      "meshes": 1,
+      "bytes": 655416
+    },
+    "path": {
+      "triangles": 288,
+      "meshes": 1,
+      "bytes": 32548
+    },
+    "estateExterior": {
+      "triangles": 116142,
+      "meshes": 1,
+      "bytes": 7505148
+    },
+    "gateway": {
+      "triangles": 336,
+      "meshes": 2,
+      "bytes": 25820
+    }
+  },
+  "trees": 132,
+  "estateOffset": [
+    100,
+    0,
+    -95
+  ],
+  "sourcePlacements": 51
+}

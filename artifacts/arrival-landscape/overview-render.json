@@ -1,0 +1,227 @@
+{
+  "ok": true,
+  "data": {
+    "workspaceRoot": "C:\\Users\\nicol\\Documents\\workspaces\\vr-workspace\\test-meta-web-sdk-update",
+    "operation": "scene.render-file",
+    "result": {
+      "camera": {
+        "fov": 57,
+        "lookAt": [
+          50,
+          0,
+          -55
+        ],
+        "position": [
+          175,
+          130,
+          95
+        ],
+        "projection": "perspective",
+        "view": "custom",
+        "viewId": "landscape-overview"
+      },
+      "composedDocumentHash": "sha256:30293a510e26eeb2239d584fe75f7163be4f595364428d98bbffa629c8837639",
+      "dependencies": [],
+      "diagnostics": [],
+      "height": 1640,
+      "mimeType": "image/png",
+      "path": "public/scenes/arrival.iwsdk.scene.json",
+      "renderStats": {
+        "available": true,
+        "calls": 161,
+        "frameTimeSamplesMs": [
+          25,
+          160,
+          3.2,
+          6.5,
+          159.1,
+          4.3,
+          1.4,
+          1.2,
+          1.5,
+          2.6,
+          1.6
+        ],
+        "lines": 0,
+        "environment": {
+          "browser": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/153.0.0.0 Safari/537.36",
+          "devicePixelRatio": 2,
+          "emulatedUserAgent": "Mozilla/5.0 (X11; Linux x86_64; Quest 3) AppleWebKit/537.36 (KHTML, like Gecko) OculusBrowser/33.0.0.x.x.x Chrome/126.0.6478.122 VR Safari/537.36",
+          "emulationProfile": {
+            "active": true,
+            "device": "metaQuest3",
+            "runtime": "IWER"
+          },
+          "gpu": "ANGLE (Intel, Intel(R) Iris(R) Xe Graphics (0x0000A7A0) Direct3D11 vs_5_0 ps_5_0, D3D11)",
+          "hostPlatform": "Windows",
+          "hostUserAgent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/153.0.0.0 Safari/537.36",
+          "renderer": "IWSDK WebGL",
+          "visibility": {
+            "method": "threejs-first-hit-sampling-v1",
+            "occlusion": "conservative-cpu-first-hit",
+            "sampleGrid": "3x3-projected-bounds+overhead-lower-frame",
+            "uncertainObjectsIncluded": false
+          }
+        },
+        "geometryCount": 141,
+        "points": 0,
+        "programs": 23,
+        "materialCount": 64,
+        "meshCount": 155,
+        "nodeCount": 24,
+        "objectCount": 207,
+        "shadowCasters": 1,
+        "sceneAssets": [
+          {
+            "id": "arrival",
+            "meshCount": 24
+          },
+          {
+            "id": "arrivalCollision",
+            "meshCount": 1
+          },
+          {
+            "id": "arrival-panel",
+            "meshCount": 1
+          },
+          {
+            "id": "cypress",
+            "meshCount": 4
+          },
+          {
+            "id": "cypressCollision",
+            "meshCount": 1
+          },
+          {
+            "id": "cypress",
+            "meshCount": 4
+          },
+          {
+            "id": "cypressCollision",
+            "meshCount": 1
+          },
+          {
+            "id": "arrivalLawnRelief",
+            "meshCount": 5
+          },
+          {
+            "id": "arrivalTerrain",
+            "meshCount": 1
+          },
+          {
+            "id": "arrivalForest",
+            "meshCount": 62
+          },
+          {
+            "id": "arrivalPath",
+            "meshCount": 1
+          },
+          {
+            "id": "arrivalEstate",
+            "meshCount": 34
+          },
+          {
+            "id": "arrivalGateway",
+            "meshCount": 2
+          },
+          {
+            "id": "arrivalBoundary",
+            "meshCount": 1
+          },
+          {
+            "id": "water",
+            "meshCount": 1
+          },
+          {
+            "id": "centralJet",
+            "meshCount": 2
+          },
+          {
+            "id": "lateralJet",
+            "meshCount": 2
+          },
+          {
+            "id": "lateralJet",
+            "meshCount": 2
+          },
+          {
+            "id": "lateralJet",
+            "meshCount": 2
+          },
+          {
+            "id": "lateralJet",
+            "meshCount": 2
+          },
+          {
+            "id": "lateralJet",
+            "meshCount": 2
+          },
+          {
+            "id": "lateralJet",
+            "meshCount": 2
+          }
+        ],
+        "textures": 55,
+        "triangles": 376028,
+        "visibleNodeIds": [
+          "arrival-lawn-relief",
+          "arrival-panel",
+          "arrival-terrace",
+          "arrival-tree--5",
+          "arrival-tree-5",
+          "landscape-estate",
+          "landscape-forest",
+          "landscape-fountain",
+          "landscape-gateway",
+          "landscape-path",
+          "landscape-terrain",
+          "landscape-water/fountain/jet-central",
+          "landscape-water/fountain/jet-lateral-1",
+          "landscape-water/fountain/jet-lateral-4",
+          "landscape-water/fountain/water",
+          "sun"
+        ],
+        "framingBounds": {
+          "max": [
+            170,
+            37.8438,
+            60
+          ],
+          "min": [
+            -70,
+            -33.2402,
+            -180
+          ],
+          "size": [
+            240,
+            71.084,
+            240
+          ]
+        },
+        "worldBounds": {
+          "max": [
+            170,
+            40.2342,
+            60
+          ],
+          "min": [
+            -70,
+            -33.2402,
+            -180
+          ],
+          "size": [
+            240,
+            73.4744,
+            240
+          ]
+        }
+      },
+      "runtimeHash": "sha256:a69832963024537103bbb8a8819e968c04b2e2f68101a0dff617b09a99db8d3a",
+      "screenshotSha256": "sha256:2d5fea31baf291ea97ae74d42481b33d3341c6f2069e8dde0cdcfd0a6c04dbac",
+      "sourceDocumentHash": "sha256:30293a510e26eeb2239d584fe75f7163be4f595364428d98bbffa629c8837639",
+      "valid": true,
+      "width": 2200
+    },
+    "screenshotPath": "artifacts/arrival-landscape/overview.png"
+  }
+}
