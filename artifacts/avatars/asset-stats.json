@@ -1,0 +1,18 @@
+{
+  "bustFrancoisI": {
+    "bytes": 718428,
+    "triangles": 38464
+  },
+  "bustLouisXIV": {
+    "bytes": 936476,
+    "triangles": 51138
+  },
+  "courtMale": {
+    "bytes": 1578508,
+    "triangles": 51896
+  },
+  "courtFemale": {
+    "bytes": 1377384,
+    "triangles": 44910
+  }
+}

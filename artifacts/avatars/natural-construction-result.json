@@ -1,0 +1,12 @@
+{
+  "content": [
+    {
+      "type": "text",
+      "text": "Code executed successfully: {\"courtMale\": {\"vertices\": 50756, \"objects\": 71, \"visemes\": [\"sil\", \"PP\", \"FF\", \"TH\", \"DD\", \"kk\", \"CH\", \"SS\", \"nn\", \"RR\", \"aa\", \"E\", \"I\", \"O\", \"U\"], \"method\": \"custom anatomical contour meshes, quad patches and tailored lofts; no primitive operators; existing retopologized hands and rig reused\"}, \"courtFemale\": {\"vertices\": 53888, \"objects\": 84, \"visemes\": [\"sil\", \"PP\", \"FF\", \"TH\", \"DD\", \"kk\", \"CH\", \"SS\", \"nn\", \"RR\", \"aa\", \"E\", \"I\", \"O\", \"U\"], \"method\": \"custom anatomical contour meshes, quad patches and tailored lofts; no primitive operators; existing retopologized hands and rig reused\"}}\n"
+    }
+  ],
+  "structuredContent": {
+    "result": "Code executed successfully: {\"courtMale\": {\"vertices\": 50756, \"objects\": 71, \"visemes\": [\"sil\", \"PP\", \"FF\", \"TH\", \"DD\", \"kk\", \"CH\", \"SS\", \"nn\", \"RR\", \"aa\", \"E\", \"I\", \"O\", \"U\"], \"method\": \"custom anatomical contour meshes, quad patches and tailored lofts; no primitive operators; existing retopologized hands and rig reused\"}, \"courtFemale\": {\"vertices\": 53888, \"objects\": 84, \"visemes\": [\"sil\", \"PP\", \"FF\", \"TH\", \"DD\", \"kk\", \"CH\", \"SS\", \"nn\", \"RR\", \"aa\", \"E\", \"I\", \"O\", \"U\"], \"method\": \"custom anatomical contour meshes, quad patches and tailored lofts; no primitive operators; existing retopologized hands and rig reused\"}}\n"
+  },
+  "isError": false
+}

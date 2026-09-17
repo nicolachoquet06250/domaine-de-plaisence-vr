@@ -1,0 +1,77 @@
+2026-09-11 08:57:39,704 - BlenderMCPServer - INFO - BlenderMCP server starting up
+2026-09-11 08:57:39,706 - BlenderMCPServer - INFO - Blender addon on disk is current (protocol 5).
+2026-09-11 08:57:39,718 - BlenderMCPServer - INFO - Connected to Blender at localhost:9876
+2026-09-11 08:57:39,718 - BlenderMCPServer - INFO - Created new persistent connection to Blender
+2026-09-11 08:57:39,718 - BlenderMCPServer - INFO - Sending command: get_addon_info with params: None
+2026-09-11 08:57:39,718 - BlenderMCPServer - INFO - Command sent, waiting for response...
+2026-09-11 08:57:39,745 - BlenderMCPServer - INFO - Received complete response (358 bytes)
+2026-09-11 08:57:39,745 - BlenderMCPServer - INFO - Received 358 bytes of data
+2026-09-11 08:57:39,745 - BlenderMCPServer - INFO - Response parsed, status: success
+2026-09-11 08:57:39,745 - BlenderMCPServer - INFO - Blender addon up to date (protocol 5, addon [1, 6], Blender 5.2.1 LTS)
+2026-09-11 08:57:39,745 - BlenderMCPServer - INFO - Sending command: get_telemetry_consent with params: None
+2026-09-11 08:57:39,745 - BlenderMCPServer - INFO - Command sent, waiting for response...
+2026-09-11 08:57:39,797 - BlenderMCPServer - INFO - Received complete response (50 bytes)
+2026-09-11 08:57:39,797 - BlenderMCPServer - INFO - Received 50 bytes of data
+2026-09-11 08:57:39,797 - BlenderMCPServer - INFO - Response parsed, status: success
+2026-09-11 08:57:40,059 - BlenderMCPServer - INFO - Successfully connected to Blender on startup
+2026-09-11 08:57:40,079 - mcp.server.lowlevel.server - INFO - Processing request of type CallToolRequest
+2026-09-11 08:57:40,084 - BlenderMCPServer - INFO - Sending command: drain_human_activity with params: None
+2026-09-11 08:57:40,084 - BlenderMCPServer - INFO - Command sent, waiting for response...
+2026-09-11 08:57:40,107 - BlenderMCPServer - INFO - Received complete response (47 bytes)
+2026-09-11 08:57:40,107 - BlenderMCPServer - INFO - Received 47 bytes of data
+2026-09-11 08:57:40,107 - BlenderMCPServer - INFO - Response parsed, status: success
+2026-09-11 08:57:40,107 - BlenderMCPServer - INFO - Sending command: get_world_state_snapshot with params: None
+2026-09-11 08:57:40,107 - BlenderMCPServer - INFO - Command sent, waiting for response...
+2026-09-11 08:57:40,171 - BlenderMCPServer - INFO - Received complete response (6574 bytes)
+2026-09-11 08:57:40,171 - BlenderMCPServer - INFO - Received 6574 bytes of data
+2026-09-11 08:57:40,171 - BlenderMCPServer - INFO - Response parsed, status: success
+2026-09-11 08:57:40,172 - BlenderMCPServer - INFO - Sending command: execute_code with params: {'code': 'exec(compile("import bpy, json\\nfrom pathlib import Path\\nroot=Path(\'C:/Users/nicol/Documents/workspaces/vr-workspace/test-meta-web-sdk-update\')\\nwith bpy.data.libraries.load(str(root/\'artifacts/avatars/renaissance-court.blend\'),link=False) as (src,dst):\\n    dst.scenes=src.scenes\\nscene=next(s for s in dst.scenes if any(o.name.startswith(\'courtMale\') and o.type==\'ARMATURE\' for o in s.objects))\\nbpy.context.window.scene=scene\\nprint(json.dumps({\'scene\':scene.name,\'objects\':[{\'name\':o.name,\'type\':o.type,\'vertices\':len(o.data.vertices) if o.type==\'MESH\' else None,\'location\':list(o.location)} for o in scene.objects if o.name.startswith(\'court\')]}))\\nbpy._lip_source_scene=scene\\n", "scripts/blender-lipsync-inspect.py", \'exec\'), __import__(\'bpy\').__dict__.setdefault(\'_estate_authoring\', {}))'}
+2026-09-11 08:57:40,172 - BlenderMCPServer - INFO - Command sent, waiting for response...
+2026-09-11 08:57:40,391 - httpx - INFO - HTTP Request: POST https://yzasssndwqceclzilcdu.supabase.co/rest/v1/telemetry_events "HTTP/1.1 201 Created"
+2026-09-11 08:57:40,503 - BlenderMCPServer - INFO - Received complete response (3851 bytes)
+2026-09-11 08:57:40,504 - BlenderMCPServer - INFO - Received 3851 bytes of data
+2026-09-11 08:57:40,504 - BlenderMCPServer - INFO - Response parsed, status: success
+2026-09-11 08:57:40,505 - BlenderMCPServer - INFO - Sending command: get_world_state_snapshot with params: None
+2026-09-11 08:57:40,505 - BlenderMCPServer - INFO - Command sent, waiting for response...
+2026-09-11 08:57:40,531 - BlenderMCPServer - INFO - Received complete response (23774 bytes)
+2026-09-11 08:57:40,532 - BlenderMCPServer - INFO - Received 23774 bytes of data
+2026-09-11 08:57:40,532 - BlenderMCPServer - INFO - Response parsed, status: success
+2026-09-11 08:57:40,534 - BlenderMCPServer - INFO - Sending command: get_viewport_screenshot with params: {'max_size': 512, 'filepath': 'C:\\Users\\nicol\\AppData\\Local\\Temp\\blender_mcp_auto_34104_36dca818.png', 'format': 'png'}
+2026-09-11 08:57:40,535 - BlenderMCPServer - INFO - Command sent, waiting for response...
+2026-09-11 08:57:40,659 - BlenderMCPServer - INFO - Received complete response (193 bytes)
+2026-09-11 08:57:40,659 - BlenderMCPServer - INFO - Received 193 bytes of data
+2026-09-11 08:57:40,659 - BlenderMCPServer - INFO - Response parsed, status: success
+2026-09-11 08:57:40,773 - httpx - INFO - HTTP Request: POST https://yzasssndwqceclzilcdu.supabase.co/rest/v1/telemetry_events "HTTP/1.1 201 Created"
+2026-09-11 08:57:44,907 - httpx - INFO - HTTP Request: POST https://yzasssndwqceclzilcdu.supabase.co/storage/v1/object/telemetry-screenshots/auto_87fdfe2b-5590-416e-be58-0c7cf8e5d406_1789109860672.png "HTTP/1.1 200 OK"
+{
+  "content": [
+    {
+      "type": "text",
+      "text": "Code executed successfully: {\"scene\": \"Portraits royaux et cour Renaissance.002\", \"objects\": [{\"name\": \"courtMale Rig.002\", \"type\": \"ARMATURE\", \"vertices\": null, \"location\": [-3.799999952316284, 0.0, 0.0]}, {\"name\": \"courtMale Velours cramoisi.002\", \"type\": \"MESH\", \"vertices\": 1632, \"location\": [0.0, 0.0, 0.0]}, {\"name\": \"courtMale Peau Head.002\", \"type\": \"MESH\", \"vertices\": 2800, \"location\": [0.0, 0.0, 0.0]}, {\"name\": \"courtMale Lin et perles Head.002\", \"type\": \"MESH\", \"vertices\": 228, \"location\": [0.0, 0.0, 0.0]}, {\"name\": \"courtMale Sclerotique Head.002\", \"type\": \"MESH\", \"vertices\": 720, \"location\": [0.0, 0.0, 0.0]}, {\"name\": \"courtMale Iris noisette Head.002\", \"type\": \"MESH\", \"vertices\": 352, \"location\": [0.0, 0.0, 0.0]}, {\"name\": \"courtMale Pupille Head.002\", \"type\": \"MESH\", \"vertices\": 216, \"location\": [0.0, 0.0, 0.0]}, {\"name\": \"courtMale Cheveux chatains Head.002\", \"type\": \"MESH\", \"vertices\": 10846, \"location\": [0.0, 0.0, 0.0]}, {\"name\": \"courtMale Levres Head.002\", \"type\": \"MESH\", \"vertices\": 273, \"location\": [0.0, 0.0, 0.0]}, {\"name\": \"courtMale Velours cramoisi Head.002\", \"type\": \"MESH\", \"vertices\": 536, \"location\": [0.0, 0.0, 0.0]}, {\"name\": \"courtMale Or brode et bijoux Head.002\", \"type\": \"MESH\", \"vertices\": 770, \"location\": [0.0, 0.0, 0.0]}, {\"name\": \"courtMale Or brode et bijoux.002\", \"type\": \"MESH\", \"vertices\": 2806, \"location\": [0.0, 0.0, 0.0]}, {\"name\": \"courtMale Lin et perles.002\", \"type\": \"MESH\", \"vertices\": 336, \"location\": [0.0, 0.0, 0.0]}, {\"name\": \"courtMale Ongles naturels satines.002\", \"type\": \"MESH\", \"vertices\": 1450, \"location\": [0.0, 0.0, 0.0]}, {\"name\": \"courtMale Peau.002\", \"type\": \"MESH\", \"vertices\": 3504, \"location\": [0.0, 0.0, 0.0]}, {\"name\": \"courtMale Souliers cuir brun.002\", \"type\": \"MESH\", \"vertices\": 720, \"location\": [0.0, 0.0, 0.0]}, {\"name\": \"courtFemale Rig.002\", \"type\": \"ARMATURE\", \"vertices\": null, \"location\": [3.799999952316284, 0.0, 0.0]}, {\"name\": \"courtFemale Velours bleu nuit.002\", \"type\": \"MESH\", \"vertices\": 1816, \"location\": [0.0, 0.0, 0.0]}, {\"name\": \"courtFemale Peau Head.002\", \"type\": \"MESH\", \"vertices\": 2800, \"location\": [0.0, 0.0, 0.0]}, {\"name\": \"courtFemale Lin et perles Head.002\", \"type\": \"MESH\", \"vertices\": 1450, \"location\": [0.0, 0.0, 0.0]}, {\"name\": \"courtFemale Sclerotique Head.002\", \"type\": \"MESH\", \"vertices\": 720, \"location\": [0.0, 0.0, 0.0]}, {\"name\": \"courtFemale Iris noisette Head.002\", \"type\": \"MESH\", \"vertices\": 352, \"location\": [0.0, 0.0, 0.0]}, {\"name\": \"courtFemale Pupille Head.002\", \"type\": \"MESH\", \"vertices\": 216, \"location\": [0.0, 0.0, 0.0]}, {\"name\": \"courtFemale Cheveux chatains Head.002\", \"type\": \"MESH\", \"vertices\": 6730, \"location\": [0.0, 0.0, 0.0]}, {\"name\": \"courtFemale Levres Head.002\", \"type\": \"MESH\", \"vertices\": 273, \"location\": [0.0, 0.0, 0.0]}, {\"name\": \"courtFemale Velours bleu nuit Head.002\", \"type\": \"MESH\", \"vertices\": 372, \"location\": [0.0, 0.0, 0.0]}, {\"name\": \"courtFemale Or brode et bijoux.002\", \"type\": \"MESH\", \"vertices\": 2862, \"location\": [0.0, 0.0, 0.0]}, {\"name\": \"courtFemale Lin et perles.002\", \"type\": \"MESH\", \"vertices\": 336, \"location\": [0.0, 0.0, 0.0]}, {\"name\": \"courtFemale Ongles naturels satines.002\", \"type\": \"MESH\", \"vertices\": 1450, \"location\": [0.0, 0.0, 0.0]}, {\"name\": \"courtFemale Peau.002\", \"type\": \"MESH\", \"vertices\": 3504, \"location\": [0.0, 0.0, 0.0]}, {\"name\": \"courtFemale Souliers cuir brun.002\", \"type\": \"MESH\", \"vertices\": 720, \"location\": [0.0, 0.0, 0.0]}]}\n"
+    }
+  ],
+  "structuredContent": {
+    "result": "Code executed successfully: {\"scene\": \"Portraits royaux et cour Renaissance.002\", \"objects\": [{\"name\": \"courtMale Rig.002\", \"type\": \"ARMATURE\", \"vertices\": null, \"location\": [-3.799999952316284, 0.0, 0.0]}, {\"name\": \"courtMale Velours cramoisi.002\", \"type\": \"MESH\", \"vertices\": 1632, \"location\": [0.0, 0.0, 0.0]}, {\"name\": \"courtMale Peau Head.002\", \"type\": \"MESH\", \"vertices\": 2800, \"location\": [0.0, 0.0, 0.0]}, {\"name\": \"courtMale Lin et perles Head.002\", \"type\": \"MESH\", \"vertices\": 228, \"location\": [0.0, 0.0, 0.0]}, {\"name\": \"courtMale Sclerotique Head.002\", \"type\": \"MESH\", \"vertices\": 720, \"location\": [0.0, 0.0, 0.0]}, {\"name\": \"courtMale Iris noisette Head.002\", \"type\": \"MESH\", \"vertices\": 352, \"location\": [0.0, 0.0, 0.0]}, {\"name\": \"courtMale Pupille Head.002\", \"type\": \"MESH\", \"vertices\": 216, \"location\": [0.0, 0.0, 0.0]}, {\"name\": \"courtMale Cheveux chatains Head.002\", \"type\": \"MESH\", \"vertices\": 10846, \"location\": [0.0, 0.0, 0.0]}, {\"name\": \"courtMale Levres Head.002\", \"type\": \"MESH\", \"vertices\": 273, \"location\": [0.0, 0.0, 0.0]}, {\"name\": \"courtMale Velours cramoisi Head.002\", \"type\": \"MESH\", \"vertices\": 536, \"location\": [0.0, 0.0, 0.0]}, {\"name\": \"courtMale Or brode et bijoux Head.002\", \"type\": \"MESH\", \"vertices\": 770, \"location\": [0.0, 0.0, 0.0]}, {\"name\": \"courtMale Or brode et bijoux.002\", \"type\": \"MESH\", \"vertices\": 2806, \"location\": [0.0, 0.0, 0.0]}, {\"name\": \"courtMale Lin et perles.002\", \"type\": \"MESH\", \"vertices\": 336, \"location\": [0.0, 0.0, 0.0]}, {\"name\": \"courtMale Ongles naturels satines.002\", \"type\": \"MESH\", \"vertices\": 1450, \"location\": [0.0, 0.0, 0.0]}, {\"name\": \"courtMale Peau.002\", \"type\": \"MESH\", \"vertices\": 3504, \"location\": [0.0, 0.0, 0.0]}, {\"name\": \"courtMale Souliers cuir brun.002\", \"type\": \"MESH\", \"vertices\": 720, \"location\": [0.0, 0.0, 0.0]}, {\"name\": \"courtFemale Rig.002\", \"type\": \"ARMATURE\", \"vertices\": null, \"location\": [3.799999952316284, 0.0, 0.0]}, {\"name\": \"courtFemale Velours bleu nuit.002\", \"type\": \"MESH\", \"vertices\": 1816, \"location\": [0.0, 0.0, 0.0]}, {\"name\": \"courtFemale Peau Head.002\", \"type\": \"MESH\", \"vertices\": 2800, \"location\": [0.0, 0.0, 0.0]}, {\"name\": \"courtFemale Lin et perles Head.002\", \"type\": \"MESH\", \"vertices\": 1450, \"location\": [0.0, 0.0, 0.0]}, {\"name\": \"courtFemale Sclerotique Head.002\", \"type\": \"MESH\", \"vertices\": 720, \"location\": [0.0, 0.0, 0.0]}, {\"name\": \"courtFemale Iris noisette Head.002\", \"type\": \"MESH\", \"vertices\": 352, \"location\": [0.0, 0.0, 0.0]}, {\"name\": \"courtFemale Pupille Head.002\", \"type\": \"MESH\", \"vertices\": 216, \"location\": [0.0, 0.0, 0.0]}, {\"name\": \"courtFemale Cheveux chatains Head.002\", \"type\": \"MESH\", \"vertices\": 6730, \"location\": [0.0, 0.0, 0.0]}, {\"name\": \"courtFemale Levres Head.002\", \"type\": \"MESH\", \"vertices\": 273, \"location\": [0.0, 0.0, 0.0]}, {\"name\": \"courtFemale Velours bleu nuit Head.002\", \"type\": \"MESH\", \"vertices\": 372, \"location\": [0.0, 0.0, 0.0]}, {\"name\": \"courtFemale Or brode et bijoux.002\", \"type\": \"MESH\", \"vertices\": 2862, \"location\": [0.0, 0.0, 0.0]}, {\"name\": \"courtFemale Lin et perles.002\", \"type\": \"MESH\", \"vertices\": 336, \"location\": [0.0, 0.0, 0.0]}, {\"name\": \"courtFemale Ongles naturels satines.002\", \"type\": \"MESH\", \"vertices\": 1450, \"location\": [0.0, 0.0, 0.0]}, {\"name\": \"courtFemale Peau.002\", \"type\": \"MESH\", \"vertices\": 3504, \"location\": [0.0, 0.0, 0.0]}, {\"name\": \"courtFemale Souliers cuir brun.002\", \"type\": \"MESH\", \"vertices\": 720, \"location\": [0.0, 0.0, 0.0]}]}\n"
+  },
+  "isError": false
+}
+2026-09-11 08:57:44,919 - BlenderMCPServer - INFO - Sending command: drain_human_activity with params: None
+2026-09-11 08:57:44,920 - BlenderMCPServer - INFO - Command sent, waiting for response...
+2026-09-11 08:57:44,970 - BlenderMCPServer - INFO - Received complete response (47 bytes)
+2026-09-11 08:57:44,970 - BlenderMCPServer - INFO - Received 47 bytes of data
+2026-09-11 08:57:44,970 - BlenderMCPServer - INFO - Response parsed, status: success
+2026-09-11 08:57:44,970 - BlenderMCPServer - INFO - Sending command: get_world_state_snapshot with params: None
+2026-09-11 08:57:44,970 - BlenderMCPServer - INFO - Command sent, waiting for response...
+2026-09-11 08:57:45,041 - BlenderMCPServer - INFO - Received complete response (23774 bytes)
+2026-09-11 08:57:45,041 - BlenderMCPServer - INFO - Received 23774 bytes of data
+2026-09-11 08:57:45,042 - BlenderMCPServer - INFO - Response parsed, status: success
+2026-09-11 08:57:45,042 - BlenderMCPServer - INFO - Sending command: get_viewport_screenshot with params: {'max_size': 512, 'filepath': 'C:\\Users\\nicol\\AppData\\Local\\Temp\\blender_mcp_episode_34104_0a91e379.png', 'format': 'png'}
+2026-09-11 08:57:45,042 - BlenderMCPServer - INFO - Command sent, waiting for response...
+2026-09-11 08:57:45,123 - BlenderMCPServer - INFO - Received complete response (196 bytes)
+2026-09-11 08:57:45,123 - BlenderMCPServer - INFO - Received 196 bytes of data
+2026-09-11 08:57:45,123 - BlenderMCPServer - INFO - Response parsed, status: success
+2026-09-11 08:57:46,005 - httpx - INFO - HTTP Request: POST https://yzasssndwqceclzilcdu.supabase.co/rest/v1/trajectory_steps "HTTP/1.1 201 Created"
+2026-09-11 08:57:46,400 - httpx - INFO - HTTP Request: POST https://yzasssndwqceclzilcdu.supabase.co/storage/v1/object/telemetry-screenshots/episode_87fdfe2b-5590-416e-be58-0c7cf8e5d406_1789109865137.png "HTTP/1.1 200 OK"
+2026-09-11 08:57:47,028 - httpx - INFO - HTTP Request: POST https://yzasssndwqceclzilcdu.supabase.co/rest/v1/trajectory_steps "HTTP/1.1 201 Created"
+2026-09-11 08:57:47,032 - BlenderMCPServer - INFO - Disconnecting from Blender on shutdown
+2026-09-11 08:57:47,032 - BlenderMCPServer - INFO - BlenderMCP server shut down

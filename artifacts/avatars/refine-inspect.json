@@ -1,0 +1,12 @@
+{
+  "content": [
+    {
+      "type": "text",
+      "text": "Code executed successfully: {\"version\": \"5.2.1 LTS\", \"scene\": \"Cour - anatomie et cheveux particulaires.004\", \"hairOperator\": true, \"particleSettings\": true, \"sourceReady\": true, \"naturalReady\": true}\n"
+    }
+  ],
+  "structuredContent": {
+    "result": "Code executed successfully: {\"version\": \"5.2.1 LTS\", \"scene\": \"Cour - anatomie et cheveux particulaires.004\", \"hairOperator\": true, \"particleSettings\": true, \"sourceReady\": true, \"naturalReady\": true}\n"
+  },
+  "isError": false
+}
