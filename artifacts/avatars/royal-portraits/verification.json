@@ -1,0 +1,32 @@
+[
+  {
+    "image": "homme-pose-royale.png",
+    "resolution": [
+      1600,
+      2400
+    ],
+    "background": "#FFFFFF",
+    "visibleFigureBounds": [
+      335,
+      157,
+      1284,
+      2242
+    ],
+    "fullBodyWithinFrame": true
+  },
+  {
+    "image": "femme-pose-royale.png",
+    "resolution": [
+      1600,
+      2400
+    ],
+    "background": "#FFFFFF",
+    "visibleFigureBounds": [
+      333,
+      157,
+      1265,
+      2243
+    ],
+    "fullBodyWithinFrame": true
+  }
+]

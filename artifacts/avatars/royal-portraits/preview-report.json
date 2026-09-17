@@ -1,0 +1,30 @@
+[
+  {
+    "avatar": "courtMale",
+    "file": "C:\\Users\\nicol\\Documents\\workspaces\\vr-workspace\\test-meta-web-sdk-update\\artifacts\\avatars\\royal-portraits\\homme-apercu.png",
+    "boundsZ": [
+      0.002977970987558365,
+      1.7707053422927856
+    ],
+    "originalMeshes": 20,
+    "background": "#FFFFFF",
+    "resolution": [
+      720,
+      1080
+    ]
+  },
+  {
+    "avatar": "courtFemale",
+    "file": "C:\\Users\\nicol\\Documents\\workspaces\\vr-workspace\\test-meta-web-sdk-update\\artifacts\\avatars\\royal-portraits\\femme-apercu.png",
+    "boundsZ": [
+      0.002228047465905547,
+      1.7566158771514893
+    ],
+    "originalMeshes": 23,
+    "background": "#FFFFFF",
+    "resolution": [
+      720,
+      1080
+    ]
+  }
+]
