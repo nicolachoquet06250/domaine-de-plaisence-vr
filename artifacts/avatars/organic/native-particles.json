@@ -1,0 +1,23 @@
+[
+  {
+    "name": "courtMale Particules Coiffure.004",
+    "persistentParticles": 112,
+    "evaluatedParticles": 112,
+    "keys": 448,
+    "dynamics": true
+  },
+  {
+    "name": "courtMale Particules Barbe taillee.004",
+    "persistentParticles": 600,
+    "evaluatedParticles": 600,
+    "keys": 1800,
+    "dynamics": true
+  },
+  {
+    "name": "courtFemale Particules Coiffure.004",
+    "persistentParticles": 128,
+    "evaluatedParticles": 128,
+    "keys": 512,
+    "dynamics": true
+  }
+]

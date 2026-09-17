@@ -1,0 +1,43 @@
+                                                 
+▄▄▄▄▄▄  ▄▄      ▄▄   ▄▄▄▄    ▄▄▄▄▄     ▄▄   ▄▄▄ 
+▀▀██▀▀  ██      ██ ▄█▀▀▀▀█   ██▀▀▀██   ██  ██▀  
+  ██    ▀█▄ ██ ▄█▀ ██▄       ██    ██  ██▄██    
+  ██     ██ ██ ██   ▀████▄   ██    ██  █████    
+  ██     ███▀▀███       ▀██  ██    ██  ██  ██▄  
+▄▄██▄▄   ███  ███  █▄▄▄▄▄█▀  ██▄▄▄██   ██   ██▄ 
+▀▀▀▀▀▀   ▀▀▀  ▀▀▀   ▀▀▀▀▀    ▀▀▀▀▀     ▀▀    ▀▀                                                
+===============================================
+Immersive Web SDK v0.5.3
+Three.js r181
+EliCS v3.4.2
+✔ first-person head stays available to mirrors while hidden from both direct eye cameras (12.3827ms)
+✔ desktop reflection-only view survives loading and restores the VR body layers on repeated switches (9.4077ms)
+✔ local body follows the desktop camera and remains reflected across XR entry and exit (99.005ms)
+✔ independent mixers blend Idle/Walking, then return to rest without mutating other avatars (5.736ms)
+✔ strafing follows local anatomical left/right and preserves the body yaw (6.2263ms)
+✔ changing identity during load and leaving before completion cannot resurrect obsolete avatars (3.0781ms)
+✔ mouth morphs are independent per visitor and combine with walking and reflection layers (2.2694ms)
+                                                 
+▄▄▄▄▄▄  ▄▄      ▄▄   ▄▄▄▄    ▄▄▄▄▄     ▄▄   ▄▄▄ 
+▀▀██▀▀  ██      ██ ▄█▀▀▀▀█   ██▀▀▀██   ██  ██▀  
+  ██    ▀█▄ ██ ▄█▀ ██▄       ██    ██  ██▄██    
+  ██     ██ ██ ██   ▀████▄   ██    ██  █████    
+  ██     ███▀▀███       ▀██  ██    ██  ██  ██▄  
+▄▄██▄▄   ███  ███  █▄▄▄▄▄█▀  ██▄▄▄██   ██   ██▄ 
+▀▀▀▀▀▀   ▀▀▀  ▀▀▀   ▀▀▀▀▀    ▀▀▀▀▀     ▀▀    ▀▀                                                
+===============================================
+Immersive Web SDK v0.5.3
+Three.js r181
+EliCS v3.4.2
+✔ gravity sags free particles, roots remain pinned and segment lengths stay bounded (34.0377ms)
+✔ fixed substeps agree across frame rates, and world gravity survives head rotation (32.9036ms)
+✔ head motion produces inertia, teleport resets safely, avatars do not share particle state (1.8144ms)
+✔ particles are projected out of the head collider (3.9461ms)
+ℹ tests 11
+ℹ suites 0
+ℹ pass 11
+ℹ fail 0
+ℹ cancelled 0
+ℹ skipped 0
+ℹ todo 0
+ℹ duration_ms 3529.4596

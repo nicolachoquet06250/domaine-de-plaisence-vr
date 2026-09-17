@@ -1,0 +1,16 @@
+{
+  "courtMale": {
+    "triangles": 92412,
+    "bytes": 9720516,
+    "meshes": 14,
+    "dynamicHairMeshes": 1,
+    "hairParticles": 1008
+  },
+  "courtFemale": {
+    "triangles": 99216,
+    "bytes": 8460260,
+    "meshes": 16,
+    "dynamicHairMeshes": 1,
+    "hairParticles": 180
+  }
+}

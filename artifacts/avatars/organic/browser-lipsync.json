@@ -1,0 +1,1 @@
+{"status":"passed","localVisemes":[11,2,8,3,12,1,4,9,6,13],"remoteVisemes":[5,0,11,7,1,3,8,12,4,2,9],"frames":271,"mutedMouthClosed":true,"muteToClosedMs":3299,"syntheticFrench":true,"transport":"WebRTC","note":"Local emulated-XR browser while Blender rendered; not a latency or physical Quest benchmark."}

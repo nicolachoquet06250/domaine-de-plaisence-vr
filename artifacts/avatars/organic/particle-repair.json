@@ -1,0 +1,12 @@
+{
+  "content": [
+    {
+      "type": "text",
+      "text": "Code executed successfully: courtMale Particules Coiffure.004 [('ARMATURE', True, True), ('PARTICLE_SYSTEM', True, True)] 100 True\nreset 0 0\ncourtMale Particules Barbe taillee.004 [('ARMATURE', True, True), ('PARTICLE_SYSTEM', True, True)] 100 True\nreset 0 0\ncourtFemale Particules Coiffure.004 [('ARMATURE', True, True), ('PARTICLE_SYSTEM', True, True)] 100 True\nreset 0 0\n"
+    }
+  ],
+  "structuredContent": {
+    "result": "Code executed successfully: courtMale Particules Coiffure.004 [('ARMATURE', True, True), ('PARTICLE_SYSTEM', True, True)] 100 True\nreset 0 0\ncourtMale Particules Barbe taillee.004 [('ARMATURE', True, True), ('PARTICLE_SYSTEM', True, True)] 100 True\nreset 0 0\ncourtFemale Particules Coiffure.004 [('ARMATURE', True, True), ('PARTICLE_SYSTEM', True, True)] 100 True\nreset 0 0\n"
+  },
+  "isError": false
+}

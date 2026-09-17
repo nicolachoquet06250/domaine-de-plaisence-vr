@@ -1,0 +1,12 @@
+{
+  "content": [
+    {
+      "type": "text",
+      "text": "Code executed successfully: courtMale Particules Coiffure.004 systems 1 hidden True False\noriginal 0 evaluated 0\ncourtMale Particules Barbe taillee.004 systems 1 hidden True False\noriginal 0 evaluated 0\ncourtFemale Particules Coiffure.004 systems 1 hidden True False\noriginal 0 evaluated 0\n[{\"name\": \"courtMale Particules Coiffure.004\", \"type\": \"HAIR\", \"count\": 112, \"children\": 18, \"dynamics\": true, \"originalCount\": 0, \"start\": [], \"after\": []}, {\"name\": \"courtMale Particules Barbe taillee.004\", \"type\": \"HAIR\", \"count\": 600, \"children\": 18, \"dynamics\": true, \"originalCount\": 0, \"start\": [], \"after\": []}, {\"name\": \"courtFemale Particules Coiffure.004\", \"type\": \"HAIR\", \"count\": 128, \"children\": 18, \"dynamics\": true, \"originalCount\": 0, \"start\": [], \"after\": []}]\n"
+    }
+  ],
+  "structuredContent": {
+    "result": "Code executed successfully: courtMale Particules Coiffure.004 systems 1 hidden True False\noriginal 0 evaluated 0\ncourtMale Particules Barbe taillee.004 systems 1 hidden True False\noriginal 0 evaluated 0\ncourtFemale Particules Coiffure.004 systems 1 hidden True False\noriginal 0 evaluated 0\n[{\"name\": \"courtMale Particules Coiffure.004\", \"type\": \"HAIR\", \"count\": 112, \"children\": 18, \"dynamics\": true, \"originalCount\": 0, \"start\": [], \"after\": []}, {\"name\": \"courtMale Particules Barbe taillee.004\", \"type\": \"HAIR\", \"count\": 600, \"children\": 18, \"dynamics\": true, \"originalCount\": 0, \"start\": [], \"after\": []}, {\"name\": \"courtFemale Particules Coiffure.004\", \"type\": \"HAIR\", \"count\": 128, \"children\": 18, \"dynamics\": true, \"originalCount\": 0, \"start\": [], \"after\": []}]\n"
+  },
+  "isError": false
+}
