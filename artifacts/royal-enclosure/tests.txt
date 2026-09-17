@@ -1,0 +1,63 @@
+                                                 
+▄▄▄▄▄▄  ▄▄      ▄▄   ▄▄▄▄    ▄▄▄▄▄     ▄▄   ▄▄▄ 
+▀▀██▀▀  ██      ██ ▄█▀▀▀▀█   ██▀▀▀██   ██  ██▀  
+  ██    ▀█▄ ██ ▄█▀ ██▄       ██    ██  ██▄██    
+  ██     ██ ██ ██   ▀████▄   ██    ██  █████    
+  ██     ███▀▀███       ▀██  ██    ██  ██  ██▄  
+▄▄██▄▄   ███  ███  █▄▄▄▄▄█▀  ██▄▄▄██   ██   ██▄ 
+▀▀▀▀▀▀   ▀▀▀  ▀▀▀   ▀▀▀▀▀    ▀▀▀▀▀     ▀▀    ▀▀                                                
+===============================================
+Immersive Web SDK v0.5.3
+Three.js r181
+EliCS v3.4.2
+✔ arrival wall blocks all 360 degrees, including segment seams, without rendering (152.9179ms)
+✔ recovery compensates room-scale headset offset and stays inactive inside the place (42.7412ms)
+✔ actual Locomotor is stopped by the invisible wall in sixteen directions (252.2553ms)
+✔ arrival keeps existing placement, UI and spawn; palace keeps non-boundary placements (13.7712ms)
+✔ distant estate includes exterior placements only and keeps the approved offset (1.2317ms)
+✔ forest and connecting path leave the plaza, avenue and estate clear (6.7419ms)
+✔ all new GLBs are embedded and leaf materials use alpha cutout without blending (24.7199ms)
+                                                 
+▄▄▄▄▄▄  ▄▄      ▄▄   ▄▄▄▄    ▄▄▄▄▄     ▄▄   ▄▄▄ 
+▀▀██▀▀  ██      ██ ▄█▀▀▀▀█   ██▀▀▀██   ██  ██▀  
+  ██    ▀█▄ ██ ▄█▀ ██▄       ██    ██  ██▄██    
+  ██     ██ ██ ██   ▀████▄   ██    ██  █████    
+  ██     ███▀▀███       ▀██  ██    ██  ██  ██▄  
+▄▄██▄▄   ███  ███  █▄▄▄▄▄█▀  ██▄▄▄██   ██   ██▄ 
+▀▀▀▀▀▀   ▀▀▀  ▀▀▀   ▀▀▀▀▀    ▀▀▀▀▀     ▀▀    ▀▀                                                
+===============================================
+Immersive Web SDK v0.5.3
+Three.js r181
+EliCS v3.4.2
+✔ new path shares the exact color and normal image bytes and roughness with castle gravel (4.5575ms)
+✖ every gravel triangle stays outside the eight metre arrival circle (22.5989ms)
+✔ royal gate and complete decorated enclosure are present in both scenes (31.545ms)
+✔ enclosure blocks all four sides and corners but its open gate remains traversable (48.6521ms)
+ℹ tests 11
+ℹ suites 0
+ℹ pass 10
+ℹ fail 1
+ℹ cancelled 0
+ℹ skipped 0
+ℹ todo 0
+ℹ duration_ms 56975.8174
+
+✖ failing tests:
+
+test at tests\royal-enclosure.test.mjs:25:1
+✖ every gravel triangle stays outside the eight metre arrival circle (22.5989ms)
+  AssertionError [ERR_ASSERTION]: curved edge is tessellated around the circle
+      at TestContext.<anonymous> (file:///C:/Users/nicol/Documents/workspaces/vr-workspace/test-meta-web-sdk-update/tests/royal-enclosure.test.mjs:35:9)
+      at Test.runInAsyncScope (node:async_hooks:226:14)
+      at Test.run (node:internal/test_runner/test:1402:25)
+      at Test.processPendingSubtests (node:internal/test_runner/test:974:18)
+      at Test.postRun (node:internal/test_runner/test:1542:19)
+      at Test.run (node:internal/test_runner/test:1467:12)
+      at async startSubtestAfterBootstrap (node:internal/test_runner/harness:387:3) {
+    generatedMessage: false,
+    code: 'ERR_ASSERTION',
+    actual: false,
+    expected: true,
+    operator: '==',
+    diff: 'simple'
+  }

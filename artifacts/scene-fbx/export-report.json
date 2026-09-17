@@ -1,0 +1,154 @@
+{
+  "exports": [
+    {
+      "file": "scene-complete.fbx",
+      "bytes": 76300380,
+      "sha256": "5e0da1bbca3c9153824b9c79dddf8d11893a59bff0f788be9758052e7d656e46",
+      "meshes": 154
+    },
+    {
+      "file": "interieur-chateau.fbx",
+      "bytes": 16708572,
+      "sha256": "b72a81d75f9165cc017ef3f156fecb120077314174a132ad550a53f26aec8825",
+      "meshes": 1
+    }
+  ],
+  "bakedVertexColors": [
+    {
+      "mesh": "Garden_cypress.001",
+      "color": "Couleurs_00",
+      "normal": "Couleurs_00_Normal"
+    },
+    {
+      "mesh": "Bent grass tile 0 0.001",
+      "color": "Couleurs_01",
+      "normal": null
+    },
+    {
+      "mesh": "Bent grass tile 0 1.001",
+      "color": "Couleurs_02",
+      "normal": null
+    },
+    {
+      "mesh": "Bent grass tile 1 0.001",
+      "color": "Couleurs_03",
+      "normal": null
+    },
+    {
+      "mesh": "Bent grass tile 1 1.001",
+      "color": "Couleurs_04",
+      "normal": null
+    },
+    {
+      "mesh": "Bent grass tile 3 2",
+      "color": "Couleurs_05",
+      "normal": null
+    },
+    {
+      "mesh": "Bent grass tile 0 2",
+      "color": "Couleurs_06",
+      "normal": null
+    },
+    {
+      "mesh": "Bent grass tile 1 0",
+      "color": "Couleurs_07",
+      "normal": null
+    },
+    {
+      "mesh": "Bent grass tile 3 0",
+      "color": "Couleurs_08",
+      "normal": null
+    },
+    {
+      "mesh": "Bent grass tile 3 3",
+      "color": "Couleurs_09",
+      "normal": null
+    },
+    {
+      "mesh": "Bent grass tile 0 3",
+      "color": "Couleurs_10",
+      "normal": null
+    },
+    {
+      "mesh": "Bent grass tile 1 2",
+      "color": "Couleurs_11",
+      "normal": null
+    },
+    {
+      "mesh": "Bent grass tile 1 4",
+      "color": "Couleurs_12",
+      "normal": null
+    },
+    {
+      "mesh": "Bent grass tile 2 1",
+      "color": "Couleurs_13",
+      "normal": null
+    },
+    {
+      "mesh": "Bent grass tile 0 1",
+      "color": "Couleurs_14",
+      "normal": null
+    },
+    {
+      "mesh": "Bent grass tile 1 3",
+      "color": "Couleurs_15",
+      "normal": null
+    },
+    {
+      "mesh": "Bent grass tile 0 0",
+      "color": "Couleurs_16",
+      "normal": null
+    },
+    {
+      "mesh": "Bent grass tile 0 4",
+      "color": "Couleurs_17",
+      "normal": null
+    },
+    {
+      "mesh": "Bent grass tile 2 0",
+      "color": "Couleurs_18",
+      "normal": null
+    },
+    {
+      "mesh": "Bent grass tile 2 2",
+      "color": "Couleurs_19",
+      "normal": null
+    },
+    {
+      "mesh": "Bent grass tile 1 1",
+      "color": "Couleurs_20",
+      "normal": null
+    },
+    {
+      "mesh": "Bent grass tile 2 4",
+      "color": "Couleurs_21",
+      "normal": null
+    },
+    {
+      "mesh": "Bent grass tile 2 3",
+      "color": "Couleurs_22",
+      "normal": null
+    },
+    {
+      "mesh": "Bent grass tile 3 1",
+      "color": "Couleurs_23",
+      "normal": null
+    },
+    {
+      "mesh": "Bent grass tile 3 4",
+      "color": "Couleurs_24",
+      "normal": null
+    },
+    {
+      "mesh": "Garden_parterre",
+      "color": "Couleurs_25",
+      "normal": "Couleurs_25_Normal"
+    },
+    {
+      "mesh": "Garden_urn",
+      "color": "Couleurs_26",
+      "normal": "Couleurs_26_Normal"
+    }
+  ],
+  "textures": 85
+}

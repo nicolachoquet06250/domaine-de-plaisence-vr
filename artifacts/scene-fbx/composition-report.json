@@ -1,0 +1,2303 @@
+{
+  "source": "public/scenes/visit.iwsdk.scene.json",
+  "sourceSha256": "791df268f0ca6bd11f44a7ce7ec5c4c62a539d7c473d8962aeae848491e760dd",
+  "placements": [
+    {
+      "id": "arrival-terrace",
+      "asset": "arrival",
+      "interior": false,
+      "meshes": 24
+    },
+    {
+      "id": "arrival-tree--5",
+      "asset": "cypress",
+      "interior": false,
+      "meshes": 1
+    },
+    {
+      "id": "arrival-tree-5",
+      "asset": "cypress",
+      "interior": false,
+      "meshes": 1
+    },
+    {
+      "id": "arrival-lawn-relief",
+      "asset": "arrivalLawnRelief",
+      "interior": false,
+      "meshes": 5
+    },
+    {
+      "id": "landscape-terrain",
+      "asset": "arrivalTerrain",
+      "interior": false,
+      "meshes": 1
+    },
+    {
+      "id": "landscape-forest",
+      "asset": "arrivalForest",
+      "interior": false,
+      "meshes": 16
+    },
+    {
+      "id": "landscape-path",
+      "asset": "arrivalPath",
+      "interior": false,
+      "meshes": 1
+    },
+    {
+      "id": "arrival-wicket",
+      "asset": "arrivalWicket",
+      "interior": false,
+      "meshes": 1
+    },
+    {
+      "id": "arrival-coach",
+      "asset": "royalCoach",
+      "interior": false,
+      "meshes": 5
+    },
+    {
+      "id": "coach-departure",
+      "asset": "coachPortal",
+      "interior": false,
+      "meshes": 4
+    },
+    {
+      "id": "coach-turning-court",
+      "asset": "coachTurningCourt",
+      "interior": false,
+      "meshes": 1
+    },
+    {
+      "id": "castle/palace",
+      "asset": "palace",
+      "interior": false,
+      "meshes": 14
+    },
+    {
+      "id": "castle/interior",
+      "asset": "palaceInterior",
+      "interior": true,
+      "meshes": 24
+    },
+    {
+      "id": "castle/glazing",
+      "asset": "palaceGlass",
+      "interior": false,
+      "meshes": 1
+    },
+    {
+      "id": "castle/door-entrance",
+      "asset": "palaceDoor",
+      "interior": false,
+      "meshes": 2
+    },
+    {
+      "id": "castle/door-west-salon",
+      "asset": "palaceDoor",
+      "interior": true,
+      "meshes": 2
+    },
+    {
+      "id": "castle/door-east-salon",
+      "asset": "palaceDoor",
+      "interior": true,
+      "meshes": 2
+    },
+    {
+      "id": "castle/door-west-gallery",
+      "asset": "palaceDoor",
+      "interior": true,
+      "meshes": 2
+    },
+    {
+      "id": "castle/door-east-gallery",
+      "asset": "palaceDoor",
+      "interior": true,
+      "meshes": 2
+    },
+    {
+      "id": "mirror-west-vanity",
+      "asset": "mirrorOval",
+      "interior": true,
+      "meshes": 1
+    },
+    {
+      "id": "mirror-west-salon",
+      "asset": "mirrorRectangle",
+      "interior": true,
+      "meshes": 1
+    },
+    {
+      "id": "mirror-west-gallery",
+      "asset": "mirrorRectangle",
+      "interior": true,
+      "meshes": 1
+    },
+    {
+      "id": "mirror-east-vanity",
+      "asset": "mirrorOval",
+      "interior": true,
+      "meshes": 1
+    },
+    {
+      "id": "mirror-east-salon",
+      "asset": "mirrorRectangle",
+      "interior": true,
+      "meshes": 1
+    },
+    {
+      "id": "mirror-east-gallery",
+      "asset": "mirrorRectangle",
+      "interior": true,
+      "meshes": 1
+    },
+    {
+      "id": "hearth-west-salon-wood",
+      "asset": "hearth",
+      "interior": true,
+      "meshes": 1
+    },
+    {
+      "id": "hearth-west-salon-flames",
+      "asset": "hearthFire",
+      "interior": true,
+      "meshes": 1
+    },
+    {
+      "id": "hearth-west-gallery-wood",
+      "asset": "hearth",
+      "interior": true,
+      "meshes": 1
+    },
+    {
+      "id": "hearth-west-gallery-flames",
+      "asset": "hearthFire",
+      "interior": true,
+      "meshes": 1
+    },
+    {
+      "id": "hearth-east-salon-wood",
+      "asset": "hearth",
+      "interior": true,
+      "meshes": 1
+    },
+    {
+      "id": "hearth-east-salon-flames",
+      "asset": "hearthFire",
+      "interior": true,
+      "meshes": 1
+    },
+    {
+      "id": "hearth-east-gallery-wood",
+      "asset": "hearth",
+      "interior": true,
+      "meshes": 1
+    },
+    {
+      "id": "hearth-east-gallery-flames",
+      "asset": "hearthFire",
+      "interior": true,
+      "meshes": 1
+    },
+    {
+      "id": "royal-francois",
+      "asset": "bustFrancoisI",
+      "interior": true,
+      "meshes": 1
+    },
+    {
+      "id": "royal-louis",
+      "asset": "bustLouisXIV",
+      "interior": true,
+      "meshes": 1
+    },
+    {
+      "id": "royal-catherine",
+      "asset": "bustCatherineMedici",
+      "interior": true,
+      "meshes": 1
+    },
+    {
+      "id": "royal-anne",
+      "asset": "bustAnneFrance",
+      "interior": true,
+      "meshes": 1
+    },
+    {
+      "id": "gardens/ground",
+      "asset": "coachEstateLawn",
+      "interior": false,
+      "meshes": 21
+    },
+    {
+      "id": "gardens/parterre-west-north",
+      "asset": "parterre",
+      "interior": false,
+      "meshes": 1
+    },
+    {
+      "id": "gardens/parterre-west-south",
+      "asset": "parterre",
+      "interior": false,
+      "meshes": 1
+    },
+    {
+      "id": "gardens/parterre-east-north",
+      "asset": "parterre",
+      "interior": false,
+      "meshes": 1
+    },
+    {
+      "id": "gardens/parterre-east-south",
+      "asset": "parterre",
+      "interior": false,
+      "meshes": 1
+    },
+    {
+      "id": "gardens/allee-centrale",
+      "asset": "pathLong",
+      "interior": false,
+      "meshes": 1
+    },
+    {
+      "id": "gardens/allee-transversale",
+      "asset": "pathCross",
+      "interior": false,
+      "meshes": 1
+    },
+    {
+      "id": "gardens/terrasse",
+      "asset": "pathTerrace",
+      "interior": false,
+      "meshes": 1
+    },
+    {
+      "id": "gardens/entree",
+      "asset": "pathTerrace",
+      "interior": false,
+      "meshes": 1
+    },
+    {
+      "id": "gardens/cypres--23-0",
+      "asset": "cypress",
+      "interior": false,
+      "meshes": 1
+    },
+    {
+      "id": "gardens/cypres--23-1",
+      "asset": "cypress",
+      "interior": false,
+      "meshes": 1
+    },
+    {
+      "id": "gardens/cypres--23-2",
+      "asset": "cypress",
+      "interior": false,
+      "meshes": 1
+    },
+    {
+      "id": "gardens/cypres--23-3",
+      "asset": "cypress",
+      "interior": false,
+      "meshes": 1
+    },
+    {
+      "id": "gardens/cypres--23-4",
+      "asset": "cypress",
+      "interior": false,
+      "meshes": 1
+    },
+    {
+      "id": "gardens/cypres--23-5",
+      "asset": "cypress",
+      "interior": false,
+      "meshes": 1
+    },
+    {
+      "id": "gardens/cypres--23-6",
+      "asset": "cypress",
+      "interior": false,
+      "meshes": 1
+    },
+    {
+      "id": "gardens/cypres--23-7",
+      "asset": "cypress",
+      "interior": false,
+      "meshes": 1
+    },
+    {
+      "id": "gardens/cypres-23-0",
+      "asset": "cypress",
+      "interior": false,
+      "meshes": 1
+    },
+    {
+      "id": "gardens/cypres-23-1",
+      "asset": "cypress",
+      "interior": false,
+      "meshes": 1
+    },
+    {
+      "id": "gardens/cypres-23-2",
+      "asset": "cypress",
+      "interior": false,
+      "meshes": 1
+    },
+    {
+      "id": "gardens/cypres-23-3",
+      "asset": "cypress",
+      "interior": false,
+      "meshes": 1
+    },
+    {
+      "id": "gardens/cypres-23-4",
+      "asset": "cypress",
+      "interior": false,
+      "meshes": 1
+    },
+    {
+      "id": "gardens/cypres-23-5",
+      "asset": "cypress",
+      "interior": false,
+      "meshes": 1
+    },
+    {
+      "id": "gardens/cypres-23-6",
+      "asset": "cypress",
+      "interior": false,
+      "meshes": 1
+    },
+    {
+      "id": "gardens/cypres-23-7",
+      "asset": "cypress",
+      "interior": false,
+      "meshes": 1
+    },
+    {
+      "id": "gardens/vasque--7--19",
+      "asset": "urn",
+      "interior": false,
+      "meshes": 1
+    },
+    {
+      "id": "gardens/vasque--7-20",
+      "asset": "urn",
+      "interior": false,
+      "meshes": 1
+    },
+    {
+      "id": "gardens/vasque-7--19",
+      "asset": "urn",
+      "interior": false,
+      "meshes": 1
+    },
+    {
+      "id": "gardens/vasque-7-20",
+      "asset": "urn",
+      "interior": false,
+      "meshes": 1
+    },
+    {
+      "id": "gardens/banc--6.2--4.5",
+      "asset": "bench",
+      "interior": false,
+      "meshes": 1
+    },
+    {
+      "id": "gardens/banc--6.2-4.5",
+      "asset": "bench",
+      "interior": false,
+      "meshes": 1
+    },
+    {
+      "id": "gardens/banc-6.2--4.5",
+      "asset": "bench",
+      "interior": false,
+      "meshes": 1
+    },
+    {
+      "id": "gardens/banc-6.2-4.5",
+      "asset": "bench",
+      "interior": false,
+      "meshes": 1
+    },
+    {
+      "id": "fountain/basin",
+      "asset": "basin",
+      "interior": false,
+      "meshes": 1
+    },
+    {
+      "id": "fountain/water",
+      "asset": "water",
+      "interior": false,
+      "meshes": 1
+    },
+    {
+      "id": "fountain/jet-central",
+      "asset": "centralJet",
+      "interior": false,
+      "meshes": 2
+    },
+    {
+      "id": "fountain/jet-lateral-1",
+      "asset": "lateralJet",
+      "interior": false,
+      "meshes": 2
+    },
+    {
+      "id": "fountain/jet-lateral-2",
+      "asset": "lateralJet",
+      "interior": false,
+      "meshes": 2
+    },
+    {
+      "id": "fountain/jet-lateral-3",
+      "asset": "lateralJet",
+      "interior": false,
+      "meshes": 2
+    },
+    {
+      "id": "fountain/jet-lateral-4",
+      "asset": "lateralJet",
+      "interior": false,
+      "meshes": 2
+    },
+    {
+      "id": "fountain/jet-lateral-5",
+      "asset": "lateralJet",
+      "interior": false,
+      "meshes": 2
+    },
+    {
+      "id": "fountain/jet-lateral-6",
+      "asset": "lateralJet",
+      "interior": false,
+      "meshes": 2
+    },
+    {
+      "id": "royal-enclosure/gate",
+      "asset": "royalGate",
+      "interior": false,
+      "meshes": 1
+    },
+    {
+      "id": "royal-enclosure/fence",
+      "asset": "royalFence",
+      "interior": false,
+      "meshes": 1
+    },
+    {
+      "id": "royal-enclosure/approach",
+      "asset": "royalGateApproach",
+      "interior": false,
+      "meshes": 1
+    },
+    {
+      "id": "coach-return",
+      "asset": "coachPortal",
+      "interior": false,
+      "meshes": 4
+    }
+  ],
+  "excluded": [
+    {
+      "id": "arrival-collision",
+      "asset": "arrivalCollision",
+      "reason": "Non-rendered collision helper"
+    },
+    {
+      "id": "arrival-panel",
+      "asset": "arrival-panel",
+      "reason": "Runtime UIKitML interface, not modeled geometry"
+    },
+    {
+      "id": "arrival-tree-collision--5",
+      "asset": "cypressCollision",
+      "reason": "Non-rendered collision helper"
+    },
+    {
+      "id": "arrival-tree-collision-5",
+      "asset": "cypressCollision",
+      "reason": "Non-rendered collision helper"
+    },
+    {
+      "id": "landscape-boundary",
+      "asset": "arrivalBoundary",
+      "reason": "Non-rendered collision helper"
+    },
+    {
+      "id": "estate-panel",
+      "asset": "estate-panel",
+      "reason": "Runtime UIKitML interface, not modeled geometry"
+    },
+    {
+      "id": "castle/collision",
+      "asset": "palaceCollision",
+      "reason": "Non-rendered collision helper"
+    },
+    {
+      "id": "castle/door-entrance/blocker",
+      "asset": "palaceDoorCollision",
+      "reason": "Non-rendered collision helper"
+    },
+    {
+      "id": "castle/door-west-salon/blocker",
+      "asset": "palaceDoorCollision",
+      "reason": "Non-rendered collision helper"
+    },
+    {
+      "id": "castle/door-east-salon/blocker",
+      "asset": "palaceDoorCollision",
+      "reason": "Non-rendered collision helper"
+    },
+    {
+      "id": "castle/door-west-gallery/blocker",
+      "asset": "palaceDoorCollision",
+      "reason": "Non-rendered collision helper"
+    },
+    {
+      "id": "castle/door-east-gallery/blocker",
+      "asset": "palaceDoorCollision",
+      "reason": "Non-rendered collision helper"
+    },
+    {
+      "id": "gardens/ground/collision",
+      "asset": "groundCollision",
+      "reason": "Non-rendered collision helper"
+    },
+    {
+      "id": "gardens/parterre-west-north/collision",
+      "asset": "parterreCollision",
+      "reason": "Non-rendered collision helper"
+    },
+    {
+      "id": "gardens/parterre-west-south/collision",
+      "asset": "parterreCollision",
+      "reason": "Non-rendered collision helper"
+    },
+    {
+      "id": "gardens/parterre-east-north/collision",
+      "asset": "parterreCollision",
+      "reason": "Non-rendered collision helper"
+    },
+    {
+      "id": "gardens/parterre-east-south/collision",
+      "asset": "parterreCollision",
+      "reason": "Non-rendered collision helper"
+    },
+    {
+      "id": "gardens/allee-centrale/collision",
+      "asset": "pathCollision",
+      "reason": "Non-rendered collision helper"
+    },
+    {
+      "id": "gardens/allee-transversale/collision",
+      "asset": "pathCollision",
+      "reason": "Non-rendered collision helper"
+    },
+    {
+      "id": "gardens/terrasse/collision",
+      "asset": "pathCollision",
+      "reason": "Non-rendered collision helper"
+    },
+    {
+      "id": "gardens/entree/collision",
+      "asset": "pathCollision",
+      "reason": "Non-rendered collision helper"
+    },
+    {
+      "id": "gardens/cypres--23-0/collision",
+      "asset": "cypressCollision",
+      "reason": "Non-rendered collision helper"
+    },
+    {
+      "id": "gardens/cypres--23-1/collision",
+      "asset": "cypressCollision",
+      "reason": "Non-rendered collision helper"
+    },
+    {
+      "id": "gardens/cypres--23-2/collision",
+      "asset": "cypressCollision",
+      "reason": "Non-rendered collision helper"
+    },
+    {
+      "id": "gardens/cypres--23-3/collision",
+      "asset": "cypressCollision",
+      "reason": "Non-rendered collision helper"
+    },
+    {
+      "id": "gardens/cypres--23-4/collision",
+      "asset": "cypressCollision",
+      "reason": "Non-rendered collision helper"
+    },
+    {
+      "id": "gardens/cypres--23-5/collision",
+      "asset": "cypressCollision",
+      "reason": "Non-rendered collision helper"
+    },
+    {
+      "id": "gardens/cypres--23-6/collision",
+      "asset": "cypressCollision",
+      "reason": "Non-rendered collision helper"
+    },
+    {
+      "id": "gardens/cypres--23-7/collision",
+      "asset": "cypressCollision",
+      "reason": "Non-rendered collision helper"
+    },
+    {
+      "id": "gardens/cypres-23-0/collision",
+      "asset": "cypressCollision",
+      "reason": "Non-rendered collision helper"
+    },
+    {
+      "id": "gardens/cypres-23-1/collision",
+      "asset": "cypressCollision",
+      "reason": "Non-rendered collision helper"
+    },
+    {
+      "id": "gardens/cypres-23-2/collision",
+      "asset": "cypressCollision",
+      "reason": "Non-rendered collision helper"
+    },
+    {
+      "id": "gardens/cypres-23-3/collision",
+      "asset": "cypressCollision",
+      "reason": "Non-rendered collision helper"
+    },
+    {
+      "id": "gardens/cypres-23-4/collision",
+      "asset": "cypressCollision",
+      "reason": "Non-rendered collision helper"
+    },
+    {
+      "id": "gardens/cypres-23-5/collision",
+      "asset": "cypressCollision",
+      "reason": "Non-rendered collision helper"
+    },
+    {
+      "id": "gardens/cypres-23-6/collision",
+      "asset": "cypressCollision",
+      "reason": "Non-rendered collision helper"
+    },
+    {
+      "id": "gardens/cypres-23-7/collision",
+      "asset": "cypressCollision",
+      "reason": "Non-rendered collision helper"
+    },
+    {
+      "id": "gardens/vasque--7--19/collision",
+      "asset": "urnCollision",
+      "reason": "Non-rendered collision helper"
+    },
+    {
+      "id": "gardens/vasque--7-20/collision",
+      "asset": "urnCollision",
+      "reason": "Non-rendered collision helper"
+    },
+    {
+      "id": "gardens/vasque-7--19/collision",
+      "asset": "urnCollision",
+      "reason": "Non-rendered collision helper"
+    },
+    {
+      "id": "gardens/vasque-7-20/collision",
+      "asset": "urnCollision",
+      "reason": "Non-rendered collision helper"
+    },
+    {
+      "id": "gardens/banc--6.2--4.5/collision",
+      "asset": "benchCollision",
+      "reason": "Non-rendered collision helper"
+    },
+    {
+      "id": "gardens/banc--6.2-4.5/collision",
+      "asset": "benchCollision",
+      "reason": "Non-rendered collision helper"
+    },
+    {
+      "id": "gardens/banc-6.2--4.5/collision",
+      "asset": "benchCollision",
+      "reason": "Non-rendered collision helper"
+    },
+    {
+      "id": "gardens/banc-6.2-4.5/collision",
+      "asset": "benchCollision",
+      "reason": "Non-rendered collision helper"
+    },
+    {
+      "id": "fountain/basin/collision",
+      "asset": "basinCollision",
+      "reason": "Non-rendered collision helper"
+    },
+    {
+      "id": "royal-enclosure/collision",
+      "asset": "royalEnclosureCollision",
+      "reason": "Non-rendered collision helper"
+    },
+    {
+      "id": "royal-enclosure/approach/collision",
+      "asset": "pathCollision",
+      "reason": "Non-rendered collision helper"
+    }
+  ],
+  "meshes": 154,
+  "triangles": 1443151,
+  "interiorTriangles": 500536,
+  "interiorMesh": "Interieur_Chateau",
+  "interiorNodes": [
+    "castle/interior",
+    "castle/door-west-salon",
+    "castle/door-east-salon",
+    "castle/door-west-gallery",
+    "castle/door-east-gallery",
+    "mirror-west-vanity",
+    "mirror-west-salon",
+    "mirror-west-gallery",
+    "mirror-east-vanity",
+    "mirror-east-salon",
+    "mirror-east-gallery",
+    "hearth-west-salon-wood",
+    "hearth-west-salon-flames",
+    "hearth-west-gallery-wood",
+    "hearth-west-gallery-flames",
+    "hearth-east-salon-wood",
+    "hearth-east-salon-flames",
+    "hearth-east-gallery-wood",
+    "hearth-east-gallery-flames",
+    "royal-francois",
+    "royal-louis",
+    "royal-catherine",
+    "royal-anne"
+  ],
+  "materials": [
+    {
+      "name": "Aerated water",
+      "vertexColor": false,
+      "nodes": [
+        "BSDF_PRINCIPLED",
+        "OUTPUT_MATERIAL"
+      ],
+      "textures": []
+    },
+    {
+      "name": "Aerated water.001",
+      "vertexColor": false,
+      "nodes": [
+        "BSDF_PRINCIPLED",
+        "OUTPUT_MATERIAL"
+      ],
+      "textures": []
+    },
+    {
+      "name": "Aged brass fittings",
+      "vertexColor": false,
+      "nodes": [
+        "BSDF_PRINCIPLED",
+        "OUTPUT_MATERIAL"
+      ],
+      "textures": []
+    },
+    {
+      "name": "Aged brass fittings.001",
+      "vertexColor": false,
+      "nodes": [
+        "BSDF_PRINCIPLED",
+        "OUTPUT_MATERIAL"
+      ],
+      "textures": []
+    },
+    {
+      "name": "Arrival Bronze dore patine.003",
+      "vertexColor": false,
+      "nodes": [
+        "BSDF_PRINCIPLED",
+        "OUTPUT_MATERIAL"
+      ],
+      "textures": []
+    },
+    {
+      "name": "Arrival Calcaire creme.003",
+      "vertexColor": false,
+      "nodes": [
+        "BSDF_PRINCIPLED",
+        "OUTPUT_MATERIAL",
+        "TEX_IMAGE",
+        "NORMAL_MAP",
+        "TEX_IMAGE"
+      ],
+      "textures": [
+        "Arrival Calcaire creme albedo",
+        "Arrival Calcaire creme normal"
+      ]
+    },
+    {
+      "name": "Arrival Dalles de Bourgogne.003",
+      "vertexColor": false,
+      "nodes": [
+        "BSDF_PRINCIPLED",
+        "OUTPUT_MATERIAL",
+        "TEX_IMAGE",
+        "NORMAL_MAP",
+        "TEX_IMAGE"
+      ],
+      "textures": [
+        "Arrival Dalles de Bourgogne albedo",
+        "Arrival Dalles de Bourgogne normal"
+      ]
+    },
+    {
+      "name": "Arrival Fer forge.003",
+      "vertexColor": false,
+      "nodes": [
+        "BSDF_PRINCIPLED",
+        "OUTPUT_MATERIAL"
+      ],
+      "textures": []
+    },
+    {
+      "name": "Arrival Joints et terre.003",
+      "vertexColor": false,
+      "nodes": [
+        "BSDF_PRINCIPLED",
+        "OUTPUT_MATERIAL"
+      ],
+      "textures": []
+    },
+    {
+      "name": "Arrival Lumiere des lanternes.003",
+      "vertexColor": false,
+      "nodes": [
+        "BSDF_PRINCIPLED",
+        "OUTPUT_MATERIAL"
+      ],
+      "textures": []
+    },
+    {
+      "name": "Arrival Marbre vert.003",
+      "vertexColor": false,
+      "nodes": [
+        "BSDF_PRINCIPLED",
+        "OUTPUT_MATERIAL",
+        "TEX_IMAGE",
+        "NORMAL_MAP",
+        "TEX_IMAGE"
+      ],
+      "textures": [
+        "Arrival Marbre vert albedo",
+        "Arrival Marbre vert normal"
+      ]
+    },
+    {
+      "name": "Arrival Pierre sculptee.003",
+      "vertexColor": false,
+      "nodes": [
+        "BSDF_PRINCIPLED",
+        "OUTPUT_MATERIAL",
+        "TEX_IMAGE",
+        "NORMAL_MAP",
+        "TEX_IMAGE"
+      ],
+      "textures": [
+        "Arrival Pierre sculptee albedo",
+        "Arrival Pierre sculptee normal"
+      ]
+    },
+    {
+      "name": "Balezanes et liste ivoire.003",
+      "vertexColor": false,
+      "nodes": [
+        "BSDF_PRINCIPLED",
+        "OUTPUT_MATERIAL"
+      ],
+      "textures": []
+    },
+    {
+      "name": "Basin water \u2014 jade reflections",
+      "vertexColor": false,
+      "nodes": [
+        "BSDF_PRINCIPLED",
+        "OUTPUT_MATERIAL"
+      ],
+      "textures": []
+    },
+    {
+      "name": "Blason email bleu royal.001",
+      "vertexColor": false,
+      "nodes": [
+        "BSDF_PRINCIPLED",
+        "OUTPUT_MATERIAL"
+      ],
+      "textures": []
+    },
+    {
+      "name": "Blason email bleu royal.005",
+      "vertexColor": false,
+      "nodes": [
+        "BSDF_PRINCIPLED",
+        "OUTPUT_MATERIAL"
+      ],
+      "textures": []
+    },
+    {
+      "name": "Bois de bout.001",
+      "vertexColor": false,
+      "nodes": [
+        "BSDF_PRINCIPLED",
+        "OUTPUT_MATERIAL"
+      ],
+      "textures": []
+    },
+    {
+      "name": "Braises incandescentes.001",
+      "vertexColor": false,
+      "nodes": [
+        "BSDF_PRINCIPLED",
+        "OUTPUT_MATERIAL"
+      ],
+      "textures": []
+    },
+    {
+      "name": "Briques de foyer enfumees.001",
+      "vertexColor": false,
+      "nodes": [
+        "BSDF_PRINCIPLED",
+        "OUTPUT_MATERIAL"
+      ],
+      "textures": []
+    },
+    {
+      "name": "Calcaire des piliers moulures.001",
+      "vertexColor": false,
+      "nodes": [
+        "BSDF_PRINCIPLED",
+        "OUTPUT_MATERIAL"
+      ],
+      "textures": []
+    },
+    {
+      "name": "Calcaire des piliers moulures.002",
+      "vertexColor": false,
+      "nodes": [
+        "BSDF_PRINCIPLED",
+        "OUTPUT_MATERIAL"
+      ],
+      "textures": []
+    },
+    {
+      "name": "Calcaire des piliers moulures.005",
+      "vertexColor": false,
+      "nodes": [
+        "BSDF_PRINCIPLED",
+        "OUTPUT_MATERIAL"
+      ],
+      "textures": []
+    },
+    {
+      "name": "Charbon et joints.001",
+      "vertexColor": false,
+      "nodes": [
+        "BSDF_PRINCIPLED",
+        "OUTPUT_MATERIAL"
+      ],
+      "textures": []
+    },
+    {
+      "name": "Chateau Ardoises jointoyees.004",
+      "vertexColor": false,
+      "nodes": [
+        "BSDF_PRINCIPLED",
+        "OUTPUT_MATERIAL",
+        "TEX_IMAGE",
+        "NORMAL_MAP",
+        "TEX_IMAGE"
+      ],
+      "textures": [
+        "Chateau Ardoises jointoyees color",
+        "Chateau Ardoises jointoyees normal"
+      ]
+    },
+    {
+      "name": "Chateau Argent poli des miroirs.004",
+      "vertexColor": false,
+      "nodes": [
+        "BSDF_PRINCIPLED",
+        "OUTPUT_MATERIAL"
+      ],
+      "textures": []
+    },
+    {
+      "name": "Chateau Bougies chaudes.004",
+      "vertexColor": false,
+      "nodes": [
+        "BSDF_PRINCIPLED",
+        "OUTPUT_MATERIAL"
+      ],
+      "textures": []
+    },
+    {
+      "name": "Chateau Bronze dore patine.001",
+      "vertexColor": false,
+      "nodes": [
+        "BSDF_PRINCIPLED",
+        "OUTPUT_MATERIAL"
+      ],
+      "textures": []
+    },
+    {
+      "name": "Chateau Bronze dore patine.002",
+      "vertexColor": false,
+      "nodes": [
+        "BSDF_PRINCIPLED",
+        "OUTPUT_MATERIAL"
+      ],
+      "textures": []
+    },
+    {
+      "name": "Chateau Bronze dore patine.004",
+      "vertexColor": false,
+      "nodes": [
+        "BSDF_PRINCIPLED",
+        "OUTPUT_MATERIAL"
+      ],
+      "textures": []
+    },
+    {
+      "name": "Chateau Calcaire de taille.004",
+      "vertexColor": false,
+      "nodes": [
+        "BSDF_PRINCIPLED",
+        "OUTPUT_MATERIAL",
+        "TEX_IMAGE",
+        "NORMAL_MAP",
+        "TEX_IMAGE"
+      ],
+      "textures": [
+        "Chateau Calcaire de taille color",
+        "Chateau Calcaire de taille normal"
+      ]
+    },
+    {
+      "name": "Chateau Chene des portes.001",
+      "vertexColor": false,
+      "nodes": [
+        "BSDF_PRINCIPLED",
+        "OUTPUT_MATERIAL",
+        "TEX_IMAGE",
+        "NORMAL_MAP",
+        "TEX_IMAGE"
+      ],
+      "textures": [
+        "Chateau Chene des portes color.001",
+        "Chateau Chene des portes normal.001"
+      ]
+    },
+    {
+      "name": "Chateau Chene des portes.002",
+      "vertexColor": false,
+      "nodes": [
+        "BSDF_PRINCIPLED",
+        "OUTPUT_MATERIAL",
+        "TEX_IMAGE",
+        "NORMAL_MAP",
+        "TEX_IMAGE"
+      ],
+      "textures": [
+        "Chateau Chene des portes color.002",
+        "Chateau Chene des portes normal.002"
+      ]
+    },
+    {
+      "name": "Chateau Chene des portes.004",
+      "vertexColor": false,
+      "nodes": [
+        "BSDF_PRINCIPLED",
+        "OUTPUT_MATERIAL",
+        "TEX_IMAGE",
+        "NORMAL_MAP",
+        "TEX_IMAGE"
+      ],
+      "textures": [
+        "Chateau Chene des portes color",
+        "Chateau Chene des portes normal"
+      ]
+    },
+    {
+      "name": "Chateau Ferronnerie noire.001",
+      "vertexColor": false,
+      "nodes": [
+        "BSDF_PRINCIPLED",
+        "OUTPUT_MATERIAL"
+      ],
+      "textures": []
+    },
+    {
+      "name": "Chateau Ferronnerie noire.004",
+      "vertexColor": false,
+      "nodes": [
+        "BSDF_PRINCIPLED",
+        "OUTPUT_MATERIAL"
+      ],
+      "textures": []
+    },
+    {
+      "name": "Chateau Lin ivoire.004",
+      "vertexColor": false,
+      "nodes": [
+        "BSDF_PRINCIPLED",
+        "OUTPUT_MATERIAL"
+      ],
+      "textures": []
+    },
+    {
+      "name": "Chateau Marbre creme veine.004",
+      "vertexColor": false,
+      "nodes": [
+        "BSDF_PRINCIPLED",
+        "OUTPUT_MATERIAL",
+        "TEX_IMAGE",
+        "NORMAL_MAP",
+        "TEX_IMAGE"
+      ],
+      "textures": [
+        "Chateau Marbre creme veine color",
+        "Chateau Marbre creme veine normal"
+      ]
+    },
+    {
+      "name": "Chateau Marbre noir.004",
+      "vertexColor": false,
+      "nodes": [
+        "BSDF_PRINCIPLED",
+        "OUTPUT_MATERIAL",
+        "TEX_IMAGE",
+        "NORMAL_MAP",
+        "TEX_IMAGE"
+      ],
+      "textures": [
+        "Chateau Marbre noir color",
+        "Chateau Marbre noir normal"
+      ]
+    },
+    {
+      "name": "Chateau Moulures ivoire.001",
+      "vertexColor": false,
+      "nodes": [
+        "BSDF_PRINCIPLED",
+        "OUTPUT_MATERIAL"
+      ],
+      "textures": []
+    },
+    {
+      "name": "Chateau Moulures ivoire.002",
+      "vertexColor": false,
+      "nodes": [
+        "BSDF_PRINCIPLED",
+        "OUTPUT_MATERIAL"
+      ],
+      "textures": []
+    },
+    {
+      "name": "Chateau Moulures ivoire.004",
+      "vertexColor": false,
+      "nodes": [
+        "BSDF_PRINCIPLED",
+        "OUTPUT_MATERIAL"
+      ],
+      "textures": []
+    },
+    {
+      "name": "Chateau Parquet Versailles.004",
+      "vertexColor": false,
+      "nodes": [
+        "BSDF_PRINCIPLED",
+        "OUTPUT_MATERIAL",
+        "TEX_IMAGE",
+        "NORMAL_MAP",
+        "TEX_IMAGE"
+      ],
+      "textures": [
+        "Chateau Parquet Versailles color",
+        "Chateau Parquet Versailles normal"
+      ]
+    },
+    {
+      "name": "Chateau Porcelaine emaillee.004",
+      "vertexColor": false,
+      "nodes": [
+        "BSDF_PRINCIPLED",
+        "OUTPUT_MATERIAL"
+      ],
+      "textures": []
+    },
+    {
+      "name": "Chateau Soie bleu grise.004",
+      "vertexColor": false,
+      "nodes": [
+        "BSDF_PRINCIPLED",
+        "OUTPUT_MATERIAL",
+        "TEX_IMAGE",
+        "NORMAL_MAP",
+        "TEX_IMAGE"
+      ],
+      "textures": [
+        "Chateau Soie bleu grise color",
+        "Chateau Soie bleu grise normal"
+      ]
+    },
+    {
+      "name": "Chateau Stuc creme.004",
+      "vertexColor": false,
+      "nodes": [
+        "BSDF_PRINCIPLED",
+        "OUTPUT_MATERIAL"
+      ],
+      "textures": []
+    },
+    {
+      "name": "Chateau Velours bordeaux.004",
+      "vertexColor": false,
+      "nodes": [
+        "BSDF_PRINCIPLED",
+        "OUTPUT_MATERIAL",
+        "TEX_IMAGE",
+        "NORMAL_MAP",
+        "TEX_IMAGE"
+      ],
+      "textures": [
+        "Chateau Velours bordeaux color",
+        "Chateau Velours bordeaux normal"
+      ]
+    },
+    {
+      "name": "Chateau Verre clair reflets.001",
+      "vertexColor": false,
+      "nodes": [
+        "BSDF_PRINCIPLED",
+        "OUTPUT_MATERIAL"
+      ],
+      "textures": []
+    },
+    {
+      "name": "Chateau Verre clair reflets.004",
+      "vertexColor": false,
+      "nodes": [
+        "BSDF_PRINCIPLED",
+        "OUTPUT_MATERIAL"
+      ],
+      "textures": []
+    },
+    {
+      "name": "coachPortal",
+      "vertexColor": false,
+      "nodes": [
+        "BSDF_PRINCIPLED",
+        "OUTPUT_MATERIAL"
+      ],
+      "textures": []
+    },
+    {
+      "name": "coachPortal.001",
+      "vertexColor": false,
+      "nodes": [
+        "BSDF_PRINCIPLED",
+        "OUTPUT_MATERIAL"
+      ],
+      "textures": []
+    },
+    {
+      "name": "coachPortal.002",
+      "vertexColor": false,
+      "nodes": [
+        "BSDF_PRINCIPLED",
+        "OUTPUT_MATERIAL"
+      ],
+      "textures": []
+    },
+    {
+      "name": "coachPortal.003",
+      "vertexColor": false,
+      "nodes": [
+        "BSDF_PRINCIPLED",
+        "OUTPUT_MATERIAL"
+      ],
+      "textures": []
+    },
+    {
+      "name": "coachPortal.004",
+      "vertexColor": false,
+      "nodes": [
+        "BSDF_PRINCIPLED",
+        "OUTPUT_MATERIAL"
+      ],
+      "textures": []
+    },
+    {
+      "name": "coachPortal.005",
+      "vertexColor": false,
+      "nodes": [
+        "BSDF_PRINCIPLED",
+        "OUTPUT_MATERIAL"
+      ],
+      "textures": []
+    },
+    {
+      "name": "coachPortal.006",
+      "vertexColor": false,
+      "nodes": [
+        "BSDF_PRINCIPLED",
+        "OUTPUT_MATERIAL"
+      ],
+      "textures": []
+    },
+    {
+      "name": "coachPortal.007",
+      "vertexColor": false,
+      "nodes": [
+        "BSDF_PRINCIPLED",
+        "OUTPUT_MATERIAL"
+      ],
+      "textures": []
+    },
+    {
+      "name": "Corne des sabots.003",
+      "vertexColor": false,
+      "nodes": [
+        "BSDF_PRINCIPLED",
+        "OUTPUT_MATERIAL"
+      ],
+      "textures": []
+    },
+    {
+      "name": "Crins brun noir.003",
+      "vertexColor": false,
+      "nodes": [
+        "BSDF_PRINCIPLED",
+        "OUTPUT_MATERIAL"
+      ],
+      "textures": []
+    },
+    {
+      "name": "Cuir noir des harnais.003",
+      "vertexColor": false,
+      "nodes": [
+        "BSDF_PRINCIPLED",
+        "OUTPUT_MATERIAL"
+      ],
+      "textures": []
+    },
+    {
+      "name": "Dorure royale a la feuille.001",
+      "vertexColor": false,
+      "nodes": [
+        "BSDF_PRINCIPLED",
+        "OUTPUT_MATERIAL"
+      ],
+      "textures": []
+    },
+    {
+      "name": "Dorure royale a la feuille.002",
+      "vertexColor": false,
+      "nodes": [
+        "BSDF_PRINCIPLED",
+        "OUTPUT_MATERIAL"
+      ],
+      "textures": []
+    },
+    {
+      "name": "Dorure royale a la feuille.003",
+      "vertexColor": false,
+      "nodes": [
+        "BSDF_PRINCIPLED",
+        "OUTPUT_MATERIAL"
+      ],
+      "textures": []
+    },
+    {
+      "name": "Dorure royale a la feuille.005",
+      "vertexColor": false,
+      "nodes": [
+        "BSDF_PRINCIPLED",
+        "OUTPUT_MATERIAL"
+      ],
+      "textures": []
+    },
+    {
+      "name": "Ecorce chene.001",
+      "vertexColor": false,
+      "nodes": [
+        "BSDF_PRINCIPLED",
+        "OUTPUT_MATERIAL"
+      ],
+      "textures": []
+    },
+    {
+      "name": "Ecorce de chene",
+      "vertexColor": false,
+      "nodes": [
+        "BSDF_PRINCIPLED",
+        "OUTPUT_MATERIAL",
+        "TEX_IMAGE"
+      ],
+      "textures": [
+        "Ecorce de chene texture"
+      ]
+    },
+    {
+      "name": "Fer forge noir patine.001",
+      "vertexColor": false,
+      "nodes": [
+        "BSDF_PRINCIPLED",
+        "OUTPUT_MATERIAL"
+      ],
+      "textures": []
+    },
+    {
+      "name": "Fer forge noir patine.002",
+      "vertexColor": false,
+      "nodes": [
+        "BSDF_PRINCIPLED",
+        "OUTPUT_MATERIAL"
+      ],
+      "textures": []
+    },
+    {
+      "name": "Fer forge noir patine.003",
+      "vertexColor": false,
+      "nodes": [
+        "BSDF_PRINCIPLED",
+        "OUTPUT_MATERIAL"
+      ],
+      "textures": []
+    },
+    {
+      "name": "Fer forge noir patine.006",
+      "vertexColor": false,
+      "nodes": [
+        "BSDF_PRINCIPLED",
+        "OUTPUT_MATERIAL"
+      ],
+      "textures": []
+    },
+    {
+      "name": "Fer forge patine.001",
+      "vertexColor": false,
+      "nodes": [
+        "BSDF_PRINCIPLED",
+        "OUTPUT_MATERIAL"
+      ],
+      "textures": []
+    },
+    {
+      "name": "Feuilles decoupees de chene 0",
+      "vertexColor": false,
+      "nodes": [
+        "BSDF_PRINCIPLED",
+        "OUTPUT_MATERIAL",
+        "FRAME",
+        "MATH",
+        "MATH",
+        "TEX_IMAGE"
+      ],
+      "textures": [
+        "Rameaux de chene alpha 0"
+      ]
+    },
+    {
+      "name": "Feuilles decoupees de chene 1",
+      "vertexColor": false,
+      "nodes": [
+        "BSDF_PRINCIPLED",
+        "OUTPUT_MATERIAL",
+        "FRAME",
+        "MATH",
+        "MATH",
+        "TEX_IMAGE"
+      ],
+      "textures": [
+        "Rameaux de chene alpha 1"
+      ]
+    },
+    {
+      "name": "Feuilles decoupees de chene 2",
+      "vertexColor": false,
+      "nodes": [
+        "BSDF_PRINCIPLED",
+        "OUTPUT_MATERIAL",
+        "FRAME",
+        "MATH",
+        "MATH",
+        "TEX_IMAGE"
+      ],
+      "textures": [
+        "Rameaux de chene alpha 2"
+      ]
+    },
+    {
+      "name": "Garden Boxwood leaf clusters.001",
+      "vertexColor": true,
+      "nodes": [
+        "BSDF_PRINCIPLED",
+        "OUTPUT_MATERIAL",
+        "MIX",
+        "VERTEX_COLOR",
+        "TEX_IMAGE",
+        "NORMAL_MAP",
+        "TEX_IMAGE"
+      ],
+      "textures": [
+        "Boxwood leaf clusters color",
+        "Boxwood leaf clusters normal"
+      ]
+    },
+    {
+      "name": "Garden Boxwood leaf clusters.002",
+      "vertexColor": true,
+      "nodes": [
+        "BSDF_PRINCIPLED",
+        "OUTPUT_MATERIAL",
+        "MIX",
+        "VERTEX_COLOR",
+        "TEX_IMAGE",
+        "NORMAL_MAP",
+        "TEX_IMAGE"
+      ],
+      "textures": [
+        "Boxwood leaf clusters color.001",
+        "Boxwood leaf clusters normal.001"
+      ]
+    },
+    {
+      "name": "Garden Crushed limestone.001",
+      "vertexColor": true,
+      "nodes": [
+        "BSDF_PRINCIPLED",
+        "OUTPUT_MATERIAL",
+        "MIX",
+        "VERTEX_COLOR",
+        "TEX_IMAGE",
+        "NORMAL_MAP",
+        "TEX_IMAGE"
+      ],
+      "textures": [
+        "Crushed limestone color",
+        "Crushed limestone normal"
+      ]
+    },
+    {
+      "name": "Garden Crushed limestone.002",
+      "vertexColor": false,
+      "nodes": [
+        "BSDF_PRINCIPLED",
+        "OUTPUT_MATERIAL",
+        "TEX_IMAGE",
+        "NORMAL_MAP",
+        "TEX_IMAGE"
+      ],
+      "textures": [
+        "Crushed limestone color.001",
+        "Crushed limestone normal.001"
+      ]
+    },
+    {
+      "name": "Garden Crushed limestone.003",
+      "vertexColor": false,
+      "nodes": [
+        "BSDF_PRINCIPLED",
+        "OUTPUT_MATERIAL",
+        "TEX_IMAGE",
+        "NORMAL_MAP",
+        "TEX_IMAGE"
+      ],
+      "textures": [
+        "Crushed limestone color.002",
+        "Crushed limestone normal.002"
+      ]
+    },
+    {
+      "name": "Garden Crushed limestone.004",
+      "vertexColor": false,
+      "nodes": [
+        "BSDF_PRINCIPLED",
+        "OUTPUT_MATERIAL",
+        "TEX_IMAGE",
+        "NORMAL_MAP",
+        "TEX_IMAGE"
+      ],
+      "textures": [
+        "Crushed limestone color.003",
+        "Crushed limestone normal.003"
+      ]
+    },
+    {
+      "name": "Garden Crushed limestone.005",
+      "vertexColor": false,
+      "nodes": [
+        "BSDF_PRINCIPLED",
+        "OUTPUT_MATERIAL",
+        "TEX_IMAGE",
+        "NORMAL_MAP",
+        "TEX_IMAGE"
+      ],
+      "textures": [
+        "Crushed limestone color.006",
+        "Crushed limestone normal.006"
+      ]
+    },
+    {
+      "name": "Garden Crushed limestone.010",
+      "vertexColor": false,
+      "nodes": [
+        "BSDF_PRINCIPLED",
+        "OUTPUT_MATERIAL",
+        "TEX_IMAGE",
+        "NORMAL_MAP",
+        "TEX_IMAGE"
+      ],
+      "textures": [
+        "Crushed limestone color.005",
+        "Crushed limestone normal.005"
+      ]
+    },
+    {
+      "name": "Garden Crushed limestone.012",
+      "vertexColor": false,
+      "nodes": [
+        "BSDF_PRINCIPLED",
+        "OUTPUT_MATERIAL",
+        "TEX_IMAGE",
+        "NORMAL_MAP",
+        "TEX_IMAGE"
+      ],
+      "textures": [
+        "Crushed limestone color.004",
+        "Crushed limestone normal.004"
+      ]
+    },
+    {
+      "name": "Garden Cypress bark.001",
+      "vertexColor": true,
+      "nodes": [
+        "BSDF_PRINCIPLED",
+        "OUTPUT_MATERIAL",
+        "MIX",
+        "VERTEX_COLOR",
+        "TEX_IMAGE",
+        "NORMAL_MAP",
+        "TEX_IMAGE"
+      ],
+      "textures": [
+        "Cypress bark color",
+        "Cypress bark normal"
+      ]
+    },
+    {
+      "name": "Garden Garden loam.001",
+      "vertexColor": true,
+      "nodes": [
+        "BSDF_PRINCIPLED",
+        "OUTPUT_MATERIAL",
+        "MIX",
+        "VERTEX_COLOR",
+        "TEX_IMAGE",
+        "NORMAL_MAP",
+        "TEX_IMAGE"
+      ],
+      "textures": [
+        "Garden loam color",
+        "Garden loam normal"
+      ]
+    },
+    {
+      "name": "Garden Living leaf.001",
+      "vertexColor": true,
+      "nodes": [
+        "BSDF_PRINCIPLED",
+        "OUTPUT_MATERIAL",
+        "MIX",
+        "VERTEX_COLOR",
+        "TEX_IMAGE",
+        "NORMAL_MAP",
+        "TEX_IMAGE"
+      ],
+      "textures": [
+        "Living leaf color",
+        "Living leaf normal"
+      ]
+    },
+    {
+      "name": "Garden Living leaf.002",
+      "vertexColor": true,
+      "nodes": [
+        "BSDF_PRINCIPLED",
+        "OUTPUT_MATERIAL",
+        "MIX",
+        "VERTEX_COLOR",
+        "TEX_IMAGE",
+        "NORMAL_MAP",
+        "TEX_IMAGE"
+      ],
+      "textures": [
+        "Living leaf color.001",
+        "Living leaf normal.001"
+      ]
+    },
+    {
+      "name": "Garden Living leaf.003",
+      "vertexColor": true,
+      "nodes": [
+        "BSDF_PRINCIPLED",
+        "OUTPUT_MATERIAL",
+        "MIX",
+        "VERTEX_COLOR",
+        "TEX_IMAGE",
+        "NORMAL_MAP",
+        "TEX_IMAGE"
+      ],
+      "textures": [
+        "Living leaf color.002",
+        "Living leaf normal.002"
+      ]
+    },
+    {
+      "name": "Garden Rose petals.001",
+      "vertexColor": true,
+      "nodes": [
+        "BSDF_PRINCIPLED",
+        "OUTPUT_MATERIAL",
+        "VERTEX_COLOR"
+      ],
+      "textures": []
+    },
+    {
+      "name": "Garden Rose petals.002",
+      "vertexColor": true,
+      "nodes": [
+        "BSDF_PRINCIPLED",
+        "OUTPUT_MATERIAL",
+        "VERTEX_COLOR"
+      ],
+      "textures": []
+    },
+    {
+      "name": "Garden Weathered limestone.001",
+      "vertexColor": true,
+      "nodes": [
+        "BSDF_PRINCIPLED",
+        "OUTPUT_MATERIAL",
+        "MIX",
+        "VERTEX_COLOR",
+        "TEX_IMAGE",
+        "NORMAL_MAP",
+        "TEX_IMAGE"
+      ],
+      "textures": [
+        "Weathered limestone color",
+        "Weathered limestone normal"
+      ]
+    },
+    {
+      "name": "Garden Weathered limestone.002",
+      "vertexColor": true,
+      "nodes": [
+        "BSDF_PRINCIPLED",
+        "OUTPUT_MATERIAL",
+        "MIX",
+        "VERTEX_COLOR",
+        "TEX_IMAGE",
+        "NORMAL_MAP",
+        "TEX_IMAGE"
+      ],
+      "textures": [
+        "Weathered limestone color.001",
+        "Weathered limestone normal.001"
+      ]
+    },
+    {
+      "name": "hearthFire",
+      "vertexColor": false,
+      "nodes": [
+        "BSDF_PRINCIPLED",
+        "OUTPUT_MATERIAL",
+        "TEX_IMAGE"
+      ],
+      "textures": [
+        "Flammes_Instantane"
+      ]
+    },
+    {
+      "name": "hearthFire.001",
+      "vertexColor": false,
+      "nodes": [
+        "BSDF_PRINCIPLED",
+        "OUTPUT_MATERIAL",
+        "TEX_IMAGE"
+      ],
+      "textures": [
+        "Flammes_Instantane"
+      ]
+    },
+    {
+      "name": "hearthFire.002",
+      "vertexColor": false,
+      "nodes": [
+        "BSDF_PRINCIPLED",
+        "OUTPUT_MATERIAL",
+        "TEX_IMAGE"
+      ],
+      "textures": [
+        "Flammes_Instantane"
+      ]
+    },
+    {
+      "name": "hearthFire.003",
+      "vertexColor": false,
+      "nodes": [
+        "BSDF_PRINCIPLED",
+        "OUTPUT_MATERIAL",
+        "TEX_IMAGE"
+      ],
+      "textures": [
+        "Flammes_Instantane"
+      ]
+    },
+    {
+      "name": "Iris graves dans le marbre.001",
+      "vertexColor": false,
+      "nodes": [
+        "BSDF_PRINCIPLED",
+        "OUTPUT_MATERIAL"
+      ],
+      "textures": []
+    },
+    {
+      "name": "Iris graves dans le marbre.002",
+      "vertexColor": false,
+      "nodes": [
+        "BSDF_PRINCIPLED",
+        "OUTPUT_MATERIAL"
+      ],
+      "textures": []
+    },
+    {
+      "name": "Iris graves dans le marbre.003",
+      "vertexColor": false,
+      "nodes": [
+        "BSDF_PRINCIPLED",
+        "OUTPUT_MATERIAL"
+      ],
+      "textures": []
+    },
+    {
+      "name": "Iris graves dans le marbre.004",
+      "vertexColor": false,
+      "nodes": [
+        "BSDF_PRINCIPLED",
+        "OUTPUT_MATERIAL"
+      ],
+      "textures": []
+    },
+    {
+      "name": "Living clipped turf - original garden texture",
+      "vertexColor": false,
+      "nodes": [
+        "BSDF_PRINCIPLED",
+        "OUTPUT_MATERIAL",
+        "TEX_IMAGE",
+        "NORMAL_MAP",
+        "TEX_IMAGE"
+      ],
+      "textures": [
+        "Clipped meadow color.001",
+        "Clipped meadow normal.001"
+      ]
+    },
+    {
+      "name": "Living clipped turf - original garden texture.003",
+      "vertexColor": false,
+      "nodes": [
+        "BSDF_PRINCIPLED",
+        "OUTPUT_MATERIAL",
+        "TEX_IMAGE",
+        "NORMAL_MAP",
+        "TEX_IMAGE"
+      ],
+      "textures": [
+        "Clipped meadow color",
+        "Clipped meadow normal"
+      ]
+    },
+    {
+      "name": "Living grass - opaque folded blades",
+      "vertexColor": true,
+      "nodes": [
+        "BSDF_PRINCIPLED",
+        "OUTPUT_MATERIAL",
+        "VERTEX_COLOR"
+      ],
+      "textures": []
+    },
+    {
+      "name": "Living grass - opaque folded blades.003",
+      "vertexColor": true,
+      "nodes": [
+        "BSDF_PRINCIPLED",
+        "OUTPUT_MATERIAL",
+        "VERTEX_COLOR"
+      ],
+      "textures": []
+    },
+    {
+      "name": "Marbre ivoire - anatomie.001",
+      "vertexColor": false,
+      "nodes": [
+        "BSDF_PRINCIPLED",
+        "OUTPUT_MATERIAL"
+      ],
+      "textures": []
+    },
+    {
+      "name": "Marbre ivoire - anatomie.002",
+      "vertexColor": false,
+      "nodes": [
+        "BSDF_PRINCIPLED",
+        "OUTPUT_MATERIAL"
+      ],
+      "textures": []
+    },
+    {
+      "name": "Marbre ivoire - anatomie.003",
+      "vertexColor": false,
+      "nodes": [
+        "BSDF_PRINCIPLED",
+        "OUTPUT_MATERIAL"
+      ],
+      "textures": []
+    },
+    {
+      "name": "Marbre ivoire - anatomie.004",
+      "vertexColor": false,
+      "nodes": [
+        "BSDF_PRINCIPLED",
+        "OUTPUT_MATERIAL"
+      ],
+      "textures": []
+    },
+    {
+      "name": "Marbre ivoire - chevelure ciselee.001",
+      "vertexColor": false,
+      "nodes": [
+        "BSDF_PRINCIPLED",
+        "OUTPUT_MATERIAL"
+      ],
+      "textures": []
+    },
+    {
+      "name": "Marbre ivoire - chevelure ciselee.002",
+      "vertexColor": false,
+      "nodes": [
+        "BSDF_PRINCIPLED",
+        "OUTPUT_MATERIAL"
+      ],
+      "textures": []
+    },
+    {
+      "name": "Marbre ivoire - chevelure ciselee.003",
+      "vertexColor": false,
+      "nodes": [
+        "BSDF_PRINCIPLED",
+        "OUTPUT_MATERIAL"
+      ],
+      "textures": []
+    },
+    {
+      "name": "Marbre ivoire - chevelure ciselee.004",
+      "vertexColor": false,
+      "nodes": [
+        "BSDF_PRINCIPLED",
+        "OUTPUT_MATERIAL"
+      ],
+      "textures": []
+    },
+    {
+      "name": "Marbre ivoire - drapes.001",
+      "vertexColor": false,
+      "nodes": [
+        "BSDF_PRINCIPLED",
+        "OUTPUT_MATERIAL"
+      ],
+      "textures": []
+    },
+    {
+      "name": "Marbre ivoire - drapes.002",
+      "vertexColor": false,
+      "nodes": [
+        "BSDF_PRINCIPLED",
+        "OUTPUT_MATERIAL"
+      ],
+      "textures": []
+    },
+    {
+      "name": "Marbre ivoire - drapes.003",
+      "vertexColor": false,
+      "nodes": [
+        "BSDF_PRINCIPLED",
+        "OUTPUT_MATERIAL"
+      ],
+      "textures": []
+    },
+    {
+      "name": "Marbre ivoire - drapes.004",
+      "vertexColor": false,
+      "nodes": [
+        "BSDF_PRINCIPLED",
+        "OUTPUT_MATERIAL"
+      ],
+      "textures": []
+    },
+    {
+      "name": "Marbre ivoire - ornements polis.001",
+      "vertexColor": false,
+      "nodes": [
+        "BSDF_PRINCIPLED",
+        "OUTPUT_MATERIAL"
+      ],
+      "textures": []
+    },
+    {
+      "name": "Marbre ivoire - ornements polis.002",
+      "vertexColor": false,
+      "nodes": [
+        "BSDF_PRINCIPLED",
+        "OUTPUT_MATERIAL"
+      ],
+      "textures": []
+    },
+    {
+      "name": "Marbre ivoire - ornements polis.003",
+      "vertexColor": false,
+      "nodes": [
+        "BSDF_PRINCIPLED",
+        "OUTPUT_MATERIAL"
+      ],
+      "textures": []
+    },
+    {
+      "name": "Marbre ivoire - ornements polis.004",
+      "vertexColor": false,
+      "nodes": [
+        "BSDF_PRINCIPLED",
+        "OUTPUT_MATERIAL"
+      ],
+      "textures": []
+    },
+    {
+      "name": "mirrorOval",
+      "vertexColor": false,
+      "nodes": [
+        "BSDF_PRINCIPLED",
+        "OUTPUT_MATERIAL"
+      ],
+      "textures": []
+    },
+    {
+      "name": "mirrorOval.001",
+      "vertexColor": false,
+      "nodes": [
+        "BSDF_PRINCIPLED",
+        "OUTPUT_MATERIAL"
+      ],
+      "textures": []
+    },
+    {
+      "name": "mirrorRectangle",
+      "vertexColor": false,
+      "nodes": [
+        "BSDF_PRINCIPLED",
+        "OUTPUT_MATERIAL"
+      ],
+      "textures": []
+    },
+    {
+      "name": "mirrorRectangle.001",
+      "vertexColor": false,
+      "nodes": [
+        "BSDF_PRINCIPLED",
+        "OUTPUT_MATERIAL"
+      ],
+      "textures": []
+    },
+    {
+      "name": "mirrorRectangle.002",
+      "vertexColor": false,
+      "nodes": [
+        "BSDF_PRINCIPLED",
+        "OUTPUT_MATERIAL"
+      ],
+      "textures": []
+    },
+    {
+      "name": "mirrorRectangle.003",
+      "vertexColor": false,
+      "nodes": [
+        "BSDF_PRINCIPLED",
+        "OUTPUT_MATERIAL"
+      ],
+      "textures": []
+    },
+    {
+      "name": "Noyer sculpte et cire.003",
+      "vertexColor": false,
+      "nodes": [
+        "BSDF_PRINCIPLED",
+        "OUTPUT_MATERIAL",
+        "TEX_IMAGE"
+      ],
+      "textures": [
+        "Noyer - fibres fines"
+      ]
+    },
+    {
+      "name": "Patinated green cast iron",
+      "vertexColor": false,
+      "nodes": [
+        "BSDF_PRINCIPLED",
+        "OUTPUT_MATERIAL"
+      ],
+      "textures": []
+    },
+    {
+      "name": "Prairie douce",
+      "vertexColor": false,
+      "nodes": [
+        "BSDF_PRINCIPLED",
+        "OUTPUT_MATERIAL",
+        "TEX_IMAGE"
+      ],
+      "textures": [
+        "Prairie douce texture"
+      ]
+    },
+    {
+      "name": "Robe alezane.003",
+      "vertexColor": false,
+      "nodes": [
+        "BSDF_PRINCIPLED",
+        "OUTPUT_MATERIAL"
+      ],
+      "textures": []
+    },
+    {
+      "name": "Robe baie acajou.003",
+      "vertexColor": false,
+      "nodes": [
+        "BSDF_PRINCIPLED",
+        "OUTPUT_MATERIAL"
+      ],
+      "textures": []
+    },
+    {
+      "name": "Rose stems and sepals - living green",
+      "vertexColor": true,
+      "nodes": [
+        "BSDF_PRINCIPLED",
+        "OUTPUT_MATERIAL",
+        "MIX",
+        "VERTEX_COLOR"
+      ],
+      "textures": []
+    },
+    {
+      "name": "Rose stems and sepals - living green.001",
+      "vertexColor": true,
+      "nodes": [
+        "BSDF_PRINCIPLED",
+        "OUTPUT_MATERIAL",
+        "MIX",
+        "VERTEX_COLOR"
+      ],
+      "textures": []
+    },
+    {
+      "name": "Sparkling spray",
+      "vertexColor": false,
+      "nodes": [
+        "BSDF_PRINCIPLED",
+        "OUTPUT_MATERIAL"
+      ],
+      "textures": []
+    },
+    {
+      "name": "Sparkling spray.001",
+      "vertexColor": false,
+      "nodes": [
+        "BSDF_PRINCIPLED",
+        "OUTPUT_MATERIAL"
+      ],
+      "textures": []
+    },
+    {
+      "name": "Submerged limestone",
+      "vertexColor": false,
+      "nodes": [
+        "BSDF_PRINCIPLED",
+        "OUTPUT_MATERIAL"
+      ],
+      "textures": []
+    },
+    {
+      "name": "Velours cramoisi.003",
+      "vertexColor": false,
+      "nodes": [
+        "BSDF_PRINCIPLED",
+        "OUTPUT_MATERIAL"
+      ],
+      "textures": []
+    },
+    {
+      "name": "Warm limestone",
+      "vertexColor": false,
+      "nodes": [
+        "BSDF_PRINCIPLED",
+        "OUTPUT_MATERIAL",
+        "TEX_IMAGE",
+        "NORMAL_MAP",
+        "TEX_IMAGE"
+      ],
+      "textures": [
+        "Warm limestone albedo 512",
+        "Warm limestone normal 512"
+      ]
+    },
+    {
+      "name": "Weathered oak.001",
+      "vertexColor": false,
+      "nodes": [
+        "BSDF_PRINCIPLED",
+        "OUTPUT_MATERIAL",
+        "TEX_IMAGE",
+        "NORMAL_MAP",
+        "TEX_IMAGE"
+      ],
+      "textures": [
+        "Weathered oak albedo 512",
+        "Weathered oak normal 512"
+      ]
+    },
+    {
+      "name": "Yeux humides.003",
+      "vertexColor": false,
+      "nodes": [
+        "BSDF_PRINCIPLED",
+        "OUTPUT_MATERIAL"
+      ],
+      "textures": []
+    }
+  ],
+  "limitations": [
+    "Static geometry at frame 0; application scripts and UI are not FBX geometry.",
+    "Procedural flames use a static texture approximation; mirror reflection requires Unity setup."
+  ]
+}

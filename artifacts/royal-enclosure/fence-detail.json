@@ -1,0 +1,133 @@
+{
+  "ok": true,
+  "data": {
+    "workspaceRoot": "C:\\Users\\nicol\\Documents\\workspaces\\vr-workspace\\test-meta-web-sdk-update",
+    "operation": "scene.render-file",
+    "result": {
+      "camera": {
+        "fov": 55,
+        "lookAt": [
+          19,
+          2.4,
+          30
+        ],
+        "position": [
+          20,
+          3,
+          36
+        ],
+        "projection": "perspective",
+        "view": "custom",
+        "viewId": "panel"
+      },
+      "composedDocumentHash": "sha256:2fd61d7a9169b3fdbabb87326d81752bd61123b9181d4c0cfb0b22ed10607256",
+      "dependencies": [],
+      "diagnostics": [],
+      "height": 1400,
+      "mimeType": "image/png",
+      "path": "public/scenes/review-royal.iwsdk.scene.json",
+      "renderStats": {
+        "available": true,
+        "calls": 5,
+        "frameTimeSamplesMs": [
+          21.1,
+          290.2,
+          6.8,
+          148,
+          0.4,
+          0.3
+        ],
+        "lines": 0,
+        "environment": {
+          "browser": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/153.0.0.0 Safari/537.36",
+          "devicePixelRatio": 2,
+          "emulatedUserAgent": "Mozilla/5.0 (X11; Linux x86_64; Quest 3) AppleWebKit/537.36 (KHTML, like Gecko) OculusBrowser/33.0.0.x.x.x Chrome/126.0.6478.122 VR Safari/537.36",
+          "emulationProfile": {
+            "active": true,
+            "device": "metaQuest3",
+            "runtime": "IWER"
+          },
+          "gpu": "ANGLE (Intel, Intel(R) Iris(R) Xe Graphics (0x0000A7A0) Direct3D11 vs_5_0 ps_5_0, D3D11)",
+          "hostPlatform": "Windows",
+          "hostUserAgent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/153.0.0.0 Safari/537.36",
+          "renderer": "IWSDK WebGL",
+          "visibility": {
+            "method": "threejs-first-hit-sampling-v1",
+            "occlusion": "conservative-cpu-first-hit",
+            "sampleGrid": "3x3-projected-bounds+overhead-lower-frame",
+            "uncertainObjectsIncluded": false
+          }
+        },
+        "geometryCount": 8,
+        "points": 0,
+        "programs": 17,
+        "materialCount": 8,
+        "meshCount": 8,
+        "nodeCount": 4,
+        "objectCount": 23,
+        "shadowCasters": 1,
+        "sceneAssets": [
+          {
+            "id": "arrivalTerrain",
+            "meshCount": 1
+          },
+          {
+            "id": "royalGate",
+            "meshCount": 4
+          },
+          {
+            "id": "royalFence",
+            "meshCount": 3
+          }
+        ],
+        "textures": 27,
+        "triangles": 151586,
+        "visibleNodeIds": [
+          "fence",
+          "ground",
+          "sun"
+        ],
+        "framingBounds": {
+          "max": [
+            170,
+            8.52,
+            60
+          ],
+          "min": [
+            -70,
+            -0.2488,
+            -180
+          ],
+          "size": [
+            240,
+            8.7688,
+            240
+          ]
+        },
+        "worldBounds": {
+          "max": [
+            170,
+            40.2342,
+            60
+          ],
+          "min": [
+            -70,
+            -0.2488,
+            -180
+          ],
+          "size": [
+            240,
+            40.4829,
+            240
+          ]
+        }
+      },
+      "runtimeHash": "sha256:cf105ddbcde60c38243df36ac454687a9ecfe792977e6f0a1e77c6d2c8be835e",
+      "screenshotSha256": "sha256:5934b2e6252af26036b0e299de688c2d370dbbb3a3828dcac4ba13e7d6b82ebe",
+      "sourceDocumentHash": "sha256:2fd61d7a9169b3fdbabb87326d81752bd61123b9181d4c0cfb0b22ed10607256",
+      "valid": true,
+      "width": 1800
+    },
+    "screenshotPath": "artifacts/royal-enclosure/fence-detail.png"
+  }
+}

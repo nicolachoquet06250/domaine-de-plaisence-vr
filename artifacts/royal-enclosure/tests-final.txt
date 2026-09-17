@@ -1,0 +1,55 @@
+                                                 
+▄▄▄▄▄▄  ▄▄      ▄▄   ▄▄▄▄    ▄▄▄▄▄     ▄▄   ▄▄▄ 
+▀▀██▀▀  ██      ██ ▄█▀▀▀▀█   ██▀▀▀██   ██  ██▀  
+  ██    ▀█▄ ██ ▄█▀ ██▄       ██    ██  ██▄██    
+  ██     ██ ██ ██   ▀████▄   ██    ██  █████    
+  ██     ███▀▀███       ▀██  ██    ██  ██  ██▄  
+▄▄██▄▄   ███  ███  █▄▄▄▄▄█▀  ██▄▄▄██   ██   ██▄ 
+▀▀▀▀▀▀   ▀▀▀  ▀▀▀   ▀▀▀▀▀    ▀▀▀▀▀     ▀▀    ▀▀                                                
+===============================================
+Immersive Web SDK v0.5.3
+Three.js r181
+EliCS v3.4.2
+✔ arrival wall blocks all 360 degrees, including segment seams, without rendering (68.4139ms)
+✔ recovery compensates room-scale headset offset and stays inactive inside the place (21.7712ms)
+✔ actual Locomotor is stopped by the invisible wall in sixteen directions (135.1429ms)
+✔ arrival keeps existing placement, UI and spawn; palace keeps non-boundary placements (11.8137ms)
+✔ distant estate includes exterior placements only and keeps the approved offset (1.2877ms)
+✔ forest and connecting path leave the plaza, avenue and estate clear (7.166ms)
+✔ all new GLBs are embedded and leaf materials use alpha cutout without blending (24.1898ms)
+✔ every path stays solo without an invitation; both invitation formats work; disconnect returns to root (1.5053ms)
+✔ solo at / keeps the map and URL until explicit creation (133.519ms)
+✔ solo at /maps/plaisance?other=1#garden keeps the map and URL until explicit creation (68.6724ms)
+✔ solo at /app/maps/plaisance/ keeps the map and URL until explicit creation (55.6878ms)
+✔ nickname field preserves spaces while typing, persists and reaches the connection without entering invite URLs (103.0956ms)
+✔ the reported invitation prompts for a nickname despite a legacy automatic visitor name (85.392ms)
+✔ blank identity cannot enter, while deliberately chosen visitor-style names remain valid (184.0125ms)
+✔ roomId invitation without a saved nickname waits in solo then joins the exact invited room (46.3645ms)
+✔ room invitation without a saved nickname waits in solo then joins the exact invited room (68.6546ms)
+✔ blank or inaccessible nickname storage still requires personalisation, and load failure retains the invitation (108.1376ms)
+✔ direct invitation with saved nickname joins; leaving releases voice, socket and avatars without retry (35.8077ms)
+✔ gender choice is required alongside nickname, persists, and is shared without changing invitation URLs (164.3259ms)
+                                                 
+▄▄▄▄▄▄  ▄▄      ▄▄   ▄▄▄▄    ▄▄▄▄▄     ▄▄   ▄▄▄ 
+▀▀██▀▀  ██      ██ ▄█▀▀▀▀█   ██▀▀▀██   ██  ██▀  
+  ██    ▀█▄ ██ ▄█▀ ██▄       ██    ██  ██▄██    
+  ██     ██ ██ ██   ▀████▄   ██    ██  █████    
+  ██     ███▀▀███       ▀██  ██    ██  ██  ██▄  
+▄▄██▄▄   ███  ███  █▄▄▄▄▄█▀  ██▄▄▄██   ██   ██▄ 
+▀▀▀▀▀▀   ▀▀▀  ▀▀▀   ▀▀▀▀▀    ▀▀▀▀▀     ▀▀    ▀▀                                                
+===============================================
+Immersive Web SDK v0.5.3
+Three.js r181
+EliCS v3.4.2
+✔ new path shares the exact color and normal image bytes and roughness with castle gravel (2.7407ms)
+✔ every gravel triangle stays outside the eight metre arrival circle (10.1007ms)
+✔ royal gate and complete decorated enclosure are present in both scenes (17.8351ms)
+✔ enclosure blocks all four sides and corners but its open gate remains traversable (21.7959ms)
+ℹ tests 23
+ℹ suites 0
+ℹ pass 23
+ℹ fail 0
+ℹ cancelled 0
+ℹ skipped 0
+ℹ todo 0
+ℹ duration_ms 4734.755

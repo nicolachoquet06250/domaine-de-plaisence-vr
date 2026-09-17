@@ -1,0 +1,232 @@
+{
+  "ok": true,
+  "data": {
+    "workspaceRoot": "C:\\Users\\nicol\\Documents\\workspaces\\vr-workspace\\test-meta-web-sdk-update",
+    "operation": "scene.render-file",
+    "result": {
+      "camera": {
+        "fov": 57,
+        "lookAt": [
+          50,
+          0,
+          -55
+        ],
+        "position": [
+          175,
+          130,
+          95
+        ],
+        "projection": "perspective",
+        "view": "custom",
+        "viewId": "landscape-overview"
+      },
+      "composedDocumentHash": "sha256:eb1d72b55361528b79d7576e69035fe171cba04ddfc4c04a80fe01ea8ad0b29e",
+      "dependencies": [],
+      "diagnostics": [],
+      "height": 1600,
+      "mimeType": "image/png",
+      "path": "public/scenes/arrival.iwsdk.scene.json",
+      "renderStats": {
+        "available": true,
+        "calls": 164,
+        "frameTimeSamplesMs": [
+          21.1,
+          290.2,
+          6.8,
+          148,
+          0.4,
+          0.3,
+          95.4,
+          3.6,
+          1.3,
+          1.4,
+          96.8,
+          4.4
+        ],
+        "lines": 0,
+        "environment": {
+          "browser": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/153.0.0.0 Safari/537.36",
+          "devicePixelRatio": 2,
+          "emulatedUserAgent": "Mozilla/5.0 (X11; Linux x86_64; Quest 3) AppleWebKit/537.36 (KHTML, like Gecko) OculusBrowser/33.0.0.x.x.x Chrome/126.0.6478.122 VR Safari/537.36",
+          "emulationProfile": {
+            "active": true,
+            "device": "metaQuest3",
+            "runtime": "IWER"
+          },
+          "gpu": "ANGLE (Intel, Intel(R) Iris(R) Xe Graphics (0x0000A7A0) Direct3D11 vs_5_0 ps_5_0, D3D11)",
+          "hostPlatform": "Windows",
+          "hostUserAgent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/153.0.0.0 Safari/537.36",
+          "renderer": "IWSDK WebGL",
+          "visibility": {
+            "method": "threejs-first-hit-sampling-v1",
+            "occlusion": "conservative-cpu-first-hit",
+            "sampleGrid": "3x3-projected-bounds+overhead-lower-frame",
+            "uncertainObjectsIncluded": false
+          }
+        },
+        "geometryCount": 145,
+        "points": 0,
+        "programs": 23,
+        "materialCount": 68,
+        "meshCount": 159,
+        "nodeCount": 25,
+        "objectCount": 214,
+        "shadowCasters": 1,
+        "sceneAssets": [
+          {
+            "id": "arrival",
+            "meshCount": 24
+          },
+          {
+            "id": "arrivalCollision",
+            "meshCount": 1
+          },
+          {
+            "id": "arrival-panel",
+            "meshCount": 1
+          },
+          {
+            "id": "cypress",
+            "meshCount": 4
+          },
+          {
+            "id": "cypressCollision",
+            "meshCount": 1
+          },
+          {
+            "id": "cypress",
+            "meshCount": 4
+          },
+          {
+            "id": "cypressCollision",
+            "meshCount": 1
+          },
+          {
+            "id": "arrivalLawnRelief",
+            "meshCount": 5
+          },
+          {
+            "id": "arrivalTerrain",
+            "meshCount": 1
+          },
+          {
+            "id": "arrivalForest",
+            "meshCount": 62
+          },
+          {
+            "id": "arrivalPath",
+            "meshCount": 1
+          },
+          {
+            "id": "arrivalEstate",
+            "meshCount": 33
+          },
+          {
+            "id": "royalGateFar",
+            "meshCount": 4
+          },
+          {
+            "id": "arrivalBoundary",
+            "meshCount": 1
+          },
+          {
+            "id": "water",
+            "meshCount": 1
+          },
+          {
+            "id": "centralJet",
+            "meshCount": 2
+          },
+          {
+            "id": "lateralJet",
+            "meshCount": 2
+          },
+          {
+            "id": "lateralJet",
+            "meshCount": 2
+          },
+          {
+            "id": "lateralJet",
+            "meshCount": 2
+          },
+          {
+            "id": "lateralJet",
+            "meshCount": 2
+          },
+          {
+            "id": "lateralJet",
+            "meshCount": 2
+          },
+          {
+            "id": "lateralJet",
+            "meshCount": 2
+          },
+          {
+            "id": "royalFenceFar",
+            "meshCount": 3
+          }
+        ],
+        "textures": 56,
+        "triangles": 428991,
+        "visibleNodeIds": [
+          "arrival-lawn-relief",
+          "arrival-panel",
+          "arrival-terrace",
+          "arrival-tree--5",
+          "arrival-tree-5",
+          "landscape-estate",
+          "landscape-forest",
+          "landscape-fountain",
+          "landscape-gateway",
+          "landscape-path",
+          "landscape-terrain",
+          "landscape-water/fountain/jet-central",
+          "landscape-water/fountain/jet-lateral-1",
+          "landscape-water/fountain/jet-lateral-4",
+          "landscape-water/fountain/water",
+          "sun"
+        ],
+        "framingBounds": {
+          "max": [
+            170,
+            37.8438,
+            60
+          ],
+          "min": [
+            -70,
+            -33.2402,
+            -180
+          ],
+          "size": [
+            240,
+            71.084,
+            240
+          ]
+        },
+        "worldBounds": {
+          "max": [
+            170,
+            40.2342,
+            60
+          ],
+          "min": [
+            -70,
+            -33.2402,
+            -180
+          ],
+          "size": [
+            240,
+            73.4744,
+            240
+          ]
+        }
+      },
+      "runtimeHash": "sha256:78297aa5e869e879883863b7727921d6da5b3c9f8353f9b760d55820037ff491",
+      "screenshotSha256": "sha256:7fd723c4082a51993e0033a0d486c6a4003cd379a7e6b1b1530766cfe72a9eb8",
+      "sourceDocumentHash": "sha256:eb1d72b55361528b79d7576e69035fe171cba04ddfc4c04a80fe01ea8ad0b29e",
+      "valid": true,
+      "width": 2000
+    },
+    "screenshotPath": "artifacts/royal-enclosure/arrival-overview.png"
+  }
+}

@@ -1,0 +1,42 @@
+{
+    "unityVersion": "2022.3.22f1",
+    "files": [
+        {
+            "file": "scene-complete.fbx",
+            "meshes": 154,
+            "triangles": 1434267,
+            "interiorIsSeparate": true,
+            "interiorObjectName": "Interieur_Chateau",
+            "interiorMin": {
+                "x": -120.80000305175781,
+                "y": 0.4999842643737793,
+                "z": -129.75
+            },
+            "interiorMax": {
+                "x": -79.19999694824219,
+                "y": 11.979984283447266,
+                "z": -116.24999237060547
+            },
+            "passed": true
+        },
+        {
+            "file": "interieur-chateau.fbx",
+            "meshes": 1,
+            "triangles": 495002,
+            "interiorIsSeparate": true,
+            "interiorObjectName": "interieur-chateau",
+            "interiorMin": {
+                "x": -120.80000305175781,
+                "y": 0.4999990463256836,
+                "z": -129.75
+            },
+            "interiorMax": {
+                "x": -79.19999694824219,
+                "y": 11.979999542236329,
+                "z": -116.25
+            },
+            "passed": true
+        }
+    ],
+    "interiorAligned": true
+}

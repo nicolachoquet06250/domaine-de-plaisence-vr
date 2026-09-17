@@ -1,0 +1,54 @@
+{
+  "scene-complete.fbx": {
+    "passed": true,
+    "meshes": 154,
+    "triangles": 1443151,
+    "maxBoundsErrorMeters": 2.9325485229492188e-05,
+    "interior": {
+      "triangles": 500536,
+      "vertices": 363076,
+      "bounds": [
+        79.19999694824219,
+        116.25,
+        0.4999788701534271,
+        120.80000305175781,
+        129.75,
+        11.97998046875
+      ]
+    },
+    "texturesLoaded": 96,
+    "checks": [
+      "All meshes present",
+      "Vertex and triangle counts preserved",
+      "World placement and scale preserved within 2 mm",
+      "Interior is one separate mesh",
+      "Embedded FBX textures loaded"
+    ]
+  },
+  "interieur-chateau.fbx": {
+    "passed": true,
+    "meshes": 1,
+    "triangles": 500536,
+    "maxBoundsErrorMeters": 1.1026859283447266e-06,
+    "interior": {
+      "triangles": 500536,
+      "vertices": 363076,
+      "bounds": [
+        79.19999694824219,
+        116.25,
+        0.49999889731407166,
+        120.80000305175781,
+        129.75,
+        11.980000495910645
+      ]
+    },
+    "texturesLoaded": 23,
+    "checks": [
+      "All meshes present",
+      "Vertex and triangle counts preserved",
+      "World placement and scale preserved within 2 mm",
+      "Interior is one separate mesh",
+      "Embedded FBX textures loaded"
+    ]
+  }
+}

@@ -1,0 +1,37 @@
+2026-09-11 14:46:32,596 - BlenderMCPServer - INFO - BlenderMCP server starting up
+2026-09-11 14:46:32,610 - BlenderMCPServer - INFO - Blender addon on disk is current (protocol 5).
+2026-09-11 14:46:32,612 - blender-mcp-telemetry - WARNING - Telemetry disabled via environment variable
+2026-09-11 14:46:32,622 - BlenderMCPServer - INFO - Connected to Blender at localhost:9876
+2026-09-11 14:46:32,622 - BlenderMCPServer - INFO - Created new persistent connection to Blender
+2026-09-11 14:46:32,622 - BlenderMCPServer - INFO - Sending command: get_addon_info with params: None
+2026-09-11 14:46:32,622 - BlenderMCPServer - INFO - Command sent, waiting for response...
+2026-09-11 14:46:32,672 - BlenderMCPServer - INFO - Received complete response (358 bytes)
+2026-09-11 14:46:32,672 - BlenderMCPServer - INFO - Received 358 bytes of data
+2026-09-11 14:46:32,672 - BlenderMCPServer - INFO - Response parsed, status: success
+2026-09-11 14:46:32,672 - BlenderMCPServer - INFO - Blender addon up to date (protocol 5, addon [1, 6], Blender 5.2.1 LTS)
+2026-09-11 14:46:32,672 - BlenderMCPServer - INFO - Successfully connected to Blender on startup
+2026-09-11 14:46:32,684 - mcp.server.lowlevel.server - INFO - Processing request of type CallToolRequest
+2026-09-11 14:46:32,687 - BlenderMCPServer - INFO - Sending command: execute_code with params: {'code': 'exec(compile("import bpy, os\\nprint(\'PID\', os.getpid(), \'SCENES\', list(bpy.data.scenes.keys()))\\nprint(\'AUTHORING\', sorted(bpy.__dict__.get(\'_estate_authoring\', {}).keys()))\\n", "scripts/blender-landscape-inspect.py", \'exec\'), __import__(\'bpy\').__dict__.setdefault(\'_estate_authoring\', {}))'}
+2026-09-11 14:46:32,687 - BlenderMCPServer - INFO - Command sent, waiting for response...
+2026-09-11 14:46:32,730 - BlenderMCPServer - INFO - Received complete response (1210 bytes)
+2026-09-11 14:46:32,730 - BlenderMCPServer - INFO - Received 1210 bytes of data
+2026-09-11 14:46:32,730 - BlenderMCPServer - INFO - Response parsed, status: success
+2026-09-11 14:46:32,730 - BlenderMCPServer - INFO - Sending command: get_telemetry_consent with params: None
+2026-09-11 14:46:32,730 - BlenderMCPServer - INFO - Command sent, waiting for response...
+2026-09-11 14:46:32,775 - BlenderMCPServer - INFO - Received complete response (50 bytes)
+2026-09-11 14:46:32,775 - BlenderMCPServer - INFO - Received 50 bytes of data
+2026-09-11 14:46:32,775 - BlenderMCPServer - INFO - Response parsed, status: success
+{
+  "content": [
+    {
+      "type": "text",
+      "text": "Code executed successfully: PID 32688 SCENES ['Accueil - domaine lointain et foret de chenes', 'Scene']\nAUTHORING ['C', 'EVID', 'H', 'Matrix', 'OUT', 'Path', 'ROOT', 'Vector', '__builtins__', '__doc__', '__warningregistry__', 'a', 'angle', 'asset', 'attempt', 'b', 'bark', 'bg', 'bm', 'bmesh', 'box', 'bpy', 'branch', 'c', 'cache', 'camera', 'center', 'clip', 'combine', 'control', 'crowns', 'data', 'estate', 'export', 'exterior', 'f', 'face', 'forest', 'gravel', 'h', 'height', 'i', 'ico_f', 'ico_v', 'iron', 'j', 'jitter', 'json', 'k', 'key', 'leaf', 'leaf_mats', 'leaves', 'length', 'light', 'loaded', 'lobes', 'local', 'lod', 'm', 'material', 'math', 'mesh', 'middle', 'mod', 'models', 'n', 'normal', 'np', 'o', 'obj', 'objects', 'off', 'old', 'os', 'p', 'p0', 'p1', 'p2', 'p3', 'parts', 'path', 'path_array', 'pathdistance', 'placement', 'placements', 'pos', 'previous', 'prototypes', 'r', 'rad', 'random', 'remove', 'rng', 'rr', 'scale', 'scene', 'side', 'size', 'source', 'spec', 'spread', 'sprig_material', 'start', 'stats', 'stone', 't', 'tex', 'tiles', 'tip', 'tube', 'turf', 'u', 'uvs', 'v', 'variant', 'w', 'width', 'world', 'x', 'xx', 'y', 'yy', 'z', 'zz']\n"
+    }
+  ],
+  "structuredContent": {
+    "result": "Code executed successfully: PID 32688 SCENES ['Accueil - domaine lointain et foret de chenes', 'Scene']\nAUTHORING ['C', 'EVID', 'H', 'Matrix', 'OUT', 'Path', 'ROOT', 'Vector', '__builtins__', '__doc__', '__warningregistry__', 'a', 'angle', 'asset', 'attempt', 'b', 'bark', 'bg', 'bm', 'bmesh', 'box', 'bpy', 'branch', 'c', 'cache', 'camera', 'center', 'clip', 'combine', 'control', 'crowns', 'data', 'estate', 'export', 'exterior', 'f', 'face', 'forest', 'gravel', 'h', 'height', 'i', 'ico_f', 'ico_v', 'iron', 'j', 'jitter', 'json', 'k', 'key', 'leaf', 'leaf_mats', 'leaves', 'length', 'light', 'loaded', 'lobes', 'local', 'lod', 'm', 'material', 'math', 'mesh', 'middle', 'mod', 'models', 'n', 'normal', 'np', 'o', 'obj', 'objects', 'off', 'old', 'os', 'p', 'p0', 'p1', 'p2', 'p3', 'parts', 'path', 'path_array', 'pathdistance', 'placement', 'placements', 'pos', 'previous', 'prototypes', 'r', 'rad', 'random', 'remove', 'rng', 'rr', 'scale', 'scene', 'side', 'size', 'source', 'spec', 'spread', 'sprig_material', 'start', 'stats', 'stone', 't', 'tex', 'tiles', 'tip', 'tube', 'turf', 'u', 'uvs', 'v', 'variant', 'w', 'width', 'world', 'x', 'xx', 'y', 'yy', 'z', 'zz']\n"
+  },
+  "isError": false
+}
+2026-09-11 14:46:32,779 - BlenderMCPServer - INFO - Disconnecting from Blender on shutdown
+2026-09-11 14:46:32,779 - BlenderMCPServer - INFO - BlenderMCP server shut down

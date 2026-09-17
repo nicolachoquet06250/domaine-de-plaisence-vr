@@ -1,0 +1,236 @@
+{
+  "ok": true,
+  "data": {
+    "workspaceRoot": "C:\\Users\\nicol\\Documents\\workspaces\\vr-workspace\\test-meta-web-sdk-update",
+    "operation": "scene.render-file",
+    "result": {
+      "camera": {
+        "fov": 55,
+        "lookAt": [
+          8,
+          0,
+          0
+        ],
+        "position": [
+          13,
+          9,
+          8
+        ],
+        "projection": "perspective",
+        "view": "custom",
+        "viewId": "arrival-path-junction"
+      },
+      "composedDocumentHash": "sha256:eb1d72b55361528b79d7576e69035fe171cba04ddfc4c04a80fe01ea8ad0b29e",
+      "dependencies": [],
+      "diagnostics": [],
+      "height": 1500,
+      "mimeType": "image/png",
+      "path": "public/scenes/arrival.iwsdk.scene.json",
+      "renderStats": {
+        "available": true,
+        "calls": 58,
+        "frameTimeSamplesMs": [
+          46.1,
+          202.6,
+          4.9,
+          1136.7,
+          45.8,
+          2.9,
+          18.3,
+          1.2,
+          1.4,
+          12.8,
+          39.7,
+          9.8,
+          7.6,
+          3.9,
+          1,
+          233.6,
+          0.7,
+          0.3,
+          5.6,
+          1.1,
+          1.2,
+          2.5,
+          1.9,
+          0.7
+        ],
+        "lines": 0,
+        "environment": {
+          "browser": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/153.0.0.0 Safari/537.36",
+          "devicePixelRatio": 2,
+          "emulatedUserAgent": "Mozilla/5.0 (X11; Linux x86_64; Quest 3) AppleWebKit/537.36 (KHTML, like Gecko) OculusBrowser/33.0.0.x.x.x Chrome/126.0.6478.122 VR Safari/537.36",
+          "emulationProfile": {
+            "active": true,
+            "device": "metaQuest3",
+            "runtime": "IWER"
+          },
+          "gpu": "ANGLE (Intel, Intel(R) Iris(R) Xe Graphics (0x0000A7A0) Direct3D11 vs_5_0 ps_5_0, D3D11)",
+          "hostPlatform": "Windows",
+          "hostUserAgent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/153.0.0.0 Safari/537.36",
+          "renderer": "IWSDK WebGL",
+          "visibility": {
+            "method": "threejs-first-hit-sampling-v1",
+            "occlusion": "conservative-cpu-first-hit",
+            "sampleGrid": "3x3-projected-bounds+overhead-lower-frame",
+            "uncertainObjectsIncluded": false
+          }
+        },
+        "geometryCount": 145,
+        "points": 0,
+        "programs": 34,
+        "materialCount": 68,
+        "meshCount": 159,
+        "nodeCount": 25,
+        "objectCount": 214,
+        "shadowCasters": 1,
+        "sceneAssets": [
+          {
+            "id": "arrival",
+            "meshCount": 24
+          },
+          {
+            "id": "arrivalCollision",
+            "meshCount": 1
+          },
+          {
+            "id": "arrival-panel",
+            "meshCount": 1
+          },
+          {
+            "id": "cypress",
+            "meshCount": 4
+          },
+          {
+            "id": "cypressCollision",
+            "meshCount": 1
+          },
+          {
+            "id": "cypress",
+            "meshCount": 4
+          },
+          {
+            "id": "cypressCollision",
+            "meshCount": 1
+          },
+          {
+            "id": "arrivalLawnRelief",
+            "meshCount": 5
+          },
+          {
+            "id": "arrivalTerrain",
+            "meshCount": 1
+          },
+          {
+            "id": "arrivalForest",
+            "meshCount": 62
+          },
+          {
+            "id": "arrivalPath",
+            "meshCount": 1
+          },
+          {
+            "id": "arrivalEstate",
+            "meshCount": 33
+          },
+          {
+            "id": "royalGateFar",
+            "meshCount": 4
+          },
+          {
+            "id": "arrivalBoundary",
+            "meshCount": 1
+          },
+          {
+            "id": "water",
+            "meshCount": 1
+          },
+          {
+            "id": "centralJet",
+            "meshCount": 2
+          },
+          {
+            "id": "lateralJet",
+            "meshCount": 2
+          },
+          {
+            "id": "lateralJet",
+            "meshCount": 2
+          },
+          {
+            "id": "lateralJet",
+            "meshCount": 2
+          },
+          {
+            "id": "lateralJet",
+            "meshCount": 2
+          },
+          {
+            "id": "lateralJet",
+            "meshCount": 2
+          },
+          {
+            "id": "lateralJet",
+            "meshCount": 2
+          },
+          {
+            "id": "royalFenceFar",
+            "meshCount": 3
+          }
+        ],
+        "textures": 82,
+        "triangles": 200106,
+        "visibleNodeIds": [
+          "arrival-lawn-relief",
+          "arrival-panel",
+          "arrival-terrace",
+          "arrival-tree--5",
+          "arrival-tree-5",
+          "landscape-forest",
+          "landscape-path",
+          "sun"
+        ],
+        "framingBounds": {
+          "max": [
+            170,
+            37.8438,
+            60
+          ],
+          "min": [
+            -70,
+            -33.2402,
+            -180
+          ],
+          "size": [
+            240,
+            71.084,
+            240
+          ]
+        },
+        "worldBounds": {
+          "max": [
+            170,
+            40.2342,
+            60
+          ],
+          "min": [
+            -70,
+            -33.2402,
+            -180
+          ],
+          "size": [
+            240,
+            73.4744,
+            240
+          ]
+        }
+      },
+      "runtimeHash": "sha256:78297aa5e869e879883863b7727921d6da5b3c9f8353f9b760d55820037ff491",
+      "screenshotSha256": "sha256:2ddc15281f2e9314ea7919b3643f277cee0426258126258083739cdb21e179a3",
+      "sourceDocumentHash": "sha256:eb1d72b55361528b79d7576e69035fe171cba04ddfc4c04a80fe01ea8ad0b29e",
+      "valid": true,
+      "width": 2000
+    },
+    "screenshotPath": "artifacts/royal-enclosure/path-junction.png"
+  }
+}
