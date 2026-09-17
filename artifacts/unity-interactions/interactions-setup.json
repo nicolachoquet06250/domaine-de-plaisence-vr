@@ -1,0 +1,16 @@
+{
+    "passed": true,
+    "udonCompiled": true,
+    "interiorDoorGeometryRemoved": true,
+    "allMaterialsAssigned": true,
+    "independentPassengerSeats": true,
+    "doors": 5,
+    "animatedWaterMeshes": 15,
+    "shapeKeys": 148,
+    "passengerSeats": 100,
+    "routeSamples": 4098,
+    "outboundMeters": 120.4496078491211,
+    "inboundMeters": 139.57241821289063,
+    "scene": "Assets/DomainePlaisance/Scenes/Domaine de Plaisance.unity",
+    "multiplayerTest": "Requires two VRChat clients; editor checks do not prove live network synchronization."
+}

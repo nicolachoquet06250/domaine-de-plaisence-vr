@@ -1,0 +1,19 @@
+{
+    "passed": true,
+    "checks": [
+        "100 stations locked; exit button removed",
+        "Actual player movement blocked at arrival perimeter",
+        "Actual player movement blocked at grand gate; arrival portal entered",
+        "Arrival portal boards normally through the closed boundary",
+        "Legacy exit calls cannot release passenger; simulated station interruption",
+        "Passenger reseated after simulated avatar interruption; journey continues",
+        "Full locked outbound trip; automatic drop inside castle enclosure",
+        "Return portal accessible inside wall; return journey started",
+        "Return journey also rejects early exit",
+        "Full locked return trip; automatic drop inside arrival circle"
+    ],
+    "errors": [],
+    "invisibleWallColliders": 100,
+    "perimeterRays": 2976,
+    "liveVRChatTested": false
+}

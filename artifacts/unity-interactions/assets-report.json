@@ -1,0 +1,244 @@
+{
+  "removedInteriorDoorFaces": 4960,
+  "assets": [
+    {
+      "name": "eau",
+      "materials": [
+        {
+          "name": "Basin water \u2014 jade reflections",
+          "color": [
+            0.10000000149011612,
+            0.25,
+            0.23000000417232513,
+            1.0
+          ],
+          "metallic": 0.3199999928474426,
+          "roughness": 0.1599999964237213,
+          "vertexColor": false
+        }
+      ],
+      "shapes": [
+        [
+          "Basin_Water_Surface",
+          8
+        ]
+      ]
+    },
+    {
+      "name": "jet-central",
+      "materials": [
+        {
+          "name": "Aerated water",
+          "color": [
+            0.5600000023841858,
+            0.699999988079071,
+            0.6899999976158142,
+            1.0
+          ],
+          "metallic": 0.2800000011920929,
+          "roughness": 0.17000000178813934,
+          "vertexColor": false
+        },
+        {
+          "name": "Sparkling spray",
+          "color": [
+            0.7200000286102295,
+            0.8600000143051147,
+            0.8299999833106995,
+            1.0
+          ],
+          "metallic": 0.11999999731779099,
+          "roughness": 0.2800000011920929,
+          "vertexColor": false
+        }
+      ],
+      "shapes": [
+        [
+          "centralJet_spray",
+          12
+        ],
+        [
+          "centralJet_stream",
+          8
+        ]
+      ]
+    },
+    {
+      "name": "jet-lateral",
+      "materials": [
+        {
+          "name": "Aerated water",
+          "color": [
+            0.5600000023841858,
+            0.699999988079071,
+            0.6899999976158142,
+            1.0
+          ],
+          "metallic": 0.2800000011920929,
+          "roughness": 0.17000000178813934,
+          "vertexColor": false
+        },
+        {
+          "name": "Sparkling spray",
+          "color": [
+            0.7200000286102295,
+            0.8600000143051147,
+            0.8299999833106995,
+            1.0
+          ],
+          "metallic": 0.11999999731779099,
+          "roughness": 0.2800000011920929,
+          "vertexColor": false
+        }
+      ],
+      "shapes": [
+        [
+          "lateralJet_spray",
+          12
+        ],
+        [
+          "lateralJet_stream",
+          8
+        ]
+      ]
+    },
+    {
+      "name": "carrosse",
+      "materials": [
+        {
+          "name": "Balezanes et liste ivoire.005",
+          "color": [
+            0.6899999976158142,
+            0.6399999856948853,
+            0.5199999809265137,
+            1.0
+          ],
+          "metallic": 0.0,
+          "roughness": 0.7900000214576721,
+          "vertexColor": false
+        },
+        {
+          "name": "Corne des sabots.005",
+          "color": [
+            0.052000001072883606,
+            0.039000000804662704,
+            0.026000000536441803,
+            1.0
+          ],
+          "metallic": 0.0,
+          "roughness": 0.6499999761581421,
+          "vertexColor": false
+        },
+        {
+          "name": "Crins brun noir.005",
+          "color": [
+            0.02199999988079071,
+            0.009999999776482582,
+            0.006000000052154064,
+            1.0
+          ],
+          "metallic": 0.0,
+          "roughness": 0.8399999737739563,
+          "vertexColor": false
+        },
+        {
+          "name": "Cuir noir des harnais.005",
+          "color": [
+            0.017999999225139618,
+            0.012000000104308128,
+            0.008999999612569809,
+            1.0
+          ],
+          "metallic": 0.0,
+          "roughness": 0.47999998927116394,
+          "vertexColor": false
+        },
+        {
+          "name": "Dorure royale a la feuille.007",
+          "color": [
+            0.8299999833106995,
+            0.5199999809265137,
+            0.15000000596046448,
+            1.0
+          ],
+          "metallic": 0.8600000143051147,
+          "roughness": 0.25,
+          "vertexColor": false
+        },
+        {
+          "name": "Fer forge noir patine.008",
+          "color": [
+            0.02800000086426735,
+            0.04100000113248825,
+            0.03700000047683716,
+            1.0
+          ],
+          "metallic": 0.7799999713897705,
+          "roughness": 0.33000001311302185,
+          "vertexColor": false
+        },
+        {
+          "name": "Noyer sculpte et cire.005",
+          "color": [
+            0.800000011920929,
+            0.800000011920929,
+            0.800000011920929,
+            1.0
+          ],
+          "metallic": 0.0,
+          "roughness": 0.41999998688697815,
+          "vertexColor": false
+        },
+        {
+          "name": "Robe alezane.005",
+          "color": [
+            0.3199999928474426,
+            0.11999999731779099,
+            0.03999999910593033,
+            1.0
+          ],
+          "metallic": 0.0,
+          "roughness": 0.5799999833106995,
+          "vertexColor": false
+        },
+        {
+          "name": "Robe baie acajou.005",
+          "color": [
+            0.2199999988079071,
+            0.0689999982714653,
+            0.02199999988079071,
+            1.0
+          ],
+          "metallic": 0.0,
+          "roughness": 0.5699999928474426,
+          "vertexColor": false
+        },
+        {
+          "name": "Velours cramoisi.005",
+          "color": [
+            0.23999999463558197,
+            0.012000000104308128,
+            0.02199999988079071,
+            1.0
+          ],
+          "metallic": 0.0,
+          "roughness": 0.8600000143051147,
+          "vertexColor": false
+        },
+        {
+          "name": "Yeux humides.005",
+          "color": [
+            0.00800000037997961,
+            0.006000000052154064,
+            0.004000000189989805,
+            1.0
+          ],
+          "metallic": 0.0,
+          "roughness": 0.1599999964237213,
+          "vertexColor": false
+        }
+      ],
+      "shapes": []
+    }
+  ]
+}

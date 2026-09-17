@@ -1,0 +1,24 @@
+{
+    "passed": false,
+    "checks": [
+        "100 stations locked; exit button removed",
+        "Actual player movement blocked at arrival perimeter",
+        "Distinct local/remote seats recover deliberately incorrect ownership",
+        "Actual player movement blocked at grand gate; arrival portal entered",
+        "Arrival portal boards normally through the closed boundary",
+        "Legacy exit calls cannot release passenger; simulated station interruption",
+        "Passenger reseated after simulated avatar interruption; journey continues",
+        "Full locked outbound trip; automatic drop inside castle enclosure",
+        "Return portal accessible inside wall; return journey started",
+        "Return journey also rejects early exit",
+        "Full locked return trip; automatic drop inside arrival circle",
+        "Wheel hubs and axles stable; rolling sampled 918 times; both stop angles retained"
+    ],
+    "errors": [
+        "System.Exception: Arrival portal inaccessible for capsule variant 1 at (-5.00, 0.15, 0.00)\r\n  at ValidateDomaineReportedIssues.Tick () [0x00915] in C:\\Users\\nicol\\Documents\\workspaces\\vrchat-workspace\\Bienvenue au domaine\\Assets\\DomainePlaisance\\Interactions\\Editor\\ValidateDomaineReportedIssues.cs:150 ",
+        "Exception: Arrival portal inaccessible for capsule variant 1 at (-5.00, 0.15, 0.00)"
+    ],
+    "invisibleWallColliders": 100,
+    "perimeterRays": 2976,
+    "liveVRChatTested": false
+}

@@ -1,0 +1,10 @@
+{
+    "passed": true,
+    "liveVRChatAvatarChangeTested": false,
+    "avatarIds": [
+        "avtr_0807b909-3a7f-49c1-8e22-dac3d8907d70",
+        "avtr_be271bee-5f21-4966-a8c5-b345468c18cf"
+    ],
+    "errors": [],
+    "mode": "ClientSim: actual Udon Interact, selected pedestal and local-player argument"
+}

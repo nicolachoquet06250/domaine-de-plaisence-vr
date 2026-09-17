@@ -1,0 +1,19 @@
+{
+    "passed": true,
+    "checks": [
+        "Local player initialized; unique passenger station allocated",
+        "Owner proximity opens door; passage collider disabled",
+        "Door closes and collision returns after delay; fountain has active morphs",
+        "Local boarding, moving passenger, horse animation and outbound movement verified",
+        "Full outbound trip: automatic castle disembarkation",
+        "Return boarding and forecourt U-turn started",
+        "Full return trip: automatic reception disembarkation",
+        "Early exit requested during a new journey",
+        "Early exit restores player at safe terminal; coach reusable",
+        "Three simulated players receive distinct stations; local coach state remains independent",
+        "Departed players release station allocations"
+    ],
+    "errors": [],
+    "mode": "Unity ClientSim / actual Udon runtime",
+    "liveMultiplayerTested": false
+}

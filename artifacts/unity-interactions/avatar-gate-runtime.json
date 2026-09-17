@@ -1,0 +1,14 @@
+{
+    "passed": true,
+    "liveMultiplayerTested": false,
+    "liveVRChatAvatarChangeTested": false,
+    "checks": [
+        "Arrival hidden with inactive trigger; return portal remains available",
+        "Hidden portal cannot board; male portrait locally activates it",
+        "Female portrait independently activates the local portal",
+        "Repeated choice keeps portal enabled; active portal rendered",
+        "Unlocked portal boards the local coach and keeps existing travel visibility behavior"
+    ],
+    "errors": [],
+    "mode": "Unity ClientSim / actual Udon runtime"
+}

@@ -1,0 +1,52 @@
+{
+  "passed": true,
+  "scene": {
+    "passed": true,
+    "grassCollidersRemoved": 20,
+    "wheelCurvesRemoved": 80,
+    "stoneCornersRepaired": 16,
+    "pathMeshesTrimmed": 2,
+    "fountainRays": 32,
+    "checks": [
+      "Udon compiled synchronously",
+      "Scene saved and reopened",
+      "Ground collision retained; decorative grass collision removed",
+      "32 fountain rim rays hit stone above water floor",
+      "Wheel animation bindings removed from both horse clips",
+      "Four parterre corners repaired per bed",
+      "Overlapping gravel junctions partitioned without offset",
+      "Portal foot-position fallback and ownership retries installed",
+      "Raised seat and locked journeys preserved"
+    ]
+  },
+  "completedJourneyChecks": [
+    "100 stations locked; exit button removed",
+    "Actual player movement blocked at arrival perimeter",
+    "Distinct local/remote seats recover deliberately incorrect ownership",
+    "Actual player movement blocked at grand gate; arrival portal entered",
+    "Arrival portal boards normally through the closed boundary",
+    "Legacy exit calls cannot release passenger; simulated station interruption",
+    "Passenger reseated after simulated avatar interruption; journey continues",
+    "Full locked outbound trip; automatic drop inside castle enclosure",
+    "Return portal accessible inside wall; return journey started",
+    "Return journey also rejects early exit",
+    "Full locked return trip; automatic drop inside arrival circle",
+    "Wheel hubs and axles stable; rolling sampled 918 times; both stop angles retained"
+  ],
+  "portalTests": {
+    "passed": true,
+    "checks": [
+      "Arrival portal boarded via movement with 0.3m, 1.8m and 3m capsules; foot-position fallback with player/trigger collisions disabled also passed"
+    ],
+    "errors": [],
+    "invisibleWallColliders": 100,
+    "liveVRChatTested": false
+  },
+  "validationNote": "Full outbound and return routes passed before an additional test failed because the miniature test capsule had an invalid step offset. After correcting the test capsule configuration, all three portal movement trials passed. No scene or runtime code changed between these runs.",
+  "liveVRChatMultiplayerTested": false,
+  "logs": [
+    "unity-reported-fixes-2.log",
+    "unity-fixes-runtime.log",
+    "unity-fixes-portals-2.log"
+  ]
+}
